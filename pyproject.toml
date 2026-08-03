@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arxiv-wiki"
+version = "0.1.0"
+description = "Daily arXiv AI Top 10 summaries published as Markdown"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=1.100.0",
+  "pydantic>=2.8.0",
+  "python-dateutil>=2.9.0",
+  "requests>=2.32.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0", "ruff>=0.5.0"]
+
+[project.scripts]
+arxiv-wiki = "arxiv_wiki.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
