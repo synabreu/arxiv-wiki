@@ -13,11 +13,12 @@ permissions:
 
 jobs:
   generate:
+
     runs-on: ubuntu-latest
 
     steps:
 
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v5
 
 
@@ -29,17 +30,18 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          python -m pip install --upgrade pip
+          pip install .
 
 
-      - name: Generate arXiv Wiki
+      - name: Generate Wiki
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python src/arxiv_wiki/cli.py
+          python -m arxiv_wiki.cli
 
 
-      - name: Commit generated Markdown
+      - name: Commit Markdown
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "Update daily arXiv wiki"
