@@ -1,0 +1,2 @@
+[console_scripts]
+arxiv-wiki = arxiv_wiki.cli:main
