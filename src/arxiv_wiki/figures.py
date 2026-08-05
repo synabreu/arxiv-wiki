@@ -107,23 +107,32 @@ def render_visuals(visuals: list[PaperVisual]) -> str:
 
 
 def insert_visuals(markdown: str, visuals: list[PaperVisual]) -> str:
+    """Place visuals after the developer perspective and before the evidence note."""
     block = render_visuals(visuals)
     if not block:
         return markdown
+
     cleaned = re.sub(
         r"\n?<!-- paper-visuals:start -->.*?<!-- paper-visuals:end -->\n?",
         "\n",
         markdown,
         flags=re.DOTALL,
     )
-    markers = (
-        "\n## 한 문장 요약\n",
-        "\n### 한 문장 요약\n",
-        "\n## 초록\n",
-        "\n### 초록\n",
-    )
-    for marker in markers:
-        if marker in cleaned:
-            heading = marker.strip()
-            return cleaned.replace(marker, f"\n{block}\n{heading}\n", 1)
+
+    confidence_marker = "\n**근거 범위:**"
+    if confidence_marker in cleaned:
+        return cleaned.replace(
+            confidence_marker,
+            f"\n{block}\n**근거 범위:**",
+            1,
+        )
+
+    navigation_marker = "\n---\n"
+    if navigation_marker in cleaned:
+        return cleaned.replace(
+            navigation_marker,
+            f"\n{block}\n---\n",
+            1,
+        )
+
     return cleaned.rstrip() + "\n\n" + block
