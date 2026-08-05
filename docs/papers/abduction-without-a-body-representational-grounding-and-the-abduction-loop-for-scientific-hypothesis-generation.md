@@ -49,22 +49,23 @@
 - 교차영역 검색을 위해 분야별 어휘가 불일치해도 구조적·수학적 유사성으로 보정할 수 있는 유사도 함수(예: 그래프·위상·연산자 수준의 비교)를 설계하라. 단, 초록만으로 특정 수식적 정의는 확인할 수 없다.
 - 적대적 검증(adversarial verification) 단계에서 반증을 시도하는 자동화된 테스트셋을 만들고, 인간 전문가의 검토를 포함하는 루프를 마련해 가설의 해석 가능성 및 출처 추적(provenance)을 확보하라. 기권을 기본 동작으로 두어 잘못된 확신을 줄여야 한다는 설계 원칙을 지켜라.
 
+
 <!-- paper-visuals:start -->
-## 주요 그림·그래프·표
+## 주요 Figure
 
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
 
-![Figure 1: Convention space.](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-1.jpg)
+![Figure 1: Convention space.](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/figure-1.jpg)
 
-*그림·그래프 · 원문 PDF 7쪽 · Figure 1: Convention space.*
+*Figure · 원문 PDF 7쪽 · Figure 1: Convention space.*
 
-![Figure 2: The Abduction Loop. Stage A (divergent) generates candidate structural correspondences](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-2.jpg)
+![Figure 2: The Abduction Loop. Stage A (divergent) generates candidate structural correspondences](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/figure-2.jpg)
 
-*그림·그래프 · 원문 PDF 10쪽 · Figure 2: The Abduction Loop. Stage A (divergent) generates candidate structural correspondences*
+*Figure · 원문 PDF 10쪽 · Figure 2: The Abduction Loop. Stage A (divergent) generates candidate structural correspondences*
 
-![Figure 3: DAB-30 structure. Each instance, from any of the three classes, is processed by the full](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-3.jpg)
+![Figure 3: DAB-30 structure. Each instance, from any of the three classes, is processed by the full](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/figure-3.jpg)
 
-*그림·그래프 · 원문 PDF 13쪽 · Figure 3: DAB-30 structure. Each instance, from any of the three classes, is processed by the full*
+*Figure · 원문 PDF 13쪽 · Figure 3: DAB-30 structure. Each instance, from any of the three classes, is processed by the full*
 
 <!-- paper-visuals:end -->
 

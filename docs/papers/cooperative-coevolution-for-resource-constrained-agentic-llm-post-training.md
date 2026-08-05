@@ -47,22 +47,23 @@ CoPES는 전체 파라미터 공간을 여러 저차원 부분공간으로 분�
 - LoRA 기반 수법과 비교해 일관된 성능 우위를 보였으므로, 파라미터 효율화 기법(LoRA 등)과 CoPES를 함께 실험해 보는 것이 실무적으로 유용할 수 있다(단, 초록만으로 병용 방법의 효과는 확인 불가).
 - 구현을 바로 평가하려면 공개된 코드베이스(제공된 GitHub 링크)를 확인하고, 자신의 모델 크기·작업에 맞춰 부분공간 분해 전략과 ES 하이퍼파라미터를 튜닝해야 한다.초록만으로는 기본값·튜닝 범위가 제공되지 않으므로 재현 실험이 필요하다.
 
+
 <!-- paper-visuals:start -->
-## 주요 그림·그래프·표
+## 주요 Figure
 
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
 
-![Figure 1: Overview of CoPES. At each training step, the model parameters are randomly partitioned into K disjoint subspaces,](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/visual-1.jpg)
+![Figure 1: Overview of CoPES. At each training step, the model parameters are randomly partitioned into K disjoint subspaces,](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/figure-1.jpg)
 
-*그림·그래프 · 원문 PDF 4쪽 · Figure 1: Overview of CoPES. At each training step, the model parameters are randomly partitioned into K disjoint subspaces,*
+*Figure · 원문 PDF 4쪽 · Figure 1: Overview of CoPES. At each training step, the model parameters are randomly partitioned into K disjoint subspaces,*
 
-![Figure 2: Theoretical GPU memory requirements versus con-](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/visual-2.jpg)
+![Figure 2: Theoretical GPU memory requirements versus con-](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/figure-2.jpg)
 
-*그림·그래프 · 원문 PDF 5쪽 · Figure 2: Theoretical GPU memory requirements versus con-*
+*Figure · 원문 PDF 5쪽 · Figure 2: Theoretical GPU memory requirements versus con-*
 
-![Table 1: Pass@1 (%) and training costs on five math benchmarks. The 16-step block matches update count and unique prompt](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/visual-3.jpg)
+![Figure 3: Pass@k of four post-training methods under the 16-step full-parameter GRPO budget, with Qwen3.5-4B and Qwen3.5-](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/figure-3.jpg)
 
-*표 · 원문 PDF 6쪽 · Table 1: Pass@1 (%) and training costs on five math benchmarks. The 16-step block matches update count and unique prompt*
+*Figure · 원문 PDF 6쪽 · Figure 3: Pass@k of four post-training methods under the 16-step full-parameter GRPO budget, with Qwen3.5-4B and Qwen3.5-*
 
 <!-- paper-visuals:end -->
 

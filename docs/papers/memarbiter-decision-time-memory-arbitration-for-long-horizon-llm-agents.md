@@ -50,22 +50,23 @@ MemArbiter는 상호작용 기록을 기능별로 분류하고 항목별·은행
 
 (엔지니어링 권장) 동일한 per-step 메모리 예산 하에서 평가하고, 실패 후 복구율·반복 실패율·상태-행동 반복 지표 등을 성능 지표로 포함해 비교하면 기능적 이득을 더 명확히 측정할 수 있다.
 
+
 <!-- paper-visuals:start -->
-## 주요 그림·그래프·표
+## 주요 Figure
 
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
 
-![Figure 1: A case illustrating the Memory-Action Gap caused](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-1.jpg)
+![Figure 1: A case illustrating the Memory-Action Gap caused](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/figure-1.jpg)
 
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1: A case illustrating the Memory-Action Gap caused*
+*Figure · 원문 PDF 2쪽 · Figure 1: A case illustrating the Memory-Action Gap caused*
 
-![Table 1: Functional roles and temporal characteristics of memory items.](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-2.jpg)
+![Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/figure-2.jpg)
 
-*표 · 원문 PDF 3쪽 · Table 1: Functional roles and temporal characteristics of memory items.*
+*Figure · 원문 PDF 4쪽 · Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks*
 
-![Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-3.jpg)
+![Figure 3: Success rate under different interaction-step limits](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/figure-3.jpg)
 
-*그림·그래프 · 원문 PDF 4쪽 · Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks*
+*Figure · 원문 PDF 5쪽 · Figure 3: Success rate under different interaction-step limits*
 
 <!-- paper-visuals:end -->
 

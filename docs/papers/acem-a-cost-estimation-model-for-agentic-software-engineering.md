@@ -48,22 +48,15 @@ ACEM은 에이전트가 실질적인 구현을 수행하는 '에이전트형 소
 - 기존의 스코핑 데이터(Use Case Points, Story Points, Function Points)를 토큰 소비로 매핑하려면 초기 파일럿 프로젝트를 통해 매핑 계수를 추정·검증해야 한다.
 - 비용 추정에 불확실성을 반영하기 위해 분산·시나리오 기반(낙관/중간/비관) 예측과 예비비(버퍼)를 포함시켜 리스크를 관리하라; ACEM은 비결정성을 명시하지만 초록만으로 분산모델 세부화는 불가능하다는 점에 유의하라.
 
+
 <!-- paper-visuals:start -->
-## 주요 그림·그래프·표
+## 주요 Figure
 
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
 
-![Figure 1. Overview of ACEM Cost Estimation Model for Agentic Software Engineering](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/visual-1.jpg)
+![Figure 1. Overview of ACEM Cost Estimation Model for Agentic Software Engineering](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/figure-1.jpg)
 
-*그림·그래프 · 원문 PDF 8쪽 · Figure 1. Overview of ACEM Cost Estimation Model for Agentic Software Engineering*
-
-![Table 1: Complexity Classification Criteria](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/visual-2.jpg)
-
-*표 · 원문 PDF 10쪽 · Table 1: Complexity Classification Criteria*
-
-![Table 2: BaseTokens Reference Table](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/visual-3.jpg)
-
-*표 · 원문 PDF 10쪽 · Table 2: BaseTokens Reference Table*
+*Figure · 원문 PDF 8쪽 · Figure 1. Overview of ACEM Cost Estimation Model for Agentic Software Engineering*
 
 <!-- paper-visuals:end -->
 

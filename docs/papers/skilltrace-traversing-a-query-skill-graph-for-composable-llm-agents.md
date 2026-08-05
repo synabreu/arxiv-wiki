@@ -46,22 +46,23 @@
 - 의존성 정보를 그래프 전파로 통합하면 국소적 일치만으로는 놓치기 쉬운 전역 실행 가능성 검증이 가능하므로, 그래프 알고리즘(예: 메시지 패싱, 전파 기반 점수 집계)을 적용해 볼 만함.
 - 백본 언어 모델에 독립적으로 성능을 개선했다고 하므로, 특정 LLM에 지나치게 결합되지 않는 인터페이스(스킬 표현, 유사도 계산기 등)를 설계하는 것이 실용적임(단, 초록만으로 구체적 인터페이스는 확인하기 어려움).","실험은 SkillsBench와 ALFWorld에서 수행되었으므로, 비슷한 벤치마크로 초기 검증을 하고, 이후 대규모·실세계 스킬 라이브러리로 확장 테스트를 권장함.","실제 적용 전 확인할 것: 방법의 계산 비용, 응답 지연, 스킬 라이브러리 크기 증가 시 성능 저하 여부, 그리고 분해 오류에 대한 복원력(recovery)과 디버깅 가능성."],
 
+
 <!-- paper-visuals:start -->
-## 주요 그림·그래프·표
+## 주요 Figure
 
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
 
-![Figure 1: Motivation. We argue that independent skill re-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-1.jpg)
+![Figure 1: Motivation. We argue that independent skill re-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/figure-1.jpg)
 
-*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation. We argue that independent skill re-*
+*Figure · 원문 PDF 1쪽 · Figure 1: Motivation. We argue that independent skill re-*
 
-![Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-2.jpg)
+![Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/figure-2.jpg)
 
-*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,*
+*Figure · 원문 PDF 3쪽 · Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,*
 
-![Table 1: Main results on SkillsBench and ALFWorld. We show the superiority of SkillTrace over existing methods. Core,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-3.jpg)
+![Figure 3: Success rate comparison between GoS and Skill-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/figure-3.jpg)
 
-*표 · 원문 PDF 5쪽 · Table 1: Main results on SkillsBench and ALFWorld. We show the superiority of SkillTrace over existing methods. Core,*
+*Figure · 원문 PDF 6쪽 · Figure 3: Success rate comparison between GoS and Skill-*
 
 <!-- paper-visuals:end -->
 

@@ -49,22 +49,23 @@
 - 저자들이 공개한 ModernBookNLP 포크를 통해 기존 BookNLP 파이프라인에서 따옴표 귀속 모듈을 즉시 교체해 실험해볼 수 있다. 실제 도입 전에는 코드베이스에서 요구하는 입력 포맷, 토크나이저, 문맥 창 크기, 배치 처리 방식 등을 확인하라.
 - 실무적으로는 (1) 공개된 구현을 로컬/목표 하드웨어에서 프로파일링하여 실제 처리 속도와 메모리 사용량을 검증하고, (2) 도메인 차이(다른 시대·작가·언어)에 따른 성능 저하를 평가하기 위해 소규모 레이블 데이터로 재현성 실험(혹은 미세조정)을 해보는 것을 권장한다.
 
+
 <!-- paper-visuals:start -->
-## 주요 그림·그래프·표
+## 주요 Figure
 
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
 
-![Figure 1: Left: standard approaches score independent](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-1.jpg)
+![Figure 1: Left: standard approaches score independent](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/figure-1.jpg)
 
-*그림·그래프 · 원문 PDF 3쪽 · Figure 1: Left: standard approaches score independent*
+*Figure · 원문 PDF 3쪽 · Figure 1: Left: standard approaches score independent*
 
-![Table 1: Quotation attribution mean accuracy across folds (standard deviation in parentheses) on PDNC across](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-2.jpg)
+![Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/figure-2.jpg)
 
-*표 · 원문 PDF 5쪽 · Table 1: Quotation attribution mean accuracy across folds (standard deviation in parentheses) on PDNC across*
+*Figure · 원문 PDF 6쪽 · Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine*
 
-![Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-3.jpg)
+![Figure 3: Attribution accuracy vs. Q-M separability](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/figure-3.jpg)
 
-*그림·그래프 · 원문 PDF 6쪽 · Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine*
+*Figure · 원문 PDF 13쪽 · Figure 3: Attribution accuracy vs. Q-M separability*
 
 <!-- paper-visuals:end -->
 

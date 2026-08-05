@@ -49,22 +49,19 @@ ScrambleToolBench라는 상호작용 터미널 벤치마크를 도입하여 도�
 - 실험 설계 관점: 탐색 비용을 줄이는 능력(정보 이득 기준의 실험/행동 선택)을 평가 지표에 포함시키고, 단순히 더 긴 체인오브쏘트(추론)를 허용하는 것이 항상 개선으로 이어지지 않음을 고려하라.
 - 메모리 설계: 지속 메모리가 오류 누적을 줄이긴 하나 구조 변화 추론에는 불충분하므로, 에피소드별 요약·추상화와 메타데이터(성공 확률, 실패 패턴)를 함께 저장하는 방식으로 설계하라.</developer_takeaways>,
 
+
 <!-- paper-visuals:start -->
-## 주요 그림·그래프·표
+## 주요 Figure
 
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
 
-![Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-1.jpg)
+![Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/figure-1.jpg)
 
-*표 · 원문 PDF 3쪽 · Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation*
+*Figure · 원문 PDF 4쪽 · Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential*
 
-![Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-2.jpg)
+![Figure 2: Reasoning-budget ablation over 20 five-task episodes per cell. Panels (a)–(c) compare the scrambled](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/figure-2.jpg)
 
-*그림·그래프 · 원문 PDF 4쪽 · Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential*
-
-![Table 2: Main results on ScrambleToolBench. We report episode completion rate (𝑃ep) and average tasks solved](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-3.jpg)
-
-*표 · 원문 PDF 6쪽 · Table 2: Main results on ScrambleToolBench. We report episode completion rate (𝑃ep) and average tasks solved*
+*Figure · 원문 PDF 15쪽 · Figure 2: Reasoning-budget ablation over 20 five-task episodes per cell. Panels (a)–(c) compare the scrambled*
 
 <!-- paper-visuals:end -->
 

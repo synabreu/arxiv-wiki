@@ -46,22 +46,23 @@
 - 궤적 수준 정렬(trajectory-level alignment)을 구현하라: 개별 응답이 아니라 전체 작업 수행 궤적이 장기 선호와 충돌하지 않도록 일관성·우선순위 조정 로직을 도입하라.
 - 상충하는 우선순위 해결 전략을 명시하라: 규칙 기반 우선순위, 보상 함수, 다목적 최적화 등 충돌 해결 메커니즘을 설계·평가하라 (초록은 구체 방법을 제공하지 않으므로 실험적 비교가 필요함).
 
+
 <!-- paper-visuals:start -->
-## 주요 그림·그래프·표
+## 주요 Figure
 
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
 
-![Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-1.jpg)
+![Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/figure-1.jpg)
 
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.*
+*Figure · 원문 PDF 2쪽 · Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.*
 
-![Figure 2: Benchmark construction flow chart.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-2.jpg)
+![Figure 2: Benchmark construction flow chart.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/figure-2.jpg)
 
-*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Benchmark construction flow chart.*
+*Figure · 원문 PDF 3쪽 · Figure 2: Benchmark construction flow chart.*
 
-![Table 1: Comparison of Persona-related Benchmarks.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-3.jpg)
+![Figure 3: Overview of IBA-Agent for personalized task completion.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/figure-3.jpg)
 
-*표 · 원문 PDF 3쪽 · Table 1: Comparison of Persona-related Benchmarks.*
+*Figure · 원문 PDF 5쪽 · Figure 3: Overview of IBA-Agent for personalized task completion.*
 
 <!-- paper-visuals:end -->
 

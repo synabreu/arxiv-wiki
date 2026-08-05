@@ -48,22 +48,23 @@ VC-Tooler는 시각적 도구 호출을 상황에 맞게 지칭(grounding)하고
 - 도구 인터페이스 추상화: 다양한 도구 컨텍스트와 인터페이스를 다룰 수 있도록 명확한 API 추상화 레이어(입출력 스키마, 에러 핸들링, 지연/비동기 처리)를 설계하라. 추상화는 모델이 도구를 일반화해서 사용할 가능성을 높인다.
 - 데이터·로그 관리: 궤적 뱅크와 RL 경험을 재사용·분석하기 위해 도구 호출 기록, 관찰-행동-보상 로그를 체계적으로 저장하고 버전 관리하라. 이를 통해 오류 분석과 안전성 검증이 쉬워진다.
 
+
 <!-- paper-visuals:start -->
-## 주요 그림·그래프·표
+## 주요 Figure
 
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
 
-![Figure 1: Existing methods often ground a single familiar tool](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-1.jpg)
+![Figure 1: Existing methods often ground a single familiar tool](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/figure-1.jpg)
 
-*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Existing methods often ground a single familiar tool*
+*Figure · 원문 PDF 1쪽 · Figure 1: Existing methods often ground a single familiar tool*
 
-![Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-2.jpg)
+![Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/figure-2.jpg)
 
-*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward*
+*Figure · 원문 PDF 3쪽 · Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward*
 
-![Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-3.jpg)
+![Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/figure-3.jpg)
 
-*그림·그래프 · 원문 PDF 3쪽 · Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.*
+*Figure · 원문 PDF 3쪽 · Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.*
 
 <!-- paper-visuals:end -->
 

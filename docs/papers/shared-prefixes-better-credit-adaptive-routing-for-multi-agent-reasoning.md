@@ -52,22 +52,23 @@ TreeCredit는 동일한 중간 상태에서 가능한 후보 연산자들을 확
 실험·검증 권장: 다양한 도메인과 문제 난이도에서 정확도-비용 트레이드오프를 비교하는 ablation(신용 종류, 비용 함수, 라우터 용량 등)을 수행하라. 또한 라우터의 오탐(유용한 연산을 배제하는 경우)과 위양성(불필요한 연산 허용)의 영향도 측정하라.  
 통합 시 고려사항: 기존 MAR 파이프라인에 적용할 때는 연산자 집합의 정의(허용 연산자 목록), 상태 표현(어떤 상태를 라우터 입력으로 쓸지), 실시간 제약(추론 지연 예산)을 먼저 정해야 한다.
 
+
 <!-- paper-visuals:start -->
-## 주요 그림·그래프·표
+## 주요 Figure
 
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
 
-![Figure 1: Motivation for state-matched operator credit. (a)](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-1.jpg)
+![Figure 1: Motivation for state-matched operator credit. (a)](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/figure-1.jpg)
 
-*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation for state-matched operator credit. (a)*
+*Figure · 원문 PDF 1쪽 · Figure 1: Motivation for state-matched operator credit. (a)*
 
-![Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-2.jpg)
+![Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/figure-2.jpg)
 
-*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix*
+*Figure · 원문 PDF 3쪽 · Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix*
 
-![Table 1: Comparison across six reasoning benchmarks. For each accuracy column, the best result is shown in bold and the](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-3.jpg)
+![Figure 3: Accuracy-Cost comparison using the average re-](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/figure-3.jpg)
 
-*표 · 원문 PDF 5쪽 · Table 1: Comparison across six reasoning benchmarks. For each accuracy column, the best result is shown in bold and the*
+*Figure · 원문 PDF 6쪽 · Figure 3: Accuracy-Cost comparison using the average re-*
 
 <!-- paper-visuals:end -->
 
