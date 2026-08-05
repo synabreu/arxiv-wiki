@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "arxiv-wiki"
 version = "0.1.0"
-description = "Daily arXiv AI Top 10 summaries published as Markdown"
+description = "Daily arXiv AI summaries published as Markdown"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -13,6 +13,7 @@ dependencies = [
   "pydantic>=2.8.0",
   "python-dateutil>=2.9.0",
   "requests>=2.32.0",
+  "PyMuPDF>=1.24.0",
 ]
 
 [project.optional-dependencies]
