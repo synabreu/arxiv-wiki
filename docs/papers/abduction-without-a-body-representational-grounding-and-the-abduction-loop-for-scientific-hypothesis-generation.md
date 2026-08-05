@@ -6,6 +6,25 @@
 - **선정 점수:** 10.29
 - **선정 이유:** 최근성 0.7, 핵심어: agent, 핵심어: inference, 핵심어: multimodal, 핵심어: benchmark
 
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Convention space.](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 7쪽 · Figure 1: Convention space.*
+
+![Figure 2: The Abduction Loop. Stage A (divergent) generates candidate structural correspondences](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 10쪽 · Figure 2: The Abduction Loop. Stage A (divergent) generates candidate structural correspondences*
+
+![Figure 3: DAB-30 structure. Each instance, from any of the three classes, is processed by the full](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 13쪽 · Figure 3: DAB-30 structure. Each instance, from any of the three classes, is processed by the full*
+
+<!-- paper-visuals:end -->
+
 ### 한 문장 요약
 
 온라인·지각적 신체성 없이도 도식화된 표현을 통해 서로 다른 분야의 구조가 동일 객체라는 가설(정체성 귀추)을 생성·검증할 수 있다는 메커니즘적 제안과 평가 프로그램을 제시한다.
@@ -56,21 +75,3 @@
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![figure in which causal](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · figure in which causal*
-
-![Figure 1). That yields a concrete answer to a hard problem in](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 5쪽 · Figure 1). That yields a concrete answer to a hard problem in*
-
-![Figure 1 are not lexically disjoint in the strict](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 5쪽 · Figure 1 are not lexically disjoint in the strict*
-
-<!-- paper-visuals:end -->

@@ -6,6 +6,25 @@
 - **선정 점수:** 9.82
 - **선정 이유:** 최근성 0.6, 핵심어: reasoning, 핵심어: inference, 핵심어: multimodal, 핵심어: efficient
 
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Existing methods often ground a single familiar tool](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Existing methods often ground a single familiar tool*
+
+![Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward*
+
+![Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.*
+
+<!-- paper-visuals:end -->
+
 ### 한 문장 요약
 
 VC-Tooler는 시각적 도구 호출을 상황에 맞게 지칭(grounding)하고, 여러 도구를 단계적으로 결합하며, 도구가 반환한 관찰을 바탕으로 추론을 적응시키는 능력을 학습하도록 설계된 시각적 도구 사용 에이전트이다.
@@ -55,21 +74,3 @@ VC-Tooler는 시각적 도구 호출을 상황에 맞게 지칭(grounding)하고
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: Existing methods often ground a single familiar tool](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Existing methods often ground a single familiar tool*
-
-![Fig. 1. This limitation largely traces back to](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 1쪽 · Fig. 1. This limitation largely traces back to*
-
-![Fig. 2): (1)](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Fig. 2): (1)*
-
-<!-- paper-visuals:end -->

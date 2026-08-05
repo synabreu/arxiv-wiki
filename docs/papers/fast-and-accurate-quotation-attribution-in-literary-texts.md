@@ -6,6 +6,25 @@
 - **선정 점수:** 10.25
 - **선정 이유:** 최근성 0.6, 핵심어: large language model, 핵심어: llm, 핵심어: efficient, 분야 가중치 2.0
 
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Left: standard approaches score independent](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 1: Left: standard approaches score independent*
+
+![Table 1: Quotation attribution mean accuracy across folds (standard deviation in parentheses) on PDNC across](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-2.jpg)
+
+*표 · 원문 PDF 5쪽 · Table 1: Quotation attribution mean accuracy across folds (standard deviation in parentheses) on PDNC across*
+
+![Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 6쪽 · Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine*
+
+<!-- paper-visuals:end -->
+
 ### 한 문장 요약
 
 저자 결속(quotation attribution)을 문맥 창을 공유하는 엔코더 기반의 'joint scoring' 방식으로 한꺼번에 해결해 PDNC 코퍼스에서 SOTA 정확도(94.5%)를 내고 계산 효율도 크게 개선한 연구다.
@@ -56,21 +75,3 @@
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1 (left).](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 1 (left).*
-
-![Figure 1, right), a unification of the](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 1, right), a unification of the*
-
-![Figure 1: Left: standard approaches score independent](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 1: Left: standard approaches score independent*
-
-<!-- paper-visuals:end -->

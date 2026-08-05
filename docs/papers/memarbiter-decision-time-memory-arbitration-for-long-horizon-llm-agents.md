@@ -6,6 +6,25 @@
 - **선정 점수:** 9.19
 - **선정 이유:** 최근성 0.6, 핵심어: large language model, 핵심어: llm, 분야 가중치 2.0, 구체적인 초록
 
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: A case illustrating the Memory-Action Gap caused](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Figure 1: A case illustrating the Memory-Action Gap caused*
+
+![Table 1: Functional roles and temporal characteristics of memory items.](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-2.jpg)
+
+*표 · 원문 PDF 3쪽 · Table 1: Functional roles and temporal characteristics of memory items.*
+
+![Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 4쪽 · Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks*
+
+<!-- paper-visuals:end -->
+
 ### 한 문장 요약
 
 MemArbiter는 상호작용 기록을 기능별로 분류하고 항목별·은행별 우선순위와 시공간적 표현을 결합해 장기 환경에서 LLM 에이전트의 '메모리→액션' 전달을 개선하는 의사결정시 메모리 중재 프레임워크다.
@@ -57,21 +76,3 @@ MemArbiter는 상호작용 기록을 기능별로 분류하고 항목별·은행
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: A case illustrating the Memory-Action Gap caused](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1: A case illustrating the Memory-Action Gap caused*
-
-![Figure 1(a), when memory items with different decision](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1(a), when memory items with different decision*
-
-![Table 1, we categorize](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-3.jpg)
-
-*표 · 원문 PDF 2쪽 · Table 1, we categorize*
-
-<!-- paper-visuals:end -->

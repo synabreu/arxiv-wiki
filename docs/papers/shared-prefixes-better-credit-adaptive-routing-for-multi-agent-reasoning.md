@@ -6,6 +6,25 @@
 - **선정 점수:** 10.23
 - **선정 이유:** 최근성 0.6, 핵심어: agent, 핵심어: reasoning, 핵심어: inference, 핵심어: efficient
 
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Motivation for state-matched operator credit. (a)](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation for state-matched operator credit. (a)*
+
+![Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix*
+
+![Table 1: Comparison across six reasoning benchmarks. For each accuracy column, the best result is shown in bold and the](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-3.jpg)
+
+*표 · 원문 PDF 5쪽 · Table 1: Comparison across six reasoning benchmarks. For each accuracy column, the best result is shown in bold and the*
+
+<!-- paper-visuals:end -->
+
 ### 한 문장 요약
 
 TreeCredit는 중간 상태가 같은 후보 연산자들 간의 하위 경로 성능을 비교해 연산자별 보상을 정하고, 이를 바탕으로 상태-기반 경량 라우터를 학습해 다중 에이전트 추론에서 정확도는 유지하면서 추론 비용을 줄이는 적응형 라우팅 프레임워크이다.
@@ -59,21 +78,3 @@ TreeCredit는 동일한 중간 상태에서 가능한 후보 연산자들을 확
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: Motivation for state-matched operator credit. (a)](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation for state-matched operator credit. (a)*
-
-![Figure 1, applying different opera-](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1, applying different opera-*
-
-![Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix*
-
-<!-- paper-visuals:end -->

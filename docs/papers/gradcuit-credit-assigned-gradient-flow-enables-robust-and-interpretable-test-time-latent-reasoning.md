@@ -6,6 +6,25 @@
 - **선정 점수:** 9.80
 - **선정 이유:** 최근성 0.7, 핵심어: large language model, 핵심어: reasoning, 핵심어: scaling, 분야 가중치 2.0
 
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a*
+
+![Table 1: Accuracy comparison across different reasoning settings. GRADCUIT denotes our method.](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-2.jpg)
+
+*표 · 원문 PDF 5쪽 · Table 1: Accuracy comparison across different reasoning settings. GRADCUIT denotes our method.*
+
+![Figure 2: Learning-rate](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 6쪽 · Figure 2: Learning-rate*
+
+<!-- paper-visuals:end -->
+
 ### 한 문장 요약
 
 GradCuit은 생성 과정 중간의 Transformer 내부에 최적화 가능한 연속 잠재 상태를 삽입해, 후속 토큰의 로그확률로부터 직접 보상 기반 그래디언트를 할당함으로써 테스트 시점의 잠재 추론을 더 견고하고 해석 가능하게 만드는 방법이다.
@@ -57,21 +76,3 @@ GradCuit은 생성 과정 중간의 Transformer 내부에 최적화 가능한 �
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a*
-
-![Table 1: Accuracy comparison across different reasoning settings. GRADCUIT denotes our method.](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-2.jpg)
-
-*표 · 원문 PDF 5쪽 · Table 1: Accuracy comparison across different reasoning settings. GRADCUIT denotes our method.*
-
-![Table 1 summarizes the main results. Averaged over all 30 backbone–benchmark–](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-3.jpg)
-
-*표 · 원문 PDF 5쪽 · Table 1 summarizes the main results. Averaged over all 30 backbone–benchmark–*
-
-<!-- paper-visuals:end -->

@@ -6,6 +6,25 @@
 - **선정 점수:** 9.73
 - **선정 이유:** 최근성 1.2, 핵심어: agent, 핵심어: reasoning, 핵심어: benchmark, 분야 가중치 2.0
 
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-1.jpg)
+
+*표 · 원문 PDF 3쪽 · Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation*
+
+![Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 4쪽 · Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential*
+
+![Table 2: Main results on ScrambleToolBench. We report episode completion rate (𝑃ep) and average tasks solved](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-3.jpg)
+
+*표 · 원문 PDF 6쪽 · Table 2: Main results on ScrambleToolBench. We report episode completion rate (𝑃ep) and average tasks solved*
+
+<!-- paper-visuals:end -->
+
 ### 한 문장 요약
 
 ScrambleToolBench라는 상호작용 터미널 벤치마크를 도입하여 도구 행동의 의미적 단서를 제거하고 연속적·동적 과제를 통해 에이전트의 행동적 추론과 적응 능력을 평가했다.
@@ -56,21 +75,3 @@ ScrambleToolBench라는 상호작용 터미널 벤치마크를 도입하여 도�
 - [← 2026-08-04 논문 목록으로 돌아가기](../daily/2026-08-04.md)
 - [일별 아카이브 보기](../daily/index.md)
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1).](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1).*
-
-![Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-2.jpg)
-
-*표 · 원문 PDF 3쪽 · Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation*
-
-![Figure 1. Rather than](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 1. Rather than*
-
-<!-- paper-visuals:end -->

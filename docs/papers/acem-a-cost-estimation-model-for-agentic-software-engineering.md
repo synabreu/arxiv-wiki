@@ -6,6 +6,25 @@
 - **선정 점수:** 11.90
 - **선정 이유:** 최근성 0.7, 핵심어: large language model, 핵심어: llm, 핵심어: agent, 핵심어: reasoning
 
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1. Overview of ACEM Cost Estimation Model for Agentic Software Engineering](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 8쪽 · Figure 1. Overview of ACEM Cost Estimation Model for Agentic Software Engineering*
+
+![Table 1: Complexity Classification Criteria](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/visual-2.jpg)
+
+*표 · 원문 PDF 10쪽 · Table 1: Complexity Classification Criteria*
+
+![Table 2: BaseTokens Reference Table](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/visual-3.jpg)
+
+*표 · 원문 PDF 10쪽 · Table 2: BaseTokens Reference Table*
+
+<!-- paper-visuals:end -->
+
 ### 한 문장 요약
 
 ACEM은 에이전트가 실질적인 구현을 수행하는 '에이전트형 소프트웨어 공학'에서 발생하는 LLM 토큰 비용, 인간감독(HITL) 비용, 인프라 비용을 합산해 예측하는 초기 제안형 비용추정 모델이다.
@@ -55,21 +74,3 @@ ACEM은 에이전트가 실질적인 구현을 수행하는 '에이전트형 소
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1 illustrates the overall structure of ACEM, showing the relationships between model](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 8쪽 · Figure 1 illustrates the overall structure of ACEM, showing the relationships between model*
-
-![Figure 1. Overview of ACEM Cost Estimation Model for Agentic Software Engineering](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 8쪽 · Figure 1. Overview of ACEM Cost Estimation Model for Agentic Software Engineering*
-
-![Table 2 lists a single β symbol per cell](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/visual-3.jpg)
-
-*표 · 원문 PDF 9쪽 · Table 2 lists a single β symbol per cell*
-
-<!-- paper-visuals:end -->

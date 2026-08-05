@@ -6,6 +6,25 @@
 - **선정 점수:** 11.00
 - **선정 이유:** 최근성 0.6, 핵심어: llm, 핵심어: agent, 핵심어: alignment, 핵심어: benchmark
 
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.*
+
+![Figure 2: Benchmark construction flow chart.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Benchmark construction flow chart.*
+
+![Table 1: Comparison of Persona-related Benchmarks.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-3.jpg)
+
+*표 · 원문 PDF 3쪽 · Table 1: Comparison of Persona-related Benchmarks.*
+
+<!-- paper-visuals:end -->
+
 ### 한 문장 요약
 
 장기 상호작용 이력을 이용해 사용자의 암묵적 제약을 추론·평가하는 벤치마크(IBA-Bench)와, 광범위한 검색과 궤적 수준 정렬로 상충하는 선호를 조정하는 에이전트(IBA-Agent)를 제안해 LLM 기반 개인화 에이전트의 행동 정렬을 평가·개선함.
@@ -53,21 +72,3 @@
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1). When asked to order dinner, current](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 1쪽 · Figure 1). When asked to order dinner, current*
-
-![Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.*
-
-![Figure 2: Benchmark construction flow chart.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Benchmark construction flow chart.*
-
-<!-- paper-visuals:end -->

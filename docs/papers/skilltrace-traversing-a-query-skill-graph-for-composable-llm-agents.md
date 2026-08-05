@@ -6,6 +6,25 @@
 - **선정 점수:** 9.25
 - **선정 이유:** 최근성 0.6, 핵심어: large language model, 핵심어: llm, 분야 가중치 2.0, 구체적인 초록
 
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Motivation. We argue that independent skill re-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation. We argue that independent skill re-*
+
+![Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,*
+
+![Table 1: Main results on SkillsBench and ALFWorld. We show the superiority of SkillTrace over existing methods. Core,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-3.jpg)
+
+*표 · 원문 PDF 5쪽 · Table 1: Main results on SkillsBench and ALFWorld. We show the superiority of SkillTrace over existing methods. Core,*
+
+<!-- paper-visuals:end -->
+
 ### 한 문장 요약
 
 쿼리-스킬 그래프의 세 수준(쿼리 간 구성관계, 쿼리와 스킬 후보 유사도, 선택된 후보들 간 의존성)을 활용해 사용자 쿼리를 계층화·매칭·의존성 전파로 완전한 실행 가능한 스킬 조합을 찾아내는 SkillTrace를 제안한다.
@@ -53,21 +72,3 @@
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: Motivation. We argue that independent skill re-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation. We argue that independent skill re-*
-
-![Fig. 1, specifically,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 1쪽 · Fig. 1, specifically,*
-
-![Fig. 2, SkillTrace instead addresses this objec-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Fig. 2, SkillTrace instead addresses this objec-*
-
-<!-- paper-visuals:end -->
