@@ -9,7 +9,7 @@ from pathlib import Path
 
 from .analyzer import analyze_paper
 from .arxiv_client import fetch_recent_papers
-from .markdown import render_daily, write_daily
+from .markdown import write_daily
 from .ranking import rank_papers
 
 DEFAULT_CATEGORIES = ["cs.AI", "cs.CL", "cs.LG", "cs.CV", "cs.SE", "cs.DC"]
@@ -23,11 +23,14 @@ def normalize_arxiv_id(value: str) -> str:
 
 
 def load_seen_arxiv_ids(output_dir: Path, state_path: Path) -> set[str]:
-    """Load paper IDs already published in prior daily pages or state files."""
+    """Load paper IDs already published in prior pages or state files."""
     seen: set[str] = set()
 
-    if output_dir.exists():
-        for markdown_path in output_dir.glob("*.md"):
+    docs_root = output_dir.parent
+    for markdown_dir in (output_dir, docs_root / "papers"):
+        if not markdown_dir.exists():
+            continue
+        for markdown_path in markdown_dir.glob("*.md"):
             if markdown_path.name == "index.md":
                 continue
             text = markdown_path.read_text(encoding="utf-8")
@@ -65,7 +68,7 @@ def run(args: argparse.Namespace) -> Path | None:
         item.analysis = analyze_paper(item.paper, args.model)
 
     today = date.today()
-    path = write_daily(render_daily(ranked, today), output_dir, today)
+    path = write_daily(ranked, output_dir, today)
 
     newly_processed = {normalize_arxiv_id(item.paper.arxiv_id) for item in ranked}
     all_seen = sorted(seen_ids | newly_processed)
