@@ -7,7 +7,9 @@ from pathlib import Path
 import fitz
 import requests
 
-CAPTION_RE = re.compile(r"(?i)(figure|fig\.?|table)\s+([0-9]+|[ivx]+)[.:]?\s*([^\n]{0,220})")
+CAPTION_RE = re.compile(
+    r"(?im)^\s*(figure|fig\.?|table)\s+([0-9]+|[ivx]+)\s*[:.]\s*([^\n]{0,220})"
+)
 
 
 @dataclass(frozen=True)
@@ -30,11 +32,18 @@ def extract_key_visuals(pdf_url: str, slug: str, docs_dir: Path, limit: int = 3)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     found: list[PaperVisual] = []
+    seen: set[tuple[int, str]] = set()
     for page_index, page in enumerate(document):
         for block in page.get_text("blocks"):
             match = CAPTION_RE.search(str(block[4]))
             if not match:
                 continue
+            caption = _caption(match.group(0))
+            key = (page_index, caption.lower())
+            if key in seen:
+                continue
+            seen.add(key)
+
             kind = "table" if match.group(1).lower().startswith("table") else "figure"
             caption_rect = fitz.Rect(block[0], block[1], block[2], block[3])
             page_rect = page.rect
@@ -62,7 +71,7 @@ def extract_key_visuals(pdf_url: str, slug: str, docs_dir: Path, limit: int = 3)
             found.append(
                 PaperVisual(
                     image_path=f"../assets/papers/{slug}/{name}",
-                    caption=_caption(match.group(0)),
+                    caption=caption,
                     page_number=page_index + 1,
                     kind=kind,
                 )
@@ -107,7 +116,14 @@ def insert_visuals(markdown: str, visuals: list[PaperVisual]) -> str:
         markdown,
         flags=re.DOTALL,
     )
-    for marker in ("\n## 한 문장 요약\n", "\n## 초록\n"):
+    markers = (
+        "\n## 한 문장 요약\n",
+        "\n### 한 문장 요약\n",
+        "\n## 초록\n",
+        "\n### 초록\n",
+    )
+    for marker in markers:
         if marker in cleaned:
-            return cleaned.replace(marker, f"\n{block}\n{marker.strip()}\n", 1)
+            heading = marker.strip()
+            return cleaned.replace(marker, f"\n{block}\n{heading}\n", 1)
     return cleaned.rstrip() + "\n\n" + block
