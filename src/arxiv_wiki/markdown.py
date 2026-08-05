@@ -5,6 +5,7 @@ import unicodedata
 from datetime import date
 from pathlib import Path
 
+from .figures import PaperVisual, extract_key_visuals, render_visuals
 from .models import RankedPaper
 
 
@@ -37,7 +38,11 @@ def render_daily(ranked: list[RankedPaper], target_date: date) -> str:
     return "\n".join(lines).strip() + "\n"
 
 
-def render_paper_detail(item: RankedPaper, target_date: date) -> str:
+def render_paper_detail(
+    item: RankedPaper,
+    target_date: date,
+    visuals: list[PaperVisual] | None = None,
+) -> str:
     paper = item.paper
     analysis = item.analysis
     lines = [
@@ -53,6 +58,10 @@ def render_paper_detail(item: RankedPaper, target_date: date) -> str:
         f"[← {target_date.isoformat()} 목록으로 돌아가기](../daily/{target_date.isoformat()}.md)",
         "",
     ]
+
+    if visuals:
+        lines.extend([render_visuals(visuals).strip(), ""])
+
     if analysis is None:
         lines += ["## 초록", "", paper.summary, ""]
         return "\n".join(lines).strip() + "\n"
@@ -109,17 +118,28 @@ def write_archive_index(output_dir: Path) -> Path:
 
 def write_daily(ranked: list[RankedPaper], output_dir: Path, target_date: date) -> Path:
     output_dir.mkdir(parents=True, exist_ok=True)
-    papers_dir = output_dir.parent / "papers"
+    docs_dir = output_dir.parent
+    papers_dir = docs_dir / "papers"
     papers_dir.mkdir(parents=True, exist_ok=True)
 
     daily_markdown = render_daily(ranked, target_date)
     path = output_dir / f"{target_date.isoformat()}.md"
     path.write_text(daily_markdown, encoding="utf-8")
-    (output_dir.parent / "latest.md").write_text(daily_markdown, encoding="utf-8")
+    (docs_dir / "latest.md").write_text(daily_markdown, encoding="utf-8")
 
     for item in ranked:
-        detail_path = papers_dir / paper_filename(item.paper.title)
-        detail_path.write_text(render_paper_detail(item, target_date), encoding="utf-8")
+        filename = paper_filename(item.paper.title)
+        slug = filename.removesuffix(".md")
+        visuals: list[PaperVisual] = []
+        try:
+            visuals = extract_key_visuals(item.paper.pdf_url, slug, docs_dir)
+        except Exception as exc:
+            print(f"Visual extraction skipped for {item.paper.arxiv_id}: {exc}")
+        detail_path = papers_dir / filename
+        detail_path.write_text(
+            render_paper_detail(item, target_date, visuals),
+            encoding="utf-8",
+        )
 
     write_archive_index(output_dir)
     return path
