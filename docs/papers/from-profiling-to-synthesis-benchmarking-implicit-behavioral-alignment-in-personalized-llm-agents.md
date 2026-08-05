@@ -6,24 +6,6 @@
 - **선정 점수:** 11.00
 - **선정 이유:** 최근성 0.6, 핵심어: llm, 핵심어: agent, 핵심어: alignment, 핵심어: benchmark
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.*
-
-![Figure 2: Benchmark construction flow chart.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Benchmark construction flow chart.*
-
-![Table 1: Comparison of Persona-related Benchmarks.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-3.jpg)
-
-*표 · 원문 PDF 3쪽 · Table 1: Comparison of Persona-related Benchmarks.*
-
-<!-- paper-visuals:end -->
 
 ### 한 문장 요약
 
@@ -63,6 +45,25 @@
 - 광범위한 검색(broad retrieval)을 도입해 관련 컨텍스트를 넓게 수집하라: 단일 최근 발화뿐 아니라 연속된 상호작용의 단서들을 조회할 수 있는 인덱싱·랭킹 설계를 검토하라.
 - 궤적 수준 정렬(trajectory-level alignment)을 구현하라: 개별 응답이 아니라 전체 작업 수행 궤적이 장기 선호와 충돌하지 않도록 일관성·우선순위 조정 로직을 도입하라.
 - 상충하는 우선순위 해결 전략을 명시하라: 규칙 기반 우선순위, 보상 함수, 다목적 최적화 등 충돌 해결 메커니즘을 설계·평가하라 (초록은 구체 방법을 제공하지 않으므로 실험적 비교가 필요함).
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.*
+
+![Figure 2: Benchmark construction flow chart.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Benchmark construction flow chart.*
+
+![Table 1: Comparison of Persona-related Benchmarks.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/visual-3.jpg)
+
+*표 · 원문 PDF 3쪽 · Table 1: Comparison of Persona-related Benchmarks.*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 제공된 제목과 초록만을 기반으로 요약·해석한 것이다. 데이터의 정확한 구성, 모델 아키텍처, 손실/평가 지표 등 구체적 구현 및 수치적 결과는 초록만으로 확인하기 어렵다.
 

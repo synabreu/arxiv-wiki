@@ -6,24 +6,6 @@
 - **선정 점수:** 9.80
 - **선정 이유:** 최근성 0.7, 핵심어: large language model, 핵심어: reasoning, 핵심어: scaling, 분야 가중치 2.0
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a*
-
-![Table 1: Accuracy comparison across different reasoning settings. GRADCUIT denotes our method.](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-2.jpg)
-
-*표 · 원문 PDF 5쪽 · Table 1: Accuracy comparison across different reasoning settings. GRADCUIT denotes our method.*
-
-![Figure 2: Learning-rate](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 6쪽 · Figure 2: Learning-rate*
-
-<!-- paper-visuals:end -->
 
 ### 한 문장 요약
 
@@ -67,6 +49,25 @@ GradCuit은 생성 과정 중간의 Transformer 내부에 최적화 가능한 �
 - 초록 보고에 따르면 초기~중간 레이어가 최적화 공간으로 효과적이므로, 레이어 선택을 실험적으로 탐색하되 우선 초기·중간 층을 시도해보는 것이 유용하다.
 - 보상-가중 그래디언트(reward-weighted gradients)를 사용하므로 보상 신호 설계와 안정적인 최적화(학습률 스케줄링, 정규화 등)가 중요하다. 초록에는 다양한 학습률(7개 설정)에서의 견고성을 강조하므로 하이퍼파라미터 민감도 실험을 권장한다.
 - 해석성 도구로서 토큰 수준 그래디언트 귀속을 사용해 잠재의 영향이 어디에 집중되는지 확인할 수 있다. 이 정보는 잠재의 역할 해석과 레이어/토큰 선택에 실용적 인사이트를 줄 수 있다(초록에서 해당 분석을 보고함).
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a*
+
+![Table 1: Accuracy comparison across different reasoning settings. GRADCUIT denotes our method.](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-2.jpg)
+
+*표 · 원문 PDF 5쪽 · Table 1: Accuracy comparison across different reasoning settings. GRADCUIT denotes our method.*
+
+![Figure 2: Learning-rate](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 6쪽 · Figure 2: Learning-rate*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 논문의 제목과 초록에 근거해 작성되었으며, 초록에 명시되지 않은 구체적 실험 설정, 구현 세부사항, 데이터셋 이름 등은 초록만으로 확인하기 어렵다. 위의 수치·주장은 초록에 보고된 내용만을 인용하였다.
 

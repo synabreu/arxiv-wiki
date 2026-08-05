@@ -6,24 +6,6 @@
 - **선정 점수:** 9.73
 - **선정 이유:** 최근성 1.2, 핵심어: agent, 핵심어: reasoning, 핵심어: benchmark, 분야 가중치 2.0
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-1.jpg)
-
-*표 · 원문 PDF 3쪽 · Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation*
-
-![Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 4쪽 · Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential*
-
-![Table 2: Main results on ScrambleToolBench. We report episode completion rate (𝑃ep) and average tasks solved](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-3.jpg)
-
-*표 · 원문 PDF 6쪽 · Table 2: Main results on ScrambleToolBench. We report episode completion rate (𝑃ep) and average tasks solved*
-
-<!-- paper-visuals:end -->
 
 ### 한 문장 요약
 
@@ -66,6 +48,25 @@ ScrambleToolBench라는 상호작용 터미널 벤치마크를 도입하여 도�
 - 연역적 복구 전략 구현: 에이전트에 사이클 추적(cycle tracing), 그래프 기반 역추론(graph-based inference), 제약 만족(constraint satisfaction)과 같은 연역적 회복 알고리즘을 통합해 광범위한 전수 조사를 줄여라.
 - 실험 설계 관점: 탐색 비용을 줄이는 능력(정보 이득 기준의 실험/행동 선택)을 평가 지표에 포함시키고, 단순히 더 긴 체인오브쏘트(추론)를 허용하는 것이 항상 개선으로 이어지지 않음을 고려하라.
 - 메모리 설계: 지속 메모리가 오류 누적을 줄이긴 하나 구조 변화 추론에는 불충분하므로, 에피소드별 요약·추상화와 메타데이터(성공 확률, 실패 패턴)를 함께 저장하는 방식으로 설계하라.</developer_takeaways>,
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-1.jpg)
+
+*표 · 원문 PDF 3쪽 · Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation*
+
+![Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 4쪽 · Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential*
+
+![Table 2: Main results on ScrambleToolBench. We report episode completion rate (𝑃ep) and average tasks solved](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-3.jpg)
+
+*표 · 원문 PDF 6쪽 · Table 2: Main results on ScrambleToolBench. We report episode completion rate (𝑃ep) and average tasks solved*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 논문 제목과 초록에 기반한 요약 및 해석이다. 초록에 명시되지 않은 구체적 수치, 구현 세부사항, 사용된 모델명·하이퍼파라미터·정량적 결과 등은 초록만으로 확인하기 어렵다.
 

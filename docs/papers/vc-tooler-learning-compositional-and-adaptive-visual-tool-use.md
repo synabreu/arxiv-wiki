@@ -6,24 +6,6 @@
 - **선정 점수:** 9.82
 - **선정 이유:** 최근성 0.6, 핵심어: reasoning, 핵심어: inference, 핵심어: multimodal, 핵심어: efficient
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: Existing methods often ground a single familiar tool](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Existing methods often ground a single familiar tool*
-
-![Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward*
-
-![Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.*
-
-<!-- paper-visuals:end -->
 
 ### 한 문장 요약
 
@@ -65,6 +47,25 @@ VC-Tooler는 시각적 도구 호출을 상황에 맞게 지칭(grounding)하고
 - 보상 설계의 중요성: RL 단계에서는 '정확성', '도구 호출 횟수(효율성)', '문맥 부합성'을 균형 있게 보상하도록 설계해야 한다. 보상 신호의 스케일과 지연성에 따라 매우 다른 행동이 유도될 수 있으므로 신중한 보상 공학이 필요하다.
 - 도구 인터페이스 추상화: 다양한 도구 컨텍스트와 인터페이스를 다룰 수 있도록 명확한 API 추상화 레이어(입출력 스키마, 에러 핸들링, 지연/비동기 처리)를 설계하라. 추상화는 모델이 도구를 일반화해서 사용할 가능성을 높인다.
 - 데이터·로그 관리: 궤적 뱅크와 RL 경험을 재사용·분석하기 위해 도구 호출 기록, 관찰-행동-보상 로그를 체계적으로 저장하고 버전 관리하라. 이를 통해 오류 분석과 안전성 검증이 쉬워진다.
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Existing methods often ground a single familiar tool](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Existing methods often ground a single familiar tool*
+
+![Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward*
+
+![Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 제목과 초록에만 근거해 작성되었으며, 모델의 아키텍처, 정확한 도구 목록, 학습·실험의 상세한 구현(보상 함수, 하이퍼파라미터, 데이터셋 구성 등)은 초록만으로 확인하기 어렵다. 자세한 구현·실험 내용은 논문 본문과 공개 코드를 확인해야 한다. 프로젝트 페이지(초록에 제시됨)는 추가 정보 확인에 유용할 것이다.
 

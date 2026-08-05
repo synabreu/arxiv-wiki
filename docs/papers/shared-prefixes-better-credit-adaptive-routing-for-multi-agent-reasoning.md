@@ -6,24 +6,6 @@
 - **선정 점수:** 10.23
 - **선정 이유:** 최근성 0.6, 핵심어: agent, 핵심어: reasoning, 핵심어: inference, 핵심어: efficient
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: Motivation for state-matched operator credit. (a)](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation for state-matched operator credit. (a)*
-
-![Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix*
-
-![Table 1: Comparison across six reasoning benchmarks. For each accuracy column, the best result is shown in bold and the](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-3.jpg)
-
-*표 · 원문 PDF 5쪽 · Table 1: Comparison across six reasoning benchmarks. For each accuracy column, the best result is shown in bold and the*
-
-<!-- paper-visuals:end -->
 
 ### 한 문장 요약
 
@@ -69,6 +51,25 @@ TreeCredit는 동일한 중간 상태에서 가능한 후보 연산자들을 확
 - 학습 신호 구성: TreeCredit의 구조화된 신용을 상태-선호도로 변환하는 방식(예: 쌍별 우선순위 레이블, 랭킹 손실 등)을 설계하고 안정적으로 학습되도록 정규화/스케일링을 고려하라.  
 실험·검증 권장: 다양한 도메인과 문제 난이도에서 정확도-비용 트레이드오프를 비교하는 ablation(신용 종류, 비용 함수, 라우터 용량 등)을 수행하라. 또한 라우터의 오탐(유용한 연산을 배제하는 경우)과 위양성(불필요한 연산 허용)의 영향도 측정하라.  
 통합 시 고려사항: 기존 MAR 파이프라인에 적용할 때는 연산자 집합의 정의(허용 연산자 목록), 상태 표현(어떤 상태를 라우터 입력으로 쓸지), 실시간 제약(추론 지연 예산)을 먼저 정해야 한다.
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Motivation for state-matched operator credit. (a)](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation for state-matched operator credit. (a)*
+
+![Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix*
+
+![Table 1: Comparison across six reasoning benchmarks. For each accuracy column, the best result is shown in bold and the](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/visual-3.jpg)
+
+*표 · 원문 PDF 5쪽 · Table 1: Comparison across six reasoning benchmarks. For each accuracy column, the best result is shown in bold and the*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 논문의 제목과 초록만을 바탕으로 작성되었다. 구현 세부사항, 정확한 수치, 벤치마크 이름 및 실험 설정 등은 초록만으로는 확인하기 어렵다. 추가 정보(본문, 코드, 실험표 등)가 제공되면 더 구체적이고 정확한 기술적·실험적 해석을 제공할 수 있다.
 

@@ -6,24 +6,6 @@
 - **선정 점수:** 12.46
 - **선정 이유:** 최근성 0.7, 핵심어: large language model, 핵심어: llm, 핵심어: agent, 핵심어: efficient
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: Overview of CoPES. At each training step, the model parameters are randomly partitioned into K disjoint subspaces,](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 4쪽 · Figure 1: Overview of CoPES. At each training step, the model parameters are randomly partitioned into K disjoint subspaces,*
-
-![Figure 2: Theoretical GPU memory requirements versus con-](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 5쪽 · Figure 2: Theoretical GPU memory requirements versus con-*
-
-![Table 1: Pass@1 (%) and training costs on five math benchmarks. The 16-step block matches update count and unique prompt](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/visual-3.jpg)
-
-*표 · 원문 PDF 6쪽 · Table 1: Pass@1 (%) and training costs on five math benchmarks. The 16-step block matches update count and unique prompt*
-
-<!-- paper-visuals:end -->
 
 ### 한 문장 요약
 
@@ -64,6 +46,25 @@ CoPES는 전체 파라미터 공간을 여러 저차원 부분공간으로 분�
 - 같은 GPU-시간 예산에서 CoPES가 GRPO의 성능 향상치 대부분(92%)을 재현했다는 점은, 실무에서 GPU 수가 적고 메모리가 제한된 상황에서 ES 계열 방법을 적용할 때 CoPES를 우선적으로 고려할 근거가 된다.
 - LoRA 기반 수법과 비교해 일관된 성능 우위를 보였으므로, 파라미터 효율화 기법(LoRA 등)과 CoPES를 함께 실험해 보는 것이 실무적으로 유용할 수 있다(단, 초록만으로 병용 방법의 효과는 확인 불가).
 - 구현을 바로 평가하려면 공개된 코드베이스(제공된 GitHub 링크)를 확인하고, 자신의 모델 크기·작업에 맞춰 부분공간 분해 전략과 ES 하이퍼파라미터를 튜닝해야 한다.초록만으로는 기본값·튜닝 범위가 제공되지 않으므로 재현 실험이 필요하다.
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Overview of CoPES. At each training step, the model parameters are randomly partitioned into K disjoint subspaces,](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 4쪽 · Figure 1: Overview of CoPES. At each training step, the model parameters are randomly partitioned into K disjoint subspaces,*
+
+![Figure 2: Theoretical GPU memory requirements versus con-](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 5쪽 · Figure 2: Theoretical GPU memory requirements versus con-*
+
+![Table 1: Pass@1 (%) and training costs on five math benchmarks. The 16-step block matches update count and unique prompt](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/visual-3.jpg)
+
+*표 · 원문 PDF 6쪽 · Table 1: Pass@1 (%) and training costs on five math benchmarks. The 16-step block matches update count and unique prompt*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 논문의 제목과 초록에만 기반해 작성되었음. 초록에 포함되지 않은 구현 세부사항, 실험 설정, 통계적 검증 등은 기술하지 않았고, 해당 내용들은 원문과 코드 저장소를 통해 확인해야 함.
 

@@ -6,24 +6,6 @@
 - **선정 점수:** 9.19
 - **선정 이유:** 최근성 0.6, 핵심어: large language model, 핵심어: llm, 분야 가중치 2.0, 구체적인 초록
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: A case illustrating the Memory-Action Gap caused](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 2쪽 · Figure 1: A case illustrating the Memory-Action Gap caused*
-
-![Table 1: Functional roles and temporal characteristics of memory items.](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-2.jpg)
-
-*표 · 원문 PDF 3쪽 · Table 1: Functional roles and temporal characteristics of memory items.*
-
-![Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 4쪽 · Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks*
-
-<!-- paper-visuals:end -->
 
 ### 한 문장 요약
 
@@ -67,6 +49,25 @@ MemArbiter는 상호작용 기록을 기능별로 분류하고 항목별·은행
 - 시간적 제시 게이트(temporal presentation gate)를 사용하면 단순한 recency 기반 프리오리티와는 다른 시계열 기반 제어가 가능하므로, 반복 오류를 줄이고 실패 복구를 도울 수 있다(구현 세부는 초록만으로 확인하기 어렵다).  구현 시에는 게이트 기준과 시간 상수에 대한 설계/검증이 필요하다(초록만으로는 구체 값 불명).  
 
 (엔지니어링 권장) 동일한 per-step 메모리 예산 하에서 평가하고, 실패 후 복구율·반복 실패율·상태-행동 반복 지표 등을 성능 지표로 포함해 비교하면 기능적 이득을 더 명확히 측정할 수 있다.
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: A case illustrating the Memory-Action Gap caused](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Figure 1: A case illustrating the Memory-Action Gap caused*
+
+![Table 1: Functional roles and temporal characteristics of memory items.](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-2.jpg)
+
+*표 · 원문 PDF 3쪽 · Table 1: Functional roles and temporal characteristics of memory items.*
+
+![Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 4쪽 · Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 논문 제목과 초록만을 근거로 작성되었으며, 구현 세부사항·정확한 알고리즘·추가 실험 결과 등은 초록만으로 확인하기 어렵다. 보다 정확한 기술적 해석과 재현을 위해서는 전체 논문과 추가 자료(코드·보충자료)를 확인할 필요가 있다.
 

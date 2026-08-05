@@ -6,24 +6,6 @@
 - **선정 점수:** 10.25
 - **선정 이유:** 최근성 0.6, 핵심어: large language model, 핵심어: llm, 핵심어: efficient, 분야 가중치 2.0
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: Left: standard approaches score independent](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 1: Left: standard approaches score independent*
-
-![Table 1: Quotation attribution mean accuracy across folds (standard deviation in parentheses) on PDNC across](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-2.jpg)
-
-*표 · 원문 PDF 5쪽 · Table 1: Quotation attribution mean accuracy across folds (standard deviation in parentheses) on PDNC across*
-
-![Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-3.jpg)
-
-*그림·그래프 · 원문 PDF 6쪽 · Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine*
-
-<!-- paper-visuals:end -->
 
 ### 한 문장 요약
 
@@ -66,6 +48,25 @@
 - 사전학습된 인코더에 이미 대참조 정보를 담고 있다는 결과는, 대규모 고비용 LLM 대신 적절히 미세조정된 인코더 기반 파이프라인으로도 높은 성능을 얻을 수 있다는 실무적 근거가 된다.
 - 저자들이 공개한 ModernBookNLP 포크를 통해 기존 BookNLP 파이프라인에서 따옴표 귀속 모듈을 즉시 교체해 실험해볼 수 있다. 실제 도입 전에는 코드베이스에서 요구하는 입력 포맷, 토크나이저, 문맥 창 크기, 배치 처리 방식 등을 확인하라.
 - 실무적으로는 (1) 공개된 구현을 로컬/목표 하드웨어에서 프로파일링하여 실제 처리 속도와 메모리 사용량을 검증하고, (2) 도메인 차이(다른 시대·작가·언어)에 따른 성능 저하를 평가하기 위해 소규모 레이블 데이터로 재현성 실험(혹은 미세조정)을 해보는 것을 권장한다.
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Left: standard approaches score independent](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 1: Left: standard approaches score independent*
+
+![Table 1: Quotation attribution mean accuracy across folds (standard deviation in parentheses) on PDNC across](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-2.jpg)
+
+*표 · 원문 PDF 5쪽 · Table 1: Quotation attribution mean accuracy across folds (standard deviation in parentheses) on PDNC across*
+
+![Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 6쪽 · Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 논문의 제목과 초록에만 근거한다. 위에 기재된 성능 수치(94.5%, 20×, 1000×)와 데이터셋 규모(35,000+)는 초록의 주장에 따른 것이다. 구체적 구현 세부사항, 실험 설정, 추가 분석 결과 등은 초록만으로는 확인하기 어렵고 원문과 공개된 코드 저장소를 통해 검증할 것을 권한다.
 

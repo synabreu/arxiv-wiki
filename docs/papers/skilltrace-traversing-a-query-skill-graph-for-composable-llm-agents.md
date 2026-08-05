@@ -6,24 +6,6 @@
 - **선정 점수:** 9.25
 - **선정 이유:** 최근성 0.6, 핵심어: large language model, 핵심어: llm, 분야 가중치 2.0, 구체적인 초록
 
-<!-- paper-visuals:start -->
-## 주요 그림·그래프·표
-
-> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
-
-![Figure 1: Motivation. We argue that independent skill re-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-1.jpg)
-
-*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation. We argue that independent skill re-*
-
-![Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-2.jpg)
-
-*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,*
-
-![Table 1: Main results on SkillsBench and ALFWorld. We show the superiority of SkillTrace over existing methods. Core,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-3.jpg)
-
-*표 · 원문 PDF 5쪽 · Table 1: Main results on SkillsBench and ALFWorld. We show the superiority of SkillTrace over existing methods. Core,*
-
-<!-- paper-visuals:end -->
 
 ### 한 문장 요약
 
@@ -63,6 +45,25 @@
 - 쿼리와 스킬 후보 매칭에는 강력한 임베딩/유사도 측정이 필요하며, 후보들 간 의존성(입출력 타입, 순서성 등)을 명시적으로 모델링하면 조합의 실행 가능성을 높일 수 있음.
 - 의존성 정보를 그래프 전파로 통합하면 국소적 일치만으로는 놓치기 쉬운 전역 실행 가능성 검증이 가능하므로, 그래프 알고리즘(예: 메시지 패싱, 전파 기반 점수 집계)을 적용해 볼 만함.
 - 백본 언어 모델에 독립적으로 성능을 개선했다고 하므로, 특정 LLM에 지나치게 결합되지 않는 인터페이스(스킬 표현, 유사도 계산기 등)를 설계하는 것이 실용적임(단, 초록만으로 구체적 인터페이스는 확인하기 어려움).","실험은 SkillsBench와 ALFWorld에서 수행되었으므로, 비슷한 벤치마크로 초기 검증을 하고, 이후 대규모·실세계 스킬 라이브러리로 확장 테스트를 권장함.","실제 적용 전 확인할 것: 방법의 계산 비용, 응답 지연, 스킬 라이브러리 크기 증가 시 성능 저하 여부, 그리고 분해 오류에 대한 복원력(recovery)과 디버깅 가능성."],
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Motivation. We argue that independent skill re-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation. We argue that independent skill re-*
+
+![Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,*
+
+![Table 1: Main results on SkillsBench and ALFWorld. We show the superiority of SkillTrace over existing methods. Core,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-3.jpg)
+
+*표 · 원문 PDF 5쪽 · Table 1: Main results on SkillsBench and ALFWorld. We show the superiority of SkillTrace over existing methods. Core,*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 논문 제목과 초록만을 바탕으로 작성되었음. 성능 수치(예: 53.17%, 91.43%)와 전반적 주장들은 초록에 기술된 내용을 그대로 인용했으며, 구현 세부사항·정확한 알고리즘·실험 설정·통계적 유의성 등은 초록만으로는 확인하기 어렵다.
 
