@@ -55,3 +55,22 @@ ScrambleToolBench라는 상호작용 터미널 벤치마크를 도입하여 도�
 - **소개 날짜:** 2026-08-04
 - [← 2026-08-04 논문 목록으로 돌아가기](../daily/2026-08-04.md)
 - [일별 아카이브 보기](../daily/index.md)
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1).](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Figure 1).*
+
+![Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-2.jpg)
+
+*표 · 원문 PDF 3쪽 · Table 1: Comparison of ScrambleToolBench with existing tool-use and agentic benchmarks across key evaluation*
+
+![Figure 1. Rather than](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · Figure 1. Rather than*
+
+<!-- paper-visuals:end -->

@@ -52,3 +52,22 @@
 - **소개 날짜:** 2026-08-05
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: Motivation. We argue that independent skill re-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 1쪽 · Figure 1: Motivation. We argue that independent skill re-*
+
+![Fig. 1, specifically,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 1쪽 · Fig. 1, specifically,*
+
+![Fig. 2, SkillTrace instead addresses this objec-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Fig. 2, SkillTrace instead addresses this objec-*
+
+<!-- paper-visuals:end -->

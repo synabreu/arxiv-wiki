@@ -55,3 +55,22 @@
 - **소개 날짜:** 2026-08-05
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![figure in which causal](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 3쪽 · figure in which causal*
+
+![Figure 1). That yields a concrete answer to a hard problem in](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 5쪽 · Figure 1). That yields a concrete answer to a hard problem in*
+
+![Figure 1 are not lexically disjoint in the strict](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/visual-3.jpg)
+
+*그림·그래프 · 원문 PDF 5쪽 · Figure 1 are not lexically disjoint in the strict*
+
+<!-- paper-visuals:end -->

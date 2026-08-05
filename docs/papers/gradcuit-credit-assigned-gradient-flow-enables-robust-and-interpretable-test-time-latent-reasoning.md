@@ -56,3 +56,22 @@ GradCuit은 생성 과정 중간의 Transformer 내부에 최적화 가능한 �
 - **소개 날짜:** 2026-08-05
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a*
+
+![Table 1: Accuracy comparison across different reasoning settings. GRADCUIT denotes our method.](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-2.jpg)
+
+*표 · 원문 PDF 5쪽 · Table 1: Accuracy comparison across different reasoning settings. GRADCUIT denotes our method.*
+
+![Table 1 summarizes the main results. Averaged over all 30 backbone–benchmark–](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/visual-3.jpg)
+
+*표 · 원문 PDF 5쪽 · Table 1 summarizes the main results. Averaged over all 30 backbone–benchmark–*
+
+<!-- paper-visuals:end -->

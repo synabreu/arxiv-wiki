@@ -56,3 +56,22 @@ MemArbiter는 상호작용 기록을 기능별로 분류하고 항목별·은행
 - **소개 날짜:** 2026-08-05
 - [← 2026-08-05 논문 목록으로 돌아가기](../daily/2026-08-05.md)
 - [일별 아카이브 보기](../daily/index.md)
+
+<!-- paper-visuals:start -->
+## 주요 그림·그래프·표
+
+> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.
+
+![Figure 1: A case illustrating the Memory-Action Gap caused](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-1.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Figure 1: A case illustrating the Memory-Action Gap caused*
+
+![Figure 1(a), when memory items with different decision](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-2.jpg)
+
+*그림·그래프 · 원문 PDF 2쪽 · Figure 1(a), when memory items with different decision*
+
+![Table 1, we categorize](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/visual-3.jpg)
+
+*표 · 원문 PDF 2쪽 · Table 1, we categorize*
+
+<!-- paper-visuals:end -->
