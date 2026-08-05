@@ -1,0 +1,49 @@
+name: Reanalyze papers from PDF
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/reanalyze-pdf.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reanalyze-papers-from-pdf
+  cancel-in-progress: false
+
+jobs:
+  reanalyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: python -m pip install .
+
+      - name: Reanalyze existing paper pages from PDFs
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5-mini' }}
+        run: python scripts/reanalyze_papers_from_pdf.py
+
+      - name: Commit rebuilt paper pages
+        run: |
+          if git diff --quiet -- docs/papers; then
+            echo "No paper pages changed."
+            exit 0
+          fi
+          git config user.name "arxiv-wiki-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/papers
+          git commit -m "docs: rebuild paper analysis from full PDFs"
+          git push
