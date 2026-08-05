@@ -1,0 +1,38 @@
+name: Migrate legacy arXiv pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/migrate_legacy.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Migrate legacy daily pages
+        run: python scripts/migrate_legacy.py
+
+      - name: Commit migrated pages
+        run: |
+          if git diff --quiet -- docs; then
+            echo "No legacy pages required migration."
+            exit 0
+          fi
+          git config user.name "arxiv-wiki-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "docs: migrate legacy daily pages to paper pages"
+          git push
