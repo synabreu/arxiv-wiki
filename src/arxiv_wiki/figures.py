@@ -1,14 +1,17 @@
 from __future__ import annotations
 
 import re
+import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
 import fitz
 import requests
 
+# Only accept captions that explicitly start with "Figure".
+# Excludes "Fig.", "Table", and ordinary sentences that merely mention a figure.
 CAPTION_RE = re.compile(
-    r"(?im)^\s*(figure|fig\.?|table)\s+([0-9]+|[ivx]+)\s*[:.]\s*([^\n]{0,220})"
+    r"(?im)^\s*Figure\s+([0-9]+|[ivx]+)\s*[:.]\s*([^\n]{1,220})"
 )
 
 
@@ -17,107 +20,154 @@ class PaperVisual:
     image_path: str
     caption: str
     page_number: int
-    kind: str
+    kind: str = "figure"
 
 
 def _caption(text: str) -> str:
     return " ".join(text.split())[:300]
 
 
-def extract_key_visuals(pdf_url: str, slug: str, docs_dir: Path, limit: int = 3) -> list[PaperVisual]:
+def _intersection_area(first: fitz.Rect, second: fitz.Rect) -> float:
+    intersection = first & second
+    if intersection.is_empty:
+        return 0.0
+    return max(0.0, intersection.width) * max(0.0, intersection.height)
+
+
+def _has_graphic_content(page: fitz.Page, clip: fitz.Rect) -> bool:
+    """Return True only when the candidate region contains an image or drawing.
+
+    This prevents a caption and surrounding prose from being exported as a
+    misleading "visual" when the selected region contains text only.
+    """
+    clip_area = max(1.0, clip.width * clip.height)
+
+    for image in page.get_images(full=True):
+        xref = image[0]
+        for image_rect in page.get_image_rects(xref):
+            if _intersection_area(image_rect, clip) >= clip_area * 0.03:
+                return True
+
+    drawing_area = 0.0
+    for drawing in page.get_drawings():
+        drawing_rect = fitz.Rect(drawing["rect"])
+        drawing_area += _intersection_area(drawing_rect, clip)
+        if drawing_area >= clip_area * 0.04:
+            return True
+
+    return False
+
+
+def extract_key_visuals(
+    pdf_url: str,
+    slug: str,
+    docs_dir: Path,
+    limit: int = 3,
+) -> list[PaperVisual]:
     response = requests.get(pdf_url, timeout=90)
     response.raise_for_status()
     document = fitz.open(stream=response.content, filetype="pdf")
+
     output_dir = docs_dir / "assets" / "papers" / slug
+    if output_dir.exists():
+        shutil.rmtree(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     found: list[PaperVisual] = []
     seen: set[tuple[int, str]] = set()
-    for page_index, page in enumerate(document):
-        for block in page.get_text("blocks"):
-            match = CAPTION_RE.search(str(block[4]))
-            if not match:
-                continue
-            caption = _caption(match.group(0))
-            key = (page_index, caption.lower())
-            if key in seen:
-                continue
-            seen.add(key)
 
-            kind = "table" if match.group(1).lower().startswith("table") else "figure"
-            caption_rect = fitz.Rect(block[0], block[1], block[2], block[3])
-            page_rect = page.rect
-            margin = page_rect.width * 0.04
-            if kind == "table":
-                clip = fitz.Rect(
-                    page_rect.x0 + margin,
-                    max(page_rect.y0, caption_rect.y0 - 15),
-                    page_rect.x1 - margin,
-                    min(page_rect.y1, caption_rect.y1 + page_rect.height * 0.48),
-                )
-            else:
+    try:
+        for page_index, page in enumerate(document):
+            for block in page.get_text("blocks"):
+                block_text = str(block[4]).strip()
+                match = CAPTION_RE.match(block_text)
+                if not match:
+                    continue
+
+                caption = _caption(match.group(0))
+                key = (page_index, caption.lower())
+                if key in seen:
+                    continue
+                seen.add(key)
+
+                caption_rect = fitz.Rect(block[0], block[1], block[2], block[3])
+                page_rect = page.rect
+                margin = page_rect.width * 0.04
                 clip = fitz.Rect(
                     page_rect.x0 + margin,
                     max(page_rect.y0, caption_rect.y0 - page_rect.height * 0.52),
                     page_rect.x1 - margin,
                     min(page_rect.y1, caption_rect.y1 + 15),
                 )
-            if clip.width < 100 or clip.height < 100:
-                continue
 
-            name = f"visual-{len(found) + 1}.jpg"
-            pixmap = page.get_pixmap(matrix=fitz.Matrix(1.6, 1.6), clip=clip, alpha=False)
-            pixmap.save(str(output_dir / name), jpg_quality=84)
-            found.append(
-                PaperVisual(
-                    image_path=f"../assets/papers/{slug}/{name}",
-                    caption=caption,
-                    page_number=page_index + 1,
-                    kind=kind,
+                if clip.width < 100 or clip.height < 100:
+                    continue
+                if not _has_graphic_content(page, clip):
+                    continue
+
+                name = f"figure-{len(found) + 1}.jpg"
+                pixmap = page.get_pixmap(
+                    matrix=fitz.Matrix(1.6, 1.6),
+                    clip=clip,
+                    alpha=False,
                 )
-            )
-            if len(found) >= limit:
-                document.close()
-                return found
+                pixmap.save(str(output_dir / name), jpg_quality=84)
+                found.append(
+                    PaperVisual(
+                        image_path=f"../assets/papers/{slug}/{name}",
+                        caption=caption,
+                        page_number=page_index + 1,
+                    )
+                )
 
-    document.close()
+                if len(found) >= limit:
+                    return found
+    finally:
+        document.close()
+
     return found
 
 
 def render_visuals(visuals: list[PaperVisual]) -> str:
     if not visuals:
         return ""
+
     lines = [
         "<!-- paper-visuals:start -->",
-        "## 주요 그림·그래프·표",
+        "## 주요 Figure",
         "",
-        "> 원문 PDF에서 자동 추출한 자료다. 정확한 해석은 원문 캡션과 본문을 함께 확인해야 한다.",
+        "> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.",
         "",
     ]
     for visual in visuals:
-        label = "표" if visual.kind == "table" else "그림·그래프"
-        lines.extend([
-            f"![{visual.caption}]({visual.image_path})",
-            "",
-            f"*{label} · 원문 PDF {visual.page_number}쪽 · {visual.caption}*",
-            "",
-        ])
+        lines.extend(
+            [
+                f"![{visual.caption}]({visual.image_path})",
+                "",
+                f"*Figure · 원문 PDF {visual.page_number}쪽 · {visual.caption}*",
+                "",
+            ]
+        )
     lines.append("<!-- paper-visuals:end -->")
     return "\n".join(lines).strip() + "\n"
 
 
 def insert_visuals(markdown: str, visuals: list[PaperVisual]) -> str:
-    """Place visuals after the developer perspective and before the evidence note."""
-    block = render_visuals(visuals)
-    if not block:
-        return markdown
+    """Place valid Figure visuals after the developer perspective.
 
+    Existing visual blocks are always removed first. Therefore old Table,
+    Fig., or text-only entries disappear even when no valid Figure is found.
+    """
     cleaned = re.sub(
         r"\n?<!-- paper-visuals:start -->.*?<!-- paper-visuals:end -->\n?",
         "\n",
         markdown,
         flags=re.DOTALL,
     )
+
+    block = render_visuals(visuals)
+    if not block:
+        return cleaned.strip() + "\n"
 
     confidence_marker = "\n**근거 범위:**"
     if confidence_marker in cleaned:
