@@ -23,7 +23,7 @@ def fetch_recent_papers(
     categories: list[str],
     lookback_hours: int = 48,
     max_results: int = 200,
-    timeout: int = 30,
+    timeout: int = 120,
 ) -> list[Paper]:
     query = " OR ".join(f"cat:{category}" for category in categories)
     params = {
