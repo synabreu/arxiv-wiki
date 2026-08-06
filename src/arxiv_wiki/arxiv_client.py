@@ -10,7 +10,7 @@ from dateutil.parser import isoparse
 
 from .models import Paper
 
-API_URL = "https://export.arxiv.org/api/query"
+API_URL = "https://arxiv.org/api/query"
 ATOM = "{http://www.w3.org/2005/Atom}"
 ARXIV = "{http://arxiv.org/schemas/atom}"
 
@@ -19,12 +19,7 @@ def _text(node: ET.Element | None, default: str = "") -> str:
     return " ".join((node.text or default).split()) if node is not None else default
 
 
-def fetch_recent_papers(
-    categories: list[str],
-    lookback_hours: int = 48,
-    max_results: int = 200,
-    timeout: int = 120,
-) -> list[Paper]:
+def fetch_recent_papers(categories: list[str], lookback_hours: int = 48, max_results: int = 50, timeout: int = 120) -> list[Paper]:
     query = " OR ".join(f"cat:{category}" for category in categories)
     params = {
         "search_query": query,
@@ -33,12 +28,27 @@ def fetch_recent_papers(
         "sortBy": "submittedDate",
         "sortOrder": "descending",
     }
-    response = requests.get(
-        f"{API_URL}?{urlencode(params)}",
-        headers={"User-Agent": "arxiv-wiki/0.1 (contact: repository owner)"},
-        timeout=timeout,
-    )
-    response.raise_for_status()
+    url = f"{API_URL}?{urlencode(params)}"
+    headers = {"User-Agent": "arxiv-wiki/1.0 (mailto:synabreu@outlook.com)"}
+
+    response = None
+    for retry in range(3):
+        try:
+            time.sleep(5)
+            response = requests.get(url, headers=headers, timeout=timeout)
+            if response.status_code == 429:
+                time.sleep(30 * (retry + 1))
+                continue
+            response.raise_for_status()
+            break
+        except requests.exceptions.Timeout:
+            if retry == 2:
+                raise
+            time.sleep(10 * (retry + 1))
+
+    if response is None:
+        raise RuntimeError("Unable to fetch arXiv API response")
+
     root = ET.fromstring(response.text)
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
     papers: list[Paper] = []
@@ -49,28 +59,9 @@ def fetch_recent_papers(
             continue
         entry_url = _text(entry.find(f"{ATOM}id"))
         arxiv_id = entry_url.rsplit("/", 1)[-1]
-        links = {
-            link.attrib.get("title", link.attrib.get("rel", "")): link.attrib.get("href", "")
-            for link in entry.findall(f"{ATOM}link")
-        }
-        categories_found = [
-            node.attrib.get("term", "") for node in entry.findall(f"{ATOM}category")
-        ]
+        links = {link.attrib.get("title", link.attrib.get("rel", "")): link.attrib.get("href", "") for link in entry.findall(f"{ATOM}link")}
+        categories_found = [node.attrib.get("term", "") for node in entry.findall(f"{ATOM}category")]
         primary = entry.find(f"{ARXIV}primary_category")
-        papers.append(
-            Paper(
-                arxiv_id=arxiv_id,
-                title=_text(entry.find(f"{ATOM}title")),
-                authors=[_text(a.find(f"{ATOM}name")) for a in entry.findall(f"{ATOM}author")],
-                summary=_text(entry.find(f"{ATOM}summary")),
-                published=published,
-                updated=isoparse(_text(entry.find(f"{ATOM}updated"))),
-                categories=categories_found,
-                primary_category=(primary.attrib.get("term", "") if primary is not None else ""),
-                abstract_url=entry_url,
-                pdf_url=links.get("pdf", f"https://arxiv.org/pdf/{arxiv_id}"),
-            )
-        )
+        papers.append(Paper(arxiv_id=arxiv_id, title=_text(entry.find(f"{ATOM}title")), authors=[_text(a.find(f"{ATOM}name")) for a in entry.findall(f"{ATOM}author")], summary=_text(entry.find(f"{ATOM}summary")), published=published, updated=isoparse(_text(entry.find(f"{ATOM}updated"))), categories=categories_found, primary_category=(primary.attrib.get("term", "") if primary is not None else ""), abstract_url=entry_url, pdf_url=links.get("pdf", f"https://arxiv.org/pdf/{arxiv_id}")))
 
-    time.sleep(3)
     return papers
