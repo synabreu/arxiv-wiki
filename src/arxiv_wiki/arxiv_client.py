@@ -32,21 +32,28 @@ def fetch_recent_papers(categories: list[str], lookback_hours: int = 48, max_res
     headers = {"User-Agent": "arxiv-wiki/1.0 (mailto:synabreu@outlook.com)"}
 
     response = None
-    for retry in range(3):
+    for retry in range(5):
         try:
-            time.sleep(5)
+            if retry > 0:
+                time.sleep(60 * retry)
+
             response = requests.get(url, headers=headers, timeout=timeout)
 
-            if response.status_code in (429, 500, 502, 503, 504):
-                time.sleep(30 * (retry + 1))
+            body = response.text[:200].lower()
+            if response.status_code == 429 or "rate exceeded" in body:
+                print(f"arXiv rate limit detected. Retry {retry + 1}/5")
+                continue
+
+            if response.status_code in (500, 502, 503, 504):
+                print(f"arXiv temporary error {response.status_code}. Retry {retry + 1}/5")
                 continue
 
             response.raise_for_status()
             break
+
         except requests.exceptions.Timeout:
-            if retry == 2:
+            if retry == 4:
                 raise
-            time.sleep(10 * (retry + 1))
 
     if response is None:
         raise RuntimeError("Unable to fetch arXiv API response")
