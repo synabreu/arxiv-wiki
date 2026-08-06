@@ -2,6 +2,7 @@ openai>=1.100.0
 pydantic>=2.8.0
 python-dateutil>=2.9.0
 requests>=2.32.0
+PyMuPDF>=1.24.0
 
 [dev]
 pytest>=8.0.0

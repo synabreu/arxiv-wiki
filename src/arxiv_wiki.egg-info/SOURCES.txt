@@ -5,6 +5,7 @@ src/arxiv_wiki/__init__.py
 src/arxiv_wiki/analyzer.py
 src/arxiv_wiki/arxiv_client.py
 src/arxiv_wiki/cli.py
+src/arxiv_wiki/figures.py
 src/arxiv_wiki/markdown.py
 src/arxiv_wiki/models.py
 src/arxiv_wiki/ranking.py

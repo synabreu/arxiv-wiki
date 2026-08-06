@@ -10,7 +10,7 @@ from dateutil.parser import isoparse
 
 from .models import Paper
 
-API_URL = "https://export.arxiv.org/api/query"
+API_URL = "https://arxiv.org/api/query"
 ATOM = "{http://www.w3.org/2005/Atom}"
 ARXIV = "{http://arxiv.org/schemas/atom}"
 
@@ -19,12 +19,7 @@ def _text(node: ET.Element | None, default: str = "") -> str:
     return " ".join((node.text or default).split()) if node is not None else default
 
 
-def fetch_recent_papers(
-    categories: list[str],
-    lookback_hours: int = 48,
-    max_results: int = 200,
-    timeout: int = 30,
-) -> list[Paper]:
+def fetch_recent_papers(categories: list[str], lookback_hours: int = 48, max_results: int = 50, timeout: int = 120) -> list[Paper]:
     query = " OR ".join(f"cat:{category}" for category in categories)
     params = {
         "search_query": query,
@@ -33,12 +28,42 @@ def fetch_recent_papers(
         "sortBy": "submittedDate",
         "sortOrder": "descending",
     }
-    response = requests.get(
-        f"{API_URL}?{urlencode(params)}",
-        headers={"User-Agent": "arxiv-wiki/0.1 (contact: repository owner)"},
-        timeout=timeout,
-    )
-    response.raise_for_status()
+    url = f"{API_URL}?{urlencode(params)}"
+    headers = {"User-Agent": "arxiv-wiki/1.0 (mailto:synabreu@outlook.com)"}
+
+    response = None
+    for retry in range(5):
+        try:
+            if retry > 0:
+                time.sleep(60 * retry)
+
+            response = requests.get(url, headers=headers, timeout=timeout)
+
+            body = response.text[:200].lower()
+            if response.status_code == 429 or "rate exceeded" in body:
+                print(f"arXiv rate limit detected. Retry {retry + 1}/5")
+                continue
+
+            if response.status_code in (500, 502, 503, 504):
+                print(f"arXiv temporary error {response.status_code}. Retry {retry + 1}/5")
+                continue
+
+            response.raise_for_status()
+            break
+
+        except requests.exceptions.Timeout:
+            if retry == 4:
+                raise
+
+    if response is None:
+        raise RuntimeError("Unable to fetch arXiv API response")
+
+    content_type = response.headers.get("content-type", "")
+    if "xml" not in content_type and "atom" not in content_type:
+        raise RuntimeError(
+            f"Unexpected arXiv response: content-type={content_type}, body={response.text[:200]}"
+        )
+
     root = ET.fromstring(response.text)
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
     papers: list[Paper] = []
@@ -53,9 +78,7 @@ def fetch_recent_papers(
             link.attrib.get("title", link.attrib.get("rel", "")): link.attrib.get("href", "")
             for link in entry.findall(f"{ATOM}link")
         }
-        categories_found = [
-            node.attrib.get("term", "") for node in entry.findall(f"{ATOM}category")
-        ]
+        categories_found = [node.attrib.get("term", "") for node in entry.findall(f"{ATOM}category")]
         primary = entry.find(f"{ARXIV}primary_category")
         papers.append(
             Paper(
@@ -72,5 +95,4 @@ def fetch_recent_papers(
             )
         )
 
-    time.sleep(3)
     return papers
