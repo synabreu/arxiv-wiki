@@ -36,9 +36,11 @@ def fetch_recent_papers(categories: list[str], lookback_hours: int = 48, max_res
         try:
             time.sleep(5)
             response = requests.get(url, headers=headers, timeout=timeout)
-            if response.status_code == 429:
+
+            if response.status_code in (429, 500, 502, 503, 504):
                 time.sleep(30 * (retry + 1))
                 continue
+
             response.raise_for_status()
             break
         except requests.exceptions.Timeout:
@@ -48,6 +50,12 @@ def fetch_recent_papers(categories: list[str], lookback_hours: int = 48, max_res
 
     if response is None:
         raise RuntimeError("Unable to fetch arXiv API response")
+
+    content_type = response.headers.get("content-type", "")
+    if "xml" not in content_type and "atom" not in content_type:
+        raise RuntimeError(
+            f"Unexpected arXiv response: content-type={content_type}, body={response.text[:200]}"
+        )
 
     root = ET.fromstring(response.text)
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
@@ -59,9 +67,25 @@ def fetch_recent_papers(categories: list[str], lookback_hours: int = 48, max_res
             continue
         entry_url = _text(entry.find(f"{ATOM}id"))
         arxiv_id = entry_url.rsplit("/", 1)[-1]
-        links = {link.attrib.get("title", link.attrib.get("rel", "")): link.attrib.get("href", "") for link in entry.findall(f"{ATOM}link")}
+        links = {
+            link.attrib.get("title", link.attrib.get("rel", "")): link.attrib.get("href", "")
+            for link in entry.findall(f"{ATOM}link")
+        }
         categories_found = [node.attrib.get("term", "") for node in entry.findall(f"{ATOM}category")]
         primary = entry.find(f"{ARXIV}primary_category")
-        papers.append(Paper(arxiv_id=arxiv_id, title=_text(entry.find(f"{ATOM}title")), authors=[_text(a.find(f"{ATOM}name")) for a in entry.findall(f"{ATOM}author")], summary=_text(entry.find(f"{ATOM}summary")), published=published, updated=isoparse(_text(entry.find(f"{ATOM}updated"))), categories=categories_found, primary_category=(primary.attrib.get("term", "") if primary is not None else ""), abstract_url=entry_url, pdf_url=links.get("pdf", f"https://arxiv.org/pdf/{arxiv_id}")))
+        papers.append(
+            Paper(
+                arxiv_id=arxiv_id,
+                title=_text(entry.find(f"{ATOM}title")),
+                authors=[_text(a.find(f"{ATOM}name")) for a in entry.findall(f"{ATOM}author")],
+                summary=_text(entry.find(f"{ATOM}summary")),
+                published=published,
+                updated=isoparse(_text(entry.find(f"{ATOM}updated"))),
+                categories=categories_found,
+                primary_category=(primary.attrib.get("term", "") if primary is not None else ""),
+                abstract_url=entry_url,
+                pdf_url=links.get("pdf", f"https://arxiv.org/pdf/{arxiv_id}"),
+            )
+        )
 
     return papers
