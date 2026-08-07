@@ -4,6 +4,18 @@
 
 [← 홈으로 돌아가기](../index.md)
 
+<link rel="stylesheet" href="../assets/archive-search.css">
+
+<form id="paper-search" class="archive-search" role="search">
+  <label for="paper-search-input">논문 제목 검색</label>
+  <div class="archive-search__controls">
+    <input id="paper-search-input" type="search" placeholder="제목의 일부를 입력하세요" autocomplete="off">
+    <button type="submit">검색</button>
+    <button type="reset" class="archive-search__reset">초기화</button>
+  </div>
+  <p id="paper-search-status" class="archive-search__status" aria-live="polite"></p>
+</form>
+
 | 날짜 | 논문 제목 |
 |---|---|
 | [2026-08-07](2026-08-07.md) | [EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning](../papers/envace-internalizing-environment-dynamics-via-world-rehearsal-for-agentic-reinforcement-learning.md) |
@@ -26,3 +38,5 @@
 | [2026-08-05](2026-08-05.md) | [GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning](../papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning.md) |
 | [2026-08-05](2026-08-05.md) | [SkillTrace: Traversing a Query-Skill Graph for Composable LLM Agents](../papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents.md) |
 | [2026-08-05](2026-08-05.md) | [MemArbiter: Decision-Time Memory Arbitration for Long-Horizon LLM Agents](../papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents.md) |
+
+<script src="../assets/archive-search.js" defer></script>

@@ -163,6 +163,21 @@ def write_archive_index(output_dir: Path) -> Path:
         "",
         "[← 홈으로 돌아가기](../index.md)",
         "",
+        '<link rel="stylesheet" href="../assets/archive-search.css">',
+        "",
+        '<form id="paper-search" class="archive-search" role="search">',
+        '  <label for="paper-search-input">논문 제목 검색</label>',
+        '  <div class="archive-search__controls">',
+        (
+            '    <input id="paper-search-input" type="search" placeholder="제목의 일부를 입력하세요" '
+            'autocomplete="off">'
+        ),
+        '    <button type="submit">검색</button>',
+        '    <button type="reset" class="archive-search__reset">초기화</button>',
+        "  </div>",
+        '  <p id="paper-search-status" class="archive-search__status" aria-live="polite"></p>',
+        "</form>",
+        "",
         "| 날짜 | 논문 제목 |",
         "|---|---|",
     ]
@@ -174,6 +189,8 @@ def write_archive_index(output_dir: Path) -> Path:
             continue
         for title, detail_url in papers:
             lines.append(f"| [{target_date}]({path.name}) | [{_escape_table(title)}]({detail_url}) |")
+
+    lines.extend(["", '<script src="../assets/archive-search.js" defer></script>'])
 
     index_path = output_dir / "index.md"
     index_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")

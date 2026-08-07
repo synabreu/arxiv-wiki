@@ -2,7 +2,7 @@ import re
 from datetime import UTC, date, datetime
 from pathlib import Path
 
-from arxiv_wiki.markdown import render_method, render_paper_detail
+from arxiv_wiki.markdown import render_method, render_paper_detail, write_archive_index
 from arxiv_wiki.models import Paper, PaperAnalysis, RankedPaper
 
 
@@ -80,3 +80,21 @@ def test_existing_paper_methods_do_not_contain_unescaped_pipes():
             assert not re.search(r"(?<!\\)\|", body), path
             assert all(line.startswith("* ") for line in body.splitlines() if line.strip()), path
             assert render_method(body) == body, path
+
+
+def test_archive_index_places_search_before_table(tmp_path):
+    daily = tmp_path / "daily"
+    daily.mkdir()
+    (daily / "2026-08-07.md").write_text(
+        "# Daily\n\n- [EnvACE](../papers/envace.md)\n",
+        encoding="utf-8",
+    )
+
+    index_path = write_archive_index(daily)
+    markdown = index_path.read_text(encoding="utf-8")
+
+    assert markdown.index('id="paper-search"') < markdown.index("| 날짜 | 논문 제목 |")
+    assert 'id="paper-search-input"' in markdown
+    assert 'type="submit">검색</button>' in markdown
+    assert 'src="../assets/archive-search.js"' in markdown
+    assert "[EnvACE](../papers/envace.md)" in markdown

@@ -1,0 +1,61 @@
+.archive-search {
+  margin: 1.5rem 0 1rem;
+  padding: 1rem;
+  border: 1px solid #d0d7de;
+  border-radius: 0.5rem;
+  background: #f6f8fa;
+}
+
+.archive-search label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.archive-search__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.archive-search input {
+  flex: 1 1 18rem;
+  min-width: 0;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #8c959f;
+  border-radius: 0.35rem;
+  font: inherit;
+}
+
+.archive-search button {
+  padding: 0.55rem 0.9rem;
+  border: 1px solid #0969da;
+  border-radius: 0.35rem;
+  background: #0969da;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.archive-search button:hover,
+.archive-search button:focus-visible {
+  background: #0550ae;
+}
+
+.archive-search .archive-search__reset {
+  border-color: #57606a;
+  background: #fff;
+  color: #24292f;
+}
+
+.archive-search .archive-search__reset:hover,
+.archive-search .archive-search__reset:focus-visible {
+  background: #d8dee4;
+}
+
+.archive-search__status {
+  min-height: 1.5em;
+  margin: 0.6rem 0 0;
+  color: #57606a;
+  font-size: 0.9rem;
+}
