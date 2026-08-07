@@ -85,20 +85,25 @@ def paper_filename(title: str) -> str:
     return f"{slug or 'paper'}.md"
 
 
+def page_url(markdown_path: str) -> str:
+    """Return the public GitHub Pages URL for a generated Markdown file."""
+    return re.sub(r"\.md(?=$|[?#])", ".html", markdown_path)
+
+
 def render_daily(ranked: list[RankedPaper], target_date: date) -> str:
     lines = [
         f"# {target_date.isoformat()} arXiv AI 논문",
         "",
         "> 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.",
         "",
-        "[← 일별 아카이브로 돌아가기](index.md)",
+        "[← 일별 아카이브로 돌아가기](index.html)",
         "",
         "## 오늘의 목록",
         "",
     ]
     for item in ranked:
         filename = paper_filename(item.paper.title)
-        lines.append(f"- [{item.paper.title}](../papers/{filename})")
+        lines.append(f"- [{item.paper.title}](../papers/{page_url(filename)})")
     return "\n".join(lines).strip() + "\n"
 
 
@@ -119,7 +124,7 @@ def render_paper_detail(
         f"- **선정 점수:** {item.score:.2f}",
         f"- **선정 이유:** {', '.join(item.score_reasons)}",
         "",
-        f"[← {target_date.isoformat()} 목록으로 돌아가기](../daily/{target_date.isoformat()}.md)",
+        f"[← {target_date.isoformat()} 목록으로 돌아가기](../daily/{target_date.isoformat()}.html)",
         "",
     ]
 
@@ -151,7 +156,7 @@ def _papers_from_daily(path: Path) -> list[tuple[str, str]]:
     text = path.read_text(encoding="utf-8")
     papers: list[tuple[str, str]] = []
     for match in re.finditer(r"(?m)^- \[([^]]+)\]\((\.\./papers/[^)]+)\)$", text):
-        papers.append((match.group(1), match.group(2)))
+        papers.append((match.group(1), page_url(match.group(2))))
     return papers
 
 
@@ -161,7 +166,7 @@ def write_archive_index(output_dir: Path) -> Path:
         "",
         "날짜별 논문 제목을 선택하면 상세 요약 페이지로 이동한다.",
         "",
-        "[← 홈으로 돌아가기](../index.md)",
+        "[← 홈으로 돌아가기](../index.html)",
         "",
         '<link rel="stylesheet" href="../assets/archive-search.css">',
         "",
@@ -184,11 +189,12 @@ def write_archive_index(output_dir: Path) -> Path:
     for path in sorted(output_dir.glob("????-??-??.md"), reverse=True):
         target_date = path.stem
         papers = _papers_from_daily(path)
+        daily_url = page_url(path.name)
         if not papers:
-            lines.append(f"| [{target_date}]({path.name}) | 목록 보기 |")
+            lines.append(f"| [{target_date}]({daily_url}) | 목록 보기 |")
             continue
         for title, detail_url in papers:
-            lines.append(f"| [{target_date}]({path.name}) | [{_escape_table(title)}]({detail_url}) |")
+            lines.append(f"| [{target_date}]({daily_url}) | [{_escape_table(title)}]({detail_url}) |")
 
     lines.extend(["", '<script src="../assets/archive-search.js" defer></script>'])
 
