@@ -212,7 +212,12 @@ def write_daily(ranked: list[RankedPaper], output_dir: Path, target_date: date) 
     daily_markdown = render_daily(ranked, target_date)
     path = output_dir / f"{target_date.isoformat()}.md"
     path.write_text(daily_markdown, encoding="utf-8")
-    (docs_dir / "latest.md").write_text(daily_markdown, encoding="utf-8")
+
+    latest_markdown = daily_markdown.replace(
+        "[← 일별 아카이브로 돌아가기](index.html)",
+        "[← 일별 아카이브로 돌아가기](daily/index.html)",
+    ).replace("(../papers/", "(papers/")
+    (docs_dir / "latest.md").write_text(latest_markdown, encoding="utf-8")
 
     for item in ranked:
         filename = paper_filename(item.paper.title)
