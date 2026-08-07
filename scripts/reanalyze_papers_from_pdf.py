@@ -6,6 +6,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 from arxiv_wiki.analyzer import analyze_paper
+from arxiv_wiki.markdown import render_method
 from arxiv_wiki.models import Paper
 
 
@@ -70,7 +71,7 @@ def update_page(path: Path, model: str | None) -> None:
     updated = _replace_section(updated, "한 문장 요약", analysis.one_line_summary)
     updated = _replace_section(updated, "해결하려는 문제", analysis.problem)
     updated = _replace_section(updated, "핵심 기여", _bullets(analysis.contributions, "본문에서 확인하기 어렵다."))
-    updated = _replace_section(updated, "접근 방법", analysis.method)
+    updated = _replace_section(updated, "접근 방법", render_method(analysis.method))
     updated = _replace_section(updated, "주요 결과", _bullets(analysis.results, "본문에서 정량 결과를 확인하기 어렵다."))
     updated = _replace_section(updated, "한계", _bullets(analysis.limitations, "논문에서 명시적 한계를 확인하기 어렵다."))
     updated = _replace_section(updated, "개발자 관점", _bullets(analysis.developer_takeaways, "추가 재현 검증이 필요하다."))

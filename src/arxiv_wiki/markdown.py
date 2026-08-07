@@ -13,6 +13,50 @@ def _bullets(items: list[str], fallback: str = "초록만으로 확인하기 어
     return "\n".join(f"- {item}" for item in items) if items else f"- {fallback}"
 
 
+_TABLE_SEPARATOR = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*)+\|?\s*$")
+
+
+def _table_cells(line: str) -> list[str]:
+    return [cell.strip() for cell in line.strip().strip("|").split("|")]
+
+
+def render_method(method: str) -> str:
+    """Render an approach as prose or bullets without Markdown tables.
+
+    Kramdown treats prose containing multiple pipe characters as a table, so
+    non-table pipes (most commonly conditional notation in equations) must be
+    escaped as well.
+    """
+    lines = method.strip().splitlines()
+    rendered: list[str] = []
+    index = 0
+    while index < len(lines):
+        if (
+            index + 1 < len(lines)
+            and "|" in lines[index]
+            and _TABLE_SEPARATOR.fullmatch(lines[index + 1])
+        ):
+            headers = _table_cells(lines[index])
+            index += 2
+            while index < len(lines) and "|" in lines[index] and lines[index].strip():
+                cells = _table_cells(lines[index])
+                label = cells[0] if cells else ""
+                details = []
+                for column, cell in enumerate(cells[1:], start=1):
+                    if not cell:
+                        continue
+                    header = headers[column] if column < len(headers) else ""
+                    details.append(f"{header}: {cell}" if header not in {"", "설명", "내용"} else cell)
+                body = "; ".join(details) or label
+                rendered.append(f"* **{label}:** {body}" if label and details else f"* {body}")
+                index += 1
+            continue
+        rendered.append(lines[index])
+        index += 1
+
+    return re.sub(r"(?<!\\)\|", r"\\|", "\n".join(rendered)).strip()
+
+
 def paper_filename(title: str) -> str:
     """Create a stable, URL-safe Markdown filename from a paper title."""
     normalized = unicodedata.normalize("NFKC", title).strip().lower()
@@ -70,7 +114,7 @@ def render_paper_detail(
         "## 한 문장 요약", "", analysis.one_line_summary, "",
         "## 해결하려는 문제", "", analysis.problem, "",
         "## 핵심 기여", "", _bullets(analysis.contributions), "",
-        "## 접근 방법", "", analysis.method, "",
+        "## 접근 방법", "", render_method(analysis.method), "",
         "## 주요 결과", "", _bullets(analysis.results), "",
         "## 한계", "", _bullets(analysis.limitations), "",
         "## 개발자 관점", "", _bullets(analysis.developer_takeaways), "",

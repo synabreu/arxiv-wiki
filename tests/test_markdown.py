@@ -1,11 +1,13 @@
-from datetime import date, datetime, timezone
+import re
+from datetime import UTC, date, datetime
+from pathlib import Path
 
-from arxiv_wiki.markdown import render_daily
+from arxiv_wiki.markdown import render_method, render_paper_detail
 from arxiv_wiki.models import Paper, PaperAnalysis, RankedPaper
 
 
 def test_markdown_contains_public_links_and_sections():
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     paper = Paper(
         arxiv_id="2608.00001v1",
         title="Example Paper",
@@ -29,9 +31,39 @@ def test_markdown_contains_public_links_and_sections():
         keywords=["LLM"],
         confidence_note="제목과 초록 기반",
     )
-    markdown = render_daily(
-        [RankedPaper(paper=paper, score=9, score_reasons=["test"], analysis=analysis)],
+    markdown = render_paper_detail(
+        RankedPaper(paper=paper, score=9, score_reasons=["test"], analysis=analysis),
         date(2026, 8, 3),
     )
     assert "https://arxiv.org/abs/2608.00001" in markdown
-    assert "### 개발자 관점" in markdown
+    assert "## 개발자 관점" in markdown
+
+
+def test_method_markdown_table_is_rendered_as_bullets():
+    method = """| 단계 | 설명 |
+|---|---|
+| 행동 | 도구를 호출한다. |
+| 관찰 | 결과를 상태에 반영한다. |"""
+
+    rendered = render_method(method)
+
+    assert "|---|" not in rendered
+    assert "* **행동:** 도구를 호출한다." in rendered
+    assert "* **관찰:** 결과를 상태에 반영한다." in rendered
+
+
+def test_method_escapes_equation_pipes_that_kramdown_treats_as_a_table():
+    rendered = render_method("행동은 πθ(·|ht, ACT), 관찰은 πθ(·|ht, at, REHEARSE)로 생성한다.")
+
+    assert rendered == "행동은 πθ(·\\|ht, ACT), 관찰은 πθ(·\\|ht, at, REHEARSE)로 생성한다."
+
+
+def test_existing_paper_methods_do_not_contain_unescaped_pipes():
+    for path in Path("docs/papers").glob("*.md"):
+        markdown = path.read_text(encoding="utf-8")
+        match = re.search(
+            r"(?ms)^## 접근 방법\s*\n(?P<body>.*?)(?=^## |^\*\*근거 범위:\*\*|^---$|\Z)",
+            markdown,
+        )
+        if match:
+            assert not re.search(r"(?<!\\)\|", match.group("body")), path
