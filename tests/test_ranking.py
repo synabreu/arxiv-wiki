@@ -87,6 +87,45 @@ def test_recent_reproducible_developer_paper_gets_quality_signals():
     assert any(reason.startswith("학술 신호") for reason in ranked[0].score_reasons)
 
 
+def test_open_weight_model_release_gets_priority_boost():
+    open_weight = paper(
+        "2608.00007v1",
+        "Kimi Open-Weight Reasoning Model",
+        "Moonshot AI releases model weights and checkpoints for an open-weight LLM.",
+        age_hours=6,
+    )
+    generic = paper(
+        "2608.00008v1",
+        "Strong Reasoning Model",
+        "A large language model with strong benchmark performance and ablation studies.",
+        age_hours=1,
+    )
+
+    ranked = rank_papers([generic, open_weight], limit=2, now=NOW)
+
+    assert ranked[0].paper.arxiv_id == open_weight.arxiv_id
+    assert any(
+        reason.startswith("오픈 웨이트·주요 연구조직 신호")
+        for reason in ranked[0].score_reasons
+    )
+
+
+def test_qwen_deepseek_nvidia_and_gpt_oss_keywords_are_recognized():
+    candidates = [
+        paper("2608.00009v1", "Qwen Open Model", "Alibaba releases open weights."),
+        paper("2608.00010v1", "DeepSeek Model", "DeepSeek publishes model weights."),
+        paper("2608.00011v1", "NVIDIA Nemotron", "NVIDIA releases an open model checkpoint."),
+        paper("2608.00012v1", "GPT-OSS Study", "OpenAI gpt-oss open-weight model evaluation."),
+    ]
+
+    ranked = rank_papers(candidates, limit=4, now=NOW)
+
+    assert all(
+        any("오픈 웨이트·주요 연구조직 신호" in reason for reason in item.score_reasons)
+        for item in ranked
+    )
+
+
 def test_default_limit_is_top_five():
     papers = [
         paper(f"2608.{index:05d}v1", f"AI Paper {index}", "AI method")
