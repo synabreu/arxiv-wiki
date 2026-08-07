@@ -73,6 +73,25 @@
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Left: standard approaches score independent](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/figure-1.jpg)
+
+*Figure · 원문 PDF 3쪽 · Figure 1: Left: standard approaches score independent*
+
+![Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/figure-2.jpg)
+
+*Figure · 원문 PDF 6쪽 · Figure 2: Left column: Mention-Mention same-/different-character effect sizes (Cohen’s d, top) and mean cosine*
+
+![Figure 3: Attribution accuracy vs. Q-M separability](../assets/papers/fast-and-accurate-quotation-attribution-in-literary-texts/figure-3.jpg)
+
+*Figure · 원문 PDF 13쪽 · Figure 3: Attribution accuracy vs. Q-M separability*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. 제시된 수치와 실험 구성을 PDF 본문에 기반해 정리했으며, Appendix B/C/D 및 외부 데이터(LitBank) 관련 세부 구현은 본문에 요약되어 있어 일부 세부 방법은 원문 부록에서 확인해야 할 수 있다. PDF에서만 확인 가능한 실험 세부사항이나 파라미터의 일부는 본문에 의존하여 기재하였고, 일부 수치가 표의 부재나 요약에 의해 달라 보일 수 있다.
 
 ---

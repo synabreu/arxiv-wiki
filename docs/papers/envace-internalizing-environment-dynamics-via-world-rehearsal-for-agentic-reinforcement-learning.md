@@ -9,24 +9,6 @@
 
 [← 2026-08-07 목록으로 돌아가기](../daily/2026-08-07.md)
 
-<!-- paper-visuals:start -->
-## 주요 Figure
-
-> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
-
-![Figure 1: Comparison of three agent rollout paradigms: real-environment rollout, external-simulator](../assets/papers/envace-internalizing-environment-dynamics-via-world-rehearsal-for-agentic-reinforcement-learning/figure-1.jpg)
-
-*Figure · 원문 PDF 2쪽 · Figure 1: Comparison of three agent rollout paradigms: real-environment rollout, external-simulator*
-
-![Figure 2: Overview of EnvACE and world rehearsal. Unlike conventional agentic RL, where an](../assets/papers/envace-internalizing-environment-dynamics-via-world-rehearsal-for-agentic-reinforcement-learning/figure-2.jpg)
-
-*Figure · 원문 PDF 4쪽 · Figure 2: Overview of EnvACE and world rehearsal. Unlike conventional agentic RL, where an*
-
-![Figure 3: Ablation results on τ 2-Bench. En-](../assets/papers/envace-internalizing-environment-dynamics-via-world-rehearsal-for-agentic-reinforcement-learning/figure-3.jpg)
-
-*Figure · 원문 PDF 8쪽 · Figure 3: Ablation results on τ 2-Bench. En-*
-
-<!-- paper-visuals:end -->
 
 ## 한 문장 요약
 
@@ -75,5 +57,24 @@ EnvACE는 정책이 '행동'과 '세계(환경) 리허설' 두 역할을 번갈�
 - 구현·튜닝 포인트: 역할별 보상 기준(role-wise baseline)과 공유 정책 설계(acting과 rehearsal의 파라미터 공유)는 성능에 민감하므로 역할별 이점 계산(µx,r)과 GRPO 클리핑(ϵ) 설정을 조심스럽게 튜닝해야 함.
 - 운영·배포: 학습 시 외부 환경을 대규모로 합성·검증하는 비용을 줄일 수 있으나, 학습된 내부화된 세계모델이 잘못 일반화할 경우 실제 실행에서 오류를 유발할 수 있으므로(케이스 스터디는 리허설이 안전성 향상에 도움됨을 보임) 배포 전 소규모 실제 환경 검증이 권장됨.
 - 테스트타임 정책: 학습된 모델으로 사적 리허설을 수행해 실행 전 후보 행동을 검증·수정할 수 있으나 리허설 예산(N)은 적정값(논문에서 N=2가 대표적 이득)을 유지해야 하며, 너무 많은 리허설은 입력 길이·컨텍스트 한계로 오히려 성능 저하를 초래함.
+
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Comparison of three agent rollout paradigms: real-environment rollout, external-simulator](../assets/papers/envace-internalizing-environment-dynamics-via-world-rehearsal-for-agentic-reinforcement-learning/figure-1.jpg)
+
+*Figure · 원문 PDF 2쪽 · Figure 1: Comparison of three agent rollout paradigms: real-environment rollout, external-simulator*
+
+![Figure 2: Overview of EnvACE and world rehearsal. Unlike conventional agentic RL, where an](../assets/papers/envace-internalizing-environment-dynamics-via-world-rehearsal-for-agentic-reinforcement-learning/figure-2.jpg)
+
+*Figure · 원문 PDF 4쪽 · Figure 2: Overview of EnvACE and world rehearsal. Unlike conventional agentic RL, where an*
+
+![Figure 3: Ablation results on τ 2-Bench. En-](../assets/papers/envace-internalizing-environment-dynamics-via-world-rehearsal-for-agentic-reinforcement-learning/figure-3.jpg)
+
+*Figure · 원문 PDF 8쪽 · Figure 3: Ablation results on τ 2-Bench. En-*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 제공된 논문 PDF 본문 전체(페이지 및 표·그림 포함)에 근거해 작성되었음. 표와 그림의 수치(예: Table 1–3, Table 2의 TR/TP/TF1, 학습 하이퍼파라미터, GPU 수 등)는 본문에서 직접 추출한 값이다. 다만 일부 실험(예: TTS)은 단일 실행만 보고되어 분산 관련 정보가 제한적이며, 논문 본문에 표기된 설정(예: '배치 크기 16'과 '매 스텝 64 인스턴스 샘플링'의 관계 등)은 추가 세부 구현에서 해석 여지가 있어 완전한 재현을 위해서는 공개 코드와 추가 구현 세부 확인이 필요하다.

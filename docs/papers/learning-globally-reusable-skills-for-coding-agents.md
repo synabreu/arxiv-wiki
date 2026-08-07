@@ -9,24 +9,6 @@
 
 [← 2026-08-07 목록으로 돌아가기](../daily/2026-08-07.md)
 
-<!-- paper-visuals:start -->
-## 주요 Figure
-
-> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
-
-![Figure 1: Overview of GSE](../assets/papers/learning-globally-reusable-skills-for-coding-agents/figure-1.jpg)
-
-*Figure · 원문 PDF 4쪽 · Figure 1: Overview of GSE*
-
-![Figure 2: An Example of the Evolution Proposal DSL](../assets/papers/learning-globally-reusable-skills-for-coding-agents/figure-2.jpg)
-
-*Figure · 원문 PDF 6쪽 · Figure 2: An Example of the Evolution Proposal DSL*
-
-![Figure 3: A Case Study for Bug-Triggering Test Generation](../assets/papers/learning-globally-reusable-skills-for-coding-agents/figure-3.jpg)
-
-*Figure · 원문 PDF 11쪽 · Figure 3: A Case Study for Bug-Triggering Test Generation*
-
-<!-- paper-visuals:end -->
 
 ## 한 문장 요약
 
@@ -73,5 +55,24 @@ LLM 기반 코딩 에이전트의 스킬 은행을 전역 최적화 문제로 �
 - 진화 제안은 DSL로 구조화해 모호성을 줄여라(대상 스킬, 연산 유형, 내용, 근거, 기대 효과, 관계 변경을 포함).
 - 로컬 재연으로 제안의 즉시 효과를 필터링하고, 이후 군집화→통합→리플레이 전역 검증 파이프라인을 적용해 과적합·회귀를 억제하라. 기존 스킬을 수정하는 제안은 '영향을 받는 스킬 집합'을 군집 키로 사용하고 신규 스킬 제안은 근거·기대효과의 의미적 유사도로 군집하라.
 - 운영 비용: 진화 과정에서의 토큰 비용이 증가하지만(약 +12% 사례당), GSE는 다운스트림 실행에서 다른 자동 진화 기법들보다 적은 토큰을 소모하므로 전체 비용-효율 트레이드오프를 평가해 도입 여부를 결정하라. 또한 결정론적 비교를 위해 LLM 온도를 0으로 고정하는 것을 권장함.
+
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Overview of GSE](../assets/papers/learning-globally-reusable-skills-for-coding-agents/figure-1.jpg)
+
+*Figure · 원문 PDF 4쪽 · Figure 1: Overview of GSE*
+
+![Figure 2: An Example of the Evolution Proposal DSL](../assets/papers/learning-globally-reusable-skills-for-coding-agents/figure-2.jpg)
+
+*Figure · 원문 PDF 6쪽 · Figure 2: An Example of the Evolution Proposal DSL*
+
+![Figure 3: A Case Study for Bug-Triggering Test Generation](../assets/papers/learning-globally-reusable-skills-for-coding-agents/figure-3.jpg)
+
+*Figure · 원문 PDF 11쪽 · Figure 3: A Case Study for Bug-Triggering Test Generation*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 제공된 논문 PDF 본문(초록 및 본문 텍스트, 표 1–5, 알고리즘 1, 그림 및 Threats to Validity 섹션)을 근거로 작성되었음. 표와 본문에 명시된 수치(정밀도/재현율/F1, 데이터셋 크기, 토큰 소비 등)는 PDF에서 직접 추출한 값이다. 논문이 제공하지 않거나 본문에 상세히 기술되지 않은 구현 하이퍼파라미터(예: 군집 알고리즘의 세부 설정, 의미적 유사도 임계값), 내부 코드·프롬프트의 완전한 내용 등은 본문에서 확인되지 않아 이 분석에 포함하지 않았다.

@@ -69,6 +69,25 @@ Embodiment Necessity Thesis(ENT) 하에서 모든 과학적 귀추가 지속적 
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Convention space.](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/figure-1.jpg)
+
+*Figure · 원문 PDF 7쪽 · Figure 1: Convention space.*
+
+![Figure 2: The Abduction Loop. Stage A (divergent) generates candidate structural correspondences](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/figure-2.jpg)
+
+*Figure · 원문 PDF 10쪽 · Figure 2: The Abduction Loop. Stage A (divergent) generates candidate structural correspondences*
+
+![Figure 3: DAB-30 structure. Each instance, from any of the three classes, is processed by the full](../assets/papers/abduction-without-a-body-representational-grounding-and-the-abduction-loop-for-scientific-hypothesis-generation/figure-3.jpg)
+
+*Figure · 원문 PDF 13쪽 · Figure 3: DAB-30 structure. Each instance, from any of the three classes, is processed by the full*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. 주어진 PDF 본문(페이지 1–20)에 근거하여 요약 및 정리했으며, Appendix B 및 Paper 2에 수록될 실험 프로토콜과 세부 수치·재현 절차는 본문에 한정되어 완전하게 확인하기 어렵다. motivating case의 수치적 확인은 본문에 제시된 상대 오차 1.2×10−16 등 일부 수치를 포함하였으며, 전체 벤치마크의 실행 결과는 아직 공개되지 않았다.
 
 ---

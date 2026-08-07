@@ -9,16 +9,6 @@
 
 [← 2026-08-06 목록으로 돌아가기](../daily/2026-08-06.md)
 
-<!-- paper-visuals:start -->
-## 주요 Figure
-
-> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
-
-![Figure 1: The V4 pipeline. The forward path is strictly one-way: predictions are frozen before a separate evaluator](../assets/papers/from-score-matrices-to-football-aware-match-state-simulation-an-auditable-llm-harness-for-exact-score-reranking/figure-1.jpg)
-
-*Figure · 원문 PDF 3쪽 · Figure 1: The V4 pipeline. The forward path is strictly one-way: predictions are frozen before a separate evaluator*
-
-<!-- paper-visuals:end -->
 
 ## 한 문장 요약
 
@@ -64,5 +54,16 @@
 - LLM이 순위만 내놓을 경우 proper scoring과 캘리브레이션이 불가능하므로, 실전 배포 전에는 '후보 집합에 대한 정규화된 사후 확률 + 예약(꼬리) 질량'을 출력하고 개발 창에서 캘리브레이션을 수행해 정형화해야 함.
 - 입력 증거의 질(보고 신뢰도)과 신호 유형별로 계층적 캘리브레이션을 도입하라: 신호 타입·확신도·남은 시간·게임 상태에 따라 조정 크기를 달리하고 가중치 수축(shrinkage)을 적용해야 함(저자는 V2의 단일 κ가 실패했다고 명시).
 - 후보 생성(coverage)과 후보 승격(ranking)을 분리해 평가·로그를 남겨라. 꼬리 후보가 존재하더라도 랭킹 모델이 이를 상향시킬 수 있어야 실제 성능 향상으로 이어짐—따라서 별도 지표로 커버리지·순위 효과를 측정해야 함.
+
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: The V4 pipeline. The forward path is strictly one-way: predictions are frozen before a separate evaluator](../assets/papers/from-score-matrices-to-football-aware-match-state-simulation-an-auditable-llm-harness-for-exact-score-reranking/figure-1.jpg)
+
+*Figure · 원문 PDF 3쪽 · Figure 1: The V4 pipeline. The forward path is strictly one-way: predictions are frozen before a separate evaluator*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 제공된 논문 PDF 본문 전체를 근거로 작성되었다. 표·수치·설계 세부는 본문에서 직접 인용했으며, 프롬프트 원문(중문)이나 내부 코드·데이터는 저자가 아카이브한 항목을 참조한다고 명시되어 있으나 본문에 전부 포함되지 않아 세부 재현 절차(예: LLM의 내부 샘플링 seed, 완전한 프롬프트 텍스트)는 별도 확인이 필요하다. 또한 저자가 명시한 바와 같이 LLM이 닫힌 가중치 모델이므로 모델 메모리 오염 가능성은 본문 자체에서 완전히 배제되지 않는다.

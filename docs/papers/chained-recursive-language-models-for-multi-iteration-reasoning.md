@@ -9,16 +9,6 @@
 
 [← 2026-08-06 목록으로 돌아가기](../daily/2026-08-06.md)
 
-<!-- paper-visuals:start -->
-## 주요 Figure
-
-> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
-
-![Figure 1: Chained RLM architecture with 3 RLM calls.](../assets/papers/chained-recursive-language-models-for-multi-iteration-reasoning/figure-1.jpg)
-
-*Figure · 원문 PDF 2쪽 · Figure 1: Chained RLM architecture with 3 RLM calls.*
-
-<!-- paper-visuals:end -->
 
 ## 한 문장 요약
 
@@ -68,5 +58,16 @@
 - 아티팩트 설계·버전관리: Root0가 artifact 구조를 선택하므로 구조 설계·이력관리(구조 변경 시 superseding artifact를 만들고 마이그레이션 로그를 남기는 규칙)가 필요하다. artifact는 plain .txt/.tsv 권장이며 JSON/마크다운/코드 펜스 사용을 제한한다는 설계 결정을 구현해야 한다.
 - 비용·성능 트레이드오프: 평균 토큰·루트 호출·비용이 크게 증가하므로 실제 배포시 체인 길이 R, 루트별 최대 연산, 캐싱(디스크 artifact/중간 결과) 등을 튜닝해 정확도/비용 균형을 맞춰야 한다. 비용 민감한 환경에서는 compute-matched baseline 비교나 적응형 중단(early stop) 규칙을 고려하라.
 - 안전성·검증: artifact가 잘못되면 이후 루트가 이를 보존할 위험이 있으므로 호스트 수준에서 추가 검증(예: 자동 체크리스트, 간단한 규칙 기반 검사기 또는 별도 검증 루트)을 도입하거나 마지막 루트에 엄격한 감사를 요구하는 것이 필요하다.
+
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Chained RLM architecture with 3 RLM calls.](../assets/papers/chained-recursive-language-models-for-multi-iteration-reasoning/figure-1.jpg)
+
+*Figure · 원문 PDF 2쪽 · Figure 1: Chained RLM architecture with 3 RLM calls.*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 논문 PDF 본문(제공된 페이지 1–9)을 근거로 분석을 작성했다. 표와 알고리즘, 시스템 프롬프트 등 본문에 명시된 내용에 기반해 수치와 절차를 보고했다. 다만 일부 실험 세부(랜덤 시드, 샘플링 파라미터, 체인 길이/루트별 상한의 구체적 실험 설정, compute-matched 비교의 상세 구성 등)는 본문에 자세히 기재되어 있지 않아 해당 항목에 대해서는 명시적 숫자를 재구성하지 않았다.

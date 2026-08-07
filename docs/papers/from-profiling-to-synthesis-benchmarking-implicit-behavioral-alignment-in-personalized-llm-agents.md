@@ -72,6 +72,25 @@
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/figure-1.jpg)
+
+*Figure · 원문 PDF 2쪽 · Figure 1: Personalization beyond QA: knowledge-to-action gap between preference inference and task execution.*
+
+![Figure 2: Benchmark construction flow chart.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/figure-2.jpg)
+
+*Figure · 원문 PDF 3쪽 · Figure 2: Benchmark construction flow chart.*
+
+![Figure 3: Overview of IBA-Agent for personalized task completion.](../assets/papers/from-profiling-to-synthesis-benchmarking-implicit-behavioral-alignment-in-personalized-llm-agents/figure-3.jpg)
+
+*Figure · 원문 PDF 5쪽 · Figure 3: Overview of IBA-Agent for personalized task completion.*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. 본 분석은 논문 본문의 주요 챕터 및 표를 인용해 요약했으며, Appendix의 수치 및 프롬프트 상세는 본문에서 확인 가능하나, 특정 수치의 맥락(예: 각 judge 모델별 결과의 매핑)은 본문에 제시된 배열에 의존합니다. 필요 시 Appendix의 세부 표를 재확인하시길 권합니다.
 
 ---

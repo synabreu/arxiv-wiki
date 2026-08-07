@@ -9,24 +9,6 @@
 
 [← 2026-08-07 목록으로 돌아가기](../daily/2026-08-07.md)
 
-<!-- paper-visuals:start -->
-## 주요 Figure
-
-> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
-
-![Figure 1: Average per-run accuracy across modalities](../assets/papers/what-current-ai-benchmarks-leave-unmeasured-modality-search-citations-and-implications-for-safety-evaluations/figure-1.jpg)
-
-*Figure · 원문 PDF 5쪽 · Figure 1: Average per-run accuracy across modalities*
-
-![Figure 2: Within-modality and between-modality re-](../assets/papers/what-current-ai-benchmarks-leave-unmeasured-modality-search-citations-and-implications-for-safety-evaluations/figure-2.jpg)
-
-*Figure · 원문 PDF 6쪽 · Figure 2: Within-modality and between-modality re-*
-
-![Figure 3: Example benchmark prompt and responses. In this example from our data, the same SafetyBench prompt (A)](../assets/papers/what-current-ai-benchmarks-leave-unmeasured-modality-search-citations-and-implications-for-safety-evaluations/figure-3.jpg)
-
-*Figure · 원문 PDF 7쪽 · Figure 3: Example benchmark prompt and responses. In this example from our data, the same SafetyBench prompt (A)*
-
-<!-- paper-visuals:end -->
 
 ## 한 문장 요약
 
@@ -72,5 +54,24 @@
 - 검색(외부 도구) 활성화 여부를 명시·통제하고, 검색이 정확도를 악화시킬 수 있음을 염두에 두어야 함 — 검색 호출 정책(calibration)과 검색결과 선택·정렬 방식이 중요함.
 - 채팅 UI 수집은 자동화·세션 격리·회전 프록시·속도 조절 등 추가 공학 비용이 들고 플랫폼 제한을 마주하므로 재현성 확보를 위해 관련 인프라(테스트베드, 검증된 수집 파이프라인)를 마련해야 함.
 - 인용·근거화 평가가 중요: 인용 URL/도메인 수준의 비교뿐 아니라 출처 신뢰성·관련성 평가, 검색 결과 질(검색이 답변을 왜곡하는 경우 존재)을 함께 측정하라. 또한 개발·배포시 기권 행동(그레이존 거부/허용 일관성)을 강력히 테스트해야 함.
+
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Average per-run accuracy across modalities](../assets/papers/what-current-ai-benchmarks-leave-unmeasured-modality-search-citations-and-implications-for-safety-evaluations/figure-1.jpg)
+
+*Figure · 원문 PDF 5쪽 · Figure 1: Average per-run accuracy across modalities*
+
+![Figure 2: Within-modality and between-modality re-](../assets/papers/what-current-ai-benchmarks-leave-unmeasured-modality-search-citations-and-implications-for-safety-evaluations/figure-2.jpg)
+
+*Figure · 원문 PDF 6쪽 · Figure 2: Within-modality and between-modality re-*
+
+![Figure 3: Example benchmark prompt and responses. In this example from our data, the same SafetyBench prompt (A)](../assets/papers/what-current-ai-benchmarks-leave-unmeasured-modality-search-citations-and-implications-for-safety-evaluations/figure-3.jpg)
+
+*Figure · 원문 PDF 7쪽 · Figure 3: Example benchmark prompt and responses. In this example from our data, the same SafetyBench prompt (A)*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 이 분석은 제공된 논문 PDF 본문 전 내용을 기반으로 작성되었으며(본문 텍스트, 표, 부록 포함), 본문에 명시된 수치(문항수 401, 응답수 4,812, 정확도·유사도·인용 겹침 수치 등)를 그대로 인용했다. 브라우저 자동화·프록시 구성 등의 구현 세부사항은 본문에 요약되어 있으나 내부 코드·환경(예: 정확한 자동화 도구명, 프록시 공급자)의 세부 구현은 PDF에서 직접 확인되지 않아 재현시 추가 구현 세부가 필요할 수 있다.

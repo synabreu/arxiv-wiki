@@ -9,24 +9,6 @@
 
 [← 2026-08-06 목록으로 돌아가기](../daily/2026-08-06.md)
 
-<!-- paper-visuals:start -->
-## 주요 Figure
-
-> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
-
-![Figure 1. Examples of classroom incidents.](../assets/papers/robust-and-efficient-motion-reasoning-for-privacy-aware-classroom-incident-recognition/figure-1.jpg)
-
-*Figure · 원문 PDF 1쪽 · Figure 1. Examples of classroom incidents.*
-
-![Figure 2. Performance vs. Efficiency for various models on our](../assets/papers/robust-and-efficient-motion-reasoning-for-privacy-aware-classroom-incident-recognition/figure-2.jpg)
-
-*Figure · 원문 PDF 2쪽 · Figure 2. Performance vs. Efficiency for various models on our*
-
-![Figure 3. Our synthetic dataset generation pipeline.](../assets/papers/robust-and-efficient-motion-reasoning-for-privacy-aware-classroom-incident-recognition/figure-3.jpg)
-
-*Figure · 원문 PDF 3쪽 · Figure 3. Our synthetic dataset generation pipeline.*
-
-<!-- paper-visuals:end -->
 
 ## 한 문장 요약
 
@@ -76,5 +58,24 @@ CCTV형 교실 영상에서 개인 식별 정보를 사용하지 않는 골격(�
 - 경량화 및 지연 요구 대응: 실시간·엣지 배포를 목표로 할 경우 제안처럼 학습 시 복합 정보를 활용하되 추론은 소형 zeroth-order student만 사용해 메모리·연산을 줄이는 전략이 유용함. 논문 구현은 teacher 채널 64 → student 채널 32로 축소함(학습 시 NTURGBD로 프리트레인 권장).
 - 증류·하이퍼파라미터: 재현을 위해 주요 하이퍼파라미터를 주의해 설정할 것 — 융합 가중치 {w0,w1,w2}={1.0,0.8,0.2}, 증류 온도 τ=4, 손실 가중치 λ_KD=0.3, λ_Cls=1.0. 또한 사전에 포즈 시계열을 Savitzky–Golay 필터로 평활화하는 전처리를 반드시 적용해야 고차 미분에서 노이즈 증폭을 억제할 수 있음.
 - 안전·윤리적 배포 권고: 합성 데이터 생성 과정에서 교사·도메인 전문가의 검토를 포함했으나, 실제 배포 전에는 지역 규제·학부모 동의·데이터 보관 정책을 충족해야 하며, 합성 데이터의 편향·비현실적 행동 가능성을 추가 검증할 것.
+
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1. Examples of classroom incidents.](../assets/papers/robust-and-efficient-motion-reasoning-for-privacy-aware-classroom-incident-recognition/figure-1.jpg)
+
+*Figure · 원문 PDF 1쪽 · Figure 1. Examples of classroom incidents.*
+
+![Figure 2. Performance vs. Efficiency for various models on our](../assets/papers/robust-and-efficient-motion-reasoning-for-privacy-aware-classroom-incident-recognition/figure-2.jpg)
+
+*Figure · 원문 PDF 2쪽 · Figure 2. Performance vs. Efficiency for various models on our*
+
+![Figure 3. Our synthetic dataset generation pipeline.](../assets/papers/robust-and-efficient-motion-reasoning-for-privacy-aware-classroom-incident-recognition/figure-3.jpg)
+
+*Figure · 원문 PDF 3쪽 · Figure 3. Our synthetic dataset generation pipeline.*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 본 분석은 제공된 논문 PDF 본문(페이지 1–13)에 근거해 작성되었음. 표와 본문에서 직접 제시된 수치(데이터셋 샘플 수, 표의 정확도 값, 하이퍼파라미터 등)를 사용했고, 저자가 명시적으로 적지 않은 정확한 파라미터 수치나 GFLOPs 값은 본문에 일관되게 제시되지 않아 일반적 기술적 진술(예: “1/10 수준의 파라미터”)은 원문 서술을 인용하여 기술함. 본문 내 구현 세부(예: teacher와 student의 정확한 파라미터 수)가 상이하게 서술된 부분(예: 구현에서는 student 채널을 절반으로 줄였다고 기술됨과 별개로 본문 중에는 ‘one sixth’로 서술된 구절)이 있어 해당 불일치는 원문 그대로 보고하였으며 추가 확인은 저자 제공 코드·릴리스 문서에서 권장함.

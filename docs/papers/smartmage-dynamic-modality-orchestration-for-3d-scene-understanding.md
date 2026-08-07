@@ -9,24 +9,6 @@
 
 [← 2026-08-06 목록으로 돌아가기](../daily/2026-08-06.md)
 
-<!-- paper-visuals:start -->
-## 주요 Figure
-
-> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
-
-![Figure 1: Motivation of SmartMage. (a) Different question types exhibit inherent modality preferences. (b) Previous MLLMs fuse](../assets/papers/smartmage-dynamic-modality-orchestration-for-3d-scene-understanding/figure-1.jpg)
-
-*Figure · 원문 PDF 1쪽 · Figure 1: Motivation of SmartMage. (a) Different question types exhibit inherent modality preferences. (b) Previous MLLMs fuse*
-
-![Figure 2: Overview of SmartMage. The omni-modal feature extractor first encodes text, RGB, depth, BEV, point cloud, and](../assets/papers/smartmage-dynamic-modality-orchestration-for-3d-scene-understanding/figure-2.jpg)
-
-*Figure · 원문 PDF 3쪽 · Figure 2: Overview of SmartMage. The omni-modal feature extractor first encodes text, RGB, depth, BEV, point cloud, and*
-
-![Figure 3: Details of the Modality Quality Evaluator. We](../assets/papers/smartmage-dynamic-modality-orchestration-for-3d-scene-understanding/figure-3.jpg)
-
-*Figure · 원문 PDF 4쪽 · Figure 3: Details of the Modality Quality Evaluator. We*
-
-<!-- paper-visuals:end -->
 
 ## 한 문장 요약
 
@@ -77,5 +59,24 @@
 - 학습 비용 절감 전략: 전체 LLM 파라미터를 동결하고 라우터·전문가·어댑터만 파인튜닝하면 학습 시간과 메모리 절감 가능(논문에서는 2×H800으로 1 epoch 학습, 시간/iter 47.44s 보고).
 - 설계·안정성 팁: 라우팅을 안정화하기 위해 L_bal(전문가 균형), L_ec(전문가 보정), L_ma(모달리티 귀속) 등 정규화 손실을 함께 적용하는 것이 중요(어블레이션 결과).
 - 배포 고려사항: SmartMage는 전처리(3D 렌더링/포인트 샘플링) 비용과 LLM-내 MoE 활성화 비용이 있어 엔드-투-엔드 지연에 민감한 애플리케이션은 TTFT/E2E 지표(논문 수치: TTFT≈112.5ms, E2E≈538.2ms)를 참고해 엔지니어링 최적화 필요. 또한 강화된 3D 인식 능력의 잠재적 오용(감시·군사 등)을 고려해 윤리적 사용 가이드라인을 수립해야 함.
+
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Motivation of SmartMage. (a) Different question types exhibit inherent modality preferences. (b) Previous MLLMs fuse](../assets/papers/smartmage-dynamic-modality-orchestration-for-3d-scene-understanding/figure-1.jpg)
+
+*Figure · 원문 PDF 1쪽 · Figure 1: Motivation of SmartMage. (a) Different question types exhibit inherent modality preferences. (b) Previous MLLMs fuse*
+
+![Figure 2: Overview of SmartMage. The omni-modal feature extractor first encodes text, RGB, depth, BEV, point cloud, and](../assets/papers/smartmage-dynamic-modality-orchestration-for-3d-scene-understanding/figure-2.jpg)
+
+*Figure · 원문 PDF 3쪽 · Figure 2: Overview of SmartMage. The omni-modal feature extractor first encodes text, RGB, depth, BEV, point cloud, and*
+
+![Figure 3: Details of the Modality Quality Evaluator. We](../assets/papers/smartmage-dynamic-modality-orchestration-for-3d-scene-understanding/figure-3.jpg)
+
+*Figure · 원문 PDF 4쪽 · Figure 3: Details of the Modality Quality Evaluator. We*
+
+<!-- paper-visuals:end -->
 
 **근거 범위:** 본 분석은 제공된 논문 PDF 본문(메인 텍스트, 표, 그림, 부록 요약 포함)을 근거로 작성되었음. 본문에 명시된 수치(성능 지표, 하이퍼파라미터, 구조·학습 설정, 전처리 구성 등)를 직접 인용했으며, PDF 레이아웃/중복 페이지로 인한 OCR 표현의 일부 기호적 왜곡은 문맥으로 보정함. 구현 세부(예: 정확한 코드 경로, 내부 초기화 시드)나 PDF에 상세히 기술되지 않은 추가 하이퍼파라미터는 작성하지 않았으므로 재현 시 논문 부록과 공개 코드(프로젝트 페이지)를 함께 참고할 것을 권고함.

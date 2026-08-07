@@ -76,6 +76,25 @@ GradCuit은 Transformer 내부의 연속 잠재 상태를 테스트 시점에 �
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/figure-1.jpg)
+
+*Figure · 원문 PDF 2쪽 · Figure 1: The GRADCUIT framework. The Transformer’s self-attention mechanism functions as a*
+
+![Figure 2: Learning-rate](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/figure-2.jpg)
+
+*Figure · 원문 PDF 6쪽 · Figure 2: Learning-rate*
+
+![Figure 3: Average accuracy across three represen-](../assets/papers/gradcuit-credit-assigned-gradient-flow-enables-robust-and-interpretable-test-time-latent-reasoning/figure-3.jpg)
+
+*Figure · 원문 PDF 6쪽 · Figure 3: Average accuracy across three represen-*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. 본문 1~19쪽에 걸친 주요 본문과 실험 섹션의 내용에 의거해 요약했다. 다만 구현 세부사항은 Appendix-A에 상세히 제시되므로 재현 시 Appendix를 참조해야 하며, 한계와 외부 일반화에 대한 논의는 본문에 제한적으로 명시되어 있어 해석 가능 범위에 주의가 필요하다.
 
 ---

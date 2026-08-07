@@ -73,6 +73,25 @@ VC-Tooler는 시각적 도구 사용을 구성적이고 적응적으로 학습�
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Existing methods often ground a single familiar tool](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/figure-1.jpg)
+
+*Figure · 원문 PDF 1쪽 · Figure 1: Existing methods often ground a single familiar tool*
+
+![Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/figure-2.jpg)
+
+*Figure · 원문 PDF 3쪽 · Figure 2: Overview of VC-Tooler. A two-stage framework with hierarchical trajectory supervision for cold start and tool-reward*
+
+![Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.](../assets/papers/vc-tooler-learning-compositional-and-adaptive-visual-tool-use/figure-3.jpg)
+
+*Figure · 원문 PDF 3쪽 · Figure 3: Trajectory synthesis via plan-then-execute and diverse tool-context reinstantiating.*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. 초록은 보조 정보로 활용했으며, 본문 및 보조 자료의 수치와 절차를 주로 참조했다. 표의 열 매핑은 본문에 제시된 순서를 바탕으로 해석했으나 일부 수치 매핑은 표 구성에 따라 다소 차이가 있을 수 있다. 보충 자료(S1–S7)의 구체 데이터 구성, 프롬프트 및 RL 세부 내용은 본문에 제시된 요약 외 추가 서술이 있으므로 분석에 반영하되 본문 수치 위주로 정리했다.
 
 ---

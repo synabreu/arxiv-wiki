@@ -64,6 +64,17 @@ ACEM은 에이전트형 소프트웨어 엔지니어링의 비용을 LLM 토큰 
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1. Overview of ACEM Cost Estimation Model for Agentic Software Engineering](../assets/papers/acem-a-cost-estimation-model-for-agentic-software-engineering/figure-1.jpg)
+
+*Figure · 원문 PDF 8쪽 · Figure 1. Overview of ACEM Cost Estimation Model for Agentic Software Engineering*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. 주석 처리된 상수(β, γ, α 등)는 교정 데이터로 확정되어야 하며, 본 분석에서 제시된 수치들은 논문 내 예시(예시 1, 예시 2)에서 발췌한 설명 수치로서 재현을 위한 일반화된 값으로 사용될 수 없다. 모델의 보정 데이터 없이 실험적 검증은 수행되지 않았으며, 단일 파이프라인의 예시 수치이므로 실제 운영 데이터와 차이가 있을 수 있다. PDF 범위 중 계산 보정의 구체적 값은 예시 표에 한정되어 있으며, Table 2의 β 값의 구체 수치는 본문에 제시된 예시에서만 확인된다. 향후 5장에 제시된 평가 계획에 따라 실험적 데이터로 보강해야 한다.
 
 ---

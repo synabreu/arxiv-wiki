@@ -78,6 +78,25 @@ CoPES는 전체 파라미터 공간을 K개의 저차원 서브스페이스로 �
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Overview of CoPES. At each training step, the model parameters are randomly partitioned into K disjoint subspaces,](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/figure-1.jpg)
+
+*Figure · 원문 PDF 4쪽 · Figure 1: Overview of CoPES. At each training step, the model parameters are randomly partitioned into K disjoint subspaces,*
+
+![Figure 2: Theoretical GPU memory requirements versus con-](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/figure-2.jpg)
+
+*Figure · 원문 PDF 5쪽 · Figure 2: Theoretical GPU memory requirements versus con-*
+
+![Figure 3: Pass@k of four post-training methods under the 16-step full-parameter GRPO budget, with Qwen3.5-4B and Qwen3.5-](../assets/papers/cooperative-coevolution-for-resource-constrained-agentic-llm-post-training/figure-3.jpg)
+
+*Figure · 원문 PDF 6쪽 · Figure 3: Pass@k of four post-training methods under the 16-step full-parameter GRPO budget, with Qwen3.5-4B and Qwen3.5-*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. Supplementary Material에 수치 및 구현 세부가 병기되어 있어 본문 텍스트만으로 해석한 부분은 일부 수치가 표 위치나 형식에 따라 다르게 읽힐 수 있다. 가능한 경우 원문 표/수치를 상응하는 Supplementary 자료와 대조하는 것을 권장한다.
 
 ---

@@ -78,6 +78,25 @@
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Motivation. We argue that independent skill re-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/figure-1.jpg)
+
+*Figure · 원문 PDF 1쪽 · Figure 1: Motivation. We argue that independent skill re-*
+
+![Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/figure-2.jpg)
+
+*Figure · 원문 PDF 3쪽 · Figure 2: Overview of SkillTrace with an intuitive example. SkillTrace decomposes a complex query into atomic skill queries,*
+
+![Figure 3: Success rate comparison between GoS and Skill-](../assets/papers/skilltrace-traversing-a-query-skill-graph-for-composable-llm-agents/figure-3.jpg)
+
+*Figure · 원문 PDF 6쪽 · Figure 3: Success rate comparison between GoS and Skill-*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. 제공된 PDF 본문에서 발췌한 수치 및 알고리즘 상세를 바탕으로 작성했다. 다만 패턴 프롬프트 patom의 구체 구성이나 전체 구현 세부 등 본문에 제시되지 않은 세부는 재현에 필요한 수준으로 제한적으로 다루었고, 일부 수치의 맥락(특정 실험 설정의 세부) 은 본문에 명시적으로 제시되지 않아 확인이 필요한 부분이 있다.
 
 ---

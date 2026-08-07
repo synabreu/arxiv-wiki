@@ -72,6 +72,21 @@ ScrambleToolBench는 의미적 단서를 제거한 상호작용 터미널 벤치
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/figure-1.jpg)
+
+*Figure · 원문 PDF 4쪽 · Figure 1: Overview of a ScrambleToolBench evaluation episode. The agent is presented with a sequential*
+
+![Figure 2: Reasoning-budget ablation over 20 five-task episodes per cell. Panels (a)–(c) compare the scrambled](../assets/papers/scrambletoolbench-agents-search-exhaustively-even-when-their-own-map-points-to-the-next-step/figure-2.jpg)
+
+*Figure · 원문 PDF 15쪽 · Figure 2: Reasoning-budget ablation over 20 five-task episodes per cell. Panels (a)–(c) compare the scrambled*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. 제시된 수치와 실험 설정은 주어진 PDF 본문에서 직접 수집·정리하였다. 다만 표의 일부 구간은 요약해 기술되었고, 재현 시 표와 수치의 세부 값은 본문 표를 참고해야 한다. 또한 본 분석은 페이지 1–23의 내용에 의존하며, 부록 B/C의 상세 목록 및 코드의 실제 구현 세부는 링크된 코드베이스를 확인해야 한다.
 
 ---

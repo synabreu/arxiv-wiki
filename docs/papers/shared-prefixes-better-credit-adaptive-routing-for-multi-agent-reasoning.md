@@ -87,6 +87,25 @@ TreeCredit은 동일한 중간 상태에서 후보 연산자를 공유-prefix로
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: Motivation for state-matched operator credit. (a)](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/figure-1.jpg)
+
+*Figure · 원문 PDF 1쪽 · Figure 1: Motivation for state-matched operator credit. (a)*
+
+![Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/figure-2.jpg)
+
+*Figure · 원문 PDF 3쪽 · Figure 2: Overview of TreeCredit. Shared-prefix collaboration trees are expanded offline to assign correctness-prioritized suffix*
+
+![Figure 3: Accuracy-Cost comparison using the average re-](../assets/papers/shared-prefixes-better-credit-adaptive-routing-for-multi-agent-reasoning/figure-3.jpg)
+
+*Figure · 원문 PDF 6쪽 · Figure 3: Accuracy-Cost comparison using the average re-*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. 제공된 PDF 텍스트를 바탕으로 핵심 수식, 알고리즘 흐름, 학습 설정 및 실험 수치를 정리하였다. 다만 표 1의 전체 수치 형식이나 일부 형식은 원문 표의 정확한 열 정렬에 의존하므로 본문에서 명시된 요약 수치를 우선 반영하였다. 표 2의 정확도 전이 수치나 표 3의 구체 수치 일부는 텍스트의 표 해석에 따라 근접하게 기술되었다. 원문 표의 세부 수치가 필요하면 원문 표를 직접 확인하는 것을 권장한다.
 
 ---

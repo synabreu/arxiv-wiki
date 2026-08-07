@@ -74,6 +74,25 @@ MemArbiter는 상호작용 기록을 다섯 가지 기능적 메모리 은행으
 
 <!-- paper-visuals:end -->
 
+<!-- paper-visuals:start -->
+## 주요 Figure
+
+> 원문 PDF에서 실제 Figure 캡션과 그림 영역이 함께 확인된 자료만 자동 추출했다.
+
+![Figure 1: A case illustrating the Memory-Action Gap caused](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/figure-1.jpg)
+
+*Figure · 원문 PDF 2쪽 · Figure 1: A case illustrating the Memory-Action Gap caused*
+
+![Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/figure-2.jpg)
+
+*Figure · 원문 PDF 4쪽 · Figure 2: An overview of the MemArbiter framework. At each decision step, MemArbiter forms function-aware memory banks*
+
+![Figure 3: Success rate under different interaction-step limits](../assets/papers/memarbiter-decision-time-memory-arbitration-for-long-horizon-llm-agents/figure-3.jpg)
+
+*Figure · 원문 PDF 5쪽 · Figure 3: Success rate under different interaction-step limits*
+
+<!-- paper-visuals:end -->
+
 **근거 범위:** 논문 PDF 본문 기반 분석. 제공된 PDF 범위에서 추출된 텍스트를 바탕으로 정리하였으며, 알고리즘의 전체 구현 세부나 학습/추론 파이프라인의 미세한 파라미터까지는 본문 인용만으로 한정되어 있다. 일부 수식의 맥락은 본문 발췌에 의존하므로, 원문 전체의 수식 전개를 완전히 재현하려면 원문 전체를 확인이 필요하다.
 
 ---
