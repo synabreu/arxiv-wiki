@@ -117,7 +117,7 @@ def render_paper_detail(
         f"- **저자:** {', '.join(paper.authors)}",
         f"- **분야:** {', '.join(paper.categories)}",
         f"- **선정 점수:** {item.score:.2f}",
-        f"- **선정 이유:** {', '.join(item.score_reasons[:5])}",
+        f"- **선정 이유:** {', '.join(item.score_reasons)}",
         "",
         f"[← {target_date.isoformat()} 목록으로 돌아가기](../daily/{target_date.isoformat()}.md)",
         "",

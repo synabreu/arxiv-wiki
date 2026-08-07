@@ -11,6 +11,7 @@ from .analyzer import analyze_paper
 from .arxiv_client import fetch_recent_papers
 from .markdown import write_daily
 from .ranking import rank_papers
+from .scholarly import fetch_scholarly_signals
 
 DEFAULT_CATEGORIES = ["cs.AI", "cs.CL", "cs.LG", "cs.CV", "cs.SE", "cs.DC"]
 ARXIV_ID_PATTERN = re.compile(r"(?:arxiv\.org/(?:abs|pdf)/)?(\d{4}\.\d{4,5})(?:v\d+)?", re.IGNORECASE)
@@ -48,7 +49,10 @@ def run(args: argparse.Namespace) -> Path | None:
     seen_ids = load_seen_arxiv_ids(output_dir, state_path)
     papers = fetch_recent_papers(args.categories, args.lookback_hours, args.max_results)
     new_papers = [paper for paper in papers if normalize_arxiv_id(paper.arxiv_id) not in seen_ids]
-    ranked = rank_papers(new_papers, args.limit)
+    scholarly_signals = fetch_scholarly_signals(
+        new_papers, os.getenv("SEMANTIC_SCHOLAR_API_KEY")
+    )
+    ranked = rank_papers(new_papers, args.limit, scholarly_signals=scholarly_signals)
     if not ranked:
         print("새로 등록된 미처리 논문이 없습니다. 기존 아카이브와 중복된 논문은 제외했습니다.")
         return None
@@ -68,7 +72,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--categories", nargs="+", default=DEFAULT_CATEGORIES)
     parser.add_argument("--lookback-hours", type=int, default=72)
     parser.add_argument("--max-results", type=int, default=50)
-    parser.add_argument("--limit", type=int, default=10)
+    parser.add_argument("--limit", type=int, default=5)
     parser.add_argument("--output-dir", default="docs/daily")
     parser.add_argument("--model", default=os.getenv("OPENAI_MODEL"))
     parser.add_argument("--no-llm", action="store_true")

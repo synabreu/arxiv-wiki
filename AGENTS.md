@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## Project goal
-Generate a daily, public Markdown digest of ten notable arXiv AI papers.
+Generate a daily, public Markdown digest of five notable arXiv AI papers.
 
 ## Rules
 - Never invent claims, numbers, datasets, or benchmark results.
