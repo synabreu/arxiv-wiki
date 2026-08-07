@@ -9,6 +9,7 @@ src/arxiv_wiki/figures.py
 src/arxiv_wiki/markdown.py
 src/arxiv_wiki/models.py
 src/arxiv_wiki/ranking.py
+src/arxiv_wiki/scholarly.py
 src/arxiv_wiki.egg-info/PKG-INFO
 src/arxiv_wiki.egg-info/SOURCES.txt
 src/arxiv_wiki.egg-info/dependency_links.txt
@@ -17,3 +18,4 @@ src/arxiv_wiki.egg-info/requires.txt
 src/arxiv_wiki.egg-info/top_level.txt
 tests/test_markdown.py
 tests/test_ranking.py
+tests/test_scholarly.py

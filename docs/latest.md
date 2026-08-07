@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning](papers/envace-internalizing-environment-dynamics-via-world-rehearsal-for-agentic-reinforcement-learning.html)
-- [Learning Globally Reusable Skills for Coding Agents](papers/learning-globally-reusable-skills-for-coding-agents.html)
-- [MetaboLLM: a metabolomics-specialized large language model for biochemical knowledge integration and predictive metabolite graph construction](papers/metabollm-a-metabolomics-specialized-large-language-model-for-biochemical-knowledge-integration-and-predictive-metabolite-graph-construction.html)
-- [What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citations, and Implications (for Safety Evaluations)](papers/what-current-ai-benchmarks-leave-unmeasured-modality-search-citations-and-implications-for-safety-evaluations.html)
-- [Prior-SG: Task and Prior Driven Region Segmentation for Scene Graphs in Arbitrarily-Structured Environments](papers/prior-sg-task-and-prior-driven-region-segmentation-for-scene-graphs-in-arbitrarily-structured-environments.html)
+- [HarnessOpt-Bench: Evaluating LLMs at Harness Optimization](papers/harnessopt-bench-evaluating-llms-at-harness-optimization.html)
+- [A Six-Dimensional Taxonomy of Post-Training Adaptation Techniques with Applications in AI Governance](papers/a-six-dimensional-taxonomy-of-post-training-adaptation-techniques-with-applications-in-ai-governance.html)
+- [From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks](papers/from-passive-mirrors-to-active-agents-holonic-digital-twins-for-physical-ai-over-networks.html)
+- [TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories](papers/trajdebug-tracing-error-lifecycle-to-identify-critical-failures-in-long-horizon-agent-trajectories.html)
+- [Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering](papers/tracing-the-heart-an-evidence-linked-pipeline-for-heart-failure-feature-engineering.html)

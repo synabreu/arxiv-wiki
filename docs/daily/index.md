@@ -18,11 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
-| [2026-08-07](2026-08-07.html) | [EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning](../papers/envace-internalizing-environment-dynamics-via-world-rehearsal-for-agentic-reinforcement-learning.html) |
-| [2026-08-07](2026-08-07.html) | [Learning Globally Reusable Skills for Coding Agents](../papers/learning-globally-reusable-skills-for-coding-agents.html) |
-| [2026-08-07](2026-08-07.html) | [MetaboLLM: a metabolomics-specialized large language model for biochemical knowledge integration and predictive metabolite graph construction](../papers/metabollm-a-metabolomics-specialized-large-language-model-for-biochemical-knowledge-integration-and-predictive-metabolite-graph-construction.html) |
-| [2026-08-07](2026-08-07.html) | [What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citations, and Implications (for Safety Evaluations)](../papers/what-current-ai-benchmarks-leave-unmeasured-modality-search-citations-and-implications-for-safety-evaluations.html) |
-| [2026-08-07](2026-08-07.html) | [Prior-SG: Task and Prior Driven Region Segmentation for Scene Graphs in Arbitrarily-Structured Environments](../papers/prior-sg-task-and-prior-driven-region-segmentation-for-scene-graphs-in-arbitrarily-structured-environments.html) |
+| [2026-08-07](2026-08-07.html) | [HarnessOpt-Bench: Evaluating LLMs at Harness Optimization](../papers/harnessopt-bench-evaluating-llms-at-harness-optimization.html) |
+| [2026-08-07](2026-08-07.html) | [A Six-Dimensional Taxonomy of Post-Training Adaptation Techniques with Applications in AI Governance](../papers/a-six-dimensional-taxonomy-of-post-training-adaptation-techniques-with-applications-in-ai-governance.html) |
+| [2026-08-07](2026-08-07.html) | [From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks](../papers/from-passive-mirrors-to-active-agents-holonic-digital-twins-for-physical-ai-over-networks.html) |
+| [2026-08-07](2026-08-07.html) | [TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories](../papers/trajdebug-tracing-error-lifecycle-to-identify-critical-failures-in-long-horizon-agent-trajectories.html) |
+| [2026-08-07](2026-08-07.html) | [Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering](../papers/tracing-the-heart-an-evidence-linked-pipeline-for-heart-failure-feature-engineering.html) |
 | [2026-08-06](2026-08-06.html) | [Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition](../papers/robust-and-efficient-motion-reasoning-for-privacy-aware-classroom-incident-recognition.html) |
 | [2026-08-06](2026-08-06.html) | [Chained Recursive Language Models for Multi-Iteration Reasoning](../papers/chained-recursive-language-models-for-multi-iteration-reasoning.html) |
 | [2026-08-06](2026-08-06.html) | [SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding](../papers/smartmage-dynamic-modality-orchestration-for-3d-scene-understanding.html) |
