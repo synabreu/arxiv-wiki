@@ -59,6 +59,44 @@ ACADEMIC_SIGNALS = {
     "statistical": 0.2,
 }
 
+# Labs/model families that are especially relevant to open-weight AI development.
+# The scorer only uses public title/abstract text, so these are transparent keyword
+# boosts rather than inferred author affiliations.
+OPEN_WEIGHT_LAB_SIGNALS = {
+    "nvidia": 1.4,
+    "nemotron": 1.2,
+    "openai": 1.0,
+    "gpt-oss": 1.5,
+    "alibaba": 1.4,
+    "qwen": 1.5,
+    "deepseek": 1.6,
+    "moonshot ai": 1.4,
+    "moonshot": 1.2,
+    "kimi": 1.6,
+    "meta": 0.8,
+    "llama": 1.2,
+    "mistral": 1.2,
+    "zhipu": 1.1,
+    "glm": 1.0,
+}
+
+OPEN_WEIGHT_RELEASE_SIGNALS = {
+    "open weight": 1.6,
+    "open-weight": 1.6,
+    "open weights": 1.6,
+    "open-weights": 1.6,
+    "open model": 1.0,
+    "open-model": 1.0,
+    "model weights": 1.1,
+    "weights released": 1.2,
+    "release weights": 1.2,
+    "checkpoint": 0.6,
+    "checkpoints": 0.6,
+    "hugging face": 0.5,
+    "apache 2.0": 0.7,
+    "mit license": 0.6,
+}
+
 
 def _contains(text: str, phrase: str) -> bool:
     return re.search(rf"(?<!\w){re.escape(phrase)}(?!\w)", text) is not None
@@ -74,7 +112,12 @@ def rank_papers(
     scholarly_signals: dict[str, ScholarlySignals] | None = None,
     now: datetime | None = None,
 ) -> list[RankedPaper]:
-    """Rank papers with transparent, capped signals suited to daily curation."""
+    """Rank papers with transparent, capped signals suited to daily curation.
+
+    In addition to recency, scholarly impact, AI fit and developer relevance,
+    prioritize papers explicitly tied in the title/abstract to major open-weight
+    labs/model families or to public weight/checkpoint releases.
+    """
     current_time = now or datetime.now(UTC)
     signals_by_id = scholarly_signals or {}
     ranked: list[RankedPaper] = []
@@ -106,6 +149,10 @@ def rank_papers(
         if len(paper.summary) >= 800:
             academic_quality = min(academic_quality + 0.3, 1.8)
 
+        open_weight_lab = _sum_present(text, OPEN_WEIGHT_LAB_SIGNALS, 2.5)
+        open_weight_release = _sum_present(text, OPEN_WEIGHT_RELEASE_SIGNALS, 2.5)
+        open_weight_focus = min(open_weight_lab + open_weight_release, 4.0)
+
         score = (
             recency
             + citation_impact
@@ -113,6 +160,7 @@ def rank_papers(
             + ai_fit
             + developer_interest
             + academic_quality
+            + open_weight_focus
         )
         reasons = [
             f"최근성 {recency:.1f}",
@@ -121,6 +169,7 @@ def rank_papers(
             f"AI 주제 적합성 {ai_fit:.1f}",
             f"개발자 관심 {developer_interest:.1f}",
             f"학술 신호 {academic_quality:.1f}",
+            f"오픈 웨이트·주요 연구조직 신호 {open_weight_focus:.1f}",
         ]
         ranked.append(
             RankedPaper(paper=paper, score=round(score, 2), score_reasons=reasons)
