@@ -1,5 +1,7 @@
 # arXiv AI Wiki
 
+![새로 등록된 AI 논문에서 관심도가 높은 5편을 선별하는 과정](assets/arxiv-ai-top-five-hero.jpg)
+
 매일 arXiv에 새로 등록된 AI 논문 가운데 관심도가 높은 5편을 선별해 한국어로 정리한다.
 
 - [최신 요약](latest.md)

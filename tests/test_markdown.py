@@ -98,3 +98,13 @@ def test_archive_index_places_search_before_table(tmp_path):
     assert 'type="submit">검색</button>' in markdown
     assert 'src="../assets/archive-search.js"' in markdown
     assert "[EnvACE](../papers/envace.md)" in markdown
+
+
+def test_homepage_places_top_five_hero_below_title():
+    homepage = Path("docs/index.md").read_text(encoding="utf-8")
+    title = "# arXiv AI Wiki"
+    hero = "![새로 등록된 AI 논문에서 관심도가 높은 5편을 선별하는 과정]"
+
+    assert homepage.index(title) < homepage.index(hero)
+    assert "(assets/arxiv-ai-top-five-hero.jpg)" in homepage
+    assert Path("docs/assets/arxiv-ai-top-five-hero.jpg").is_file()
