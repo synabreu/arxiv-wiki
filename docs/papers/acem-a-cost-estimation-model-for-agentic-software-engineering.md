@@ -25,7 +25,14 @@ ACEM은 에이전트형 소프트웨어 엔지니어링의 비용을 LLM 토큰 
 
 ### 접근 방법
 
-ACEM은 총 비용을 CLLM + CHITL + CInfra로 정의하고, CLLM은 Tin,i + Tout,i를 RFi × CFi로 보정한 뒤 Pmodel로 가격화하는 구조를 갖는다. 다중 모델 tier를 고려하는 경우 Equations 3-4로 확장한다. BaseTokens는 artifact type와 complexity에 따라 β값으로 정의된 입력/출력 토큰을 산정하며, RF(식 6)와 CF(식 7)를 통해 컨텍스트 축적과 재수정 비용을 반영한다. HITL 비용은 Creview(식 9)와 Crework(식 10)으로 구성되며 HIS(Table 3)로 인가된 감독 강도를 분류한다. 인프라는 Uk × Pk의 합으로 계산하며, 3.5에서 UCP/SP/FP를 γ 상수로 곱해 Tbase,total로 환산하는 매핑도 제공한다(식 12–14). 보정 상수 γUCP, γSP, γFP는 교정 실험에서 산출되며, RF, CF, β, α 등은 에이전트별로 재보정이 필요하다. 또한 두 예시를 통해 토큰 비용과 HITL 비용의 상대적 기여도 변동성을 시연한다. Calibrations Steps 1–4를 통해 pilot 데이터에서 β, α, RF, CF를 추정하는 절차를 제시한다.
+* ACEM은 총 비용을 CLLM + CHITL + CInfra로 정의하고, CLLM은 Tin,i + Tout,i를 RFi × CFi로 보정한 뒤 Pmodel로 가격화하는 구조를 갖는다.
+* 다중 모델 tier를 고려하는 경우 Equations 3-4로 확장한다.
+* BaseTokens는 artifact type와 complexity에 따라 β값으로 정의된 입력/출력 토큰을 산정하며, RF(식 6)와 CF(식 7)를 통해 컨텍스트 축적과 재수정 비용을 반영한다.
+* HITL 비용은 Creview(식 9)와 Crework(식 10)으로 구성되며 HIS(Table 3)로 인가된 감독 강도를 분류한다.
+* 인프라는 Uk × Pk의 합으로 계산하며, 3.5에서 UCP/SP/FP를 γ 상수로 곱해 Tbase,total로 환산하는 매핑도 제공한다(식 12–14).
+* 보정 상수 γUCP, γSP, γFP는 교정 실험에서 산출되며, RF, CF, β, α 등은 에이전트별로 재보정이 필요하다.
+* 또한 두 예시를 통해 토큰 비용과 HITL 비용의 상대적 기여도 변동성을 시연한다.
+* Calibrations Steps 1–4를 통해 pilot 데이터에서 β, α, RF, CF를 추정하는 절차를 제시한다.
 
 ### 주요 결과
 

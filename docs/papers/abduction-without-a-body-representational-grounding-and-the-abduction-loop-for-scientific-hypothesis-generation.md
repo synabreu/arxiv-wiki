@@ -25,7 +25,10 @@ Embodiment Necessity Thesis(ENT) 하에서 모든 과학적 귀추가 지속적 
 
 ### 접근 방법
 
-핵심 아이디어는 표상 간의 변환을 통해 구조적 불변성을 노출시키는 representational grounding을 토대로 귀추를 생성하고 검증하는 Abduction Loop를 구현하는 것이다. 구체적으로는(1) Representation construction: source 모델의 다중 관점(renderings)을 구축하고(2) Motif extraction: 각 뷰를 모티프로 분해하여 위상, 대칭성, 계층, 흐름 방향 등의 구조 정보를 추출하고(3) Convention-space canonicalization and cross-domain retrieval: 모티프를 convention space에 매핑하여 서로 다른 분야의 문헌에서 구조적으로 일치하는 쌍을 찾고(4) Identity-hypothesis generation: 각 쌍에 대해 명시적 대응딕셔너리를 포함한 후보 매핑을 도출하고(5) Adversarial verification: 스펙트럼, 커널, 대칭 클래스, 연산 순서, 경계조건 등 computable invariants으로 후보를 의도적으로 파괴하려 시도하여 검증 가능성을 평가하며(6) abstention을 기본값으로 두어 검증되지 않는 경우에는 침묵하도록 설계한다. 또한 Stage A(전시적 발견)와 Stage B(반증 중심 검증)라는 두 설계 원칙을 제시하고, 모티프 레벨 M1–M4 구분 및 5단계 L1–L5의 등급 체계로 증거의 깊이와 신뢰도를 계량화한다. DAB-30 벤치마크는 30개의 대상 그림에 대해 전체 루프를 블라인드 조건에서 실행해 정합성 있는 cross-domain 귀추를 평가하도록 구성된다.
+* 핵심 아이디어는 표상 간의 변환을 통해 구조적 불변성을 노출시키는 representational grounding을 토대로 귀추를 생성하고 검증하는 Abduction Loop를 구현하는 것이다.
+* 구체적으로는(1) Representation construction: source 모델의 다중 관점(renderings)을 구축하고(2) Motif extraction: 각 뷰를 모티프로 분해하여 위상, 대칭성, 계층, 흐름 방향 등의 구조 정보를 추출하고(3) Convention-space canonicalization and cross-domain retrieval: 모티프를 convention space에 매핑하여 서로 다른 분야의 문헌에서 구조적으로 일치하는 쌍을 찾고(4) Identity-hypothesis generation: 각 쌍에 대해 명시적 대응딕셔너리를 포함한 후보 매핑을 도출하고(5) Adversarial verification: 스펙트럼, 커널, 대칭 클래스, 연산 순서, 경계조건 등 computable invariants으로 후보를 의도적으로 파괴하려 시도하여 검증 가능성을 평가하며(6) abstention을 기본값으로 두어 검증되지 않는 경우에는 침묵하도록 설계한다.
+* 또한 Stage A(전시적 발견)와 Stage B(반증 중심 검증)라는 두 설계 원칙을 제시하고, 모티프 레벨 M1–M4 구분 및 5단계 L1–L5의 등급 체계로 증거의 깊이와 신뢰도를 계량화한다.
+* DAB-30 벤치마크는 30개의 대상 그림에 대해 전체 루프를 블라인드 조건에서 실행해 정합성 있는 cross-domain 귀추를 평가하도록 구성된다.
 
 ### 주요 결과
 

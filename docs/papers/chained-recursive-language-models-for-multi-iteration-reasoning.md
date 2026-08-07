@@ -38,7 +38,15 @@
 
 ## 접근 방법
 
-아키텍처: 질의 q와 원문 컨텍스트 c는 모든 루트가 항상 입력으로 받는다. 체인 상태 sr = (Br, Ar, Hr, Er)만 루트 간 연속성으로 전달한다. Br은 짧은 plain-text blackboard(최고 답안, 검증된 사실, 가정, 열려있는 질문 등), Ar은 디스크에 저장되는 durable plain-text artifacts(후속 루트가 보존·수정·감사해야 하는 후보 ledgers·표·검증 목록 등), Hr은 predecessor handoff 요약, Er은 최근 작업 발췌(선택적)이다. 루트(root)는 fresh LLM 호출로서 Python REPL 스타일 도구 집합 T에 접근 가능하며 코드 실행, 부-LLM 호출, artifact 읽기/쓰기, intermediate 출력 등을 한다. 인계(HANDOFF)는 엄격한 세 섹션(SUMMARY, BLACKBOARD, NEXT)으로 작성하거나 FINAL: <answer>를 제출한다. 시스템 프롬프트에는 '각 루트는 반드시 하나의 plain-text artifact를 생성/업데이트해야 한다', 'Root0가 artifact 구조를 정하고 이후 루트는 구조를 보존해야 한다', 'FINAL 전에는 관련 엔터티 매핑·카운트·정의 등을 감사하라' 등 규칙이 포함된다. 알고리즘 흐름: 각 루트는 체인 상태를 읽고 bounded한 유용한 단계를 수행한 뒤 artifact를 작성/수정하고 HANDOFF 또는 FINAL을 제출한다. 전체 원리는 artifact-매개 인계로 중간 산출물을 외부화하고, 이후 fresh root가 이를 재검토·수정·집계하도록 하여 장기 상태 관리의 안정성을 높이는 것이다. 학습은 포함되지 않으며(무학습·무RL), 동일 모델을 여러 번 호출하는 추론-시간 아키텍처이다.
+* 아키텍처: 질의 q와 원문 컨텍스트 c는 모든 루트가 항상 입력으로 받는다.
+* 체인 상태 sr = (Br, Ar, Hr, Er)만 루트 간 연속성으로 전달한다.
+* Br은 짧은 plain-text blackboard(최고 답안, 검증된 사실, 가정, 열려있는 질문 등), Ar은 디스크에 저장되는 durable plain-text artifacts(후속 루트가 보존·수정·감사해야 하는 후보 ledgers·표·검증 목록 등), Hr은 predecessor handoff 요약, Er은 최근 작업 발췌(선택적)이다.
+* 루트(root)는 fresh LLM 호출로서 Python REPL 스타일 도구 집합 T에 접근 가능하며 코드 실행, 부-LLM 호출, artifact 읽기/쓰기, intermediate 출력 등을 한다.
+* 인계(HANDOFF)는 엄격한 세 섹션(SUMMARY, BLACKBOARD, NEXT)으로 작성하거나 FINAL: <answer>를 제출한다.
+* 시스템 프롬프트에는 '각 루트는 반드시 하나의 plain-text artifact를 생성/업데이트해야 한다', 'Root0가 artifact 구조를 정하고 이후 루트는 구조를 보존해야 한다', 'FINAL 전에는 관련 엔터티 매핑·카운트·정의 등을 감사하라' 등 규칙이 포함된다.
+* 알고리즘 흐름: 각 루트는 체인 상태를 읽고 bounded한 유용한 단계를 수행한 뒤 artifact를 작성/수정하고 HANDOFF 또는 FINAL을 제출한다.
+* 전체 원리는 artifact-매개 인계로 중간 산출물을 외부화하고, 이후 fresh root가 이를 재검토·수정·집계하도록 하여 장기 상태 관리의 안정성을 높이는 것이다.
+* 학습은 포함되지 않으며(무학습·무RL), 동일 모델을 여러 번 호출하는 추론-시간 아키텍처이다.
 
 ## 주요 결과
 

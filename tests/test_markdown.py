@@ -55,15 +55,28 @@ def test_method_markdown_table_is_rendered_as_bullets():
 def test_method_escapes_equation_pipes_that_kramdown_treats_as_a_table():
     rendered = render_method("행동은 πθ(·|ht, ACT), 관찰은 πθ(·|ht, at, REHEARSE)로 생성한다.")
 
-    assert rendered == "행동은 πθ(·\\|ht, ACT), 관찰은 πθ(·\\|ht, at, REHEARSE)로 생성한다."
+    assert rendered == "* 행동은 πθ(·\\|ht, ACT), 관찰은 πθ(·\\|ht, at, REHEARSE)로 생성한다."
+
+
+def test_method_is_split_into_one_sentence_star_bullets():
+    rendered = render_method("첫 번째 절차를 수행한다. 두 번째 절차를 수행한다. 결과를 확인한다.")
+
+    assert rendered.splitlines() == [
+        "* 첫 번째 절차를 수행한다.",
+        "* 두 번째 절차를 수행한다.",
+        "* 결과를 확인한다.",
+    ]
 
 
 def test_existing_paper_methods_do_not_contain_unescaped_pipes():
     for path in Path("docs/papers").glob("*.md"):
         markdown = path.read_text(encoding="utf-8")
         match = re.search(
-            r"(?ms)^## 접근 방법\s*\n(?P<body>.*?)(?=^## |^\*\*근거 범위:\*\*|^---$|\Z)",
+            r"(?ms)^###? 접근 방법\s*\n(?P<body>.*?)(?=^###? |^\*\*근거 범위:\*\*|^---$|\Z)",
             markdown,
         )
         if match:
-            assert not re.search(r"(?<!\\)\|", match.group("body")), path
+            body = match.group("body").strip()
+            assert not re.search(r"(?<!\\)\|", body), path
+            assert all(line.startswith("* ") for line in body.splitlines() if line.strip()), path
+            assert render_method(body) == body, path

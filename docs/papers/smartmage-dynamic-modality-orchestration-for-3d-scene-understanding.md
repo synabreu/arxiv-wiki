@@ -46,7 +46,16 @@
 
 ## 접근 방법
 
-아키텍처: 입력은 RGB-D 비디오(키프레임 선택 FoVSR), BEV(메시로 렌더링), 포인트 클라우드(8192 pts, PointNet++), 복셀(Mask3D 기반 sparse U-Net) 등 모달리티 집합 M={rgb,dpt,bev,pc,vox}을 비주얼 임베딩 공간으로 투영해 {f_m}_{m∈M}을 얻는다. SMART: 텍스트 임베딩 f_txt로부터 (1) SPE: f_txt→모달리티 선호 prior p (softmax로 예측), (2) SSS: 텍스트-모달리티 정렬을 위해 modality-specific query φ_m을 이용한 cross-attention으로 ˆf_m 생성 후 g_txt와 코사인 유사도로 s_m 산출(정규화·어파인 보정 포함), (3) MQE: 각 모달리티의 활성화 통계(강도 μ_m, 희소성 ρ_m, 안정성 σ^2_m)를 선형 헤드로 변환해 품질 점수 q_m 산출. 이들 가중합 z = α_p p + α_s s + α_q q + b와 RGB 증거 게이트로 최종 모달리티 선택(항상 RGB는 primary로 유지). MAGE: LLM 내부에 소프트 MoE 라우터를 삽입(레이어 8,12,16,20,24,28; 각 레이어 8 experts; top-2 routing). 각 토큰 h_i^(ℓ)에 대해 라우팅 확률 π_i,e 계산(softmax 형태, 온도 τ), Top-K 전문가로 집계. MES는 토큰별 모달리티 분포 r_i를 예측하고, 모달리티-전문가 호환성 행렬 A를 이용해 전문가 사전 ˜π_i,e를 구성하여 라우터의 확률적 우선순위를 유도한다(교차 엔트로피/정규화 손실로 정렬). 학습 및 파인튜닝: 시각 인코더 고정, 어댑터·라우터·전문가 분기만 학습. 초기화는 Qwen3-VL-8B-Instruct, 전문가들은 사전학습된 FFN으로 초기화. 손실은 L = L_ce + λ_sem L_sem + λ_dis L_dis + L_ma + L_ec + λ_bal L_bal으로 구성되어 semantic alignment와 expert assignment를 함께 정규화(하이퍼: λ_sem=0.5, λ_dis=1.0, λ_bal=0.01). 최적화는 AdamW(lr=2e-5, warm-up 0.03, cosine decay), 1 epoch, batch 64, 2×H800 GPU, BF16, DeepSpeed ZeRO-2.
+* 아키텍처: 입력은 RGB-D 비디오(키프레임 선택 FoVSR), BEV(메시로 렌더링), 포인트 클라우드(8192 pts, PointNet++), 복셀(Mask3D 기반 sparse U-Net) 등 모달리티 집합 M={rgb,dpt,bev,pc,vox}을 비주얼 임베딩 공간으로 투영해 {f_m}_{m∈M}을 얻는다.
+* SMART: 텍스트 임베딩 f_txt로부터 (1) SPE: f_txt→모달리티 선호 prior p (softmax로 예측), (2) SSS: 텍스트-모달리티 정렬을 위해 modality-specific query φ_m을 이용한 cross-attention으로 ˆf_m 생성 후 g_txt와 코사인 유사도로 s_m 산출(정규화·어파인 보정 포함), (3) MQE: 각 모달리티의 활성화 통계(강도 μ_m, 희소성 ρ_m, 안정성 σ^2_m)를 선형 헤드로 변환해 품질 점수 q_m 산출.
+* 이들 가중합 z = α_p p + α_s s + α_q q + b와 RGB 증거 게이트로 최종 모달리티 선택(항상 RGB는 primary로 유지).
+* MAGE: LLM 내부에 소프트 MoE 라우터를 삽입(레이어 8,12,16,20,24,28; 각 레이어 8 experts; top-2 routing).
+* 각 토큰 h_i^(ℓ)에 대해 라우팅 확률 π_i,e 계산(softmax 형태, 온도 τ), Top-K 전문가로 집계.
+* MES는 토큰별 모달리티 분포 r_i를 예측하고, 모달리티-전문가 호환성 행렬 A를 이용해 전문가 사전 ˜π_i,e를 구성하여 라우터의 확률적 우선순위를 유도한다(교차 엔트로피/정규화 손실로 정렬).
+* 학습 및 파인튜닝: 시각 인코더 고정, 어댑터·라우터·전문가 분기만 학습.
+* 초기화는 Qwen3-VL-8B-Instruct, 전문가들은 사전학습된 FFN으로 초기화.
+* 손실은 L = L_ce + λ_sem L_sem + λ_dis L_dis + L_ma + L_ec + λ_bal L_bal으로 구성되어 semantic alignment와 expert assignment를 함께 정규화(하이퍼: λ_sem=0.5, λ_dis=1.0, λ_bal=0.01).
+* 최적화는 AdamW(lr=2e-5, warm-up 0.03, cosine decay), 1 epoch, batch 64, 2×H800 GPU, BF16, DeepSpeed ZeRO-2.
 
 ## 주요 결과
 

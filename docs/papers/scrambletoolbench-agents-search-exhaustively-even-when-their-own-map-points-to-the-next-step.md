@@ -25,7 +25,15 @@ ScrambleToolBench는 의미적 단서를 제거한 상호작용 터미널 벤치
 
 ### 접근 방법
 
-에이전트 연구를 위한 터미널 기반 시뮬레이터를 활용한다. 핵심 API는 28개 도구(core API)와 4개의 메타 명령(submit_solution, skip_task, end_episode, memory_update)이며, 목표 도구의 스키마는 네 가지 차원에서 은폐(함수 식별자, 매개변수 키, 출력 필드, 실행 상태 토큰)된다. 학습은 비 semantic 프리미아를 제거하기 위한 obfuscation Φ를 이용해 각 에피소드 시작 시 도구 매핑을 부분적으로 무작위 순열로 재배치하고, 에피소드는 N개의 Task(T1..TN)로 구성된 순차 커리큘럼 속에서 진행된다. Task는 G_i(goal)과 누적 예산 B_actions를 부여받고, 솔루션 제출은 고정된 문자열 일치로 평가된다. 도구 세트는 20개 템플릿의 프로시저 형태(Task Templates) 위에 얹혀 있으며 Ground-truth 솔루션은 시뮬레이터가 계산한다. 매 실험은 고정된 난수 시드로 20에피소드, 각 에피소드 당 5개의 Task, Task별 최대 100 inferencing 스텝으로 수행된다. Drift는 ρ_drift ∈ [0,1]로 비선형 매핑을 재배치하고, p_fail ∈ [0,1]로 실행 실패를 확률적으로 발생시키며, 윈도우는 k=10으로 고정한다. 기억 기반 베이스라인은 Task Recipes와 Tool Knowledge라는 두 데이터베이스를 유지해 추론과 실행 상태를 분리하고 prompt에 직렬화해 주입한다. Cycle Tracing은 drift 이벤트에서 6회의 추가 호출로 매핑을 추적해 회복하는 저비용 전략으로 제시되며, 전체 비용은 48 액션의 완전 발견(reference) 비용 대비 평가된다.
+* 에이전트 연구를 위한 터미널 기반 시뮬레이터를 활용한다.
+* 핵심 API는 28개 도구(core API)와 4개의 메타 명령(submit_solution, skip_task, end_episode, memory_update)이며, 목표 도구의 스키마는 네 가지 차원에서 은폐(함수 식별자, 매개변수 키, 출력 필드, 실행 상태 토큰)된다.
+* 학습은 비 semantic 프리미아를 제거하기 위한 obfuscation Φ를 이용해 각 에피소드 시작 시 도구 매핑을 부분적으로 무작위 순열로 재배치하고, 에피소드는 N개의 Task(T1..TN)로 구성된 순차 커리큘럼 속에서 진행된다.
+* Task는 G_i(goal)과 누적 예산 B_actions를 부여받고, 솔루션 제출은 고정된 문자열 일치로 평가된다.
+* 도구 세트는 20개 템플릿의 프로시저 형태(Task Templates) 위에 얹혀 있으며 Ground-truth 솔루션은 시뮬레이터가 계산한다.
+* 매 실험은 고정된 난수 시드로 20에피소드, 각 에피소드 당 5개의 Task, Task별 최대 100 inferencing 스텝으로 수행된다.
+* Drift는 ρ_drift ∈ [0,1]로 비선형 매핑을 재배치하고, p_fail ∈ [0,1]로 실행 실패를 확률적으로 발생시키며, 윈도우는 k=10으로 고정한다.
+* 기억 기반 베이스라인은 Task Recipes와 Tool Knowledge라는 두 데이터베이스를 유지해 추론과 실행 상태를 분리하고 prompt에 직렬화해 주입한다.
+* Cycle Tracing은 drift 이벤트에서 6회의 추가 호출로 매핑을 추적해 회복하는 저비용 전략으로 제시되며, 전체 비용은 48 액션의 완전 발견(reference) 비용 대비 평가된다.
 
 ### 주요 결과
 

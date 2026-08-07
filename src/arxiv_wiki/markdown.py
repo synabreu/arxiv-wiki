@@ -14,14 +14,27 @@ def _bullets(items: list[str], fallback: str = "초록만으로 확인하기 어
 
 
 _TABLE_SEPARATOR = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*)+\|?\s*$")
+_SENTENCE_BOUNDARY = re.compile(r"(?<=[.!?])\s+")
+_ABBREVIATIONS = ("e.g.", "i.e.", "et al.", "Fig.", "Eq.", "Sec.", "vs.")
 
 
 def _table_cells(line: str) -> list[str]:
     return [cell.strip() for cell in line.strip().strip("|").split("|")]
 
 
+def _sentences(text: str) -> list[str]:
+    protected = text
+    for abbreviation in _ABBREVIATIONS:
+        protected = protected.replace(abbreviation, abbreviation.replace(".", "\u2024"))
+    return [
+        sentence.replace("\u2024", ".").strip()
+        for sentence in _SENTENCE_BOUNDARY.split(protected)
+        if sentence.strip()
+    ]
+
+
 def render_method(method: str) -> str:
-    """Render an approach as prose or bullets without Markdown tables.
+    """Render an approach as one-sentence ``*`` bullets without tables.
 
     Kramdown treats prose containing multiple pipe characters as a table, so
     non-table pipes (most commonly conditional notation in equations) must be
@@ -48,13 +61,20 @@ def render_method(method: str) -> str:
                     header = headers[column] if column < len(headers) else ""
                     details.append(f"{header}: {cell}" if header not in {"", "설명", "내용"} else cell)
                 body = "; ".join(details) or label
-                rendered.append(f"* **{label}:** {body}" if label and details else f"* {body}")
+                rendered.append(f"**{label}:** {body}" if label and details else body)
                 index += 1
             continue
         rendered.append(lines[index])
         index += 1
 
-    return re.sub(r"(?<!\\)\|", r"\\|", "\n".join(rendered)).strip()
+    bullets: list[str] = []
+    for line in rendered:
+        content = re.sub(r"^\s*[-*+]\s+", "", line).strip()
+        if not content:
+            continue
+        bullets.extend(f"* {sentence}" for sentence in _sentences(content))
+
+    return re.sub(r"(?<!\\)\|", r"\\|", "\n".join(bullets)).strip()
 
 
 def paper_filename(title: str) -> str:

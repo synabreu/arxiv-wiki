@@ -25,7 +25,13 @@
 
 ### 접근 방법
 
-본 연구는 인용-발화자 귀속 태스크를 직접 점수화 방식과 구분되는 span-based joint scoring으로 재정의한다. 공통 컨텍스트 윈도우 C에서 인용(q)과 각 후보 언급(m)을 동일한 인코더 표현 HC에서 임베딩하고, 각 인용-언급 쌍의 표현 hq, hm을 추출하여 s(q,m) = ψ([hq, hm]) 형식의 점수를 매긴다. Direct scoring은 q에 대해 각 m에 대해 독립적으로 점수를 매기지만, Joint scoring은 C 내의 QC(인용 후보)와 MC(언급 후보)를 공유 컨텍스트에서 같이 처리하고 Ljoint(C) = (1/\|QC\|) Σq∈QC L(q) 형태의 다중 인스턴스 손실을 최소화한다. 실험은 PDNC에 대해 5-fold 교차 검증으로 수행되며, ModernBERT-large를 기본 인코더로 사용하고, 컨텍스트 길이 T와 스트라이드 S를 다양하게 조정한다. Upstream coreference 정보로는 BookNLP의 코퍼런스 클러스터(또는 명시된 alias들)를 후보 언급으로 이용하며, 실험에서는 Alias와 Coref 두 설정을 비교한다. 학습은 10 에폭, 학습률 7e-5, MLP ψ의 계층 수/크기(dBERT×2, 숨김 크기 1024×2) 등을 사용하고, 배치 크기는 Direct 32, Joint 16으로 설정한다. 인퍼런스 시 Flash Attention(bfloat16) 사용과 A100 GPU에서의 실행 환경을 명시한다.
+* 본 연구는 인용-발화자 귀속 태스크를 직접 점수화 방식과 구분되는 span-based joint scoring으로 재정의한다.
+* 공통 컨텍스트 윈도우 C에서 인용(q)과 각 후보 언급(m)을 동일한 인코더 표현 HC에서 임베딩하고, 각 인용-언급 쌍의 표현 hq, hm을 추출하여 s(q,m) = ψ([hq, hm]) 형식의 점수를 매긴다.
+* Direct scoring은 q에 대해 각 m에 대해 독립적으로 점수를 매기지만, Joint scoring은 C 내의 QC(인용 후보)와 MC(언급 후보)를 공유 컨텍스트에서 같이 처리하고 Ljoint(C) = (1/\|QC\|) Σq∈QC L(q) 형태의 다중 인스턴스 손실을 최소화한다.
+* 실험은 PDNC에 대해 5-fold 교차 검증으로 수행되며, ModernBERT-large를 기본 인코더로 사용하고, 컨텍스트 길이 T와 스트라이드 S를 다양하게 조정한다.
+* Upstream coreference 정보로는 BookNLP의 코퍼런스 클러스터(또는 명시된 alias들)를 후보 언급으로 이용하며, 실험에서는 Alias와 Coref 두 설정을 비교한다.
+* 학습은 10 에폭, 학습률 7e-5, MLP ψ의 계층 수/크기(dBERT×2, 숨김 크기 1024×2) 등을 사용하고, 배치 크기는 Direct 32, Joint 16으로 설정한다.
+* 인퍼런스 시 Flash Attention(bfloat16) 사용과 A100 GPU에서의 실행 환경을 명시한다.
 
 ### 주요 결과
 

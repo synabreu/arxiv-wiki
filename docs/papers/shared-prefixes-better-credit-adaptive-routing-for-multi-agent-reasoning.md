@@ -25,7 +25,26 @@ TreeCredit은 동일한 중간 상태에서 후보 연산자를 공유-prefix로
 
 ### 접근 방법
 
-TreeCredit의 학습 및 추론 흐름은 네 가지 모듈로 구성된다. 1) Shared-Prefix Tree Expansion: 각 데이터 샘플에 대해 K개의 독립적인 협업 트리(Ti(k))를 구성하고, 각 노드에서 sv의 상태에서 가능한 모든 연산자(oacc, odeb, ovote)를 같은 상태에서 확장한다. 트리는 최대 깊이 Dmax로 제한되며, 각 간선은 실행된 연산자와 즉시 비용 c(sv,o)로 라벨링된다. 2) Correctness-Prioritized Suffix Credit: sv에서 연산자 o의 뒤따르는 완전한 suffix의 성능(정답 여부 Z(sv,o)와 비용 Csuf(sv,o))을 기반으로 G(sv,o)=(Z(sv,o),-Csuf(sv,o))로 크기를 정렬한다. 정답이 우선이고, 동등한 경우 비용이 작을수록 우선한다. o가 종단 연산자일 때의 경우도 포함되며, odeb의 경우에는 su에서의 최적 완전 suffix를 back-up으로 사용한다. 3) State-Local Preference Extraction: 같은 상태 sv에서의 서로 다른 연산자 간의 선호를 G(sv,o) 간의 lexicographic 순서를 통해 oa ≻sv ob로 변환하고, 이를 (sj, jo+, jo−, wj) 형태의 다중 예제로 수집한다. 4) Pairwise State Routing: 입력 x_v=ϕ(s_v)로 상태를 표현하고, MLPθ가 각 연산자(oacc, odeb, ovote)별 로그it를 출력한다. Admissible 연산자만 마스킹 후 Softmax로 확률분포를 얻고, j개의 상태-선호 쌍에 대해 Bradley–Terry 손실을 가중치 w_j로 최적화한다. 추론 시에는 단일 경로를 따라 uθ(st,o) 값이 가장 높은 admissible 연산자를 선택한다(odeb은 다음 상태로 진행, oacc/ovote는 종료 및 최종 예측). 오프라인 학습은 D의 {(qi, yi)}를 데이터로 삼고, 각 예시에 대해 K개의 샘플된 트리로부터 독립적 신호를 수집한다. 구현 세부사항은 아래와 같다. - 데이터: benchmark당 학습 데이터로 100개의 라벨링된 문제를 샘플링하여 Shared-Prefix Tree Expansion을 구성한다. - 학습 데이터: 각 벤치마크마다 100개의 샘플로 TreeCredit 라우터를 독립적으로 학습한다. - 트리 구성: 각 문제마다 K=2의 독립 트리, 총 200개의 트리로 구성하여 오프라인 보조를 제공한다. - 최대 깊이: Dmax=5. - 라우터 구조: 두 층 MLP, 은닉차원 128, 입력 398차원(384차원 질의 임베딩은 all-MiniLM-L6-v2에서 얻고, 14차원은 협업 상태를 표현), 출력은 3개 연산자(oacc, odeb, ovote)에 대한 로짓. - 손실: 가중 Bradley–Terry 손실 Lpref(θ)로 상태-로컬 선호를 학습. - 추론 시간: 한 개의 적응 경로만 수행하며, Accept나 Vote가 종료 시점을 제공한다. 오프라인 supervision에서 트리 확장과 크레딧 계산만 트레이닝에 사용되며, 추론은 단일 경로로 수행된다.
+* TreeCredit의 학습 및 추론 흐름은 네 가지 모듈로 구성된다.
+* 1) Shared-Prefix Tree Expansion: 각 데이터 샘플에 대해 K개의 독립적인 협업 트리(Ti(k))를 구성하고, 각 노드에서 sv의 상태에서 가능한 모든 연산자(oacc, odeb, ovote)를 같은 상태에서 확장한다.
+* 트리는 최대 깊이 Dmax로 제한되며, 각 간선은 실행된 연산자와 즉시 비용 c(sv,o)로 라벨링된다.
+* 2) Correctness-Prioritized Suffix Credit: sv에서 연산자 o의 뒤따르는 완전한 suffix의 성능(정답 여부 Z(sv,o)와 비용 Csuf(sv,o))을 기반으로 G(sv,o)=(Z(sv,o),-Csuf(sv,o))로 크기를 정렬한다.
+* 정답이 우선이고, 동등한 경우 비용이 작을수록 우선한다.
+* o가 종단 연산자일 때의 경우도 포함되며, odeb의 경우에는 su에서의 최적 완전 suffix를 back-up으로 사용한다.
+* 3) State-Local Preference Extraction: 같은 상태 sv에서의 서로 다른 연산자 간의 선호를 G(sv,o) 간의 lexicographic 순서를 통해 oa ≻sv ob로 변환하고, 이를 (sj, jo+, jo−, wj) 형태의 다중 예제로 수집한다.
+* 4) Pairwise State Routing: 입력 x_v=ϕ(s_v)로 상태를 표현하고, MLPθ가 각 연산자(oacc, odeb, ovote)별 로그it를 출력한다.
+* Admissible 연산자만 마스킹 후 Softmax로 확률분포를 얻고, j개의 상태-선호 쌍에 대해 Bradley–Terry 손실을 가중치 w_j로 최적화한다.
+* 추론 시에는 단일 경로를 따라 uθ(st,o) 값이 가장 높은 admissible 연산자를 선택한다(odeb은 다음 상태로 진행, oacc/ovote는 종료 및 최종 예측).
+* 오프라인 학습은 D의 {(qi, yi)}를 데이터로 삼고, 각 예시에 대해 K개의 샘플된 트리로부터 독립적 신호를 수집한다.
+* 구현 세부사항은 아래와 같다.
+* - 데이터: benchmark당 학습 데이터로 100개의 라벨링된 문제를 샘플링하여 Shared-Prefix Tree Expansion을 구성한다.
+* - 학습 데이터: 각 벤치마크마다 100개의 샘플로 TreeCredit 라우터를 독립적으로 학습한다.
+* - 트리 구성: 각 문제마다 K=2의 독립 트리, 총 200개의 트리로 구성하여 오프라인 보조를 제공한다.
+* - 최대 깊이: Dmax=5.
+* - 라우터 구조: 두 층 MLP, 은닉차원 128, 입력 398차원(384차원 질의 임베딩은 all-MiniLM-L6-v2에서 얻고, 14차원은 협업 상태를 표현), 출력은 3개 연산자(oacc, odeb, ovote)에 대한 로짓.
+* - 손실: 가중 Bradley–Terry 손실 Lpref(θ)로 상태-로컬 선호를 학습.
+* - 추론 시간: 한 개의 적응 경로만 수행하며, Accept나 Vote가 종료 시점을 제공한다.
+* 오프라인 supervision에서 트리 확장과 크레딧 계산만 트레이닝에 사용되며, 추론은 단일 경로로 수행된다.
 
 ### 주요 결과
 

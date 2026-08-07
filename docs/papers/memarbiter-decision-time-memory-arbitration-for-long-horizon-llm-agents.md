@@ -24,7 +24,14 @@ MemArbiter는 상호작용 기록을 다섯 가지 기능적 메모리 은행으
 
 ### 접근 방법
 
-MemArbiter는 외부 메모리 모듈로 동작하며, 단계 t의 시작에서 상태 파싱(state parsing)으로 목표(subgoal), 현재 관찰, 이전 행동/결과, 누적 인터랙션 궤적에서 현재 의사결정 맥락(ct)을 구성한다. 이어 다섯 은행별 후보 아이템(candidate writes)을 생성하는 Candidate Writer를 통해 새로운 정보를 분해·저장하고, 업데이트 전략 Ub에 따라 기존 아이템을 대체/합치거나 신규 아이템으로 삽입한다. 업데이트 전에는 유효성 검사, 중복 제거, 충돌 해결이 수행된다. 각 메모리 아이템은 focal(전체 콘텐츠 보존)과 ambient(핵심 엔티티/관계/상태를 담은 간결 프롬프트) 두 표현으로 표현된다. 은행 수준의 수요(demand)와 아이템 수준의 적합성(relevance)을 바탕으로 Temporal Presentation Gate가 zi,t를 업데이트하여 프레임의 프레젠테이션 형태를 focal/ambient/hidden으로 조정한다. 마지막으로 Prompt Assembly가 은행별로 구성된 메모리 프롬프트 Pt를 생성해 현재 관찰 내용과 결합하여 다음 액션 생성을 돕는다. 주요 구성 요소는 다음과 같다: (1) Candidate Writer/Wb(ct): ct를 바탕으로 각 은행의 메모리 아이템 후보를 생성하고, (2) Dual-Band 표현: 은행과 밴드의 직교적 차원으로 아이템의 기능과 현재 제시 형태를 분리, (3) 결정 관련 신호: 은행 수준의 수요 db,t와 아이템 수준의 관련성 ηi,t를 통해 은행 및 아이템의 상태를 판단, (4) Temporal Presentation Gate: 과거 상태의 연속성(history)과 현재의 관련성 신호를 고려해 focal/ambient/hidden을 결정, (5) Prompt Assembly: 은행별로 아이템을 구성해 프롬프트를 형식화한다. 이 프레임워크는 ALFWorld에 적용되었으며 500/750토큰의 메모리 예산 아래 Flat Recency/Flat Retrieval 대비 성능이 향상되도록 설계되었다.
+* MemArbiter는 외부 메모리 모듈로 동작하며, 단계 t의 시작에서 상태 파싱(state parsing)으로 목표(subgoal), 현재 관찰, 이전 행동/결과, 누적 인터랙션 궤적에서 현재 의사결정 맥락(ct)을 구성한다.
+* 이어 다섯 은행별 후보 아이템(candidate writes)을 생성하는 Candidate Writer를 통해 새로운 정보를 분해·저장하고, 업데이트 전략 Ub에 따라 기존 아이템을 대체/합치거나 신규 아이템으로 삽입한다.
+* 업데이트 전에는 유효성 검사, 중복 제거, 충돌 해결이 수행된다.
+* 각 메모리 아이템은 focal(전체 콘텐츠 보존)과 ambient(핵심 엔티티/관계/상태를 담은 간결 프롬프트) 두 표현으로 표현된다.
+* 은행 수준의 수요(demand)와 아이템 수준의 적합성(relevance)을 바탕으로 Temporal Presentation Gate가 zi,t를 업데이트하여 프레임의 프레젠테이션 형태를 focal/ambient/hidden으로 조정한다.
+* 마지막으로 Prompt Assembly가 은행별로 구성된 메모리 프롬프트 Pt를 생성해 현재 관찰 내용과 결합하여 다음 액션 생성을 돕는다.
+* 주요 구성 요소는 다음과 같다: (1) Candidate Writer/Wb(ct): ct를 바탕으로 각 은행의 메모리 아이템 후보를 생성하고, (2) Dual-Band 표현: 은행과 밴드의 직교적 차원으로 아이템의 기능과 현재 제시 형태를 분리, (3) 결정 관련 신호: 은행 수준의 수요 db,t와 아이템 수준의 관련성 ηi,t를 통해 은행 및 아이템의 상태를 판단, (4) Temporal Presentation Gate: 과거 상태의 연속성(history)과 현재의 관련성 신호를 고려해 focal/ambient/hidden을 결정, (5) Prompt Assembly: 은행별로 아이템을 구성해 프롬프트를 형식화한다.
+* 이 프레임워크는 ALFWorld에 적용되었으며 500/750토큰의 메모리 예산 아래 Flat Recency/Flat Retrieval 대비 성능이 향상되도록 설계되었다.
 
 ### 주요 결과
 

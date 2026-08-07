@@ -25,7 +25,17 @@
 
 ### 접근 방법
 
-시스템 구성은 다음과 같다. 먼저 Tx를 LM pθ로 구성적 semantic 트리로 생성하고, Ax를 얻는다(Leaf(Tx)). Ax와 스킬 라이브러리 S로부터 쿼리–스킬 이진 그래프 Bx,S를 구성하며 각 엣지 가중치는 wij = sim(fQ(qi), fS(sj))로 정의하고, qi에 대해 sj를 최대 시맨틱 유사도으로 선택한다(식 5). 이후 Bx,S에 대해 최대 가중치 매칭(Hungarian)을 수행하여 Px,S를 산출하고 시드로 삼는다. 스킬 의존성 그래프 DS는 S와 ED_S, WD_S로 구성되며, wD_ij = overlap(Oi, Ij)이고 임계치 δD 이상인 엣지만 그래프에 포함한다(식 6-7). 의존성 확장을 위해 Reverse Personalized PageRank를 적용하여 seed 벡터 p를 정규화하고 역방향 전파를 통해 r∗를 얻은 뒤, Px,S와 r∗의 TopK를 결합하여 최종 선택 집합 S∗_x를 얻는다(식 8-9). 알고리즘 1은 전체 파이프라인을 요약하며, 온라인 복잡도는 O(QN + Q^2N + K(N+E))로 요약된다(식 10). 하이퍼파라미터로 δD(0.6), α(0.2), K(ALFWorld에서 6), Q ≤ N, 최대 반복 50 등을 사용하며, 임베딩은 text-embedding-3-large(차원 3072), 그래프 구성은 오프라인으로 수행한다. 그래프 구성 시 각 스킬은 최대 8개의 연결 후보를 고려하며 의존성 엣지는 0.6 이상일 때만 보유한다. SkillsBench와 ALFWorld의 벤치마크에서 동일한 task, 스킬 라이브러리, 백본 모델, 실행 환경을 사용하고, ALFWorld의 스킬 번들 상한은 6개로 제한한다. 실험은 GPT-5.6를 기본 백본으로 삼아 SkillTrace의 비교를 수행했으며, Cross-Model 실험에서 DeepSeek-V3.2, Kimi-K2.5, Qwen3.5-397B-A17B, Gemini 3.1 Flash-Lite에서도 일반화되는 것을 확인했다.
+* 시스템 구성은 다음과 같다.
+* 먼저 Tx를 LM pθ로 구성적 semantic 트리로 생성하고, Ax를 얻는다(Leaf(Tx)).
+* Ax와 스킬 라이브러리 S로부터 쿼리–스킬 이진 그래프 Bx,S를 구성하며 각 엣지 가중치는 wij = sim(fQ(qi), fS(sj))로 정의하고, qi에 대해 sj를 최대 시맨틱 유사도으로 선택한다(식 5).
+* 이후 Bx,S에 대해 최대 가중치 매칭(Hungarian)을 수행하여 Px,S를 산출하고 시드로 삼는다.
+* 스킬 의존성 그래프 DS는 S와 ED_S, WD_S로 구성되며, wD_ij = overlap(Oi, Ij)이고 임계치 δD 이상인 엣지만 그래프에 포함한다(식 6-7).
+* 의존성 확장을 위해 Reverse Personalized PageRank를 적용하여 seed 벡터 p를 정규화하고 역방향 전파를 통해 r∗를 얻은 뒤, Px,S와 r∗의 TopK를 결합하여 최종 선택 집합 S∗_x를 얻는다(식 8-9).
+* 알고리즘 1은 전체 파이프라인을 요약하며, 온라인 복잡도는 O(QN + Q^2N + K(N+E))로 요약된다(식 10).
+* 하이퍼파라미터로 δD(0.6), α(0.2), K(ALFWorld에서 6), Q ≤ N, 최대 반복 50 등을 사용하며, 임베딩은 text-embedding-3-large(차원 3072), 그래프 구성은 오프라인으로 수행한다.
+* 그래프 구성 시 각 스킬은 최대 8개의 연결 후보를 고려하며 의존성 엣지는 0.6 이상일 때만 보유한다.
+* SkillsBench와 ALFWorld의 벤치마크에서 동일한 task, 스킬 라이브러리, 백본 모델, 실행 환경을 사용하고, ALFWorld의 스킬 번들 상한은 6개로 제한한다.
+* 실험은 GPT-5.6를 기본 백본으로 삼아 SkillTrace의 비교를 수행했으며, Cross-Model 실험에서 DeepSeek-V3.2, Kimi-K2.5, Qwen3.5-397B-A17B, Gemini 3.1 Flash-Lite에서도 일반화되는 것을 확인했다.
 
 ### 주요 결과
 

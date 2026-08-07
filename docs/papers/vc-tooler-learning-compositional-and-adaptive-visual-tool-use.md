@@ -25,7 +25,12 @@ VC-Tooler는 시각적 도구 사용을 구성적이고 적응적으로 학습�
 
 ### 접근 방법
 
-VC-Tooler의 핵심은 세 가지 도메인 능력(grounding, composition, adaptation)을 학습 데이터와 학습 절차에 통합하는 것에 있다. 구체적으로: 1) 계층적 궤적 합성 파이프라인을 통해 단일 도구 grounding, 다중 도구 조합, 다양한 도구 맥락의 trajectories를 합성하고, plan-then-execute 구조로 계획과 실행을 분리하여Robust한 인터랙션을 확보한다. 2) Diverse Tool-Contexts 재인스턴화를 통해 동일한 underlying 시각 작업을 여러 도구 스키마로 재구성하여 적응성을 강화한다. 3) 두 단계 학습으로 SFT로 기반 정책을 확보한 뒤, 도구 보상(Rtool)을 사용하는 GRPO 기반의 RL로 도구 피드백을 실제 추론에 반영하도록 정책을 미세조정한다. 4) 보상 구조는 Rtotal = 0.8Racc + 0.2Rtool + 0.2Rfmt으로, Rtool은 도구 반환 관찰의 활용 여부, 호출의 필요성, 중복 호출 회피, 실행 오류에 대한 반응성, 시각적 기초를 통한 매개변수 근거 등을 평가하는 다섯 가지 이진 지표의 평균으로 정의된다. 5) 데이터 소스는 LLaVA-OneVision, DeepVision, VisualProbe 등에서 후보 샘플을 수집하고 도구 관련성 및 난이도 기준으로 필터링한다(S1, S2, S4, S5).
+* VC-Tooler의 핵심은 세 가지 도메인 능력(grounding, composition, adaptation)을 학습 데이터와 학습 절차에 통합하는 것에 있다.
+* 구체적으로: 1) 계층적 궤적 합성 파이프라인을 통해 단일 도구 grounding, 다중 도구 조합, 다양한 도구 맥락의 trajectories를 합성하고, plan-then-execute 구조로 계획과 실행을 분리하여Robust한 인터랙션을 확보한다.
+* 2) Diverse Tool-Contexts 재인스턴화를 통해 동일한 underlying 시각 작업을 여러 도구 스키마로 재구성하여 적응성을 강화한다.
+* 3) 두 단계 학습으로 SFT로 기반 정책을 확보한 뒤, 도구 보상(Rtool)을 사용하는 GRPO 기반의 RL로 도구 피드백을 실제 추론에 반영하도록 정책을 미세조정한다.
+* 4) 보상 구조는 Rtotal = 0.8Racc + 0.2Rtool + 0.2Rfmt으로, Rtool은 도구 반환 관찰의 활용 여부, 호출의 필요성, 중복 호출 회피, 실행 오류에 대한 반응성, 시각적 기초를 통한 매개변수 근거 등을 평가하는 다섯 가지 이진 지표의 평균으로 정의된다.
+* 5) 데이터 소스는 LLaVA-OneVision, DeepVision, VisualProbe 등에서 후보 샘플을 수집하고 도구 관련성 및 난이도 기준으로 필터링한다(S1, S2, S4, S5).
 
 ### 주요 결과
 

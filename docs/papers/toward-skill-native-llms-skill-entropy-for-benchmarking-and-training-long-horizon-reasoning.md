@@ -27,7 +27,12 @@
 
 ## 접근 방법
 
-핵심 아이디어는 (1) 기준(reference) 모델(논문은 Claude-opus-4.7 사용)로 단일 스킬 성능 Accuracy(s)와 두 단계 연결 성능 Accuracy(sa,sb)를 측정해 방향성 쌍 SkE(sa,sb) = (0.5*(Accuracy(sa)+Accuracy(sb))+α) / (Accuracy(sa,sb)+α)으로 정의(라플라스 스무딩 α=0.1). (2) 과제의 task-level SkE는 연속 스킬 전환들에 대한 평균으로 계산하고, 이 값을 기준으로 low/medium/high 난이도로 샘플링된 스킬 시퀀스를 LLM 제안자(proposer)가 하나의 시나리오로 합성한 뒤 검증자(verifier)로 필터링하여 Skill2-Bench를 구성한다. (3) 학습 측면에서는 모델이 각 단계마다 <skill> 도메인·스킬 태그와 <answer>를 교차로 출력하도록 SFT(교사 Qwen3-8B로 3K 트레이스)로 워밍업한 뒤, GRPO 기반의 RL을 수행한다. 보상은 r = λans * rans + λent * rent으로 구성되며, rans는 도메인별 평가기(eval_d)에 따른 평균 단계별 정확도, rent는 예측 스킬 시퀀스의 task-level SkE와 금(ground-truth) SkE의 누적 분포(CDF) 상 랭크 차이로 정의(ρ̂, ρ★를 통해 rent = 1 - \|ρ̂ - ρ★\|). 예측 스킬은 임베딩(Qwen3-Embedding-0.6B)으로 가장 가까운 canonical 스킬로 매핑하고, 유사도 0.5 미만이면 out-of-bank 처리하여 해당 전환에 보상 미부여. 기본 RL 하이퍼파라미터: SFT lr=1e-5, RL(actor) lr=1e-6, KL coeff=1e-3, PPO clip=0.2, GRPO group size=8, λans=0.7, λent=0.3, 학습 장비 8×H100.
+* 핵심 아이디어는 (1) 기준(reference) 모델(논문은 Claude-opus-4.7 사용)로 단일 스킬 성능 Accuracy(s)와 두 단계 연결 성능 Accuracy(sa,sb)를 측정해 방향성 쌍 SkE(sa,sb) = (0.5*(Accuracy(sa)+Accuracy(sb))+α) / (Accuracy(sa,sb)+α)으로 정의(라플라스 스무딩 α=0.1).
+* (2) 과제의 task-level SkE는 연속 스킬 전환들에 대한 평균으로 계산하고, 이 값을 기준으로 low/medium/high 난이도로 샘플링된 스킬 시퀀스를 LLM 제안자(proposer)가 하나의 시나리오로 합성한 뒤 검증자(verifier)로 필터링하여 Skill2-Bench를 구성한다.
+* (3) 학습 측면에서는 모델이 각 단계마다 <skill> 도메인·스킬 태그와 <answer>를 교차로 출력하도록 SFT(교사 Qwen3-8B로 3K 트레이스)로 워밍업한 뒤, GRPO 기반의 RL을 수행한다.
+* 보상은 r = λans * rans + λent * rent으로 구성되며, rans는 도메인별 평가기(eval_d)에 따른 평균 단계별 정확도, rent는 예측 스킬 시퀀스의 task-level SkE와 금(ground-truth) SkE의 누적 분포(CDF) 상 랭크 차이로 정의(ρ̂, ρ★를 통해 rent = 1 - \|ρ̂ - ρ★\|).
+* 예측 스킬은 임베딩(Qwen3-Embedding-0.6B)으로 가장 가까운 canonical 스킬로 매핑하고, 유사도 0.5 미만이면 out-of-bank 처리하여 해당 전환에 보상 미부여.
+* 기본 RL 하이퍼파라미터: SFT lr=1e-5, RL(actor) lr=1e-6, KL coeff=1e-3, PPO clip=0.2, GRPO group size=8, λans=0.7, λent=0.3, 학습 장비 8×H100.
 
 ## 주요 결과
 

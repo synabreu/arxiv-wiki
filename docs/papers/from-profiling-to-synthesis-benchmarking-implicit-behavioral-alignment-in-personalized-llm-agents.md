@@ -25,7 +25,13 @@
 
 ### 접근 방법
 
-IBA-BENCH은 Hu(상호작용 기록), x(현재 작업), s(시나리오), Y(행동 공간), E(행동 평가자)로 정의되는 인스턴스를 구성한다. 행동 공간은 Generate(text)와 CallAPI(params) 두 가지 유형으로 구분되며, 최종 출력의 행동 적합도를 도메인별 평가 지표로 측정한다. 벤치마크 데이터는 400개의 seed personas를 바탕으로 다차원 특성(B, T, E, R)을 정의하고, 노이즈와 암묵적 신호를 주입해 현실성 있는 시나리오를 생성한다. IBA-Agent는 (i) Deep Retrieval: 히스토리에서 작업-선호 증거를 추출하는 4개의 도구(유사도 검색, 중복 제거, 고도 신호 선별, 토픽 예측)를 통해 task-conditioned 증거 망 Cu(x)를 구성하고, (ii) Broad Thinking & Deep Alignment: 증거를 바탕으로 개인화 계획을 도출하고, 생성 혹은 API 인자 생성으로 실행에 옮긴다. Trajectory-level synthesis를 통해 명시적 질의-답변이 아닌, 신호를 종합한 행동 궤적을 생성한다. 평가 프로토콜은 3인의 Judge를 통해 Generate(text)와 CallAPI(params)의 OUTPUT이 각 체크포인트를 만족하는지 이진 점수로 산출한다. 벤치마크 구현은 bge-m3 기반 Dense Retrieval를 기본으로 하며, Broad Retrieval, 증거 재정렬, 신호 가중치 부여 등의 보강 모듈을 포함한다.
+* IBA-BENCH은 Hu(상호작용 기록), x(현재 작업), s(시나리오), Y(행동 공간), E(행동 평가자)로 정의되는 인스턴스를 구성한다.
+* 행동 공간은 Generate(text)와 CallAPI(params) 두 가지 유형으로 구분되며, 최종 출력의 행동 적합도를 도메인별 평가 지표로 측정한다.
+* 벤치마크 데이터는 400개의 seed personas를 바탕으로 다차원 특성(B, T, E, R)을 정의하고, 노이즈와 암묵적 신호를 주입해 현실성 있는 시나리오를 생성한다.
+* IBA-Agent는 (i) Deep Retrieval: 히스토리에서 작업-선호 증거를 추출하는 4개의 도구(유사도 검색, 중복 제거, 고도 신호 선별, 토픽 예측)를 통해 task-conditioned 증거 망 Cu(x)를 구성하고, (ii) Broad Thinking & Deep Alignment: 증거를 바탕으로 개인화 계획을 도출하고, 생성 혹은 API 인자 생성으로 실행에 옮긴다.
+* Trajectory-level synthesis를 통해 명시적 질의-답변이 아닌, 신호를 종합한 행동 궤적을 생성한다.
+* 평가 프로토콜은 3인의 Judge를 통해 Generate(text)와 CallAPI(params)의 OUTPUT이 각 체크포인트를 만족하는지 이진 점수로 산출한다.
+* 벤치마크 구현은 bge-m3 기반 Dense Retrieval를 기본으로 하며, Broad Retrieval, 증거 재정렬, 신호 가중치 부여 등의 보강 모듈을 포함한다.
 
 ### 주요 결과
 
