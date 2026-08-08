@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-08](2026-08-08.html) | [AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games](../papers/av-aivat-74x-cheaper-agent-evaluation-with-certified-anytime-valid-stopping-in-imperfect-information-games.html) |
+| [2026-08-08](2026-08-08.html) | [The Bitter Lesson of Tool Calling](../papers/the-bitter-lesson-of-tool-calling.html) |
+| [2026-08-08](2026-08-08.html) | [Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents](../papers/benchmarking-and-enhancing-llms-for-rule-intensive-review-of-national-standard-documents.html) |
+| [2026-08-08](2026-08-08.html) | [QuanTiMedAI: Quantum-Enhanced Time-Series Model guided by Agentic AI for Cardiac Arrest Mortality Prediction](../papers/quantimedai-quantum-enhanced-time-series-model-guided-by-agentic-ai-for-cardiac-arrest-mortality-prediction.html) |
+| [2026-08-08](2026-08-08.html) | [Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents](../papers/benchmarking-the-benchmarks-evaluating-benchmarks-for-conversational-agents.html) |
 | [2026-08-07](2026-08-07.html) | [HarnessOpt-Bench: Evaluating LLMs at Harness Optimization](../papers/harnessopt-bench-evaluating-llms-at-harness-optimization.html) |
 | [2026-08-07](2026-08-07.html) | [A Six-Dimensional Taxonomy of Post-Training Adaptation Techniques with Applications in AI Governance](../papers/a-six-dimensional-taxonomy-of-post-training-adaptation-techniques-with-applications-in-ai-governance.html) |
 | [2026-08-07](2026-08-07.html) | [From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks](../papers/from-passive-mirrors-to-active-agents-holonic-digital-twins-for-physical-ai-over-networks.html) |

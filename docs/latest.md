@@ -1,4 +1,4 @@
-# 2026-08-07 arXiv AI 논문
+# 2026-08-08 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [HarnessOpt-Bench: Evaluating LLMs at Harness Optimization](papers/harnessopt-bench-evaluating-llms-at-harness-optimization.html)
-- [A Six-Dimensional Taxonomy of Post-Training Adaptation Techniques with Applications in AI Governance](papers/a-six-dimensional-taxonomy-of-post-training-adaptation-techniques-with-applications-in-ai-governance.html)
-- [From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks](papers/from-passive-mirrors-to-active-agents-holonic-digital-twins-for-physical-ai-over-networks.html)
-- [TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories](papers/trajdebug-tracing-error-lifecycle-to-identify-critical-failures-in-long-horizon-agent-trajectories.html)
-- [Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering](papers/tracing-the-heart-an-evidence-linked-pipeline-for-heart-failure-feature-engineering.html)
+- [AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games](papers/av-aivat-74x-cheaper-agent-evaluation-with-certified-anytime-valid-stopping-in-imperfect-information-games.html)
+- [The Bitter Lesson of Tool Calling](papers/the-bitter-lesson-of-tool-calling.html)
+- [Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents](papers/benchmarking-and-enhancing-llms-for-rule-intensive-review-of-national-standard-documents.html)
+- [QuanTiMedAI: Quantum-Enhanced Time-Series Model guided by Agentic AI for Cardiac Arrest Mortality Prediction](papers/quantimedai-quantum-enhanced-time-series-model-guided-by-agentic-ai-for-cardiac-arrest-mortality-prediction.html)
+- [Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents](papers/benchmarking-the-benchmarks-evaluating-benchmarks-for-conversational-agents.html)
