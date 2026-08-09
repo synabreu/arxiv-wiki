@@ -1,4 +1,4 @@
-# 2026-08-08 arXiv AI 논문
+# 2026-08-09 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images](papers/the-illusion-of-visual-tool-use-a-causal-audit-of-thinking-with-images.html)
-- [TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN](papers/tlnm-externally-validated-tooth-detection-numbering-and-segmentation-from-smartphone-photographs-using-mask-r-cnn.html)
-- [Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data](papers/tytan-interactive-neurosymbolic-construction-of-analytic-semantic-schemas-from-relational-data.html)
-- [NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering](papers/nesy-rag-neuro-symbolic-rag-for-explainable-question-answering.html)
-- [RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction](papers/rrc-unlocking-generative-reward-models-in-llm-reinforcement-learning-via-ranking-based-reward-construction.html)
+- [RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer](papers/rp-opsd-reasoning-pivot-guided-on-policy-self-distillation-for-multilingual-reasoning-transfer.html)
+- [Improving the Realism of Synthetic Clinical Benchmarks Under Utility Constraints](papers/improving-the-realism-of-synthetic-clinical-benchmarks-under-utility-constraints.html)
+- [DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models](papers/dash-divergence-adaptive-supervision-horizons-for-on-policy-self-distillation-of-reasoning-models.html)
+- [MASS: Multiplayer World Models with Authoritative Shared State](papers/mass-multiplayer-world-models-with-authoritative-shared-state.html)
+- [EmoWorld: A Decoupled Affective Field for Controllable Emotional Video Generation](papers/emoworld-a-decoupled-affective-field-for-controllable-emotional-video-generation.html)

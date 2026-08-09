@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-09](2026-08-09.html) | [RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer](../papers/rp-opsd-reasoning-pivot-guided-on-policy-self-distillation-for-multilingual-reasoning-transfer.html) |
+| [2026-08-09](2026-08-09.html) | [Improving the Realism of Synthetic Clinical Benchmarks Under Utility Constraints](../papers/improving-the-realism-of-synthetic-clinical-benchmarks-under-utility-constraints.html) |
+| [2026-08-09](2026-08-09.html) | [DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models](../papers/dash-divergence-adaptive-supervision-horizons-for-on-policy-self-distillation-of-reasoning-models.html) |
+| [2026-08-09](2026-08-09.html) | [MASS: Multiplayer World Models with Authoritative Shared State](../papers/mass-multiplayer-world-models-with-authoritative-shared-state.html) |
+| [2026-08-09](2026-08-09.html) | [EmoWorld: A Decoupled Affective Field for Controllable Emotional Video Generation](../papers/emoworld-a-decoupled-affective-field-for-controllable-emotional-video-generation.html) |
 | [2026-08-08](2026-08-08.html) | [The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images](../papers/the-illusion-of-visual-tool-use-a-causal-audit-of-thinking-with-images.html) |
 | [2026-08-08](2026-08-08.html) | [TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN](../papers/tlnm-externally-validated-tooth-detection-numbering-and-segmentation-from-smartphone-photographs-using-mask-r-cnn.html) |
 | [2026-08-08](2026-08-08.html) | [Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data](../papers/tytan-interactive-neurosymbolic-construction-of-analytic-semantic-schemas-from-relational-data.html) |
