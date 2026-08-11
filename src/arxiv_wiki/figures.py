@@ -5,8 +5,9 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
-import fitz
-import requests
+import pymupdf
+
+from .pdf import download_pdf
 
 # Only accept captions that explicitly start with "Figure".
 # Excludes "Fig.", "Table", and ordinary sentences that merely mention a figure.
@@ -27,14 +28,14 @@ def _caption(text: str) -> str:
     return " ".join(text.split())[:300]
 
 
-def _intersection_area(first: fitz.Rect, second: fitz.Rect) -> float:
+def _intersection_area(first: pymupdf.Rect, second: pymupdf.Rect) -> float:
     intersection = first & second
     if intersection.is_empty:
         return 0.0
     return max(0.0, intersection.width) * max(0.0, intersection.height)
 
 
-def _has_graphic_content(page: fitz.Page, clip: fitz.Rect) -> bool:
+def _has_graphic_content(page: pymupdf.Page, clip: pymupdf.Rect) -> bool:
     """Return True only when the candidate region contains an image or drawing.
 
     This prevents a caption and surrounding prose from being exported as a
@@ -50,7 +51,7 @@ def _has_graphic_content(page: fitz.Page, clip: fitz.Rect) -> bool:
 
     drawing_area = 0.0
     for drawing in page.get_drawings():
-        drawing_rect = fitz.Rect(drawing["rect"])
+        drawing_rect = pymupdf.Rect(drawing["rect"])
         drawing_area += _intersection_area(drawing_rect, clip)
         if drawing_area >= clip_area * 0.04:
             return True
@@ -64,9 +65,7 @@ def extract_key_visuals(
     docs_dir: Path,
     limit: int = 3,
 ) -> list[PaperVisual]:
-    response = requests.get(pdf_url, timeout=90)
-    response.raise_for_status()
-    document = fitz.open(stream=response.content, filetype="pdf")
+    document = pymupdf.open(stream=download_pdf(pdf_url), filetype="pdf")
 
     output_dir = docs_dir / "assets" / "papers" / slug
     if output_dir.exists():
@@ -90,10 +89,10 @@ def extract_key_visuals(
                     continue
                 seen.add(key)
 
-                caption_rect = fitz.Rect(block[0], block[1], block[2], block[3])
+                caption_rect = pymupdf.Rect(block[0], block[1], block[2], block[3])
                 page_rect = page.rect
                 margin = page_rect.width * 0.04
-                clip = fitz.Rect(
+                clip = pymupdf.Rect(
                     page_rect.x0 + margin,
                     max(page_rect.y0, caption_rect.y0 - page_rect.height * 0.52),
                     page_rect.x1 - margin,
@@ -107,7 +106,7 @@ def extract_key_visuals(
 
                 name = f"figure-{len(found) + 1}.jpg"
                 pixmap = page.get_pixmap(
-                    matrix=fitz.Matrix(1.6, 1.6),
+                    matrix=pymupdf.Matrix(1.6, 1.6),
                     clip=clip,
                     alpha=False,
                 )
