@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-11](2026-08-11.html) | [KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs](../papers/kgcare-explainable-complex-conditional-question-answering-using-automatic-knowledge-graph-construction-and-context-retrieval-with-llms.html) |
+| [2026-08-11](2026-08-11.html) | [Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models](../papers/model-discovery-agent-llm-assisted-bayesian-experiment-design-for-data-efficient-discovery-of-mechanistic-world-models.html) |
+| [2026-08-11](2026-08-11.html) | [Activation Probes Surface Code-Security Signals that the Model's Output Misses](../papers/activation-probes-surface-code-security-signals-that-the-models-output-misses.html) |
+| [2026-08-11](2026-08-11.html) | [Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models](../papers/open-evaluation-agent-efficient-and-promptable-evaluation-of-visual-generative-models.html) |
+| [2026-08-11](2026-08-11.html) | [Defining Decentralization: An Ontological Perspective](../papers/defining-decentralization-an-ontological-perspective.html) |
 | [2026-08-09](2026-08-09.html) | [RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer](../papers/rp-opsd-reasoning-pivot-guided-on-policy-self-distillation-for-multilingual-reasoning-transfer.html) |
 | [2026-08-09](2026-08-09.html) | [Improving the Realism of Synthetic Clinical Benchmarks Under Utility Constraints](../papers/improving-the-realism-of-synthetic-clinical-benchmarks-under-utility-constraints.html) |
 | [2026-08-09](2026-08-09.html) | [DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models](../papers/dash-divergence-adaptive-supervision-horizons-for-on-policy-self-distillation-of-reasoning-models.html) |
