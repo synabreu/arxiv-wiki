@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-arxiv-ai-wiki
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
