@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: arxiv-wiki
-Version: 0.2.0
+Version: 0.3.0
 Summary: Daily arXiv AI summaries published as Markdown
 Requires-Python: >=3.11
 Description-Content-Type: text/markdown

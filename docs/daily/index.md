@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-12](2026-08-12.html) | [Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness](../papers/decoding-level-taboo-a-diagnostic-stress-test-for-llm-robustness.html) |
+| [2026-08-12](2026-08-12.html) | [SHE: Trajectory-driven Safety Harness Evolution for LLM Agents](../papers/she-trajectory-driven-safety-harness-evolution-for-llm-agents.html) |
+| [2026-08-12](2026-08-12.html) | [Stealing Reasoning Traces from Proprietary LLM APIs](../papers/stealing-reasoning-traces-from-proprietary-llm-apis.html) |
+| [2026-08-12](2026-08-12.html) | [Towards Expert-level Medical AI for Real-time Video Consultations](../papers/towards-expert-level-medical-ai-for-real-time-video-consultations.html) |
+| [2026-08-12](2026-08-12.html) | [Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA](../papers/macaron-v1-towards-open-continual-learning-with-self-improvement-and-mixture-of-lora.html) |
 | [2026-08-11](2026-08-11.html) | [KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs](../papers/kgcare-explainable-complex-conditional-question-answering-using-automatic-knowledge-graph-construction-and-context-retrieval-with-llms.html) |
 | [2026-08-11](2026-08-11.html) | [Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models](../papers/model-discovery-agent-llm-assisted-bayesian-experiment-design-for-data-efficient-discovery-of-mechanistic-world-models.html) |
 | [2026-08-11](2026-08-11.html) | [Activation Probes Surface Code-Security Signals that the Model's Output Misses](../papers/activation-probes-surface-code-security-signals-that-the-models-output-misses.html) |

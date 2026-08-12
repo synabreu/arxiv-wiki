@@ -4,11 +4,11 @@ import json
 import os
 import re
 
-import fitz
-import requests
+import pymupdf
 from openai import OpenAI
 
 from .models import Paper, PaperAnalysis
+from .pdf import download_pdf
 
 SYSTEM_PROMPT = """당신은 AI 논문을 정밀하게 분석하는 기술 편집자다.
 반드시 제공된 논문 PDF 본문을 중심으로 작성한다. 초록은 보조 정보로만 사용한다.
@@ -27,9 +27,7 @@ def _normalize_pdf_text(text: str) -> str:
 
 def extract_pdf_text(pdf_url: str, max_chars: int = 120_000) -> str:
     """Download an arXiv PDF and extract enough full-text context for analysis."""
-    response = requests.get(pdf_url, timeout=120)
-    response.raise_for_status()
-    document = fitz.open(stream=response.content, filetype="pdf")
+    document = pymupdf.open(stream=download_pdf(pdf_url), filetype="pdf")
     pages: list[str] = []
     try:
         for page_number, page in enumerate(document, start=1):

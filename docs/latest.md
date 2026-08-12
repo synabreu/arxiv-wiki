@@ -1,4 +1,4 @@
-# 2026-08-11 arXiv AI 논문
+# 2026-08-12 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs](papers/kgcare-explainable-complex-conditional-question-answering-using-automatic-knowledge-graph-construction-and-context-retrieval-with-llms.html)
-- [Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models](papers/model-discovery-agent-llm-assisted-bayesian-experiment-design-for-data-efficient-discovery-of-mechanistic-world-models.html)
-- [Activation Probes Surface Code-Security Signals that the Model's Output Misses](papers/activation-probes-surface-code-security-signals-that-the-models-output-misses.html)
-- [Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models](papers/open-evaluation-agent-efficient-and-promptable-evaluation-of-visual-generative-models.html)
-- [Defining Decentralization: An Ontological Perspective](papers/defining-decentralization-an-ontological-perspective.html)
+- [Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness](papers/decoding-level-taboo-a-diagnostic-stress-test-for-llm-robustness.html)
+- [SHE: Trajectory-driven Safety Harness Evolution for LLM Agents](papers/she-trajectory-driven-safety-harness-evolution-for-llm-agents.html)
+- [Stealing Reasoning Traces from Proprietary LLM APIs](papers/stealing-reasoning-traces-from-proprietary-llm-apis.html)
+- [Towards Expert-level Medical AI for Real-time Video Consultations](papers/towards-expert-level-medical-ai-for-real-time-video-consultations.html)
+- [Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA](papers/macaron-v1-towards-open-continual-learning-with-self-improvement-and-mixture-of-lora.html)
