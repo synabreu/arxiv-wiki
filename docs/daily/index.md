@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-13](2026-08-13.html) | [Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation](../papers/test-time-self-evolving-gui-visual-grounding-via-reflection-guided-on-policy-self-distillation.html) |
+| [2026-08-13](2026-08-13.html) | [V-FiLLM: Verified Financial LLM Reasoning Benchmark](../papers/v-fillm-verified-financial-llm-reasoning-benchmark.html) |
+| [2026-08-13](2026-08-13.html) | [MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment](../papers/multimodal-code-switching-interleaving-visual-objects-into-language-for-explicit-object-level-alignment.html) |
+| [2026-08-13](2026-08-13.html) | [Actions Speak Louder than Words: Measuring Cross-Lingual Policy Retention in Tool-Using Agents](../papers/actions-speak-louder-than-words-measuring-cross-lingual-policy-retention-in-tool-using-agents.html) |
+| [2026-08-13](2026-08-13.html) | [ReRound: Reconstructive Rounding to Resolve Midpoint Ambiguity in Calibration-Free LLM Quantization](../papers/reround-reconstructive-rounding-to-resolve-midpoint-ambiguity-in-calibration-free-llm-quantization.html) |
 | [2026-08-12](2026-08-12.html) | [Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness](../papers/decoding-level-taboo-a-diagnostic-stress-test-for-llm-robustness.html) |
 | [2026-08-12](2026-08-12.html) | [SHE: Trajectory-driven Safety Harness Evolution for LLM Agents](../papers/she-trajectory-driven-safety-harness-evolution-for-llm-agents.html) |
 | [2026-08-12](2026-08-12.html) | [Stealing Reasoning Traces from Proprietary LLM APIs](../papers/stealing-reasoning-traces-from-proprietary-llm-apis.html) |

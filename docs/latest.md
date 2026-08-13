@@ -1,4 +1,4 @@
-# 2026-08-12 arXiv AI 논문
+# 2026-08-13 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness](papers/decoding-level-taboo-a-diagnostic-stress-test-for-llm-robustness.html)
-- [SHE: Trajectory-driven Safety Harness Evolution for LLM Agents](papers/she-trajectory-driven-safety-harness-evolution-for-llm-agents.html)
-- [Stealing Reasoning Traces from Proprietary LLM APIs](papers/stealing-reasoning-traces-from-proprietary-llm-apis.html)
-- [Towards Expert-level Medical AI for Real-time Video Consultations](papers/towards-expert-level-medical-ai-for-real-time-video-consultations.html)
-- [Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA](papers/macaron-v1-towards-open-continual-learning-with-self-improvement-and-mixture-of-lora.html)
+- [Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation](papers/test-time-self-evolving-gui-visual-grounding-via-reflection-guided-on-policy-self-distillation.html)
+- [V-FiLLM: Verified Financial LLM Reasoning Benchmark](papers/v-fillm-verified-financial-llm-reasoning-benchmark.html)
+- [MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment](papers/multimodal-code-switching-interleaving-visual-objects-into-language-for-explicit-object-level-alignment.html)
+- [Actions Speak Louder than Words: Measuring Cross-Lingual Policy Retention in Tool-Using Agents](papers/actions-speak-louder-than-words-measuring-cross-lingual-policy-retention-in-tool-using-agents.html)
+- [ReRound: Reconstructive Rounding to Resolve Midpoint Ambiguity in Calibration-Free LLM Quantization](papers/reround-reconstructive-rounding-to-resolve-midpoint-ambiguity-in-calibration-free-llm-quantization.html)
