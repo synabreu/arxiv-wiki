@@ -18,11 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
-| [2026-08-14](2026-08-14.html) | [VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies](../papers/vakra-evaluating-multi-hop-reasoning-across-apis-and-retrieval-under-tool-use-policies.html) |
-| [2026-08-14](2026-08-14.html) | [The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study](../papers/the-role-specialization-model-rsm-coordinating-llm-based-tools-in-agentic-software-development-an-exploratory-case-study.html) |
-| [2026-08-14](2026-08-14.html) | [One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL](../papers/one-frozen-simulator-is-not-enough-simulator-collapse-in-multi-agent-rl.html) |
-| [2026-08-14](2026-08-14.html) | [AVA-Encoder: Towards Agent-Native Video Representation Learning](../papers/ava-encoder-towards-agent-native-video-representation-learning.html) |
-| [2026-08-14](2026-08-14.html) | [Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents](../papers/convergent-detour-hijacking-task-preserving-resource-amplification-in-skill-based-llm-agents.html) |
+| [2026-08-14](2026-08-14.html) | [LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles](../papers/llm-assisted-dynamic-threat-analysis-for-attacker-reachable-software-weaknesses-in-autonomous-vehicles.html) |
+| [2026-08-14](2026-08-14.html) | [DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data](../papers/dfm-mimir-v1-an-open-hrm-delivering-frontier-performance-at-1b-parameters-using-only-permissible-post-training-data.html) |
+| [2026-08-14](2026-08-14.html) | [MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination](../papers/marc-v1-an-open-source-multi-agent-framework-for-clinical-ai-reasoning-and-coordination.html) |
+| [2026-08-14](2026-08-14.html) | [Intern-S2-Preview: Scientific Agentic Foundation Model](../papers/intern-s2-preview-scientific-agentic-foundation-model.html) |
+| [2026-08-14](2026-08-14.html) | [AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design](../papers/autodesign-meta-harness-optimization-for-long-horizon-agentic-design.html) |
 | [2026-08-13](2026-08-13.html) | [Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation](../papers/test-time-self-evolving-gui-visual-grounding-via-reflection-guided-on-policy-self-distillation.html) |
 | [2026-08-13](2026-08-13.html) | [V-FiLLM: Verified Financial LLM Reasoning Benchmark](../papers/v-fillm-verified-financial-llm-reasoning-benchmark.html) |
 | [2026-08-13](2026-08-13.html) | [MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment](../papers/multimodal-code-switching-interleaving-visual-objects-into-language-for-explicit-object-level-alignment.html) |

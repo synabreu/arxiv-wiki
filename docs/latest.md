@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies](papers/vakra-evaluating-multi-hop-reasoning-across-apis-and-retrieval-under-tool-use-policies.html)
-- [The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study](papers/the-role-specialization-model-rsm-coordinating-llm-based-tools-in-agentic-software-development-an-exploratory-case-study.html)
-- [One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL](papers/one-frozen-simulator-is-not-enough-simulator-collapse-in-multi-agent-rl.html)
-- [AVA-Encoder: Towards Agent-Native Video Representation Learning](papers/ava-encoder-towards-agent-native-video-representation-learning.html)
-- [Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents](papers/convergent-detour-hijacking-task-preserving-resource-amplification-in-skill-based-llm-agents.html)
+- [LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles](papers/llm-assisted-dynamic-threat-analysis-for-attacker-reachable-software-weaknesses-in-autonomous-vehicles.html)
+- [DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data](papers/dfm-mimir-v1-an-open-hrm-delivering-frontier-performance-at-1b-parameters-using-only-permissible-post-training-data.html)
+- [MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination](papers/marc-v1-an-open-source-multi-agent-framework-for-clinical-ai-reasoning-and-coordination.html)
+- [Intern-S2-Preview: Scientific Agentic Foundation Model](papers/intern-s2-preview-scientific-agentic-foundation-model.html)
+- [AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design](papers/autodesign-meta-harness-optimization-for-long-horizon-agentic-design.html)
