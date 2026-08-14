@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-14](2026-08-14.html) | [VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies](../papers/vakra-evaluating-multi-hop-reasoning-across-apis-and-retrieval-under-tool-use-policies.html) |
+| [2026-08-14](2026-08-14.html) | [The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study](../papers/the-role-specialization-model-rsm-coordinating-llm-based-tools-in-agentic-software-development-an-exploratory-case-study.html) |
+| [2026-08-14](2026-08-14.html) | [One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL](../papers/one-frozen-simulator-is-not-enough-simulator-collapse-in-multi-agent-rl.html) |
+| [2026-08-14](2026-08-14.html) | [AVA-Encoder: Towards Agent-Native Video Representation Learning](../papers/ava-encoder-towards-agent-native-video-representation-learning.html) |
+| [2026-08-14](2026-08-14.html) | [Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents](../papers/convergent-detour-hijacking-task-preserving-resource-amplification-in-skill-based-llm-agents.html) |
 | [2026-08-13](2026-08-13.html) | [Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation](../papers/test-time-self-evolving-gui-visual-grounding-via-reflection-guided-on-policy-self-distillation.html) |
 | [2026-08-13](2026-08-13.html) | [V-FiLLM: Verified Financial LLM Reasoning Benchmark](../papers/v-fillm-verified-financial-llm-reasoning-benchmark.html) |
 | [2026-08-13](2026-08-13.html) | [MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment](../papers/multimodal-code-switching-interleaving-visual-objects-into-language-for-explicit-object-level-alignment.html) |
