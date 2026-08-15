@@ -1,4 +1,4 @@
-# 2026-08-14 arXiv AI 논문
+# 2026-08-15 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles](papers/llm-assisted-dynamic-threat-analysis-for-attacker-reachable-software-weaknesses-in-autonomous-vehicles.html)
-- [DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data](papers/dfm-mimir-v1-an-open-hrm-delivering-frontier-performance-at-1b-parameters-using-only-permissible-post-training-data.html)
-- [MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination](papers/marc-v1-an-open-source-multi-agent-framework-for-clinical-ai-reasoning-and-coordination.html)
-- [Intern-S2-Preview: Scientific Agentic Foundation Model](papers/intern-s2-preview-scientific-agentic-foundation-model.html)
-- [AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design](papers/autodesign-meta-harness-optimization-for-long-horizon-agentic-design.html)
+- [OmniScientist: An Omni-Modal Omni-Discipline AI Scientist](papers/omniscientist-an-omni-modal-omni-discipline-ai-scientist.html)
+- [Vero: Can AI Agents Build Formally Verified Software Repositories?](papers/vero-can-ai-agents-build-formally-verified-software-repositories.html)
+- [TraVEL: Trajectory-Guided Video Embedding Learning for Driving-Video Retrieval](papers/travel-trajectory-guided-video-embedding-learning-for-driving-video-retrieval.html)
+- [CAPRI: Contract-Aware Proof Repair for Isabelle](papers/capri-contract-aware-proof-repair-for-isabelle.html)
+- [PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives](papers/playworld-benchmarking-world-models-with-agent-players-over-long-horizon-objectives.html)
