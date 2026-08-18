@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-18](2026-08-18.html) | [Revisiting Classifier-Free Guidance Methods in Latent Diffusion Models](../papers/revisiting-classifier-free-guidance-methods-in-latent-diffusion-models.html) |
+| [2026-08-18](2026-08-18.html) | [HarnessEval-W: Agentifying the Evaluation of Visual Worlds](../papers/harnesseval-w-agentifying-the-evaluation-of-visual-worlds.html) |
+| [2026-08-18](2026-08-18.html) | [ClawGym II: Exploring Black-Box RL on Agent Harness](../papers/clawgym-ii-exploring-black-box-rl-on-agent-harness.html) |
+| [2026-08-18](2026-08-18.html) | [Would this change your answer? Evaluating Explanations of LLM Behavior In The Wild with Counterfactual Experiments](../papers/would-this-change-your-answer-evaluating-explanations-of-llm-behavior-in-the-wild-with-counterfactual-experiments.html) |
+| [2026-08-18](2026-08-18.html) | [LAVA: Logic-Aware Validation and Augmentation Framework for Large-Scale Financial Document Auditing](../papers/lava-logic-aware-validation-and-augmentation-framework-for-large-scale-financial-document-auditing.html) |
 | [2026-08-15](2026-08-15.html) | [OmniScientist: An Omni-Modal Omni-Discipline AI Scientist](../papers/omniscientist-an-omni-modal-omni-discipline-ai-scientist.html) |
 | [2026-08-15](2026-08-15.html) | [Vero: Can AI Agents Build Formally Verified Software Repositories?](../papers/vero-can-ai-agents-build-formally-verified-software-repositories.html) |
 | [2026-08-15](2026-08-15.html) | [TraVEL: Trajectory-Guided Video Embedding Learning for Driving-Video Retrieval](../papers/travel-trajectory-guided-video-embedding-learning-for-driving-video-retrieval.html) |
