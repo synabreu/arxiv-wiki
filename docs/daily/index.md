@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-19](2026-08-19.html) | [Recirculation](../papers/recirculation.html) |
+| [2026-08-19](2026-08-19.html) | [Memory Tree Guided Key Frame Querying for Efficient 3D Question Answering](../papers/memory-tree-guided-key-frame-querying-for-efficient-3d-question-answering.html) |
+| [2026-08-19](2026-08-19.html) | [Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach](../papers/can-large-language-models-explain-flight-safety-events-a-prior-guided-semantic-llm-based-approach.html) |
+| [2026-08-19](2026-08-19.html) | [Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating](../papers/delegation-asymmetry-in-agentic-recommender-systems-measuring-two-sided-receptivity-in-online-dating.html) |
+| [2026-08-19](2026-08-19.html) | [Chain-of-Experience for Continual LLM Improvement](../papers/chain-of-experience-for-continual-llm-improvement.html) |
 | [2026-08-18](2026-08-18.html) | [Revisiting Classifier-Free Guidance Methods in Latent Diffusion Models](../papers/revisiting-classifier-free-guidance-methods-in-latent-diffusion-models.html) |
 | [2026-08-18](2026-08-18.html) | [HarnessEval-W: Agentifying the Evaluation of Visual Worlds](../papers/harnesseval-w-agentifying-the-evaluation-of-visual-worlds.html) |
 | [2026-08-18](2026-08-18.html) | [ClawGym II: Exploring Black-Box RL on Agent Harness](../papers/clawgym-ii-exploring-black-box-rl-on-agent-harness.html) |
