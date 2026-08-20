@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-20](2026-08-20.html) | [SPADE: Self-Play in Adaptive Synthetic Executable Environments](../papers/spade-self-play-in-adaptive-synthetic-executable-environments.html) |
+| [2026-08-20](2026-08-20.html) | [What is Missing from AI Post-Training AI: An Empirical Analysis](../papers/what-is-missing-from-ai-post-training-ai-an-empirical-analysis.html) |
+| [2026-08-20](2026-08-20.html) | [Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets](../papers/pre-compiled-pipeline-shards-for-distributed-llm-inference-on-intel-ai-pc-fleets.html) |
+| [2026-08-20](2026-08-20.html) | [Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning](../papers/beyond-teacher-likelihood-group-calibrated-on-policy-distillation-for-long-context-reasoning.html) |
+| [2026-08-20](2026-08-20.html) | [Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering](../papers/adaptive-memory-and-reflection-multi-agent-system-for-medical-question-answering.html) |
 | [2026-08-19](2026-08-19.html) | [Recirculation](../papers/recirculation.html) |
 | [2026-08-19](2026-08-19.html) | [Memory Tree Guided Key Frame Querying for Efficient 3D Question Answering](../papers/memory-tree-guided-key-frame-querying-for-efficient-3d-question-answering.html) |
 | [2026-08-19](2026-08-19.html) | [Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach](../papers/can-large-language-models-explain-flight-safety-events-a-prior-guided-semantic-llm-based-approach.html) |

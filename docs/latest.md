@@ -1,4 +1,4 @@
-# 2026-08-19 arXiv AI 논문
+# 2026-08-20 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Recirculation](papers/recirculation.html)
-- [Memory Tree Guided Key Frame Querying for Efficient 3D Question Answering](papers/memory-tree-guided-key-frame-querying-for-efficient-3d-question-answering.html)
-- [Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach](papers/can-large-language-models-explain-flight-safety-events-a-prior-guided-semantic-llm-based-approach.html)
-- [Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating](papers/delegation-asymmetry-in-agentic-recommender-systems-measuring-two-sided-receptivity-in-online-dating.html)
-- [Chain-of-Experience for Continual LLM Improvement](papers/chain-of-experience-for-continual-llm-improvement.html)
+- [SPADE: Self-Play in Adaptive Synthetic Executable Environments](papers/spade-self-play-in-adaptive-synthetic-executable-environments.html)
+- [What is Missing from AI Post-Training AI: An Empirical Analysis](papers/what-is-missing-from-ai-post-training-ai-an-empirical-analysis.html)
+- [Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets](papers/pre-compiled-pipeline-shards-for-distributed-llm-inference-on-intel-ai-pc-fleets.html)
+- [Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning](papers/beyond-teacher-likelihood-group-calibrated-on-policy-distillation-for-long-context-reasoning.html)
+- [Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering](papers/adaptive-memory-and-reflection-multi-agent-system-for-medical-question-answering.html)
