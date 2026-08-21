@@ -1,4 +1,4 @@
-# 2026-08-20 arXiv AI 논문
+# 2026-08-21 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [SPADE: Self-Play in Adaptive Synthetic Executable Environments](papers/spade-self-play-in-adaptive-synthetic-executable-environments.html)
-- [What is Missing from AI Post-Training AI: An Empirical Analysis](papers/what-is-missing-from-ai-post-training-ai-an-empirical-analysis.html)
-- [Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets](papers/pre-compiled-pipeline-shards-for-distributed-llm-inference-on-intel-ai-pc-fleets.html)
-- [Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning](papers/beyond-teacher-likelihood-group-calibrated-on-policy-distillation-for-long-context-reasoning.html)
-- [Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering](papers/adaptive-memory-and-reflection-multi-agent-system-for-medical-question-answering.html)
+- [Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection](papers/task-coevolve-efficient-harness-optimization-via-adaptive-validation-task-selection.html)
+- [Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization](papers/inject-align-recover-staged-post-training-for-retrieval-free-document-knowledge-internalization.html)
+- [Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation](papers/pandoras-ai-model-routing-box-efficient-allocation-with-costly-value-estimation.html)
+- [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](papers/ai4ai-bench-benchmarking-llm-agents-in-algorithmic-design-for-recursive-self-improvement.html)
+- [MidTool: Mid-training Data Synthesis for Agentic Tool Use](papers/midtool-mid-training-data-synthesis-for-agentic-tool-use.html)

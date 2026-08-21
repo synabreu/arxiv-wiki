@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-21](2026-08-21.html) | [Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection](../papers/task-coevolve-efficient-harness-optimization-via-adaptive-validation-task-selection.html) |
+| [2026-08-21](2026-08-21.html) | [Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization](../papers/inject-align-recover-staged-post-training-for-retrieval-free-document-knowledge-internalization.html) |
+| [2026-08-21](2026-08-21.html) | [Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation](../papers/pandoras-ai-model-routing-box-efficient-allocation-with-costly-value-estimation.html) |
+| [2026-08-21](2026-08-21.html) | [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](../papers/ai4ai-bench-benchmarking-llm-agents-in-algorithmic-design-for-recursive-self-improvement.html) |
+| [2026-08-21](2026-08-21.html) | [MidTool: Mid-training Data Synthesis for Agentic Tool Use](../papers/midtool-mid-training-data-synthesis-for-agentic-tool-use.html) |
 | [2026-08-20](2026-08-20.html) | [SPADE: Self-Play in Adaptive Synthetic Executable Environments](../papers/spade-self-play-in-adaptive-synthetic-executable-environments.html) |
 | [2026-08-20](2026-08-20.html) | [What is Missing from AI Post-Training AI: An Empirical Analysis](../papers/what-is-missing-from-ai-post-training-ai-an-empirical-analysis.html) |
 | [2026-08-20](2026-08-20.html) | [Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets](../papers/pre-compiled-pipeline-shards-for-distributed-llm-inference-on-intel-ai-pc-fleets.html) |
