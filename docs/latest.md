@@ -1,4 +1,4 @@
-# 2026-08-21 arXiv AI 논문
+# 2026-08-22 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection](papers/task-coevolve-efficient-harness-optimization-via-adaptive-validation-task-selection.html)
-- [Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization](papers/inject-align-recover-staged-post-training-for-retrieval-free-document-knowledge-internalization.html)
-- [Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation](papers/pandoras-ai-model-routing-box-efficient-allocation-with-costly-value-estimation.html)
-- [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](papers/ai4ai-bench-benchmarking-llm-agents-in-algorithmic-design-for-recursive-self-improvement.html)
-- [MidTool: Mid-training Data Synthesis for Agentic Tool Use](papers/midtool-mid-training-data-synthesis-for-agentic-tool-use.html)
+- [Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents](papers/break-it-down-pass-it-on-cross-task-skill-transfer-in-llm-agents.html)
+- [BreakGuard: Towards Detecting Dependency Breaking Changes with LLM-Generated Tests](papers/breakguard-towards-detecting-dependency-breaking-changes-with-llm-generated-tests.html)
+- [MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use](papers/memtrapbench-benchmarking-cognitive-traps-in-llm-memory-use.html)
+- [An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction](papers/an-agentic-approach-for-active-data-collection-travel-behavior-modeling-and-weather-sensitive-demand-prediction.html)
+- [RoMAN-Flow: Taming Autoregressive Normalizing Flows for Offline Reinforcement Learning in Robotic Manipulation](papers/roman-flow-taming-autoregressive-normalizing-flows-for-offline-reinforcement-learning-in-robotic-manipulation.html)

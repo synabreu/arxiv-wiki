@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-22](2026-08-22.html) | [Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents](../papers/break-it-down-pass-it-on-cross-task-skill-transfer-in-llm-agents.html) |
+| [2026-08-22](2026-08-22.html) | [BreakGuard: Towards Detecting Dependency Breaking Changes with LLM-Generated Tests](../papers/breakguard-towards-detecting-dependency-breaking-changes-with-llm-generated-tests.html) |
+| [2026-08-22](2026-08-22.html) | [MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use](../papers/memtrapbench-benchmarking-cognitive-traps-in-llm-memory-use.html) |
+| [2026-08-22](2026-08-22.html) | [An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction](../papers/an-agentic-approach-for-active-data-collection-travel-behavior-modeling-and-weather-sensitive-demand-prediction.html) |
+| [2026-08-22](2026-08-22.html) | [RoMAN-Flow: Taming Autoregressive Normalizing Flows for Offline Reinforcement Learning in Robotic Manipulation](../papers/roman-flow-taming-autoregressive-normalizing-flows-for-offline-reinforcement-learning-in-robotic-manipulation.html) |
 | [2026-08-21](2026-08-21.html) | [Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection](../papers/task-coevolve-efficient-harness-optimization-via-adaptive-validation-task-selection.html) |
 | [2026-08-21](2026-08-21.html) | [Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization](../papers/inject-align-recover-staged-post-training-for-retrieval-free-document-knowledge-internalization.html) |
 | [2026-08-21](2026-08-21.html) | [Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation](../papers/pandoras-ai-model-routing-box-efficient-allocation-with-costly-value-estimation.html) |
