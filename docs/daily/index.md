@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-25](2026-08-25.html) | [Prime Agent: A Self-Improving RLM Harness](../papers/prime-agent-a-self-improving-rlm-harness.html) |
+| [2026-08-25](2026-08-25.html) | [MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters](../papers/metacaster-meta-harness-optimized-agent-for-end-to-end-few-shot-learning-of-lightweight-time-series-forecasters.html) |
+| [2026-08-25](2026-08-25.html) | [On the Threat Model of Weird Generalization and Emergent Misalignment](../papers/on-the-threat-model-of-weird-generalization-and-emergent-misalignment.html) |
+| [2026-08-25](2026-08-25.html) | [EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth Systems and Natural Hazards](../papers/earthverse-benchmarking-scientific-agents-across-dynamic-earth-systems-and-natural-hazards.html) |
+| [2026-08-25](2026-08-25.html) | [InjecMEM: Memory Injection Attack on LLM Agent Memory Systems](../papers/injecmem-memory-injection-attack-on-llm-agent-memory-systems.html) |
 | [2026-08-22](2026-08-22.html) | [Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents](../papers/break-it-down-pass-it-on-cross-task-skill-transfer-in-llm-agents.html) |
 | [2026-08-22](2026-08-22.html) | [BreakGuard: Towards Detecting Dependency Breaking Changes with LLM-Generated Tests](../papers/breakguard-towards-detecting-dependency-breaking-changes-with-llm-generated-tests.html) |
 | [2026-08-22](2026-08-22.html) | [MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use](../papers/memtrapbench-benchmarking-cognitive-traps-in-llm-memory-use.html) |
