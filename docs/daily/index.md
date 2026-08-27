@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-27](2026-08-27.html) | [A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks](../papers/a-self-evolving-multi-agent-framework-defense-against-llm-jailbreak-attacks.html) |
+| [2026-08-27](2026-08-27.html) | [ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs](../papers/progrouter-online-progress-guided-orchestration-for-multi-agent-llm-workflows-under-quality-cost-tradeoffs.html) |
+| [2026-08-27](2026-08-27.html) | [AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs](../papers/asymspec-context-asymmetric-speculative-decoding-for-agentic-llms.html) |
+| [2026-08-27](2026-08-27.html) | [PANDA - Prototype-Anchored Alignment for Partially Unpaired Multimodal Learning, with Applications to Alzheimers MRI and TCGA Pathology](../papers/panda-prototype-anchored-alignment-for-partially-unpaired-multimodal-learning-with-applications-to-alzheimers-mri-and-tcga-pathology.html) |
+| [2026-08-27](2026-08-27.html) | [Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems](../papers/trace-integrity-for-llm-data-agents-a-vision-for-auditable-structured-reasoning-in-real-world-systems.html) |
 | [2026-08-25](2026-08-25.html) | [Prime Agent: A Self-Improving RLM Harness](../papers/prime-agent-a-self-improving-rlm-harness.html) |
 | [2026-08-25](2026-08-25.html) | [MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters](../papers/metacaster-meta-harness-optimized-agent-for-end-to-end-few-shot-learning-of-lightweight-time-series-forecasters.html) |
 | [2026-08-25](2026-08-25.html) | [On the Threat Model of Weird Generalization and Emergent Misalignment](../papers/on-the-threat-model-of-weird-generalization-and-emergent-misalignment.html) |
