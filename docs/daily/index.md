@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-28](2026-08-28.html) | [Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090](../papers/puro-2b-poor-labs-qwen2-15b-trained-on-rtx-5090-within-5090.html) |
+| [2026-08-28](2026-08-28.html) | [RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution](../papers/redevoagent-automatic-red-teaming-agent-with-experience-driven-skill-evolution.html) |
+| [2026-08-28](2026-08-28.html) | [CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes](../papers/criticl-inference-time-weak-to-strong-generalization-from-small-language-model-failure-modes.html) |
+| [2026-08-28](2026-08-28.html) | [How Language Models Organize and Structure Moral Knowledge](../papers/how-language-models-organize-and-structure-moral-knowledge.html) |
+| [2026-08-28](2026-08-28.html) | [CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases](../papers/corporatebench-large-scale-qa-benchmarking-with-temporal-knowledge-bases.html) |
 | [2026-08-27](2026-08-27.html) | [A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks](../papers/a-self-evolving-multi-agent-framework-defense-against-llm-jailbreak-attacks.html) |
 | [2026-08-27](2026-08-27.html) | [ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs](../papers/progrouter-online-progress-guided-orchestration-for-multi-agent-llm-workflows-under-quality-cost-tradeoffs.html) |
 | [2026-08-27](2026-08-27.html) | [AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs](../papers/asymspec-context-asymmetric-speculative-decoding-for-agentic-llms.html) |

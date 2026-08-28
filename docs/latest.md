@@ -1,4 +1,4 @@
-# 2026-08-27 arXiv AI 논문
+# 2026-08-28 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks](papers/a-self-evolving-multi-agent-framework-defense-against-llm-jailbreak-attacks.html)
-- [ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs](papers/progrouter-online-progress-guided-orchestration-for-multi-agent-llm-workflows-under-quality-cost-tradeoffs.html)
-- [AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs](papers/asymspec-context-asymmetric-speculative-decoding-for-agentic-llms.html)
-- [PANDA - Prototype-Anchored Alignment for Partially Unpaired Multimodal Learning, with Applications to Alzheimers MRI and TCGA Pathology](papers/panda-prototype-anchored-alignment-for-partially-unpaired-multimodal-learning-with-applications-to-alzheimers-mri-and-tcga-pathology.html)
-- [Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems](papers/trace-integrity-for-llm-data-agents-a-vision-for-auditable-structured-reasoning-in-real-world-systems.html)
+- [Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090](papers/puro-2b-poor-labs-qwen2-15b-trained-on-rtx-5090-within-5090.html)
+- [RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution](papers/redevoagent-automatic-red-teaming-agent-with-experience-driven-skill-evolution.html)
+- [CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes](papers/criticl-inference-time-weak-to-strong-generalization-from-small-language-model-failure-modes.html)
+- [How Language Models Organize and Structure Moral Knowledge](papers/how-language-models-organize-and-structure-moral-knowledge.html)
+- [CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases](papers/corporatebench-large-scale-qa-benchmarking-with-temporal-knowledge-bases.html)
