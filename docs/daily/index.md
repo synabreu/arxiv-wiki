@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-29](2026-08-29.html) | [Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit](../papers/persona-execution-separation-an-architecture-pattern-for-evolving-llm-agents-under-execution-audit.html) |
+| [2026-08-29](2026-08-29.html) | [RCMN: Understanding Misleadingness in Influential Public Discourse](../papers/rcmn-understanding-misleadingness-in-influential-public-discourse.html) |
+| [2026-08-29](2026-08-29.html) | [Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO](../papers/understanding-evolution-strategies-for-llm-reasoning-broader-reasoning-coverage-than-grpo.html) |
+| [2026-08-29](2026-08-29.html) | [Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification](../papers/verify-smarter-evolve-further-efficient-harness-evolution-through-behavior-aware-verification.html) |
+| [2026-08-29](2026-08-29.html) | [Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting](../papers/beyond-parallel-blindness-information-floors-and-model-gaps-in-block-drafting.html) |
 | [2026-08-28](2026-08-28.html) | [Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090](../papers/puro-2b-poor-labs-qwen2-15b-trained-on-rtx-5090-within-5090.html) |
 | [2026-08-28](2026-08-28.html) | [RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution](../papers/redevoagent-automatic-red-teaming-agent-with-experience-driven-skill-evolution.html) |
 | [2026-08-28](2026-08-28.html) | [CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes](../papers/criticl-inference-time-weak-to-strong-generalization-from-small-language-model-failure-modes.html) |

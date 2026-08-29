@@ -1,4 +1,4 @@
-# 2026-08-28 arXiv AI 논문
+# 2026-08-29 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090](papers/puro-2b-poor-labs-qwen2-15b-trained-on-rtx-5090-within-5090.html)
-- [RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution](papers/redevoagent-automatic-red-teaming-agent-with-experience-driven-skill-evolution.html)
-- [CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes](papers/criticl-inference-time-weak-to-strong-generalization-from-small-language-model-failure-modes.html)
-- [How Language Models Organize and Structure Moral Knowledge](papers/how-language-models-organize-and-structure-moral-knowledge.html)
-- [CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases](papers/corporatebench-large-scale-qa-benchmarking-with-temporal-knowledge-bases.html)
+- [Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit](papers/persona-execution-separation-an-architecture-pattern-for-evolving-llm-agents-under-execution-audit.html)
+- [RCMN: Understanding Misleadingness in Influential Public Discourse](papers/rcmn-understanding-misleadingness-in-influential-public-discourse.html)
+- [Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO](papers/understanding-evolution-strategies-for-llm-reasoning-broader-reasoning-coverage-than-grpo.html)
+- [Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification](papers/verify-smarter-evolve-further-efficient-harness-evolution-through-behavior-aware-verification.html)
+- [Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting](papers/beyond-parallel-blindness-information-floors-and-model-gaps-in-block-drafting.html)
