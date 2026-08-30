@@ -1,4 +1,4 @@
-# 2026-08-29 arXiv AI 논문
+# 2026-08-30 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit](papers/persona-execution-separation-an-architecture-pattern-for-evolving-llm-agents-under-execution-audit.html)
-- [RCMN: Understanding Misleadingness in Influential Public Discourse](papers/rcmn-understanding-misleadingness-in-influential-public-discourse.html)
-- [Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO](papers/understanding-evolution-strategies-for-llm-reasoning-broader-reasoning-coverage-than-grpo.html)
-- [Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification](papers/verify-smarter-evolve-further-efficient-harness-evolution-through-behavior-aware-verification.html)
-- [Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting](papers/beyond-parallel-blindness-information-floors-and-model-gaps-in-block-drafting.html)
+- [WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution](papers/wikiskill-compiling-agent-experience-into-persistent-knowledge-for-skill-evolution.html)
+- [Boosting LLM Exploration via Weak-Model Guidance in RLVR](papers/boosting-llm-exploration-via-weak-model-guidance-in-rlvr.html)
+- [When Context Gets Root: Privilege Escalation in LLM Harnesses](papers/when-context-gets-root-privilege-escalation-in-llm-harnesses.html)
+- [UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City](papers/urbanground-from-local-perception-to-spatial-agency-in-a-real-scale-city.html)
+- [RATIO: A Benchmark for Retrieval Across Typed Ideation Operations in Scientific Literature](papers/ratio-a-benchmark-for-retrieval-across-typed-ideation-operations-in-scientific-literature.html)
