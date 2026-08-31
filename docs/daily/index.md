@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-08-31](2026-08-31.html) | [EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses](../papers/evoundo-recoverability-constrained-self-evolution-for-llm-agent-harnesses.html) |
+| [2026-08-31](2026-08-31.html) | [COVER: Identifiable Evaluation of Coalition Routing](../papers/cover-identifiable-evaluation-of-coalition-routing.html) |
+| [2026-08-31](2026-08-31.html) | [Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge](../papers/blind-men-and-the-elephant-probing-the-epistemic-myopia-of-llms-under-long-tail-divergent-knowledge.html) |
+| [2026-08-31](2026-08-31.html) | [When Verified Source Becomes Attack Input: Defending Smart Contracts Against LLM-Based Vulnerability Scanning](../papers/when-verified-source-becomes-attack-input-defending-smart-contracts-against-llm-based-vulnerability-scanning.html) |
+| [2026-08-31](2026-08-31.html) | [CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents](../papers/camodocs-a-poisoning-attack-against-retrieval-augmented-language-models-using-camouflaged-documents.html) |
 | [2026-08-30](2026-08-30.html) | [WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution](../papers/wikiskill-compiling-agent-experience-into-persistent-knowledge-for-skill-evolution.html) |
 | [2026-08-30](2026-08-30.html) | [Boosting LLM Exploration via Weak-Model Guidance in RLVR](../papers/boosting-llm-exploration-via-weak-model-guidance-in-rlvr.html) |
 | [2026-08-30](2026-08-30.html) | [When Context Gets Root: Privilege Escalation in LLM Harnesses](../papers/when-context-gets-root-privilege-escalation-in-llm-harnesses.html) |
