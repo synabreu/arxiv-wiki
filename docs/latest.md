@@ -1,4 +1,4 @@
-# 2026-09-01 arXiv AI 논문
+# 2026-09-03 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Memory-First Fact-Checking: A Knowledge-Graph-Grounded Multi-Agent System for Misinformation Detection](papers/memory-first-fact-checking-a-knowledge-graph-grounded-multi-agent-system-for-misinformation-detection.html)
-- [Drive the Thoughts: Runtime Monitoring of VLA Reasoning-Trajectory Consistency](papers/drive-the-thoughts-runtime-monitoring-of-vla-reasoning-trajectory-consistency.html)
-- [Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents](papers/agent-zero-memory-provenance-aware-long-term-memory-for-llm-agents.html)
-- [Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security](papers/towards-a-systems-foundation-for-agentic-skills-architecture-lifecycle-and-security.html)
-- [Cross-lingual Functional Vectors for Emotion Detection in Large Language Models](papers/cross-lingual-functional-vectors-for-emotion-detection-in-large-language-models.html)
+- [When Decodability Is Not Enough: Logical Validity Representations, Behavioral Dissociation, and Causal Tests in Language Models](papers/when-decodability-is-not-enough-logical-validity-representations-behavioral-dissociation-and-causal-tests-in-language-models.html)
+- [How LLMs Build Fictional Worlds: Setting and Narrative Space in AI-Generated Creative Storytelling](papers/how-llms-build-fictional-worlds-setting-and-narrative-space-in-ai-generated-creative-storytelling.html)
+- [Learning to Fuse LLMs with Ontology Rankers for Rare-Disease Diagnosis](papers/learning-to-fuse-llms-with-ontology-rankers-for-rare-disease-diagnosis.html)
+- [CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI](papers/civbench-a-long-horizon-benchmark-for-tool-mediated-agents-in-civilization-vi.html)
+- [Online Reinforcement Learning in the Met Office Unified Model through Distributed Model-Agent Coupling](papers/online-reinforcement-learning-in-the-met-office-unified-model-through-distributed-model-agent-coupling.html)

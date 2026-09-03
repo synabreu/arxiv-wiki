@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-03](2026-09-03.html) | [When Decodability Is Not Enough: Logical Validity Representations, Behavioral Dissociation, and Causal Tests in Language Models](../papers/when-decodability-is-not-enough-logical-validity-representations-behavioral-dissociation-and-causal-tests-in-language-models.html) |
+| [2026-09-03](2026-09-03.html) | [How LLMs Build Fictional Worlds: Setting and Narrative Space in AI-Generated Creative Storytelling](../papers/how-llms-build-fictional-worlds-setting-and-narrative-space-in-ai-generated-creative-storytelling.html) |
+| [2026-09-03](2026-09-03.html) | [Learning to Fuse LLMs with Ontology Rankers for Rare-Disease Diagnosis](../papers/learning-to-fuse-llms-with-ontology-rankers-for-rare-disease-diagnosis.html) |
+| [2026-09-03](2026-09-03.html) | [CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI](../papers/civbench-a-long-horizon-benchmark-for-tool-mediated-agents-in-civilization-vi.html) |
+| [2026-09-03](2026-09-03.html) | [Online Reinforcement Learning in the Met Office Unified Model through Distributed Model-Agent Coupling](../papers/online-reinforcement-learning-in-the-met-office-unified-model-through-distributed-model-agent-coupling.html) |
 | [2026-09-01](2026-09-01.html) | [Memory-First Fact-Checking: A Knowledge-Graph-Grounded Multi-Agent System for Misinformation Detection](../papers/memory-first-fact-checking-a-knowledge-graph-grounded-multi-agent-system-for-misinformation-detection.html) |
 | [2026-09-01](2026-09-01.html) | [Drive the Thoughts: Runtime Monitoring of VLA Reasoning-Trajectory Consistency](../papers/drive-the-thoughts-runtime-monitoring-of-vla-reasoning-trajectory-consistency.html) |
 | [2026-09-01](2026-09-01.html) | [Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents](../papers/agent-zero-memory-provenance-aware-long-term-memory-for-llm-agents.html) |
