@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-04](2026-09-04.html) | [Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems](../papers/bilevel-coordinated-reflection-a-game-theoretic-approach-to-multi-agent-llm-systems.html) |
+| [2026-09-04](2026-09-04.html) | [UE5M3 FP4 Block Scaling for Stable Language Model Pretraining](../papers/ue5m3-fp4-block-scaling-for-stable-language-model-pretraining.html) |
+| [2026-09-04](2026-09-04.html) | [Post-Training Language Models for Gold-Medal Performance in Coding Competitions](../papers/post-training-language-models-for-gold-medal-performance-in-coding-competitions.html) |
+| [2026-09-04](2026-09-04.html) | [Untangling the Mechanisms of Misleading Context in Medical Question Answering](../papers/untangling-the-mechanisms-of-misleading-context-in-medical-question-answering.html) |
+| [2026-09-04](2026-09-04.html) | [Language Models Can Control Their Own Attention](../papers/language-models-can-control-their-own-attention.html) |
 | [2026-09-03](2026-09-03.html) | [When Decodability Is Not Enough: Logical Validity Representations, Behavioral Dissociation, and Causal Tests in Language Models](../papers/when-decodability-is-not-enough-logical-validity-representations-behavioral-dissociation-and-causal-tests-in-language-models.html) |
 | [2026-09-03](2026-09-03.html) | [How LLMs Build Fictional Worlds: Setting and Narrative Space in AI-Generated Creative Storytelling](../papers/how-llms-build-fictional-worlds-setting-and-narrative-space-in-ai-generated-creative-storytelling.html) |
 | [2026-09-03](2026-09-03.html) | [Learning to Fuse LLMs with Ontology Rankers for Rare-Disease Diagnosis](../papers/learning-to-fuse-llms-with-ontology-rankers-for-rare-disease-diagnosis.html) |
