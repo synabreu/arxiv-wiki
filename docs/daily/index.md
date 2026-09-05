@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-05](2026-09-05.html) | [Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving](../papers/continuous-actions-from-discrete-minds-latent-aligned-planning-for-end-to-end-autonomous-driving.html) |
+| [2026-09-05](2026-09-05.html) | [SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents](../papers/swe-gate-passing-functional-tests-is-not-enough-for-software-engineering-agents.html) |
+| [2026-09-05](2026-09-05.html) | [Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs](../papers/para-pipe-exploiting-hierarchical-operator-parallelism-of-ml-computational-graphs-on-socs.html) |
+| [2026-09-05](2026-09-05.html) | [ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize](../papers/espo-error-structured-prompt-optimization-via-diagnose-diversify-and-stabilize.html) |
+| [2026-09-05](2026-09-05.html) | [SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center](../papers/sentinel-rl-offloading-topological-reasoning-from-llm-agents-in-the-security-operations-center.html) |
 | [2026-09-04](2026-09-04.html) | [Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems](../papers/bilevel-coordinated-reflection-a-game-theoretic-approach-to-multi-agent-llm-systems.html) |
 | [2026-09-04](2026-09-04.html) | [UE5M3 FP4 Block Scaling for Stable Language Model Pretraining](../papers/ue5m3-fp4-block-scaling-for-stable-language-model-pretraining.html) |
 | [2026-09-04](2026-09-04.html) | [Post-Training Language Models for Gold-Medal Performance in Coding Competitions](../papers/post-training-language-models-for-gold-medal-performance-in-coding-competitions.html) |
