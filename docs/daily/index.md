@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-06](2026-09-06.html) | [Hardware-Aware FP4 FlashAttention-4](../papers/hardware-aware-fp4-flashattention-4.html) |
+| [2026-09-06](2026-09-06.html) | [PatchBench: Evaluating AI Agents for Vulnerability Patching](../papers/patchbench-evaluating-ai-agents-for-vulnerability-patching.html) |
+| [2026-09-06](2026-09-06.html) | [Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM](../papers/why-gated-deltanet-survives-4-bit-quantization-nvfp4-w4a4-for-the-recurrent-half-of-a-hybrid-27b-llm.html) |
+| [2026-09-06](2026-09-06.html) | [A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms](../papers/a-case-study-on-emergent-cheating-and-whistleblowing-in-autonomous-research-swarms.html) |
+| [2026-09-06](2026-09-06.html) | [Spurious Advantage Hidden in GRPO](../papers/spurious-advantage-hidden-in-grpo.html) |
 | [2026-09-05](2026-09-05.html) | [Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving](../papers/continuous-actions-from-discrete-minds-latent-aligned-planning-for-end-to-end-autonomous-driving.html) |
 | [2026-09-05](2026-09-05.html) | [SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents](../papers/swe-gate-passing-functional-tests-is-not-enough-for-software-engineering-agents.html) |
 | [2026-09-05](2026-09-05.html) | [Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs](../papers/para-pipe-exploiting-hierarchical-operator-parallelism-of-ml-computational-graphs-on-socs.html) |
