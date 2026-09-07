@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-07](2026-09-07.html) | [How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method](../papers/how-to-speculate-about-uncertainty-in-agentic-coding-a-draft-model-gate-method.html) |
+| [2026-09-07](2026-09-07.html) | [PRICE: A Systematic Study of LLM Adaptation Choices for Bitcoin Price Forecasting](../papers/price-a-systematic-study-of-llm-adaptation-choices-for-bitcoin-price-forecasting.html) |
+| [2026-09-07](2026-09-07.html) | [Substrate-Aware AI Agents: Execution Context as a First-Class Input](../papers/substrate-aware-ai-agents-execution-context-as-a-first-class-input.html) |
+| [2026-09-07](2026-09-07.html) | [Beyond Aggregate Scores: Behavioral Correctness Assumptions for Assessing Reference-Based Automatic Evaluation Methods](../papers/beyond-aggregate-scores-behavioral-correctness-assumptions-for-assessing-reference-based-automatic-evaluation-methods.html) |
+| [2026-09-07](2026-09-07.html) | [Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness](../papers/large-language-models-for-hvac-operations-in-building-energy-systems-a-critical-review-of-methods-applications-and-deployment-readiness.html) |
 | [2026-09-06](2026-09-06.html) | [Hardware-Aware FP4 FlashAttention-4](../papers/hardware-aware-fp4-flashattention-4.html) |
 | [2026-09-06](2026-09-06.html) | [PatchBench: Evaluating AI Agents for Vulnerability Patching](../papers/patchbench-evaluating-ai-agents-for-vulnerability-patching.html) |
 | [2026-09-06](2026-09-06.html) | [Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM](../papers/why-gated-deltanet-survives-4-bit-quantization-nvfp4-w4a4-for-the-recurrent-half-of-a-hybrid-27b-llm.html) |
