@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-10](2026-09-10.html) | [KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints](../papers/kvsharearena-kv-cache-reuse-across-contexts-and-model-checkpoints.html) |
+| [2026-09-10](2026-09-10.html) | [Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs](../papers/why-is-video-still-so-expensive-a-survey-of-inference-efficiency-mechanisms-in-video-and-audiovisual-llms.html) |
+| [2026-09-10](2026-09-10.html) | [Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs](../papers/beyond-one-size-fits-all-sample-adaptive-strategy-routing-for-vision-token-pruning-in-mllms.html) |
+| [2026-09-10](2026-09-10.html) | [Stencil Computation at the Intersection of AI and HPC](../papers/stencil-computation-at-the-intersection-of-ai-and-hpc.html) |
+| [2026-09-10](2026-09-10.html) | [GANDR: Claim Auditing for Verifiable Legal Answer Generation](../papers/gandr-claim-auditing-for-verifiable-legal-answer-generation.html) |
 | [2026-09-09](2026-09-09.html) | [Steering Under Compression: Dose-Response, Capability Cost, and Failure Asymmetry in Quantized LLMs](../papers/steering-under-compression-dose-response-capability-cost-and-failure-asymmetry-in-quantized-llms.html) |
 | [2026-09-09](2026-09-09.html) | [One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints](../papers/one-mllm-one-call-efficient-zero-shot-vision-and-language-navigation-via-spatial-aware-waypoints.html) |
 | [2026-09-09](2026-09-09.html) | [One Step, One Lead: Mitigating Higher-Order Interference in Multi-Domain Reinforcement Learning via Cross-Step Control](../papers/one-step-one-lead-mitigating-higher-order-interference-in-multi-domain-reinforcement-learning-via-cross-step-control.html) |
