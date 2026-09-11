@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-11](2026-09-11.html) | [Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)](../papers/enabling-knowledge-graph-understanding-at-scale-with-the-explore-your-graphs-engine-exygen.html) |
+| [2026-09-11](2026-09-11.html) | [ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs Staleness in Agentic AI](../papers/churnbench-a-drift-aware-benchmark-demonstrating-that-refresh-scheduling-not-cache-age-governs-staleness-in-agentic-ai.html) |
+| [2026-09-11](2026-09-11.html) | [MAPLE: Memory-Augmented Planning with Language and Evolution](../papers/maple-memory-augmented-planning-with-language-and-evolution.html) |
+| [2026-09-11](2026-09-11.html) | [From Document Silos to Process Intelligence: A Multi-Layer Knowledge Graph for CMC Process Development](../papers/from-document-silos-to-process-intelligence-a-multi-layer-knowledge-graph-for-cmc-process-development.html) |
+| [2026-09-11](2026-09-11.html) | [ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding](../papers/zipcodec-ultra-low-frame-rate-streaming-speech-coding.html) |
 | [2026-09-10](2026-09-10.html) | [KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints](../papers/kvsharearena-kv-cache-reuse-across-contexts-and-model-checkpoints.html) |
 | [2026-09-10](2026-09-10.html) | [Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs](../papers/why-is-video-still-so-expensive-a-survey-of-inference-efficiency-mechanisms-in-video-and-audiovisual-llms.html) |
 | [2026-09-10](2026-09-10.html) | [Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs](../papers/beyond-one-size-fits-all-sample-adaptive-strategy-routing-for-vision-token-pruning-in-mllms.html) |

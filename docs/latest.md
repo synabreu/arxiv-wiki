@@ -1,4 +1,4 @@
-# 2026-09-10 arXiv AI 논문
+# 2026-09-11 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints](papers/kvsharearena-kv-cache-reuse-across-contexts-and-model-checkpoints.html)
-- [Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs](papers/why-is-video-still-so-expensive-a-survey-of-inference-efficiency-mechanisms-in-video-and-audiovisual-llms.html)
-- [Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs](papers/beyond-one-size-fits-all-sample-adaptive-strategy-routing-for-vision-token-pruning-in-mllms.html)
-- [Stencil Computation at the Intersection of AI and HPC](papers/stencil-computation-at-the-intersection-of-ai-and-hpc.html)
-- [GANDR: Claim Auditing for Verifiable Legal Answer Generation](papers/gandr-claim-auditing-for-verifiable-legal-answer-generation.html)
+- [Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)](papers/enabling-knowledge-graph-understanding-at-scale-with-the-explore-your-graphs-engine-exygen.html)
+- [ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs Staleness in Agentic AI](papers/churnbench-a-drift-aware-benchmark-demonstrating-that-refresh-scheduling-not-cache-age-governs-staleness-in-agentic-ai.html)
+- [MAPLE: Memory-Augmented Planning with Language and Evolution](papers/maple-memory-augmented-planning-with-language-and-evolution.html)
+- [From Document Silos to Process Intelligence: A Multi-Layer Knowledge Graph for CMC Process Development](papers/from-document-silos-to-process-intelligence-a-multi-layer-knowledge-graph-for-cmc-process-development.html)
+- [ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding](papers/zipcodec-ultra-low-frame-rate-streaming-speech-coding.html)
