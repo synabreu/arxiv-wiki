@@ -1,4 +1,4 @@
-# 2026-09-11 arXiv AI 논문
+# 2026-09-16 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)](papers/enabling-knowledge-graph-understanding-at-scale-with-the-explore-your-graphs-engine-exygen.html)
-- [ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs Staleness in Agentic AI](papers/churnbench-a-drift-aware-benchmark-demonstrating-that-refresh-scheduling-not-cache-age-governs-staleness-in-agentic-ai.html)
-- [MAPLE: Memory-Augmented Planning with Language and Evolution](papers/maple-memory-augmented-planning-with-language-and-evolution.html)
-- [From Document Silos to Process Intelligence: A Multi-Layer Knowledge Graph for CMC Process Development](papers/from-document-silos-to-process-intelligence-a-multi-layer-knowledge-graph-for-cmc-process-development.html)
-- [ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding](papers/zipcodec-ultra-low-frame-rate-streaming-speech-coding.html)
+- [An Empirical Study of Counterfactual Self-Explanations in LLMs](papers/an-empirical-study-of-counterfactual-self-explanations-in-llms.html)
+- [EviScope: Paired Counterfactual Evidence Diagnostics for Faithful and Efficient Grounded Language Models](papers/eviscope-paired-counterfactual-evidence-diagnostics-for-faithful-and-efficient-grounded-language-models.html)
+- [FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference](papers/flexee-self-speculative-and-kv-compatible-early-exiting-for-offloading-aware-llm-inference.html)
+- [Nameless Tokenization: A Lossless Tokenizer-Level Defense Against Control-Token Forgery in Open-Weight LLMs](papers/nameless-tokenization-a-lossless-tokenizer-level-defense-against-control-token-forgery-in-open-weight-llms.html)
+- [Sparse MLLM Anchors, Dense Adaptation: Breaking the Self-Referential Loop in Wild Test-Time Adaptation](papers/sparse-mllm-anchors-dense-adaptation-breaking-the-self-referential-loop-in-wild-test-time-adaptation.html)

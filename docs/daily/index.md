@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-16](2026-09-16.html) | [An Empirical Study of Counterfactual Self-Explanations in LLMs](../papers/an-empirical-study-of-counterfactual-self-explanations-in-llms.html) |
+| [2026-09-16](2026-09-16.html) | [EviScope: Paired Counterfactual Evidence Diagnostics for Faithful and Efficient Grounded Language Models](../papers/eviscope-paired-counterfactual-evidence-diagnostics-for-faithful-and-efficient-grounded-language-models.html) |
+| [2026-09-16](2026-09-16.html) | [FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference](../papers/flexee-self-speculative-and-kv-compatible-early-exiting-for-offloading-aware-llm-inference.html) |
+| [2026-09-16](2026-09-16.html) | [Nameless Tokenization: A Lossless Tokenizer-Level Defense Against Control-Token Forgery in Open-Weight LLMs](../papers/nameless-tokenization-a-lossless-tokenizer-level-defense-against-control-token-forgery-in-open-weight-llms.html) |
+| [2026-09-16](2026-09-16.html) | [Sparse MLLM Anchors, Dense Adaptation: Breaking the Self-Referential Loop in Wild Test-Time Adaptation](../papers/sparse-mllm-anchors-dense-adaptation-breaking-the-self-referential-loop-in-wild-test-time-adaptation.html) |
 | [2026-09-11](2026-09-11.html) | [Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)](../papers/enabling-knowledge-graph-understanding-at-scale-with-the-explore-your-graphs-engine-exygen.html) |
 | [2026-09-11](2026-09-11.html) | [ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs Staleness in Agentic AI](../papers/churnbench-a-drift-aware-benchmark-demonstrating-that-refresh-scheduling-not-cache-age-governs-staleness-in-agentic-ai.html) |
 | [2026-09-11](2026-09-11.html) | [MAPLE: Memory-Augmented Planning with Language and Evolution](../papers/maple-memory-augmented-planning-with-language-and-evolution.html) |
