@@ -1,4 +1,4 @@
-# 2026-09-16 arXiv AI 논문
+# 2026-09-17 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [An Empirical Study of Counterfactual Self-Explanations in LLMs](papers/an-empirical-study-of-counterfactual-self-explanations-in-llms.html)
-- [EviScope: Paired Counterfactual Evidence Diagnostics for Faithful and Efficient Grounded Language Models](papers/eviscope-paired-counterfactual-evidence-diagnostics-for-faithful-and-efficient-grounded-language-models.html)
-- [FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference](papers/flexee-self-speculative-and-kv-compatible-early-exiting-for-offloading-aware-llm-inference.html)
-- [Nameless Tokenization: A Lossless Tokenizer-Level Defense Against Control-Token Forgery in Open-Weight LLMs](papers/nameless-tokenization-a-lossless-tokenizer-level-defense-against-control-token-forgery-in-open-weight-llms.html)
-- [Sparse MLLM Anchors, Dense Adaptation: Breaking the Self-Referential Loop in Wild Test-Time Adaptation](papers/sparse-mllm-anchors-dense-adaptation-breaking-the-self-referential-loop-in-wild-test-time-adaptation.html)
+- [Reasoning through Evolution: Automatic Meta-path Discovery for LLM-based Fake News Detection](papers/reasoning-through-evolution-automatic-meta-path-discovery-for-llm-based-fake-news-detection.html)
+- [Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making](papers/recursive-reasoning-or-statistical-extrapolation-in-context-learning-in-multi-agent-interdependent-decision-making.html)
+- [PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?](papers/pact-can-enterprise-ai-assistants-be-trusted-under-pressure.html)
+- [AeroWeaver: An Embodied-Agent Harness for Weaving Aerial Skills into Distributed, Adaptive Swarm Execution](papers/aeroweaver-an-embodied-agent-harness-for-weaving-aerial-skills-into-distributed-adaptive-swarm-execution.html)
+- [FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory](papers/five-vla-fast-and-effective-autonomous-driving-with-recurrent-action-memory.html)

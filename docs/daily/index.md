@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-17](2026-09-17.html) | [Reasoning through Evolution: Automatic Meta-path Discovery for LLM-based Fake News Detection](../papers/reasoning-through-evolution-automatic-meta-path-discovery-for-llm-based-fake-news-detection.html) |
+| [2026-09-17](2026-09-17.html) | [Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making](../papers/recursive-reasoning-or-statistical-extrapolation-in-context-learning-in-multi-agent-interdependent-decision-making.html) |
+| [2026-09-17](2026-09-17.html) | [PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?](../papers/pact-can-enterprise-ai-assistants-be-trusted-under-pressure.html) |
+| [2026-09-17](2026-09-17.html) | [AeroWeaver: An Embodied-Agent Harness for Weaving Aerial Skills into Distributed, Adaptive Swarm Execution](../papers/aeroweaver-an-embodied-agent-harness-for-weaving-aerial-skills-into-distributed-adaptive-swarm-execution.html) |
+| [2026-09-17](2026-09-17.html) | [FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory](../papers/five-vla-fast-and-effective-autonomous-driving-with-recurrent-action-memory.html) |
 | [2026-09-16](2026-09-16.html) | [An Empirical Study of Counterfactual Self-Explanations in LLMs](../papers/an-empirical-study-of-counterfactual-self-explanations-in-llms.html) |
 | [2026-09-16](2026-09-16.html) | [EviScope: Paired Counterfactual Evidence Diagnostics for Faithful and Efficient Grounded Language Models](../papers/eviscope-paired-counterfactual-evidence-diagnostics-for-faithful-and-efficient-grounded-language-models.html) |
 | [2026-09-16](2026-09-16.html) | [FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference](../papers/flexee-self-speculative-and-kv-compatible-early-exiting-for-offloading-aware-llm-inference.html) |
