@@ -1,4 +1,4 @@
-# 2026-09-17 arXiv AI 논문
+# 2026-09-18 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Reasoning through Evolution: Automatic Meta-path Discovery for LLM-based Fake News Detection](papers/reasoning-through-evolution-automatic-meta-path-discovery-for-llm-based-fake-news-detection.html)
-- [Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making](papers/recursive-reasoning-or-statistical-extrapolation-in-context-learning-in-multi-agent-interdependent-decision-making.html)
-- [PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?](papers/pact-can-enterprise-ai-assistants-be-trusted-under-pressure.html)
-- [AeroWeaver: An Embodied-Agent Harness for Weaving Aerial Skills into Distributed, Adaptive Swarm Execution](papers/aeroweaver-an-embodied-agent-harness-for-weaving-aerial-skills-into-distributed-adaptive-swarm-execution.html)
-- [FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory](papers/five-vla-fast-and-effective-autonomous-driving-with-recurrent-action-memory.html)
+- [To Copy or Not to Copy: Controlling Speculative Decoding via Intrinsic Model Signals](papers/to-copy-or-not-to-copy-controlling-speculative-decoding-via-intrinsic-model-signals.html)
+- [Fast Cross-Strength Multi-Contrast Brain MRI Translation using Latent Bridge Matching](papers/fast-cross-strength-multi-contrast-brain-mri-translation-using-latent-bridge-matching.html)
+- [MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents](papers/mtva-bench-evaluating-the-language-model-inside-cascaded-voice-agents.html)
+- [STR-Agent: An LLM-Driven Agent for QoS-Aware Routing in LEO Satellite Networks](papers/str-agent-an-llm-driven-agent-for-qos-aware-routing-in-leo-satellite-networks.html)
+- [A Qualitative Model for Reasoning about Path and Support](papers/a-qualitative-model-for-reasoning-about-path-and-support.html)

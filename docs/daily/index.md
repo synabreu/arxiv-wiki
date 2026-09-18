@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-18](2026-09-18.html) | [To Copy or Not to Copy: Controlling Speculative Decoding via Intrinsic Model Signals](../papers/to-copy-or-not-to-copy-controlling-speculative-decoding-via-intrinsic-model-signals.html) |
+| [2026-09-18](2026-09-18.html) | [Fast Cross-Strength Multi-Contrast Brain MRI Translation using Latent Bridge Matching](../papers/fast-cross-strength-multi-contrast-brain-mri-translation-using-latent-bridge-matching.html) |
+| [2026-09-18](2026-09-18.html) | [MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents](../papers/mtva-bench-evaluating-the-language-model-inside-cascaded-voice-agents.html) |
+| [2026-09-18](2026-09-18.html) | [STR-Agent: An LLM-Driven Agent for QoS-Aware Routing in LEO Satellite Networks](../papers/str-agent-an-llm-driven-agent-for-qos-aware-routing-in-leo-satellite-networks.html) |
+| [2026-09-18](2026-09-18.html) | [A Qualitative Model for Reasoning about Path and Support](../papers/a-qualitative-model-for-reasoning-about-path-and-support.html) |
 | [2026-09-17](2026-09-17.html) | [Reasoning through Evolution: Automatic Meta-path Discovery for LLM-based Fake News Detection](../papers/reasoning-through-evolution-automatic-meta-path-discovery-for-llm-based-fake-news-detection.html) |
 | [2026-09-17](2026-09-17.html) | [Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making](../papers/recursive-reasoning-or-statistical-extrapolation-in-context-learning-in-multi-agent-interdependent-decision-making.html) |
 | [2026-09-17](2026-09-17.html) | [PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?](../papers/pact-can-enterprise-ai-assistants-be-trusted-under-pressure.html) |
