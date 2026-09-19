@@ -1,4 +1,4 @@
-# 2026-09-18 arXiv AI 논문
+# 2026-09-19 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [To Copy or Not to Copy: Controlling Speculative Decoding via Intrinsic Model Signals](papers/to-copy-or-not-to-copy-controlling-speculative-decoding-via-intrinsic-model-signals.html)
-- [Fast Cross-Strength Multi-Contrast Brain MRI Translation using Latent Bridge Matching](papers/fast-cross-strength-multi-contrast-brain-mri-translation-using-latent-bridge-matching.html)
-- [MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents](papers/mtva-bench-evaluating-the-language-model-inside-cascaded-voice-agents.html)
-- [STR-Agent: An LLM-Driven Agent for QoS-Aware Routing in LEO Satellite Networks](papers/str-agent-an-llm-driven-agent-for-qos-aware-routing-in-leo-satellite-networks.html)
-- [A Qualitative Model for Reasoning about Path and Support](papers/a-qualitative-model-for-reasoning-about-path-and-support.html)
+- [Quantifying Overclaiming Propensity in Frontier LLM Agents](papers/quantifying-overclaiming-propensity-in-frontier-llm-agents.html)
+- [On-Demand Attention: Language Models Know When to Recall](papers/on-demand-attention-language-models-know-when-to-recall.html)
+- [Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation](papers/video-deltanet-a-video-native-hybrid-attention-for-livestream-video-generation.html)
+- [Deep Noir: Autonomous Steering Discovery via Architectural Chronometry in Transformer Models](papers/deep-noir-autonomous-steering-discovery-via-architectural-chronometry-in-transformer-models.html)
+- [PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers](papers/posteriorbench-from-point-estimates-to-posterior-matching-in-evaluating-generative-inverse-solvers.html)
