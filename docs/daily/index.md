@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-20](2026-09-20.html) | [RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents](../papers/raft-a-stateful-retrieval-augmented-framework-for-troubleshooting-agents.html) |
+| [2026-09-20](2026-09-20.html) | [Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation](../papers/prediction-powered-smoothing-and-validation-for-disaggregated-ai-evaluation.html) |
+| [2026-09-20](2026-09-20.html) | [Agile-WAM: An Agile Tactile World Action Model for Contact-Rich Robot Control](../papers/agile-wam-an-agile-tactile-world-action-model-for-contact-rich-robot-control.html) |
+| [2026-09-20](2026-09-20.html) | [An Empirical Study of Harness Design for Coding Agents](../papers/an-empirical-study-of-harness-design-for-coding-agents.html) |
+| [2026-09-20](2026-09-20.html) | [RISC-V and machine learning: a survey](../papers/risc-v-and-machine-learning-a-survey.html) |
 | [2026-09-19](2026-09-19.html) | [Quantifying Overclaiming Propensity in Frontier LLM Agents](../papers/quantifying-overclaiming-propensity-in-frontier-llm-agents.html) |
 | [2026-09-19](2026-09-19.html) | [On-Demand Attention: Language Models Know When to Recall](../papers/on-demand-attention-language-models-know-when-to-recall.html) |
 | [2026-09-19](2026-09-19.html) | [Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation](../papers/video-deltanet-a-video-native-hybrid-attention-for-livestream-video-generation.html) |
