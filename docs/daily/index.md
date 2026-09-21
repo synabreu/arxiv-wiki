@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-21](2026-09-21.html) | [Do Personality-Tuned LLMs Make Better Social Agents?](../papers/do-personality-tuned-llms-make-better-social-agents.html) |
+| [2026-09-21](2026-09-21.html) | [TrialAtlas: Multi-Agent Research Organization for Clinical Trial Design and Optimization](../papers/trialatlas-multi-agent-research-organization-for-clinical-trial-design-and-optimization.html) |
+| [2026-09-21](2026-09-21.html) | [CIPL: A Channel-Aware Framework for Recoverable Privacy Leakage in LLM Agents](../papers/cipl-a-channel-aware-framework-for-recoverable-privacy-leakage-in-llm-agents.html) |
+| [2026-09-21](2026-09-21.html) | [SpecQuant: Speculative Decoding with Multi-Parent Quantization for Adaptive LLM Inference](../papers/specquant-speculative-decoding-with-multi-parent-quantization-for-adaptive-llm-inference.html) |
+| [2026-09-21](2026-09-21.html) | [GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills](../papers/graphskillevo-evolutionary-optimization-of-graph-structured-agent-skills.html) |
 | [2026-09-20](2026-09-20.html) | [RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents](../papers/raft-a-stateful-retrieval-augmented-framework-for-troubleshooting-agents.html) |
 | [2026-09-20](2026-09-20.html) | [Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation](../papers/prediction-powered-smoothing-and-validation-for-disaggregated-ai-evaluation.html) |
 | [2026-09-20](2026-09-20.html) | [Agile-WAM: An Agile Tactile World Action Model for Contact-Rich Robot Control](../papers/agile-wam-an-agile-tactile-world-action-model-for-contact-rich-robot-control.html) |
