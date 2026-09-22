@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-22](2026-09-22.html) | [Machine-Interpretable Information: Compiling Documents into Searchable and Readable Protocol States](../papers/machine-interpretable-information-compiling-documents-into-searchable-and-readable-protocol-states.html) |
+| [2026-09-22](2026-09-22.html) | [LLM-Based FORM Code Generation with Verification-Driven Fine-Tuning](../papers/llm-based-form-code-generation-with-verification-driven-fine-tuning.html) |
+| [2026-09-22](2026-09-22.html) | [Co-occurrence Patterns of LoRA Adapters in Production Diffusion Model Inference Services](../papers/co-occurrence-patterns-of-lora-adapters-in-production-diffusion-model-inference-services.html) |
+| [2026-09-22](2026-09-22.html) | [Graph Memory for LLM Agents: At What Cost? A Comparative Evaluation of Query, Ingest, and Update Performance Across Graph Database Engines](../papers/graph-memory-for-llm-agents-at-what-cost-a-comparative-evaluation-of-query-ingest-and-update-performance-across-graph-database-engines.html) |
+| [2026-09-22](2026-09-22.html) | [CTRL: Control-Based Time Series Forecasting with LLM-Guided Residual Learning](../papers/ctrl-control-based-time-series-forecasting-with-llm-guided-residual-learning.html) |
 | [2026-09-21](2026-09-21.html) | [Do Personality-Tuned LLMs Make Better Social Agents?](../papers/do-personality-tuned-llms-make-better-social-agents.html) |
 | [2026-09-21](2026-09-21.html) | [TrialAtlas: Multi-Agent Research Organization for Clinical Trial Design and Optimization](../papers/trialatlas-multi-agent-research-organization-for-clinical-trial-design-and-optimization.html) |
 | [2026-09-21](2026-09-21.html) | [CIPL: A Channel-Aware Framework for Recoverable Privacy Leakage in LLM Agents](../papers/cipl-a-channel-aware-framework-for-recoverable-privacy-leakage-in-llm-agents.html) |

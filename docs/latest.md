@@ -1,4 +1,4 @@
-# 2026-09-21 arXiv AI 논문
+# 2026-09-22 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Do Personality-Tuned LLMs Make Better Social Agents?](papers/do-personality-tuned-llms-make-better-social-agents.html)
-- [TrialAtlas: Multi-Agent Research Organization for Clinical Trial Design and Optimization](papers/trialatlas-multi-agent-research-organization-for-clinical-trial-design-and-optimization.html)
-- [CIPL: A Channel-Aware Framework for Recoverable Privacy Leakage in LLM Agents](papers/cipl-a-channel-aware-framework-for-recoverable-privacy-leakage-in-llm-agents.html)
-- [SpecQuant: Speculative Decoding with Multi-Parent Quantization for Adaptive LLM Inference](papers/specquant-speculative-decoding-with-multi-parent-quantization-for-adaptive-llm-inference.html)
-- [GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills](papers/graphskillevo-evolutionary-optimization-of-graph-structured-agent-skills.html)
+- [Machine-Interpretable Information: Compiling Documents into Searchable and Readable Protocol States](papers/machine-interpretable-information-compiling-documents-into-searchable-and-readable-protocol-states.html)
+- [LLM-Based FORM Code Generation with Verification-Driven Fine-Tuning](papers/llm-based-form-code-generation-with-verification-driven-fine-tuning.html)
+- [Co-occurrence Patterns of LoRA Adapters in Production Diffusion Model Inference Services](papers/co-occurrence-patterns-of-lora-adapters-in-production-diffusion-model-inference-services.html)
+- [Graph Memory for LLM Agents: At What Cost? A Comparative Evaluation of Query, Ingest, and Update Performance Across Graph Database Engines](papers/graph-memory-for-llm-agents-at-what-cost-a-comparative-evaluation-of-query-ingest-and-update-performance-across-graph-database-engines.html)
+- [CTRL: Control-Based Time Series Forecasting with LLM-Guided Residual Learning](papers/ctrl-control-based-time-series-forecasting-with-llm-guided-residual-learning.html)
