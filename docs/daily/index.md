@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-23](2026-09-23.html) | [Disaggregated Quantization: Specializing LLM Prefill and Decode](../papers/disaggregated-quantization-specializing-llm-prefill-and-decode.html) |
+| [2026-09-23](2026-09-23.html) | [FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents](../papers/fire-failure-informed-runtime-engineering-for-reliable-language-model-agents.html) |
+| [2026-09-23](2026-09-23.html) | [KwaiMind Technical Report](../papers/kwaimind-technical-report.html) |
+| [2026-09-23](2026-09-23.html) | [CQ4OE: A benchmark for assessing LLM-assisted ontology generation from competency questions](../papers/cq4oe-a-benchmark-for-assessing-llm-assisted-ontology-generation-from-competency-questions.html) |
+| [2026-09-23](2026-09-23.html) | [VideoX-Qwen: Data-Centric Instruction-Based Video Editing](../papers/videox-qwen-data-centric-instruction-based-video-editing.html) |
 | [2026-09-22](2026-09-22.html) | [Machine-Interpretable Information: Compiling Documents into Searchable and Readable Protocol States](../papers/machine-interpretable-information-compiling-documents-into-searchable-and-readable-protocol-states.html) |
 | [2026-09-22](2026-09-22.html) | [LLM-Based FORM Code Generation with Verification-Driven Fine-Tuning](../papers/llm-based-form-code-generation-with-verification-driven-fine-tuning.html) |
 | [2026-09-22](2026-09-22.html) | [Co-occurrence Patterns of LoRA Adapters in Production Diffusion Model Inference Services](../papers/co-occurrence-patterns-of-lora-adapters-in-production-diffusion-model-inference-services.html) |
