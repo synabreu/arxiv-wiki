@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-24](2026-09-24.html) | [Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints](../papers/evaluating-open-weight-llms-for-turkish-domain-documents-under-retrieval-and-hardware-constraints.html) |
+| [2026-09-24](2026-09-24.html) | [SkillGym: Internalizing Human Skills into LLMs for Real-World Problem Solving](../papers/skillgym-internalizing-human-skills-into-llms-for-real-world-problem-solving.html) |
+| [2026-09-24](2026-09-24.html) | [Risk-Controlled KV-Cache Eviction: From Memory Budgets to Risk Targets](../papers/risk-controlled-kv-cache-eviction-from-memory-budgets-to-risk-targets.html) |
+| [2026-09-24](2026-09-24.html) | [Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery](../papers/six-layers-less-encoder-pruning-for-whisper-with-label-free-recovery.html) |
+| [2026-09-24](2026-09-24.html) | [The KV Cache Working Set: Online Capacity Planning for LLM Inference Systems](../papers/the-kv-cache-working-set-online-capacity-planning-for-llm-inference-systems.html) |
 | [2026-09-23](2026-09-23.html) | [Disaggregated Quantization: Specializing LLM Prefill and Decode](../papers/disaggregated-quantization-specializing-llm-prefill-and-decode.html) |
 | [2026-09-23](2026-09-23.html) | [FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents](../papers/fire-failure-informed-runtime-engineering-for-reliable-language-model-agents.html) |
 | [2026-09-23](2026-09-23.html) | [KwaiMind Technical Report](../papers/kwaimind-technical-report.html) |
