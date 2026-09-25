@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-25](2026-09-25.html) | [SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories](../papers/swe-prometheus-measuring-engineering-governance-improvements-in-real-world-repositories.html) |
+| [2026-09-25](2026-09-25.html) | [Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs](../papers/prefilling-the-reasoning-channel-output-prefix-attacks-on-reasoning-llms.html) |
+| [2026-09-25](2026-09-25.html) | [Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures](../papers/just-ask-jev-reinforcement-learning-for-calibrated-decisions-as-a-zero-shot-detector-of-ai-alignment-failures.html) |
+| [2026-09-25](2026-09-25.html) | [Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution](../papers/hard-stop-kernel-level-preemption-and-containment-for-rogue-agentic-execution.html) |
+| [2026-09-25](2026-09-25.html) | [Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact](../papers/demystifying-agent-skills-for-smart-contract-auditing-design-effectiveness-behavioral-impact.html) |
 | [2026-09-24](2026-09-24.html) | [Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints](../papers/evaluating-open-weight-llms-for-turkish-domain-documents-under-retrieval-and-hardware-constraints.html) |
 | [2026-09-24](2026-09-24.html) | [SkillGym: Internalizing Human Skills into LLMs for Real-World Problem Solving](../papers/skillgym-internalizing-human-skills-into-llms-for-real-world-problem-solving.html) |
 | [2026-09-24](2026-09-24.html) | [Risk-Controlled KV-Cache Eviction: From Memory Budgets to Risk Targets](../papers/risk-controlled-kv-cache-eviction-from-memory-budgets-to-risk-targets.html) |

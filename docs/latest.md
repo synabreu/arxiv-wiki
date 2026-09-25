@@ -1,4 +1,4 @@
-# 2026-09-24 arXiv AI 논문
+# 2026-09-25 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints](papers/evaluating-open-weight-llms-for-turkish-domain-documents-under-retrieval-and-hardware-constraints.html)
-- [SkillGym: Internalizing Human Skills into LLMs for Real-World Problem Solving](papers/skillgym-internalizing-human-skills-into-llms-for-real-world-problem-solving.html)
-- [Risk-Controlled KV-Cache Eviction: From Memory Budgets to Risk Targets](papers/risk-controlled-kv-cache-eviction-from-memory-budgets-to-risk-targets.html)
-- [Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery](papers/six-layers-less-encoder-pruning-for-whisper-with-label-free-recovery.html)
-- [The KV Cache Working Set: Online Capacity Planning for LLM Inference Systems](papers/the-kv-cache-working-set-online-capacity-planning-for-llm-inference-systems.html)
+- [SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories](papers/swe-prometheus-measuring-engineering-governance-improvements-in-real-world-repositories.html)
+- [Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs](papers/prefilling-the-reasoning-channel-output-prefix-attacks-on-reasoning-llms.html)
+- [Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures](papers/just-ask-jev-reinforcement-learning-for-calibrated-decisions-as-a-zero-shot-detector-of-ai-alignment-failures.html)
+- [Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution](papers/hard-stop-kernel-level-preemption-and-containment-for-rogue-agentic-execution.html)
+- [Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact](papers/demystifying-agent-skills-for-smart-contract-auditing-design-effectiveness-behavioral-impact.html)
