@@ -1,4 +1,4 @@
-# 2026-09-25 arXiv AI 논문
+# 2026-09-26 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories](papers/swe-prometheus-measuring-engineering-governance-improvements-in-real-world-repositories.html)
-- [Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs](papers/prefilling-the-reasoning-channel-output-prefix-attacks-on-reasoning-llms.html)
-- [Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures](papers/just-ask-jev-reinforcement-learning-for-calibrated-decisions-as-a-zero-shot-detector-of-ai-alignment-failures.html)
-- [Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution](papers/hard-stop-kernel-level-preemption-and-containment-for-rogue-agentic-execution.html)
-- [Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact](papers/demystifying-agent-skills-for-smart-contract-auditing-design-effectiveness-behavioral-impact.html)
+- [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](papers/screen-before-you-serve-simulation-for-production-customer-experience-ai-agents-at-140m-scale.html)
+- [A Living Benchmark for Information Retrieval from Electronic Health Records](papers/a-living-benchmark-for-information-retrieval-from-electronic-health-records.html)
+- [Coding Agents for Generalized Task and Motion Planning Problems](papers/coding-agents-for-generalized-task-and-motion-planning-problems.html)
+- [Learning and interpreting policies for simultaneous entanglement requests in quantum networks](papers/learning-and-interpreting-policies-for-simultaneous-entanglement-requests-in-quantum-networks.html)
+- [LLM Agents Can Easily Tamper With Their Own Traces](papers/llm-agents-can-easily-tamper-with-their-own-traces.html)

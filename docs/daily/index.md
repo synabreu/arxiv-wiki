@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-26](2026-09-26.html) | [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](../papers/screen-before-you-serve-simulation-for-production-customer-experience-ai-agents-at-140m-scale.html) |
+| [2026-09-26](2026-09-26.html) | [A Living Benchmark for Information Retrieval from Electronic Health Records](../papers/a-living-benchmark-for-information-retrieval-from-electronic-health-records.html) |
+| [2026-09-26](2026-09-26.html) | [Coding Agents for Generalized Task and Motion Planning Problems](../papers/coding-agents-for-generalized-task-and-motion-planning-problems.html) |
+| [2026-09-26](2026-09-26.html) | [Learning and interpreting policies for simultaneous entanglement requests in quantum networks](../papers/learning-and-interpreting-policies-for-simultaneous-entanglement-requests-in-quantum-networks.html) |
+| [2026-09-26](2026-09-26.html) | [LLM Agents Can Easily Tamper With Their Own Traces](../papers/llm-agents-can-easily-tamper-with-their-own-traces.html) |
 | [2026-09-25](2026-09-25.html) | [SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories](../papers/swe-prometheus-measuring-engineering-governance-improvements-in-real-world-repositories.html) |
 | [2026-09-25](2026-09-25.html) | [Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs](../papers/prefilling-the-reasoning-channel-output-prefix-attacks-on-reasoning-llms.html) |
 | [2026-09-25](2026-09-25.html) | [Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures](../papers/just-ask-jev-reinforcement-learning-for-calibrated-decisions-as-a-zero-shot-detector-of-ai-alignment-failures.html) |
