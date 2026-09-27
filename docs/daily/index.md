@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-27](2026-09-27.html) | [Multimodal Thinking with Renderable Programs](../papers/multimodal-thinking-with-renderable-programs.html) |
+| [2026-09-27](2026-09-27.html) | [Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure](../papers/instrumental-monitor-evasion-emerges-under-ordinary-task-pressure.html) |
+| [2026-09-27](2026-09-27.html) | [NEUROTESTGEN: Neuro-Symbolic Guided Test Generation with Large Language Models](../papers/neurotestgen-neuro-symbolic-guided-test-generation-with-large-language-models.html) |
+| [2026-09-27](2026-09-27.html) | [GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI](../papers/grasp-generating-revising-and-assessing-for-strategic-planning-with-agentic-ai.html) |
+| [2026-09-27](2026-09-27.html) | [Jev-Mobile: Jev as an Executor for Mobile GUI Agents](../papers/jev-mobile-jev-as-an-executor-for-mobile-gui-agents.html) |
 | [2026-09-26](2026-09-26.html) | [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](../papers/screen-before-you-serve-simulation-for-production-customer-experience-ai-agents-at-140m-scale.html) |
 | [2026-09-26](2026-09-26.html) | [A Living Benchmark for Information Retrieval from Electronic Health Records](../papers/a-living-benchmark-for-information-retrieval-from-electronic-health-records.html) |
 | [2026-09-26](2026-09-26.html) | [Coding Agents for Generalized Task and Motion Planning Problems](../papers/coding-agents-for-generalized-task-and-motion-planning-problems.html) |
