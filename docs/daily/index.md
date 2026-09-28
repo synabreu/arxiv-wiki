@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-28](2026-09-28.html) | [Stale-Document Poisoning: When Outdated Retrieval Overrides Correct Model Answers](../papers/stale-document-poisoning-when-outdated-retrieval-overrides-correct-model-answers.html) |
+| [2026-09-28](2026-09-28.html) | [WeaveAgent: A Two-Stage Tool-Routing Agent for Ultra-High-Resolution Remote Sensing Imagery](../papers/weaveagent-a-two-stage-tool-routing-agent-for-ultra-high-resolution-remote-sensing-imagery.html) |
+| [2026-09-28](2026-09-28.html) | [When the Model Retires: An Empirical Study of LLM Migration in Open-Source Applications](../papers/when-the-model-retires-an-empirical-study-of-llm-migration-in-open-source-applications.html) |
+| [2026-09-28](2026-09-28.html) | [Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains](../papers/resource-optimized-and-energy-aware-agentic-ai-framework-anchored-on-blockchain-for-secure-software-supply-chains.html) |
+| [2026-09-28](2026-09-28.html) | [G2MAF: Test-Time Gradient Guidance for Multi-Agent Flow Policies](../papers/g2maf-test-time-gradient-guidance-for-multi-agent-flow-policies.html) |
 | [2026-09-27](2026-09-27.html) | [Multimodal Thinking with Renderable Programs](../papers/multimodal-thinking-with-renderable-programs.html) |
 | [2026-09-27](2026-09-27.html) | [Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure](../papers/instrumental-monitor-evasion-emerges-under-ordinary-task-pressure.html) |
 | [2026-09-27](2026-09-27.html) | [NEUROTESTGEN: Neuro-Symbolic Guided Test Generation with Large Language Models](../papers/neurotestgen-neuro-symbolic-guided-test-generation-with-large-language-models.html) |
