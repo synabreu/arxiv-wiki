@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-29](2026-09-29.html) | [Thinking Outside the Box: Retention and Transmission of Information in Sliding-Window KV Inference](../papers/thinking-outside-the-box-retention-and-transmission-of-information-in-sliding-window-kv-inference.html) |
+| [2026-09-29](2026-09-29.html) | [GroupMask: Layer-Adaptive Group-wise Sparsity for Semi-Structured LLM Pruning](../papers/groupmask-layer-adaptive-group-wise-sparsity-for-semi-structured-llm-pruning.html) |
+| [2026-09-29](2026-09-29.html) | [A packet-level digital hardware twin for commissioning megahertz diagnostic edge AI and plasma control system integration in tokamaks](../papers/a-packet-level-digital-hardware-twin-for-commissioning-megahertz-diagnostic-edge-ai-and-plasma-control-system-integration-in-tokamaks.html) |
+| [2026-09-29](2026-09-29.html) | [Jev in Medicine: A Benchmark Evaluation. Preliminary Results](../papers/jev-in-medicine-a-benchmark-evaluation-preliminary-results.html) |
+| [2026-09-29](2026-09-29.html) | [Steering Language Model Goals with Value Transplant](../papers/steering-language-model-goals-with-value-transplant.html) |
 | [2026-09-28](2026-09-28.html) | [Stale-Document Poisoning: When Outdated Retrieval Overrides Correct Model Answers](../papers/stale-document-poisoning-when-outdated-retrieval-overrides-correct-model-answers.html) |
 | [2026-09-28](2026-09-28.html) | [WeaveAgent: A Two-Stage Tool-Routing Agent for Ultra-High-Resolution Remote Sensing Imagery](../papers/weaveagent-a-two-stage-tool-routing-agent-for-ultra-high-resolution-remote-sensing-imagery.html) |
 | [2026-09-28](2026-09-28.html) | [When the Model Retires: An Empirical Study of LLM Migration in Open-Source Applications](../papers/when-the-model-retires-an-empirical-study-of-llm-migration-in-open-source-applications.html) |
