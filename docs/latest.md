@@ -1,4 +1,4 @@
-# 2026-09-29 arXiv AI 논문
+# 2026-09-30 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Thinking Outside the Box: Retention and Transmission of Information in Sliding-Window KV Inference](papers/thinking-outside-the-box-retention-and-transmission-of-information-in-sliding-window-kv-inference.html)
-- [GroupMask: Layer-Adaptive Group-wise Sparsity for Semi-Structured LLM Pruning](papers/groupmask-layer-adaptive-group-wise-sparsity-for-semi-structured-llm-pruning.html)
-- [A packet-level digital hardware twin for commissioning megahertz diagnostic edge AI and plasma control system integration in tokamaks](papers/a-packet-level-digital-hardware-twin-for-commissioning-megahertz-diagnostic-edge-ai-and-plasma-control-system-integration-in-tokamaks.html)
-- [Jev in Medicine: A Benchmark Evaluation. Preliminary Results](papers/jev-in-medicine-a-benchmark-evaluation-preliminary-results.html)
-- [Steering Language Model Goals with Value Transplant](papers/steering-language-model-goals-with-value-transplant.html)
+- [LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization](papers/leapquant-efficient-linear-attention-with-accurate-recurrent-state-quantization.html)
+- [Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning](papers/thinking-before-thinking-scaling-agentic-inference-through-meta-reasoning.html)
+- [From Routing Signals to Selective Review: Visual regrounding in MoE VLMs](papers/from-routing-signals-to-selective-review-visual-regrounding-in-moe-vlms.html)
+- [WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms](papers/wush-kv-kv-cache-quantization-with-data-adaptive-transforms.html)
+- [Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI](papers/learning-meta-skills-for-agent-harness-design-in-test-time-ai4ai.html)

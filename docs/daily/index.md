@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-09-30](2026-09-30.html) | [LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization](../papers/leapquant-efficient-linear-attention-with-accurate-recurrent-state-quantization.html) |
+| [2026-09-30](2026-09-30.html) | [Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning](../papers/thinking-before-thinking-scaling-agentic-inference-through-meta-reasoning.html) |
+| [2026-09-30](2026-09-30.html) | [From Routing Signals to Selective Review: Visual regrounding in MoE VLMs](../papers/from-routing-signals-to-selective-review-visual-regrounding-in-moe-vlms.html) |
+| [2026-09-30](2026-09-30.html) | [WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms](../papers/wush-kv-kv-cache-quantization-with-data-adaptive-transforms.html) |
+| [2026-09-30](2026-09-30.html) | [Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI](../papers/learning-meta-skills-for-agent-harness-design-in-test-time-ai4ai.html) |
 | [2026-09-29](2026-09-29.html) | [Thinking Outside the Box: Retention and Transmission of Information in Sliding-Window KV Inference](../papers/thinking-outside-the-box-retention-and-transmission-of-information-in-sliding-window-kv-inference.html) |
 | [2026-09-29](2026-09-29.html) | [GroupMask: Layer-Adaptive Group-wise Sparsity for Semi-Structured LLM Pruning](../papers/groupmask-layer-adaptive-group-wise-sparsity-for-semi-structured-llm-pruning.html) |
 | [2026-09-29](2026-09-29.html) | [A packet-level digital hardware twin for commissioning megahertz diagnostic edge AI and plasma control system integration in tokamaks](../papers/a-packet-level-digital-hardware-twin-for-commissioning-megahertz-diagnostic-edge-ai-and-plasma-control-system-integration-in-tokamaks.html) |
