@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-01](2026-10-01.html) | [cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents](../papers/cua-speedrun-standardized-benchmarking-of-the-speed-of-computer-use-agents.html) |
+| [2026-10-01](2026-10-01.html) | [PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents](../papers/pivotopd-learning-to-recover-from-pivotal-mistakes-in-multi-turn-agents.html) |
+| [2026-10-01](2026-10-01.html) | [How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?](../papers/how-much-of-a-harness-does-a-strong-agent-need-for-autonomous-ml-engineering.html) |
+| [2026-10-01](2026-10-01.html) | [Comparison of techniques for fine-tuning open-weight models for entity extraction from radiology reports](../papers/comparison-of-techniques-for-fine-tuning-open-weight-models-for-entity-extraction-from-radiology-reports.html) |
+| [2026-10-01](2026-10-01.html) | [PhantomEnvironments: Training LLM Agents in Fictional Worlds](../papers/phantomenvironments-training-llm-agents-in-fictional-worlds.html) |
 | [2026-09-30](2026-09-30.html) | [LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization](../papers/leapquant-efficient-linear-attention-with-accurate-recurrent-state-quantization.html) |
 | [2026-09-30](2026-09-30.html) | [Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning](../papers/thinking-before-thinking-scaling-agentic-inference-through-meta-reasoning.html) |
 | [2026-09-30](2026-09-30.html) | [From Routing Signals to Selective Review: Visual regrounding in MoE VLMs](../papers/from-routing-signals-to-selective-review-visual-regrounding-in-moe-vlms.html) |

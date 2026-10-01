@@ -1,4 +1,4 @@
-# 2026-09-30 arXiv AI 논문
+# 2026-10-01 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization](papers/leapquant-efficient-linear-attention-with-accurate-recurrent-state-quantization.html)
-- [Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning](papers/thinking-before-thinking-scaling-agentic-inference-through-meta-reasoning.html)
-- [From Routing Signals to Selective Review: Visual regrounding in MoE VLMs](papers/from-routing-signals-to-selective-review-visual-regrounding-in-moe-vlms.html)
-- [WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms](papers/wush-kv-kv-cache-quantization-with-data-adaptive-transforms.html)
-- [Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI](papers/learning-meta-skills-for-agent-harness-design-in-test-time-ai4ai.html)
+- [cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents](papers/cua-speedrun-standardized-benchmarking-of-the-speed-of-computer-use-agents.html)
+- [PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents](papers/pivotopd-learning-to-recover-from-pivotal-mistakes-in-multi-turn-agents.html)
+- [How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?](papers/how-much-of-a-harness-does-a-strong-agent-need-for-autonomous-ml-engineering.html)
+- [Comparison of techniques for fine-tuning open-weight models for entity extraction from radiology reports](papers/comparison-of-techniques-for-fine-tuning-open-weight-models-for-entity-extraction-from-radiology-reports.html)
+- [PhantomEnvironments: Training LLM Agents in Fictional Worlds](papers/phantomenvironments-training-llm-agents-in-fictional-worlds.html)
