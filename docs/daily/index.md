@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-02](2026-10-02.html) | [Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows](../papers/argo-bench-evaluating-data-agents-on-enterprise-scale-workflows.html) |
+| [2026-10-02](2026-10-02.html) | [Faynt: Scaling and Optimizing Policies for Competitive Melee](../papers/faynt-scaling-and-optimizing-policies-for-competitive-melee.html) |
+| [2026-10-02](2026-10-02.html) | [KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards](../papers/kalibench-a-fine-grained-benchmark-for-cybersecurity-tool-use-on-kali-linux-with-runtime-free-verifiable-rewards.html) |
+| [2026-10-02](2026-10-02.html) | [Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents](../papers/reconstruct-practice-go-real-guided-self-improvement-for-embodied-agents.html) |
+| [2026-10-02](2026-10-02.html) | [Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair](../papers/every-ablation-is-a-dose-counterweights-and-the-semblance-of-self-repair.html) |
 | [2026-10-01](2026-10-01.html) | [cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents](../papers/cua-speedrun-standardized-benchmarking-of-the-speed-of-computer-use-agents.html) |
 | [2026-10-01](2026-10-01.html) | [PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents](../papers/pivotopd-learning-to-recover-from-pivotal-mistakes-in-multi-turn-agents.html) |
 | [2026-10-01](2026-10-01.html) | [How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?](../papers/how-much-of-a-harness-does-a-strong-agent-need-for-autonomous-ml-engineering.html) |
