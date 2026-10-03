@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-03](2026-10-03.html) | [AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents](../papers/autocompact-learning-when-to-compact-context-in-long-horizon-coding-agents.html) |
+| [2026-10-03](2026-10-03.html) | [VISTA: A Visual Harness for Reasoning in an Interactive World](../papers/vista-a-visual-harness-for-reasoning-in-an-interactive-world.html) |
+| [2026-10-03](2026-10-03.html) | [From Knowledge Access to Source Learning: Developing Source-Specific Competence](../papers/from-knowledge-access-to-source-learning-developing-source-specific-competence.html) |
+| [2026-10-03](2026-10-03.html) | [DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication](../papers/duomind-enabling-distributed-multi-robot-coordination-with-semantic-communication.html) |
+| [2026-10-03](2026-10-03.html) | [OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning](../papers/omniseek-native-tool-integration-for-multi-turn-audio-visual-reasoning.html) |
 | [2026-10-02](2026-10-02.html) | [Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows](../papers/argo-bench-evaluating-data-agents-on-enterprise-scale-workflows.html) |
 | [2026-10-02](2026-10-02.html) | [Faynt: Scaling and Optimizing Policies for Competitive Melee](../papers/faynt-scaling-and-optimizing-policies-for-competitive-melee.html) |
 | [2026-10-02](2026-10-02.html) | [KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards](../papers/kalibench-a-fine-grained-benchmark-for-cybersecurity-tool-use-on-kali-linux-with-runtime-free-verifiable-rewards.html) |

@@ -1,4 +1,4 @@
-# 2026-10-02 arXiv AI 논문
+# 2026-10-03 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows](papers/argo-bench-evaluating-data-agents-on-enterprise-scale-workflows.html)
-- [Faynt: Scaling and Optimizing Policies for Competitive Melee](papers/faynt-scaling-and-optimizing-policies-for-competitive-melee.html)
-- [KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards](papers/kalibench-a-fine-grained-benchmark-for-cybersecurity-tool-use-on-kali-linux-with-runtime-free-verifiable-rewards.html)
-- [Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents](papers/reconstruct-practice-go-real-guided-self-improvement-for-embodied-agents.html)
-- [Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair](papers/every-ablation-is-a-dose-counterweights-and-the-semblance-of-self-repair.html)
+- [AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents](papers/autocompact-learning-when-to-compact-context-in-long-horizon-coding-agents.html)
+- [VISTA: A Visual Harness for Reasoning in an Interactive World](papers/vista-a-visual-harness-for-reasoning-in-an-interactive-world.html)
+- [From Knowledge Access to Source Learning: Developing Source-Specific Competence](papers/from-knowledge-access-to-source-learning-developing-source-specific-competence.html)
+- [DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication](papers/duomind-enabling-distributed-multi-robot-coordination-with-semantic-communication.html)
+- [OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning](papers/omniseek-native-tool-integration-for-multi-turn-audio-visual-reasoning.html)
