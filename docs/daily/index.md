@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-04](2026-10-04.html) | [Harnessing Domain Specialists in Multimodal Mixture-of-Experts for Efficient Adaptation](../papers/harnessing-domain-specialists-in-multimodal-mixture-of-experts-for-efficient-adaptation.html) |
+| [2026-10-04](2026-10-04.html) | [Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models](../papers/keyword-harnesses-fail-open-a-cheap-diagnostic-ladder-for-tool-use-claims-in-small-language-models.html) |
+| [2026-10-04](2026-10-04.html) | [Sample complexity bounds for categorical Markov random fields via Discrete Diffusions](../papers/sample-complexity-bounds-for-categorical-markov-random-fields-via-discrete-diffusions.html) |
+| [2026-10-04](2026-10-04.html) | [From Gradients to Capabilities: Understanding Multi-Teacher On-Policy Distillation](../papers/from-gradients-to-capabilities-understanding-multi-teacher-on-policy-distillation.html) |
+| [2026-10-04](2026-10-04.html) | [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](../papers/interevolve-test-time-evolution-of-reward-programs-for-humanoid-loco-manipulation.html) |
 | [2026-10-03](2026-10-03.html) | [AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents](../papers/autocompact-learning-when-to-compact-context-in-long-horizon-coding-agents.html) |
 | [2026-10-03](2026-10-03.html) | [VISTA: A Visual Harness for Reasoning in an Interactive World](../papers/vista-a-visual-harness-for-reasoning-in-an-interactive-world.html) |
 | [2026-10-03](2026-10-03.html) | [From Knowledge Access to Source Learning: Developing Source-Specific Competence](../papers/from-knowledge-access-to-source-learning-developing-source-specific-competence.html) |

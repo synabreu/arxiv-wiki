@@ -1,4 +1,4 @@
-# 2026-10-03 arXiv AI 논문
+# 2026-10-04 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents](papers/autocompact-learning-when-to-compact-context-in-long-horizon-coding-agents.html)
-- [VISTA: A Visual Harness for Reasoning in an Interactive World](papers/vista-a-visual-harness-for-reasoning-in-an-interactive-world.html)
-- [From Knowledge Access to Source Learning: Developing Source-Specific Competence](papers/from-knowledge-access-to-source-learning-developing-source-specific-competence.html)
-- [DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication](papers/duomind-enabling-distributed-multi-robot-coordination-with-semantic-communication.html)
-- [OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning](papers/omniseek-native-tool-integration-for-multi-turn-audio-visual-reasoning.html)
+- [Harnessing Domain Specialists in Multimodal Mixture-of-Experts for Efficient Adaptation](papers/harnessing-domain-specialists-in-multimodal-mixture-of-experts-for-efficient-adaptation.html)
+- [Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models](papers/keyword-harnesses-fail-open-a-cheap-diagnostic-ladder-for-tool-use-claims-in-small-language-models.html)
+- [Sample complexity bounds for categorical Markov random fields via Discrete Diffusions](papers/sample-complexity-bounds-for-categorical-markov-random-fields-via-discrete-diffusions.html)
+- [From Gradients to Capabilities: Understanding Multi-Teacher On-Policy Distillation](papers/from-gradients-to-capabilities-understanding-multi-teacher-on-policy-distillation.html)
+- [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](papers/interevolve-test-time-evolution-of-reward-programs-for-humanoid-loco-manipulation.html)
