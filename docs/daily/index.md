@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-05](2026-10-05.html) | [D2K-Bench: Can LLM Agents Turn Expert Designs into Efficient GPU Kernels?](../papers/d2k-bench-can-llm-agents-turn-expert-designs-into-efficient-gpu-kernels.html) |
+| [2026-10-05](2026-10-05.html) | [JOVE: Joint Execution and Verification for Resource-Aware LLM Task Graphs](../papers/jove-joint-execution-and-verification-for-resource-aware-llm-task-graphs.html) |
+| [2026-10-05](2026-10-05.html) | [Collective Bias Mitigation via Model Routing and Collaboration](../papers/collective-bias-mitigation-via-model-routing-and-collaboration.html) |
+| [2026-10-05](2026-10-05.html) | [Source Preference in the Wild: How LLM Agents Favor Items by Source, and How to Reduce It](../papers/source-preference-in-the-wild-how-llm-agents-favor-items-by-source-and-how-to-reduce-it.html) |
+| [2026-10-05](2026-10-05.html) | [AdaStep: Adaptive Step Credit Weighting for Agentic Reinforcement Learning](../papers/adastep-adaptive-step-credit-weighting-for-agentic-reinforcement-learning.html) |
 | [2026-10-04](2026-10-04.html) | [Harnessing Domain Specialists in Multimodal Mixture-of-Experts for Efficient Adaptation](../papers/harnessing-domain-specialists-in-multimodal-mixture-of-experts-for-efficient-adaptation.html) |
 | [2026-10-04](2026-10-04.html) | [Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models](../papers/keyword-harnesses-fail-open-a-cheap-diagnostic-ladder-for-tool-use-claims-in-small-language-models.html) |
 | [2026-10-04](2026-10-04.html) | [Sample complexity bounds for categorical Markov random fields via Discrete Diffusions](../papers/sample-complexity-bounds-for-categorical-markov-random-fields-via-discrete-diffusions.html) |
