@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-07](2026-10-07.html) | [nanoMuse: An Open-Source Personal Agent for Every Device You Own](../papers/nanomuse-an-open-source-personal-agent-for-every-device-you-own.html) |
+| [2026-10-07](2026-10-07.html) | [Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment](../papers/principled-under-pressure-post-training-decides-whether-llms-act-on-their-own-moral-judgment.html) |
+| [2026-10-07](2026-10-07.html) | [Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?](../papers/agent-in-a-bottle-can-llm-agents-turn-their-capabilities-into-cheap-scalable-artifacts.html) |
+| [2026-10-07](2026-10-07.html) | [WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?](../papers/worldsolver-can-llm-agents-simulate-the-physical-dynamics-via-solver-generation.html) |
+| [2026-10-07](2026-10-07.html) | [VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning](../papers/verifine-scaling-verification-for-self-improvement-in-embodied-reasoning.html) |
 | [2026-10-06](2026-10-06.html) | [MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks](../papers/medicalharness-a-controlled-evaluation-of-llms-and-agent-harnesses-on-medical-tasks.html) |
 | [2026-10-06](2026-10-06.html) | [Topology-Conditioned Backdoors: Language Models That Insert Vulnerabilities When They Infer They Are in a Multi-Agent System](../papers/topology-conditioned-backdoors-language-models-that-insert-vulnerabilities-when-they-infer-they-are-in-a-multi-agent-system.html) |
 | [2026-10-06](2026-10-06.html) | [Measurement-First Auditing of Agentic Leaderboards: Contamination Susceptibility, Matched-Control Re-evaluation, and Scorer Validation](../papers/measurement-first-auditing-of-agentic-leaderboards-contamination-susceptibility-matched-control-re-evaluation-and-scorer-validation.html) |
