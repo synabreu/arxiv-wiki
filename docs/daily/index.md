@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-08](2026-10-08.html) | [Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models](../papers/before-they-can-solve-predicting-post-training-coding-agent-performance-from-base-models.html) |
+| [2026-10-08](2026-10-08.html) | [EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory](../papers/engramedit-decoupled-knowledge-updates-in-llms-through-conditional-memory.html) |
+| [2026-10-08](2026-10-08.html) | [CoTrace: Data Recipes for Training Terminal Agents with Harness-Model Co-Evolution](../papers/cotrace-data-recipes-for-training-terminal-agents-with-harness-model-co-evolution.html) |
+| [2026-10-08](2026-10-08.html) | [Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds](../papers/training-parallel-speculative-draft-models-by-directly-minimizing-expected-decoding-rounds.html) |
+| [2026-10-08](2026-10-08.html) | [PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs](../papers/phrbench-a-behavioral-evaluation-of-post-hallucination-reasoning-in-llms.html) |
 | [2026-10-07](2026-10-07.html) | [nanoMuse: An Open-Source Personal Agent for Every Device You Own](../papers/nanomuse-an-open-source-personal-agent-for-every-device-you-own.html) |
 | [2026-10-07](2026-10-07.html) | [Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment](../papers/principled-under-pressure-post-training-decides-whether-llms-act-on-their-own-moral-judgment.html) |
 | [2026-10-07](2026-10-07.html) | [Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?](../papers/agent-in-a-bottle-can-llm-agents-turn-their-capabilities-into-cheap-scalable-artifacts.html) |

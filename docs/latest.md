@@ -1,4 +1,4 @@
-# 2026-10-07 arXiv AI 논문
+# 2026-10-08 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [nanoMuse: An Open-Source Personal Agent for Every Device You Own](papers/nanomuse-an-open-source-personal-agent-for-every-device-you-own.html)
-- [Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment](papers/principled-under-pressure-post-training-decides-whether-llms-act-on-their-own-moral-judgment.html)
-- [Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?](papers/agent-in-a-bottle-can-llm-agents-turn-their-capabilities-into-cheap-scalable-artifacts.html)
-- [WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?](papers/worldsolver-can-llm-agents-simulate-the-physical-dynamics-via-solver-generation.html)
-- [VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning](papers/verifine-scaling-verification-for-self-improvement-in-embodied-reasoning.html)
+- [Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models](papers/before-they-can-solve-predicting-post-training-coding-agent-performance-from-base-models.html)
+- [EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory](papers/engramedit-decoupled-knowledge-updates-in-llms-through-conditional-memory.html)
+- [CoTrace: Data Recipes for Training Terminal Agents with Harness-Model Co-Evolution](papers/cotrace-data-recipes-for-training-terminal-agents-with-harness-model-co-evolution.html)
+- [Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds](papers/training-parallel-speculative-draft-models-by-directly-minimizing-expected-decoding-rounds.html)
+- [PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs](papers/phrbench-a-behavioral-evaluation-of-post-hallucination-reasoning-in-llms.html)
