@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-09](2026-10-09.html) | [Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception](../papers/caught-in-the-act-probes-effectively-detect-sabotage-and-catch-unverbalized-deception.html) |
+| [2026-10-09](2026-10-09.html) | [Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search](../papers/long-text-to-predictive-features-llm-guided-blockwise-feature-engineering-via-executable-program-search.html) |
+| [2026-10-09](2026-10-09.html) | [From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents](../papers/from-reactive-containment-to-proactive-assurance-lessons-from-openai-anthropic-and-google-agent-security-incidents.html) |
+| [2026-10-09](2026-10-09.html) | [OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport](../papers/ontrack-real-time-monitoring-and-intervention-in-llm-agent-trajectories-via-streaming-structure-aware-optimal-transport.html) |
+| [2026-10-09](2026-10-09.html) | [OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video](../papers/onesearch-vl-unified-multimodal-deep-research-agent-for-image-and-video.html) |
 | [2026-10-08](2026-10-08.html) | [Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models](../papers/before-they-can-solve-predicting-post-training-coding-agent-performance-from-base-models.html) |
 | [2026-10-08](2026-10-08.html) | [EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory](../papers/engramedit-decoupled-knowledge-updates-in-llms-through-conditional-memory.html) |
 | [2026-10-08](2026-10-08.html) | [CoTrace: Data Recipes for Training Terminal Agents with Harness-Model Co-Evolution](../papers/cotrace-data-recipes-for-training-terminal-agents-with-harness-model-co-evolution.html) |
