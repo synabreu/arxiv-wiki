@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-10](2026-10-10.html) | [Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation](../papers/rubric-cepr-self-evolving-image-editing-via-reward-verified-self-distillation.html) |
+| [2026-10-10](2026-10-10.html) | [One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts](../papers/one-block-multiple-depths-recurrent-vision-transformers-with-depth-programmed-experts.html) |
+| [2026-10-10](2026-10-10.html) | [WOVEN: Weaving Visual World Modeling into Multimodal LLMs](../papers/woven-weaving-visual-world-modeling-into-multimodal-llms.html) |
+| [2026-10-10](2026-10-10.html) | [ARC: A Reasoning Recipe for Robot Foundation Models](../papers/arc-a-reasoning-recipe-for-robot-foundation-models.html) |
+| [2026-10-10](2026-10-10.html) | [BrickBench: Evaluating Agentic Brick Design](../papers/brickbench-evaluating-agentic-brick-design.html) |
 | [2026-10-09](2026-10-09.html) | [Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception](../papers/caught-in-the-act-probes-effectively-detect-sabotage-and-catch-unverbalized-deception.html) |
 | [2026-10-09](2026-10-09.html) | [Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search](../papers/long-text-to-predictive-features-llm-guided-blockwise-feature-engineering-via-executable-program-search.html) |
 | [2026-10-09](2026-10-09.html) | [From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents](../papers/from-reactive-containment-to-proactive-assurance-lessons-from-openai-anthropic-and-google-agent-security-incidents.html) |
