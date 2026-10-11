@@ -1,4 +1,4 @@
-# 2026-10-10 arXiv AI 논문
+# 2026-10-11 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation](papers/rubric-cepr-self-evolving-image-editing-via-reward-verified-self-distillation.html)
-- [One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts](papers/one-block-multiple-depths-recurrent-vision-transformers-with-depth-programmed-experts.html)
-- [WOVEN: Weaving Visual World Modeling into Multimodal LLMs](papers/woven-weaving-visual-world-modeling-into-multimodal-llms.html)
-- [ARC: A Reasoning Recipe for Robot Foundation Models](papers/arc-a-reasoning-recipe-for-robot-foundation-models.html)
-- [BrickBench: Evaluating Agentic Brick Design](papers/brickbench-evaluating-agentic-brick-design.html)
+- [SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models](papers/spacecast-bench-evaluating-predictive-spatial-reasoning-in-vision-language-models.html)
+- [OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning](papers/omnicapbench-a-deep-structured-evaluation-framework-for-fine-grained-audio-visual-captioning.html)
+- [Predicting Alignment Generalization with Value Representations](papers/predicting-alignment-generalization-with-value-representations.html)
+- [ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills](papers/viskill-reinforcing-vlm-agents-with-evolving-visual-native-skills.html)
+- [What 30,000 Hours of Ego-centric Video Does Not Teach](papers/what-30000-hours-of-ego-centric-video-does-not-teach.html)
