@@ -1,4 +1,4 @@
-# 2026-10-11 arXiv AI 논문
+# 2026-10-12 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models](papers/spacecast-bench-evaluating-predictive-spatial-reasoning-in-vision-language-models.html)
-- [OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning](papers/omnicapbench-a-deep-structured-evaluation-framework-for-fine-grained-audio-visual-captioning.html)
-- [Predicting Alignment Generalization with Value Representations](papers/predicting-alignment-generalization-with-value-representations.html)
-- [ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills](papers/viskill-reinforcing-vlm-agents-with-evolving-visual-native-skills.html)
-- [What 30,000 Hours of Ego-centric Video Does Not Teach](papers/what-30000-hours-of-ego-centric-video-does-not-teach.html)
+- [Task Context Shapes Component Roles in Language Models](papers/task-context-shapes-component-roles-in-language-models.html)
+- [RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics](papers/rated-reliability-aware-ai-agent-tool-retrieval-via-execution-dynamics.html)
+- [Can machines reason non-verbally?](papers/can-machines-reason-non-verbally.html)
+- [MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents](papers/mc-evobench-auditing-experience-driven-self-improvement-in-minecraft-agents.html)
+- [GPU-resident Execution for Timing-predictable Sensor Processing Systems](papers/gpu-resident-execution-for-timing-predictable-sensor-processing-systems.html)

@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-12](2026-10-12.html) | [Task Context Shapes Component Roles in Language Models](../papers/task-context-shapes-component-roles-in-language-models.html) |
+| [2026-10-12](2026-10-12.html) | [RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics](../papers/rated-reliability-aware-ai-agent-tool-retrieval-via-execution-dynamics.html) |
+| [2026-10-12](2026-10-12.html) | [Can machines reason non-verbally?](../papers/can-machines-reason-non-verbally.html) |
+| [2026-10-12](2026-10-12.html) | [MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents](../papers/mc-evobench-auditing-experience-driven-self-improvement-in-minecraft-agents.html) |
+| [2026-10-12](2026-10-12.html) | [GPU-resident Execution for Timing-predictable Sensor Processing Systems](../papers/gpu-resident-execution-for-timing-predictable-sensor-processing-systems.html) |
 | [2026-10-11](2026-10-11.html) | [SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models](../papers/spacecast-bench-evaluating-predictive-spatial-reasoning-in-vision-language-models.html) |
 | [2026-10-11](2026-10-11.html) | [OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning](../papers/omnicapbench-a-deep-structured-evaluation-framework-for-fine-grained-audio-visual-captioning.html) |
 | [2026-10-11](2026-10-11.html) | [Predicting Alignment Generalization with Value Representations](../papers/predicting-alignment-generalization-with-value-representations.html) |
