@@ -1,4 +1,4 @@
-# 2026-10-12 arXiv AI 논문
+# 2026-10-15 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Task Context Shapes Component Roles in Language Models](papers/task-context-shapes-component-roles-in-language-models.html)
-- [RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics](papers/rated-reliability-aware-ai-agent-tool-retrieval-via-execution-dynamics.html)
-- [Can machines reason non-verbally?](papers/can-machines-reason-non-verbally.html)
-- [MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents](papers/mc-evobench-auditing-experience-driven-self-improvement-in-minecraft-agents.html)
-- [GPU-resident Execution for Timing-predictable Sensor Processing Systems](papers/gpu-resident-execution-for-timing-predictable-sensor-processing-systems.html)
+- [Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models](papers/energy-consumption-analysis-of-discrete-diffusion-and-autoregressive-language-models.html)
+- [LAGO: Language Agents with Reusable Growing Options](papers/lago-language-agents-with-reusable-growing-options.html)
+- [The Cost of Context: Profiling the Energy Footprint of Input Tokens in Large Language Models](papers/the-cost-of-context-profiling-the-energy-footprint-of-input-tokens-in-large-language-models.html)
+- [Teaching Agents in their Own Style: Blackbox Teacher Distillation for Web Agents](papers/teaching-agents-in-their-own-style-blackbox-teacher-distillation-for-web-agents.html)
+- [Calibration and Risk-Budgeted Decisions with System One Models](papers/calibration-and-risk-budgeted-decisions-with-system-one-models.html)

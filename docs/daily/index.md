@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-15](2026-10-15.html) | [Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models](../papers/energy-consumption-analysis-of-discrete-diffusion-and-autoregressive-language-models.html) |
+| [2026-10-15](2026-10-15.html) | [LAGO: Language Agents with Reusable Growing Options](../papers/lago-language-agents-with-reusable-growing-options.html) |
+| [2026-10-15](2026-10-15.html) | [The Cost of Context: Profiling the Energy Footprint of Input Tokens in Large Language Models](../papers/the-cost-of-context-profiling-the-energy-footprint-of-input-tokens-in-large-language-models.html) |
+| [2026-10-15](2026-10-15.html) | [Teaching Agents in their Own Style: Blackbox Teacher Distillation for Web Agents](../papers/teaching-agents-in-their-own-style-blackbox-teacher-distillation-for-web-agents.html) |
+| [2026-10-15](2026-10-15.html) | [Calibration and Risk-Budgeted Decisions with System One Models](../papers/calibration-and-risk-budgeted-decisions-with-system-one-models.html) |
 | [2026-10-12](2026-10-12.html) | [Task Context Shapes Component Roles in Language Models](../papers/task-context-shapes-component-roles-in-language-models.html) |
 | [2026-10-12](2026-10-12.html) | [RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics](../papers/rated-reliability-aware-ai-agent-tool-retrieval-via-execution-dynamics.html) |
 | [2026-10-12](2026-10-12.html) | [Can machines reason non-verbally?](../papers/can-machines-reason-non-verbally.html) |
