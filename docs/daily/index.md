@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-16](2026-10-16.html) | [MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Models](../papers/myopia-understanding-the-limits-of-tree-based-reasoning-in-vision-language-models.html) |
+| [2026-10-16](2026-10-16.html) | [ISW-Agent: Integrating LLM-Driven Dialogue with n8n Workflow for Internal Solitary Wave Remote Sensing Image Processing](../papers/isw-agent-integrating-llm-driven-dialogue-with-n8n-workflow-for-internal-solitary-wave-remote-sensing-image-processing.html) |
+| [2026-10-16](2026-10-16.html) | [Qwen-Audio-Jev: A Unified Interface for Audio Decisions](../papers/qwen-audio-jev-a-unified-interface-for-audio-decisions.html) |
+| [2026-10-16](2026-10-16.html) | [Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design](../papers/independent-data-integrity-verification-for-llm-driven-functional-coverage-closure-in-hardware-design.html) |
+| [2026-10-16](2026-10-16.html) | [Writability and the Pathway: A Controlled Study of Knowledge Injection into Addressed Memory](../papers/writability-and-the-pathway-a-controlled-study-of-knowledge-injection-into-addressed-memory.html) |
 | [2026-10-15](2026-10-15.html) | [Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models](../papers/energy-consumption-analysis-of-discrete-diffusion-and-autoregressive-language-models.html) |
 | [2026-10-15](2026-10-15.html) | [LAGO: Language Agents with Reusable Growing Options](../papers/lago-language-agents-with-reusable-growing-options.html) |
 | [2026-10-15](2026-10-15.html) | [The Cost of Context: Profiling the Energy Footprint of Input Tokens in Large Language Models](../papers/the-cost-of-context-profiling-the-energy-footprint-of-input-tokens-in-large-language-models.html) |

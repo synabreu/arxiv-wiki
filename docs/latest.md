@@ -1,4 +1,4 @@
-# 2026-10-15 arXiv AI 논문
+# 2026-10-16 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models](papers/energy-consumption-analysis-of-discrete-diffusion-and-autoregressive-language-models.html)
-- [LAGO: Language Agents with Reusable Growing Options](papers/lago-language-agents-with-reusable-growing-options.html)
-- [The Cost of Context: Profiling the Energy Footprint of Input Tokens in Large Language Models](papers/the-cost-of-context-profiling-the-energy-footprint-of-input-tokens-in-large-language-models.html)
-- [Teaching Agents in their Own Style: Blackbox Teacher Distillation for Web Agents](papers/teaching-agents-in-their-own-style-blackbox-teacher-distillation-for-web-agents.html)
-- [Calibration and Risk-Budgeted Decisions with System One Models](papers/calibration-and-risk-budgeted-decisions-with-system-one-models.html)
+- [MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Models](papers/myopia-understanding-the-limits-of-tree-based-reasoning-in-vision-language-models.html)
+- [ISW-Agent: Integrating LLM-Driven Dialogue with n8n Workflow for Internal Solitary Wave Remote Sensing Image Processing](papers/isw-agent-integrating-llm-driven-dialogue-with-n8n-workflow-for-internal-solitary-wave-remote-sensing-image-processing.html)
+- [Qwen-Audio-Jev: A Unified Interface for Audio Decisions](papers/qwen-audio-jev-a-unified-interface-for-audio-decisions.html)
+- [Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design](papers/independent-data-integrity-verification-for-llm-driven-functional-coverage-closure-in-hardware-design.html)
+- [Writability and the Pathway: A Controlled Study of Knowledge Injection into Addressed Memory](papers/writability-and-the-pathway-a-controlled-study-of-knowledge-injection-into-addressed-memory.html)
