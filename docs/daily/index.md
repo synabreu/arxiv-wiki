@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-17](2026-10-17.html) | [MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering](../papers/mlexpert-towards-a-generalist-agentic-model-for-autonomous-machine-learning-engineering.html) |
+| [2026-10-17](2026-10-17.html) | [CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LLM Honesty](../papers/cat-alyzing-honesty-continuous-adversarial-training-for-transferable-llm-honesty.html) |
+| [2026-10-17](2026-10-17.html) | [MindEval2: Clinically Grounded Patients and Rubrics for Evaluating Language Models in Mental Health Support](../papers/mindeval2-clinically-grounded-patients-and-rubrics-for-evaluating-language-models-in-mental-health-support.html) |
+| [2026-10-17](2026-10-17.html) | [3DCodeVerse: Exploring 3D Worlds as Code](../papers/3dcodeverse-exploring-3d-worlds-as-code.html) |
+| [2026-10-17](2026-10-17.html) | [Improving Environment-Agnostic Coding Agents: The Role of Scaffolding](../papers/improving-environment-agnostic-coding-agents-the-role-of-scaffolding.html) |
 | [2026-10-16](2026-10-16.html) | [MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Models](../papers/myopia-understanding-the-limits-of-tree-based-reasoning-in-vision-language-models.html) |
 | [2026-10-16](2026-10-16.html) | [ISW-Agent: Integrating LLM-Driven Dialogue with n8n Workflow for Internal Solitary Wave Remote Sensing Image Processing](../papers/isw-agent-integrating-llm-driven-dialogue-with-n8n-workflow-for-internal-solitary-wave-remote-sensing-image-processing.html) |
 | [2026-10-16](2026-10-16.html) | [Qwen-Audio-Jev: A Unified Interface for Audio Decisions](../papers/qwen-audio-jev-a-unified-interface-for-audio-decisions.html) |
