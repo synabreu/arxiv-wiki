@@ -1,4 +1,4 @@
-# 2026-10-17 arXiv AI 논문
+# 2026-10-18 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering](papers/mlexpert-towards-a-generalist-agentic-model-for-autonomous-machine-learning-engineering.html)
-- [CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LLM Honesty](papers/cat-alyzing-honesty-continuous-adversarial-training-for-transferable-llm-honesty.html)
-- [MindEval2: Clinically Grounded Patients and Rubrics for Evaluating Language Models in Mental Health Support](papers/mindeval2-clinically-grounded-patients-and-rubrics-for-evaluating-language-models-in-mental-health-support.html)
-- [3DCodeVerse: Exploring 3D Worlds as Code](papers/3dcodeverse-exploring-3d-worlds-as-code.html)
-- [Improving Environment-Agnostic Coding Agents: The Role of Scaffolding](papers/improving-environment-agnostic-coding-agents-the-role-of-scaffolding.html)
+- [Training Reasoning Models to Generate Diverse Scientific Ideas](papers/training-reasoning-models-to-generate-diverse-scientific-ideas.html)
+- [AI Consilium: a Benchmark of LLM Clinical Multidisciplinary Second Opinions](papers/ai-consilium-a-benchmark-of-llm-clinical-multidisciplinary-second-opinions.html)
+- [Learning to Steer LLM Agents and Multi-Agent Systems](papers/learning-to-steer-llm-agents-and-multi-agent-systems.html)
+- [Learning Self-Orchestration in Decentralized Agent Swarms](papers/learning-self-orchestration-in-decentralized-agent-swarms.html)
+- [A team of Gemini 4 Argon agents beats Minecraft](papers/a-team-of-gemini-4-argon-agents-beats-minecraft.html)
