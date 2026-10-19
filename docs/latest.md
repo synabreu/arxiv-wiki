@@ -1,4 +1,4 @@
-# 2026-10-18 arXiv AI 논문
+# 2026-10-19 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Training Reasoning Models to Generate Diverse Scientific Ideas](papers/training-reasoning-models-to-generate-diverse-scientific-ideas.html)
-- [AI Consilium: a Benchmark of LLM Clinical Multidisciplinary Second Opinions](papers/ai-consilium-a-benchmark-of-llm-clinical-multidisciplinary-second-opinions.html)
-- [Learning to Steer LLM Agents and Multi-Agent Systems](papers/learning-to-steer-llm-agents-and-multi-agent-systems.html)
-- [Learning Self-Orchestration in Decentralized Agent Swarms](papers/learning-self-orchestration-in-decentralized-agent-swarms.html)
-- [A team of Gemini 4 Argon agents beats Minecraft](papers/a-team-of-gemini-4-argon-agents-beats-minecraft.html)
+- [Ignored, Not Refused: What Low Prompt-Injection Success Rates Hide in Small Tool-Using Agents](papers/ignored-not-refused-what-low-prompt-injection-success-rates-hide-in-small-tool-using-agents.html)
+- [Beyond Marginal Influence: Interaction-Aware Memory Selection for LLM Agents](papers/beyond-marginal-influence-interaction-aware-memory-selection-for-llm-agents.html)
+- [Who Pays for Efficient Inference? Confidence-Based Small-to-Large LLM Routing Across Tasks and Languages](papers/who-pays-for-efficient-inference-confidence-based-small-to-large-llm-routing-across-tasks-and-languages.html)
+- [Robust Function Calling for LLM Agents Under Interface Drift](papers/robust-function-calling-for-llm-agents-under-interface-drift.html)
+- [Sample, Mix, or Verify? Allocating Test-Time Compute under Imperfect Verifiers](papers/sample-mix-or-verify-allocating-test-time-compute-under-imperfect-verifiers.html)
