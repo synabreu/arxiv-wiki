@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-20](2026-10-20.html) | [First-Order LoRA Training with Phone NPUs](../papers/first-order-lora-training-with-phone-npus.html) |
+| [2026-10-20](2026-10-20.html) | [Medical Fine-Tuning Reshapes, Not Reduces, Patient-Facing AI Risk: A Rubric-Based, LLM-Judge Evaluation Framework](../papers/medical-fine-tuning-reshapes-not-reduces-patient-facing-ai-risk-a-rubric-based-llm-judge-evaluation-framework.html) |
+| [2026-10-20](2026-10-20.html) | [Pattern-Driven Evaluation of LLM Code Optimization: Isolating Compiler-Transcendent Semantic Reasoning](../papers/pattern-driven-evaluation-of-llm-code-optimization-isolating-compiler-transcendent-semantic-reasoning.html) |
+| [2026-10-20](2026-10-20.html) | [The One-Pixel of Reasoning: One Truthful Relation Is Enough to Mislead LLM Agents](../papers/the-one-pixel-of-reasoning-one-truthful-relation-is-enough-to-mislead-llm-agents.html) |
+| [2026-10-20](2026-10-20.html) | [LLM-Based Evaluation Planning for Heterogeneous Optimization](../papers/llm-based-evaluation-planning-for-heterogeneous-optimization.html) |
 | [2026-10-19](2026-10-19.html) | [Ignored, Not Refused: What Low Prompt-Injection Success Rates Hide in Small Tool-Using Agents](../papers/ignored-not-refused-what-low-prompt-injection-success-rates-hide-in-small-tool-using-agents.html) |
 | [2026-10-19](2026-10-19.html) | [Beyond Marginal Influence: Interaction-Aware Memory Selection for LLM Agents](../papers/beyond-marginal-influence-interaction-aware-memory-selection-for-llm-agents.html) |
 | [2026-10-19](2026-10-19.html) | [Who Pays for Efficient Inference? Confidence-Based Small-to-Large LLM Routing Across Tasks and Languages](../papers/who-pays-for-efficient-inference-confidence-based-small-to-large-llm-routing-across-tasks-and-languages.html) |
