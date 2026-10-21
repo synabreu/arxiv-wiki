@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-21](2026-10-21.html) | [CollabSciReM: Aligning Language Models for Scientific Conversations via Science-Aware Reward Decomposition](../papers/collabscirem-aligning-language-models-for-scientific-conversations-via-science-aware-reward-decomposition.html) |
+| [2026-10-21](2026-10-21.html) | [ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models](../papers/ace-compression-an-ability-centric-evaluation-of-compressed-large-language-models.html) |
+| [2026-10-21](2026-10-21.html) | [Elicitation or Expansion? Demystifying Gains from Agent Harness Optimization](../papers/elicitation-or-expansion-demystifying-gains-from-agent-harness-optimization.html) |
+| [2026-10-21](2026-10-21.html) | [SliMOO: Interpretable Multi-Objective Evolutionary Search for LLM Depth Pruning](../papers/slimoo-interpretable-multi-objective-evolutionary-search-for-llm-depth-pruning.html) |
+| [2026-10-21](2026-10-21.html) | [Staged Continual Adaptation of Multimodal Foundation Models for Japanese Financial Documents](../papers/staged-continual-adaptation-of-multimodal-foundation-models-for-japanese-financial-documents.html) |
 | [2026-10-20](2026-10-20.html) | [First-Order LoRA Training with Phone NPUs](../papers/first-order-lora-training-with-phone-npus.html) |
 | [2026-10-20](2026-10-20.html) | [Medical Fine-Tuning Reshapes, Not Reduces, Patient-Facing AI Risk: A Rubric-Based, LLM-Judge Evaluation Framework](../papers/medical-fine-tuning-reshapes-not-reduces-patient-facing-ai-risk-a-rubric-based-llm-judge-evaluation-framework.html) |
 | [2026-10-20](2026-10-20.html) | [Pattern-Driven Evaluation of LLM Code Optimization: Isolating Compiler-Transcendent Semantic Reasoning](../papers/pattern-driven-evaluation-of-llm-code-optimization-isolating-compiler-transcendent-semantic-reasoning.html) |
