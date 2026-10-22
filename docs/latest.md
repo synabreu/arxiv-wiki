@@ -1,4 +1,4 @@
-# 2026-10-21 arXiv AI 논문
+# 2026-10-22 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [CollabSciReM: Aligning Language Models for Scientific Conversations via Science-Aware Reward Decomposition](papers/collabscirem-aligning-language-models-for-scientific-conversations-via-science-aware-reward-decomposition.html)
-- [ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models](papers/ace-compression-an-ability-centric-evaluation-of-compressed-large-language-models.html)
-- [Elicitation or Expansion? Demystifying Gains from Agent Harness Optimization](papers/elicitation-or-expansion-demystifying-gains-from-agent-harness-optimization.html)
-- [SliMOO: Interpretable Multi-Objective Evolutionary Search for LLM Depth Pruning](papers/slimoo-interpretable-multi-objective-evolutionary-search-for-llm-depth-pruning.html)
-- [Staged Continual Adaptation of Multimodal Foundation Models for Japanese Financial Documents](papers/staged-continual-adaptation-of-multimodal-foundation-models-for-japanese-financial-documents.html)
+- [WRDO: Weighted Refusal Direction Optimization in Aligned Language Models](papers/wrdo-weighted-refusal-direction-optimization-in-aligned-language-models.html)
+- [Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding](papers/generalized-cyclegrpo-for-fine-grained-multimodal-understanding-and-grounding.html)
+- [Parallel Thinking for Large Language Model with Path Diversity](papers/parallel-thinking-for-large-language-model-with-path-diversity.html)
+- [RCSD: Reinforcement and Continual Learning for Domain-Specific Speculative Decoding](papers/rcsd-reinforcement-and-continual-learning-for-domain-specific-speculative-decoding.html)
+- [RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference](papers/risk-kv-quality-aware-selective-kv-cache-reconstruction-for-distributed-llm-inference.html)

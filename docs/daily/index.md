@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-22](2026-10-22.html) | [WRDO: Weighted Refusal Direction Optimization in Aligned Language Models](../papers/wrdo-weighted-refusal-direction-optimization-in-aligned-language-models.html) |
+| [2026-10-22](2026-10-22.html) | [Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding](../papers/generalized-cyclegrpo-for-fine-grained-multimodal-understanding-and-grounding.html) |
+| [2026-10-22](2026-10-22.html) | [Parallel Thinking for Large Language Model with Path Diversity](../papers/parallel-thinking-for-large-language-model-with-path-diversity.html) |
+| [2026-10-22](2026-10-22.html) | [RCSD: Reinforcement and Continual Learning for Domain-Specific Speculative Decoding](../papers/rcsd-reinforcement-and-continual-learning-for-domain-specific-speculative-decoding.html) |
+| [2026-10-22](2026-10-22.html) | [RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference](../papers/risk-kv-quality-aware-selective-kv-cache-reconstruction-for-distributed-llm-inference.html) |
 | [2026-10-21](2026-10-21.html) | [CollabSciReM: Aligning Language Models for Scientific Conversations via Science-Aware Reward Decomposition](../papers/collabscirem-aligning-language-models-for-scientific-conversations-via-science-aware-reward-decomposition.html) |
 | [2026-10-21](2026-10-21.html) | [ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models](../papers/ace-compression-an-ability-centric-evaluation-of-compressed-large-language-models.html) |
 | [2026-10-21](2026-10-21.html) | [Elicitation or Expansion? Demystifying Gains from Agent Harness Optimization](../papers/elicitation-or-expansion-demystifying-gains-from-agent-harness-optimization.html) |
