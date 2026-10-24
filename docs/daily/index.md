@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-24](2026-10-24.html) | [Low-Bit N-Gram Embeddings for Language Models](../papers/low-bit-n-gram-embeddings-for-language-models.html) |
+| [2026-10-24](2026-10-24.html) | [VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act](../papers/vera-a-responsible-ai-dashboard-for-assessing-llm-deployments-in-light-of-the-eu-ai-act.html) |
+| [2026-10-24](2026-10-24.html) | [Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning](../papers/direct-passk-optimization-for-thought-pruning-balancing-quality-and-diversity-in-test-time-reasoning.html) |
+| [2026-10-24](2026-10-24.html) | [BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing](../papers/benice-closing-loopings-inference-memory-gap-via-kv-sharing.html) |
+| [2026-10-24](2026-10-24.html) | [How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions](../papers/how-ground-truth-shapes-retrieval-scores-evidence-aware-evaluation-of-a-retrieval-augmented-generation-system-for-breast-lesions.html) |
 | [2026-10-22](2026-10-22.html) | [WRDO: Weighted Refusal Direction Optimization in Aligned Language Models](../papers/wrdo-weighted-refusal-direction-optimization-in-aligned-language-models.html) |
 | [2026-10-22](2026-10-22.html) | [Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding](../papers/generalized-cyclegrpo-for-fine-grained-multimodal-understanding-and-grounding.html) |
 | [2026-10-22](2026-10-22.html) | [Parallel Thinking for Large Language Model with Path Diversity](../papers/parallel-thinking-for-large-language-model-with-path-diversity.html) |
