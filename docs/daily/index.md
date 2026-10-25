@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-25](2026-10-25.html) | [CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models](../papers/celltrack-bench-microscopic-cell-tracking-benchmark-for-vision-language-models.html) |
+| [2026-10-25](2026-10-25.html) | [Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination](../papers/would-an-llm-match-into-a-residency-uncertainty-reasoning-and-image-use-of-open-language-models-on-the-spanish-mir-examination.html) |
+| [2026-10-25](2026-10-25.html) | [METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning](../papers/metta-memory-enhanced-test-time-adaptation-for-meta-reinforcement-learning.html) |
+| [2026-10-25](2026-10-25.html) | [EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence](../papers/episem-bench-evaluating-safety-and-evidence-recovery-in-llm-agents-under-missing-evidence.html) |
+| [2026-10-25](2026-10-25.html) | [Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2](../papers/can-an-agent-debug-a-web-corpus-agentic-auditing-of-slovak-fineweb2.html) |
 | [2026-10-24](2026-10-24.html) | [Low-Bit N-Gram Embeddings for Language Models](../papers/low-bit-n-gram-embeddings-for-language-models.html) |
 | [2026-10-24](2026-10-24.html) | [VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act](../papers/vera-a-responsible-ai-dashboard-for-assessing-llm-deployments-in-light-of-the-eu-ai-act.html) |
 | [2026-10-24](2026-10-24.html) | [Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning](../papers/direct-passk-optimization-for-thought-pruning-balancing-quality-and-diversity-in-test-time-reasoning.html) |
