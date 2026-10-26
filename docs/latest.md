@@ -1,4 +1,4 @@
-# 2026-10-25 arXiv AI 논문
+# 2026-10-26 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models](papers/celltrack-bench-microscopic-cell-tracking-benchmark-for-vision-language-models.html)
-- [Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination](papers/would-an-llm-match-into-a-residency-uncertainty-reasoning-and-image-use-of-open-language-models-on-the-spanish-mir-examination.html)
-- [METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning](papers/metta-memory-enhanced-test-time-adaptation-for-meta-reinforcement-learning.html)
-- [EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence](papers/episem-bench-evaluating-safety-and-evidence-recovery-in-llm-agents-under-missing-evidence.html)
-- [Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2](papers/can-an-agent-debug-a-web-corpus-agentic-auditing-of-slovak-fineweb2.html)
+- [Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance](papers/tool-calling-llm-agents-under-realistic-mcp-faults-scale-does-not-purchase-fault-tolerance.html)
+- [PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research](papers/phyrd-a-living-benchmark-for-reproducing-and-extending-theoretical-physics-research.html)
+- [Standing on Open Shoulders: Regional Fine-Tuning of Open-Weight Camera-Trap Models for UK Wildlife with Modest Data and Compute](papers/standing-on-open-shoulders-regional-fine-tuning-of-open-weight-camera-trap-models-for-uk-wildlife-with-modest-data-and-compute.html)
+- [What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design](papers/what-transfers-across-protein-pockets-experience-reuse-in-molecular-optimization-for-agentic-structure-based-drug-design.html)
+- [Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents](papers/lessons-outlive-their-failures-a-case-study-of-rules-for-ai-coding-agents.html)

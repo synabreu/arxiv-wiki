@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-26](2026-10-26.html) | [Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance](../papers/tool-calling-llm-agents-under-realistic-mcp-faults-scale-does-not-purchase-fault-tolerance.html) |
+| [2026-10-26](2026-10-26.html) | [PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research](../papers/phyrd-a-living-benchmark-for-reproducing-and-extending-theoretical-physics-research.html) |
+| [2026-10-26](2026-10-26.html) | [Standing on Open Shoulders: Regional Fine-Tuning of Open-Weight Camera-Trap Models for UK Wildlife with Modest Data and Compute](../papers/standing-on-open-shoulders-regional-fine-tuning-of-open-weight-camera-trap-models-for-uk-wildlife-with-modest-data-and-compute.html) |
+| [2026-10-26](2026-10-26.html) | [What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design](../papers/what-transfers-across-protein-pockets-experience-reuse-in-molecular-optimization-for-agentic-structure-based-drug-design.html) |
+| [2026-10-26](2026-10-26.html) | [Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents](../papers/lessons-outlive-their-failures-a-case-study-of-rules-for-ai-coding-agents.html) |
 | [2026-10-25](2026-10-25.html) | [CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models](../papers/celltrack-bench-microscopic-cell-tracking-benchmark-for-vision-language-models.html) |
 | [2026-10-25](2026-10-25.html) | [Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination](../papers/would-an-llm-match-into-a-residency-uncertainty-reasoning-and-image-use-of-open-language-models-on-the-spanish-mir-examination.html) |
 | [2026-10-25](2026-10-25.html) | [METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning](../papers/metta-memory-enhanced-test-time-adaptation-for-meta-reinforcement-learning.html) |
