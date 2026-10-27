@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-27](2026-10-27.html) | [Improving Instruction Hierarchy by Learning from Goal-Goal Conflicts](../papers/improving-instruction-hierarchy-by-learning-from-goal-goal-conflicts.html) |
+| [2026-10-27](2026-10-27.html) | [BellowsKV: One Latent for Many Layers, Expanded on Demand](../papers/bellowskv-one-latent-for-many-layers-expanded-on-demand.html) |
+| [2026-10-27](2026-10-27.html) | [From Questions to Queries to Insights: A Schema-Grounded Agentic Workflow for Natural-Language Crash Data Analysis](../papers/from-questions-to-queries-to-insights-a-schema-grounded-agentic-workflow-for-natural-language-crash-data-analysis.html) |
+| [2026-10-27](2026-10-27.html) | [Ask Before You Answer: A Question-Driven Evidence Reasoning Architecture (QERA) for In-Context Learning](../papers/ask-before-you-answer-a-question-driven-evidence-reasoning-architecture-qera-for-in-context-learning.html) |
+| [2026-10-27](2026-10-27.html) | [Improving VLMs on Scientific Chart Analysis via Autonomous Evolution](../papers/improving-vlms-on-scientific-chart-analysis-via-autonomous-evolution.html) |
 | [2026-10-26](2026-10-26.html) | [Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance](../papers/tool-calling-llm-agents-under-realistic-mcp-faults-scale-does-not-purchase-fault-tolerance.html) |
 | [2026-10-26](2026-10-26.html) | [PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research](../papers/phyrd-a-living-benchmark-for-reproducing-and-extending-theoretical-physics-research.html) |
 | [2026-10-26](2026-10-26.html) | [Standing on Open Shoulders: Regional Fine-Tuning of Open-Weight Camera-Trap Models for UK Wildlife with Modest Data and Compute](../papers/standing-on-open-shoulders-regional-fine-tuning-of-open-weight-camera-trap-models-for-uk-wildlife-with-modest-data-and-compute.html) |

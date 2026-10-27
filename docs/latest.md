@@ -1,4 +1,4 @@
-# 2026-10-26 arXiv AI 논문
+# 2026-10-27 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance](papers/tool-calling-llm-agents-under-realistic-mcp-faults-scale-does-not-purchase-fault-tolerance.html)
-- [PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research](papers/phyrd-a-living-benchmark-for-reproducing-and-extending-theoretical-physics-research.html)
-- [Standing on Open Shoulders: Regional Fine-Tuning of Open-Weight Camera-Trap Models for UK Wildlife with Modest Data and Compute](papers/standing-on-open-shoulders-regional-fine-tuning-of-open-weight-camera-trap-models-for-uk-wildlife-with-modest-data-and-compute.html)
-- [What Transfers Across Protein Pockets? Experience Reuse in Molecular Optimization for Agentic Structure-Based Drug Design](papers/what-transfers-across-protein-pockets-experience-reuse-in-molecular-optimization-for-agentic-structure-based-drug-design.html)
-- [Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents](papers/lessons-outlive-their-failures-a-case-study-of-rules-for-ai-coding-agents.html)
+- [Improving Instruction Hierarchy by Learning from Goal-Goal Conflicts](papers/improving-instruction-hierarchy-by-learning-from-goal-goal-conflicts.html)
+- [BellowsKV: One Latent for Many Layers, Expanded on Demand](papers/bellowskv-one-latent-for-many-layers-expanded-on-demand.html)
+- [From Questions to Queries to Insights: A Schema-Grounded Agentic Workflow for Natural-Language Crash Data Analysis](papers/from-questions-to-queries-to-insights-a-schema-grounded-agentic-workflow-for-natural-language-crash-data-analysis.html)
+- [Ask Before You Answer: A Question-Driven Evidence Reasoning Architecture (QERA) for In-Context Learning](papers/ask-before-you-answer-a-question-driven-evidence-reasoning-architecture-qera-for-in-context-learning.html)
+- [Improving VLMs on Scientific Chart Analysis via Autonomous Evolution](papers/improving-vlms-on-scientific-chart-analysis-via-autonomous-evolution.html)
