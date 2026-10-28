@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-28](2026-10-28.html) | [Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions](../papers/rare-relevant-and-still-wrong-how-memory-fails-llm-group-decisions.html) |
+| [2026-10-28](2026-10-28.html) | [Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness](../papers/heads-of-security-learned-attention-gates-improve-prompt-injection-robustness.html) |
+| [2026-10-28](2026-10-28.html) | [Metacognitive Decoding: Efficient Inference for Diffusion Language Agents](../papers/metacognitive-decoding-efficient-inference-for-diffusion-language-agents.html) |
+| [2026-10-28](2026-10-28.html) | [Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis](../papers/scaling-laws-for-tool-use-agents-via-controllable-environment-synthesis.html) |
+| [2026-10-28](2026-10-28.html) | [Gym-Anything-RT: Scaling Real-Time Environments for Vision-Language Agents](../papers/gym-anything-rt-scaling-real-time-environments-for-vision-language-agents.html) |
 | [2026-10-27](2026-10-27.html) | [Improving Instruction Hierarchy by Learning from Goal-Goal Conflicts](../papers/improving-instruction-hierarchy-by-learning-from-goal-goal-conflicts.html) |
 | [2026-10-27](2026-10-27.html) | [BellowsKV: One Latent for Many Layers, Expanded on Demand](../papers/bellowskv-one-latent-for-many-layers-expanded-on-demand.html) |
 | [2026-10-27](2026-10-27.html) | [From Questions to Queries to Insights: A Schema-Grounded Agentic Workflow for Natural-Language Crash Data Analysis](../papers/from-questions-to-queries-to-insights-a-schema-grounded-agentic-workflow-for-natural-language-crash-data-analysis.html) |

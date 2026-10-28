@@ -1,4 +1,4 @@
-# 2026-10-27 arXiv AI 논문
+# 2026-10-28 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Improving Instruction Hierarchy by Learning from Goal-Goal Conflicts](papers/improving-instruction-hierarchy-by-learning-from-goal-goal-conflicts.html)
-- [BellowsKV: One Latent for Many Layers, Expanded on Demand](papers/bellowskv-one-latent-for-many-layers-expanded-on-demand.html)
-- [From Questions to Queries to Insights: A Schema-Grounded Agentic Workflow for Natural-Language Crash Data Analysis](papers/from-questions-to-queries-to-insights-a-schema-grounded-agentic-workflow-for-natural-language-crash-data-analysis.html)
-- [Ask Before You Answer: A Question-Driven Evidence Reasoning Architecture (QERA) for In-Context Learning](papers/ask-before-you-answer-a-question-driven-evidence-reasoning-architecture-qera-for-in-context-learning.html)
-- [Improving VLMs on Scientific Chart Analysis via Autonomous Evolution](papers/improving-vlms-on-scientific-chart-analysis-via-autonomous-evolution.html)
+- [Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions](papers/rare-relevant-and-still-wrong-how-memory-fails-llm-group-decisions.html)
+- [Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness](papers/heads-of-security-learned-attention-gates-improve-prompt-injection-robustness.html)
+- [Metacognitive Decoding: Efficient Inference for Diffusion Language Agents](papers/metacognitive-decoding-efficient-inference-for-diffusion-language-agents.html)
+- [Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis](papers/scaling-laws-for-tool-use-agents-via-controllable-environment-synthesis.html)
+- [Gym-Anything-RT: Scaling Real-Time Environments for Vision-Language Agents](papers/gym-anything-rt-scaling-real-time-environments-for-vision-language-agents.html)
