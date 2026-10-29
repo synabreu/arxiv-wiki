@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-29](2026-10-29.html) | [Orthogonal and Parametrized Multi-Attribute Steering of LLMs](../papers/orthogonal-and-parametrized-multi-attribute-steering-of-llms.html) |
+| [2026-10-29](2026-10-29.html) | [Timestral](../papers/timestral.html) |
+| [2026-10-29](2026-10-29.html) | [Zero-Shot Multimodal Event Spotting in Soccer Broadcasts](../papers/zero-shot-multimodal-event-spotting-in-soccer-broadcasts.html) |
+| [2026-10-29](2026-10-29.html) | [Pneuma: A Large-Scale Real-World Time Series Benchmark for Commercial Aircraft Predictive Maintenance](../papers/pneuma-a-large-scale-real-world-time-series-benchmark-for-commercial-aircraft-predictive-maintenance.html) |
+| [2026-10-29](2026-10-29.html) | [GAS-PFN: Graph-Aware Spatiotemporal Prior-Data Fitted Networks for Zero-Shot Traffic Forecasting](../papers/gas-pfn-graph-aware-spatiotemporal-prior-data-fitted-networks-for-zero-shot-traffic-forecasting.html) |
 | [2026-10-28](2026-10-28.html) | [Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions](../papers/rare-relevant-and-still-wrong-how-memory-fails-llm-group-decisions.html) |
 | [2026-10-28](2026-10-28.html) | [Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness](../papers/heads-of-security-learned-attention-gates-improve-prompt-injection-robustness.html) |
 | [2026-10-28](2026-10-28.html) | [Metacognitive Decoding: Efficient Inference for Diffusion Language Agents](../papers/metacognitive-decoding-efficient-inference-for-diffusion-language-agents.html) |
