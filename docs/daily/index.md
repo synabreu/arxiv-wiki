@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-30](2026-10-30.html) | [Quantum-Inspired Pairwise Ranking Aggregation via Active LLM Feedback](../papers/quantum-inspired-pairwise-ranking-aggregation-via-active-llm-feedback.html) |
+| [2026-10-30](2026-10-30.html) | [Discovering Jailbreaks via Curriculum of Models](../papers/discovering-jailbreaks-via-curriculum-of-models.html) |
+| [2026-10-30](2026-10-30.html) | [SatOps-Decision: Low-Latency Discriminative Decisions for Onboard Satellite Communication Operations](../papers/satops-decision-low-latency-discriminative-decisions-for-onboard-satellite-communication-operations.html) |
+| [2026-10-30](2026-10-30.html) | [Beyond fabrication: Misattributed numbers in papers written by AI research agents](../papers/beyond-fabrication-misattributed-numbers-in-papers-written-by-ai-research-agents.html) |
+| [2026-10-30](2026-10-30.html) | [AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs](../papers/atomtree-a-hierarchical-framework-for-state-aware-embodied-instruction-following-with-llms.html) |
 | [2026-10-29](2026-10-29.html) | [Orthogonal and Parametrized Multi-Attribute Steering of LLMs](../papers/orthogonal-and-parametrized-multi-attribute-steering-of-llms.html) |
 | [2026-10-29](2026-10-29.html) | [Timestral](../papers/timestral.html) |
 | [2026-10-29](2026-10-29.html) | [Zero-Shot Multimodal Event Spotting in Soccer Broadcasts](../papers/zero-shot-multimodal-event-spotting-in-soccer-broadcasts.html) |
