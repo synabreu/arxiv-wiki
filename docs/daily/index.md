@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-10-31](2026-10-31.html) | [Advancing Clinical Genomic Analysis with a Skill-Centred Agent](../papers/advancing-clinical-genomic-analysis-with-a-skill-centred-agent.html) |
+| [2026-10-31](2026-10-31.html) | [On the Fundamental Limits of Prefill-Based Decoding Length Prediction](../papers/on-the-fundamental-limits-of-prefill-based-decoding-length-prediction.html) |
+| [2026-10-31](2026-10-31.html) | [Difficulty Calibration Across Time for Membership Inference in Diffusion Models](../papers/difficulty-calibration-across-time-for-membership-inference-in-diffusion-models.html) |
+| [2026-10-31](2026-10-31.html) | [Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In](../papers/pre-crime-for-agents-at-the-last-second-probing-when-a-recruited-agent-gives-in.html) |
+| [2026-10-31](2026-10-31.html) | [Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs](../papers/ramanujan-challenge-results-ai-assisted-evaluation-pipeline-for-multi-format-proofs.html) |
 | [2026-10-30](2026-10-30.html) | [Quantum-Inspired Pairwise Ranking Aggregation via Active LLM Feedback](../papers/quantum-inspired-pairwise-ranking-aggregation-via-active-llm-feedback.html) |
 | [2026-10-30](2026-10-30.html) | [Discovering Jailbreaks via Curriculum of Models](../papers/discovering-jailbreaks-via-curriculum-of-models.html) |
 | [2026-10-30](2026-10-30.html) | [SatOps-Decision: Low-Latency Discriminative Decisions for Onboard Satellite Communication Operations](../papers/satops-decision-low-latency-discriminative-decisions-for-onboard-satellite-communication-operations.html) |
