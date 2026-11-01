@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-01](2026-11-01.html) | [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](../papers/burger-benchmarking-and-understanding-robotic-generalization-via-embodied-drawing.html) |
+| [2026-11-01](2026-11-01.html) | [IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws](../papers/indicipr-qa-a-benchmark-for-extractive-question-answering-on-indian-ipr-laws.html) |
+| [2026-11-01](2026-11-01.html) | [TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races](../papers/textseal2-distortion-free-llm-watermarking-with-copula-mixing-and-memoryless-races.html) |
+| [2026-11-01](2026-11-01.html) | [Elucidating the Design Space of LM Data Attribution](../papers/elucidating-the-design-space-of-lm-data-attribution.html) |
+| [2026-11-01](2026-11-01.html) | [Gym-Anything for Robotics: Scaling physical simulations with digital agents](../papers/gym-anything-for-robotics-scaling-physical-simulations-with-digital-agents.html) |
 | [2026-10-31](2026-10-31.html) | [Advancing Clinical Genomic Analysis with a Skill-Centred Agent](../papers/advancing-clinical-genomic-analysis-with-a-skill-centred-agent.html) |
 | [2026-10-31](2026-10-31.html) | [On the Fundamental Limits of Prefill-Based Decoding Length Prediction](../papers/on-the-fundamental-limits-of-prefill-based-decoding-length-prediction.html) |
 | [2026-10-31](2026-10-31.html) | [Difficulty Calibration Across Time for Membership Inference in Diffusion Models](../papers/difficulty-calibration-across-time-for-membership-inference-in-diffusion-models.html) |
