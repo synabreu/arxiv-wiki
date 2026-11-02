@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-02](2026-11-02.html) | [TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents](../papers/tinyastral-transferring-self-evolving-harnesses-to-tiny-generalist-manipulation-agents.html) |
+| [2026-11-02](2026-11-02.html) | [ImplicitHop: Evaluating knowledge integration across context and memory](../papers/implicithop-evaluating-knowledge-integration-across-context-and-memory.html) |
+| [2026-11-02](2026-11-02.html) | [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](../papers/experts-exhibit-structured-redundancy-structure-preserving-expert-pruning-for-mixture-of-experts-large-language-models.html) |
+| [2026-11-02](2026-11-02.html) | [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](../papers/frontiermat-benchmarking-language-models-at-the-frontier-of-materials-rd.html) |
+| [2026-11-02](2026-11-02.html) | [From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models](../papers/from-evaluation-to-evolution-benchmarking-image-editing-and-evolving-image-models.html) |
 | [2026-11-01](2026-11-01.html) | [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](../papers/burger-benchmarking-and-understanding-robotic-generalization-via-embodied-drawing.html) |
 | [2026-11-01](2026-11-01.html) | [IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws](../papers/indicipr-qa-a-benchmark-for-extractive-question-answering-on-indian-ipr-laws.html) |
 | [2026-11-01](2026-11-01.html) | [TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races](../papers/textseal2-distortion-free-llm-watermarking-with-copula-mixing-and-memoryless-races.html) |

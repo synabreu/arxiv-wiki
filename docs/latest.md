@@ -1,4 +1,4 @@
-# 2026-11-01 arXiv AI 논문
+# 2026-11-02 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](papers/burger-benchmarking-and-understanding-robotic-generalization-via-embodied-drawing.html)
-- [IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws](papers/indicipr-qa-a-benchmark-for-extractive-question-answering-on-indian-ipr-laws.html)
-- [TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races](papers/textseal2-distortion-free-llm-watermarking-with-copula-mixing-and-memoryless-races.html)
-- [Elucidating the Design Space of LM Data Attribution](papers/elucidating-the-design-space-of-lm-data-attribution.html)
-- [Gym-Anything for Robotics: Scaling physical simulations with digital agents](papers/gym-anything-for-robotics-scaling-physical-simulations-with-digital-agents.html)
+- [TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents](papers/tinyastral-transferring-self-evolving-harnesses-to-tiny-generalist-manipulation-agents.html)
+- [ImplicitHop: Evaluating knowledge integration across context and memory](papers/implicithop-evaluating-knowledge-integration-across-context-and-memory.html)
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](papers/experts-exhibit-structured-redundancy-structure-preserving-expert-pruning-for-mixture-of-experts-large-language-models.html)
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](papers/frontiermat-benchmarking-language-models-at-the-frontier-of-materials-rd.html)
+- [From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models](papers/from-evaluation-to-evolution-benchmarking-image-editing-and-evolving-image-models.html)
