@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-03](2026-11-03.html) | [Geometry of Confabulation and Refusal in Small Language Models](../papers/geometry-of-confabulation-and-refusal-in-small-language-models.html) |
+| [2026-11-03](2026-11-03.html) | [LoRAForge: Co-Designing Post-Hoc Compression and Execution for Efficient Multi-LoRA Serving](../papers/loraforge-co-designing-post-hoc-compression-and-execution-for-efficient-multi-lora-serving.html) |
+| [2026-11-03](2026-11-03.html) | [Context-Shielded Backdoor Attack against Large Vision-Language Models](../papers/context-shielded-backdoor-attack-against-large-vision-language-models.html) |
+| [2026-11-03](2026-11-03.html) | [OntoDoc: Automatically Generating Ontology Resource Descriptions](../papers/ontodoc-automatically-generating-ontology-resource-descriptions.html) |
+| [2026-11-03](2026-11-03.html) | [Learning What to Ask and What to Believe: Distilling a Variational Bayesian Agent into Language Models](../papers/learning-what-to-ask-and-what-to-believe-distilling-a-variational-bayesian-agent-into-language-models.html) |
 | [2026-11-02](2026-11-02.html) | [TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents](../papers/tinyastral-transferring-self-evolving-harnesses-to-tiny-generalist-manipulation-agents.html) |
 | [2026-11-02](2026-11-02.html) | [ImplicitHop: Evaluating knowledge integration across context and memory](../papers/implicithop-evaluating-knowledge-integration-across-context-and-memory.html) |
 | [2026-11-02](2026-11-02.html) | [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](../papers/experts-exhibit-structured-redundancy-structure-preserving-expert-pruning-for-mixture-of-experts-large-language-models.html) |
