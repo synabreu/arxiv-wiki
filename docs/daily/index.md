@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-04](2026-11-04.html) | [DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation](../papers/dognavy-exploit-harnessing-parallel-open-weight-agents-for-stage-aware-vulnerability-exploitation.html) |
+| [2026-11-04](2026-11-04.html) | [GC-MoE: Overlapping Expert-Parallel Token Dispatch with FP8/FP4 Grouped GEMM via CUDA Green Contexts](../papers/gc-moe-overlapping-expert-parallel-token-dispatch-with-fp8fp4-grouped-gemm-via-cuda-green-contexts.html) |
+| [2026-11-04](2026-11-04.html) | [DualWorldBench: Can Agents Plan Deliveries across Symbolic and Grounded Worlds?](../papers/dualworldbench-can-agents-plan-deliveries-across-symbolic-and-grounded-worlds.html) |
+| [2026-11-04](2026-11-04.html) | [When Debate Amplifies Risk: Social-Bias Vulnerabilities in Multi-Agent Safety Deliberation](../papers/when-debate-amplifies-risk-social-bias-vulnerabilities-in-multi-agent-safety-deliberation.html) |
+| [2026-11-04](2026-11-04.html) | [DiMuRe: Diagnosis-Guided Multilevel Recovery for Robotic Task Execution](../papers/dimure-diagnosis-guided-multilevel-recovery-for-robotic-task-execution.html) |
 | [2026-11-03](2026-11-03.html) | [Geometry of Confabulation and Refusal in Small Language Models](../papers/geometry-of-confabulation-and-refusal-in-small-language-models.html) |
 | [2026-11-03](2026-11-03.html) | [LoRAForge: Co-Designing Post-Hoc Compression and Execution for Efficient Multi-LoRA Serving](../papers/loraforge-co-designing-post-hoc-compression-and-execution-for-efficient-multi-lora-serving.html) |
 | [2026-11-03](2026-11-03.html) | [Context-Shielded Backdoor Attack against Large Vision-Language Models](../papers/context-shielded-backdoor-attack-against-large-vision-language-models.html) |
