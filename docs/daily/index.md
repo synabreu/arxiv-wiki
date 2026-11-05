@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-05](2026-11-05.html) | [SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory](../papers/sumone-a-simple-and-efficient-summarizer-for-plug-and-play-agent-memory.html) |
+| [2026-11-05](2026-11-05.html) | [MA-Mesh: Resilient Multi-Agent Collaboration via Role-based Self-Healing](../papers/ma-mesh-resilient-multi-agent-collaboration-via-role-based-self-healing.html) |
+| [2026-11-05](2026-11-05.html) | [Zero-Shot Coordination among LLM Agents](../papers/zero-shot-coordination-among-llm-agents.html) |
+| [2026-11-05](2026-11-05.html) | [Give Up to Get More: Priors, Not Policies, Govern Test-Time Compute Allocation](../papers/give-up-to-get-more-priors-not-policies-govern-test-time-compute-allocation.html) |
+| [2026-11-05](2026-11-05.html) | [EvoGuard: Mitigating Degradation in Online Skill Evolution](../papers/evoguard-mitigating-degradation-in-online-skill-evolution.html) |
 | [2026-11-04](2026-11-04.html) | [DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation](../papers/dognavy-exploit-harnessing-parallel-open-weight-agents-for-stage-aware-vulnerability-exploitation.html) |
 | [2026-11-04](2026-11-04.html) | [GC-MoE: Overlapping Expert-Parallel Token Dispatch with FP8/FP4 Grouped GEMM via CUDA Green Contexts](../papers/gc-moe-overlapping-expert-parallel-token-dispatch-with-fp8fp4-grouped-gemm-via-cuda-green-contexts.html) |
 | [2026-11-04](2026-11-04.html) | [DualWorldBench: Can Agents Plan Deliveries across Symbolic and Grounded Worlds?](../papers/dualworldbench-can-agents-plan-deliveries-across-symbolic-and-grounded-worlds.html) |

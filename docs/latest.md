@@ -1,4 +1,4 @@
-# 2026-11-04 arXiv AI 논문
+# 2026-11-05 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation](papers/dognavy-exploit-harnessing-parallel-open-weight-agents-for-stage-aware-vulnerability-exploitation.html)
-- [GC-MoE: Overlapping Expert-Parallel Token Dispatch with FP8/FP4 Grouped GEMM via CUDA Green Contexts](papers/gc-moe-overlapping-expert-parallel-token-dispatch-with-fp8fp4-grouped-gemm-via-cuda-green-contexts.html)
-- [DualWorldBench: Can Agents Plan Deliveries across Symbolic and Grounded Worlds?](papers/dualworldbench-can-agents-plan-deliveries-across-symbolic-and-grounded-worlds.html)
-- [When Debate Amplifies Risk: Social-Bias Vulnerabilities in Multi-Agent Safety Deliberation](papers/when-debate-amplifies-risk-social-bias-vulnerabilities-in-multi-agent-safety-deliberation.html)
-- [DiMuRe: Diagnosis-Guided Multilevel Recovery for Robotic Task Execution](papers/dimure-diagnosis-guided-multilevel-recovery-for-robotic-task-execution.html)
+- [SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory](papers/sumone-a-simple-and-efficient-summarizer-for-plug-and-play-agent-memory.html)
+- [MA-Mesh: Resilient Multi-Agent Collaboration via Role-based Self-Healing](papers/ma-mesh-resilient-multi-agent-collaboration-via-role-based-self-healing.html)
+- [Zero-Shot Coordination among LLM Agents](papers/zero-shot-coordination-among-llm-agents.html)
+- [Give Up to Get More: Priors, Not Policies, Govern Test-Time Compute Allocation](papers/give-up-to-get-more-priors-not-policies-govern-test-time-compute-allocation.html)
+- [EvoGuard: Mitigating Degradation in Online Skill Evolution](papers/evoguard-mitigating-degradation-in-online-skill-evolution.html)
