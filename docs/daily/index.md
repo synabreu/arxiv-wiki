@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-06](2026-11-06.html) | [AttnSR: Attention Step Reward for Long-Horizon Agentic RL](../papers/attnsr-attention-step-reward-for-long-horizon-agentic-rl.html) |
+| [2026-11-06](2026-11-06.html) | [ChemE-as-Code: An Open-Source Platform for Agentic AI in Chemical Engineering](../papers/cheme-as-code-an-open-source-platform-for-agentic-ai-in-chemical-engineering.html) |
+| [2026-11-06](2026-11-06.html) | [Same Answer, Different Future: Matched Predictions Do Not Imply Matched Belief Updating in Language Models](../papers/same-answer-different-future-matched-predictions-do-not-imply-matched-belief-updating-in-language-models.html) |
+| [2026-11-06](2026-11-06.html) | [Adaptive Semantic Branching: Disagreement-Localized Cross-Trajectory Regeneration for Reasoning Candidate Expansion](../papers/adaptive-semantic-branching-disagreement-localized-cross-trajectory-regeneration-for-reasoning-candidate-expansion.html) |
+| [2026-11-06](2026-11-06.html) | [Towards Scalable Diagnostic-Driven Whole-Slide Image Retrieval for Pathology Archives](../papers/towards-scalable-diagnostic-driven-whole-slide-image-retrieval-for-pathology-archives.html) |
 | [2026-11-05](2026-11-05.html) | [SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory](../papers/sumone-a-simple-and-efficient-summarizer-for-plug-and-play-agent-memory.html) |
 | [2026-11-05](2026-11-05.html) | [MA-Mesh: Resilient Multi-Agent Collaboration via Role-based Self-Healing](../papers/ma-mesh-resilient-multi-agent-collaboration-via-role-based-self-healing.html) |
 | [2026-11-05](2026-11-05.html) | [Zero-Shot Coordination among LLM Agents](../papers/zero-shot-coordination-among-llm-agents.html) |

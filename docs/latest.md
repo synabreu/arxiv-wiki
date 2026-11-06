@@ -1,4 +1,4 @@
-# 2026-11-05 arXiv AI 논문
+# 2026-11-06 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory](papers/sumone-a-simple-and-efficient-summarizer-for-plug-and-play-agent-memory.html)
-- [MA-Mesh: Resilient Multi-Agent Collaboration via Role-based Self-Healing](papers/ma-mesh-resilient-multi-agent-collaboration-via-role-based-self-healing.html)
-- [Zero-Shot Coordination among LLM Agents](papers/zero-shot-coordination-among-llm-agents.html)
-- [Give Up to Get More: Priors, Not Policies, Govern Test-Time Compute Allocation](papers/give-up-to-get-more-priors-not-policies-govern-test-time-compute-allocation.html)
-- [EvoGuard: Mitigating Degradation in Online Skill Evolution](papers/evoguard-mitigating-degradation-in-online-skill-evolution.html)
+- [AttnSR: Attention Step Reward for Long-Horizon Agentic RL](papers/attnsr-attention-step-reward-for-long-horizon-agentic-rl.html)
+- [ChemE-as-Code: An Open-Source Platform for Agentic AI in Chemical Engineering](papers/cheme-as-code-an-open-source-platform-for-agentic-ai-in-chemical-engineering.html)
+- [Same Answer, Different Future: Matched Predictions Do Not Imply Matched Belief Updating in Language Models](papers/same-answer-different-future-matched-predictions-do-not-imply-matched-belief-updating-in-language-models.html)
+- [Adaptive Semantic Branching: Disagreement-Localized Cross-Trajectory Regeneration for Reasoning Candidate Expansion](papers/adaptive-semantic-branching-disagreement-localized-cross-trajectory-regeneration-for-reasoning-candidate-expansion.html)
+- [Towards Scalable Diagnostic-Driven Whole-Slide Image Retrieval for Pathology Archives](papers/towards-scalable-diagnostic-driven-whole-slide-image-retrieval-for-pathology-archives.html)
