@@ -1,4 +1,4 @@
-# 2026-11-06 arXiv AI 논문
+# 2026-11-07 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [AttnSR: Attention Step Reward for Long-Horizon Agentic RL](papers/attnsr-attention-step-reward-for-long-horizon-agentic-rl.html)
-- [ChemE-as-Code: An Open-Source Platform for Agentic AI in Chemical Engineering](papers/cheme-as-code-an-open-source-platform-for-agentic-ai-in-chemical-engineering.html)
-- [Same Answer, Different Future: Matched Predictions Do Not Imply Matched Belief Updating in Language Models](papers/same-answer-different-future-matched-predictions-do-not-imply-matched-belief-updating-in-language-models.html)
-- [Adaptive Semantic Branching: Disagreement-Localized Cross-Trajectory Regeneration for Reasoning Candidate Expansion](papers/adaptive-semantic-branching-disagreement-localized-cross-trajectory-regeneration-for-reasoning-candidate-expansion.html)
-- [Towards Scalable Diagnostic-Driven Whole-Slide Image Retrieval for Pathology Archives](papers/towards-scalable-diagnostic-driven-whole-slide-image-retrieval-for-pathology-archives.html)
+- [XStack: A Benchmark for ML Repo Migration](papers/xstack-a-benchmark-for-ml-repo-migration.html)
+- [StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference](papers/strataflux-memory-hierarchy-native-low-bit-llm-inference.html)
+- [Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO](papers/unpacking-the-compute-efficiency-of-strong-to-weak-opd-against-grpo.html)
+- [MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue](papers/medgraph-maintaining-patient-state-with-graph-memory-for-long-term-medical-dialogue.html)
+- [FedReason: Large Language Models as Weight-Space Meta-Aggregators for Heterogeneous Federated Learning](papers/fedreason-large-language-models-as-weight-space-meta-aggregators-for-heterogeneous-federated-learning.html)

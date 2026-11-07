@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-07](2026-11-07.html) | [XStack: A Benchmark for ML Repo Migration](../papers/xstack-a-benchmark-for-ml-repo-migration.html) |
+| [2026-11-07](2026-11-07.html) | [StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference](../papers/strataflux-memory-hierarchy-native-low-bit-llm-inference.html) |
+| [2026-11-07](2026-11-07.html) | [Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO](../papers/unpacking-the-compute-efficiency-of-strong-to-weak-opd-against-grpo.html) |
+| [2026-11-07](2026-11-07.html) | [MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue](../papers/medgraph-maintaining-patient-state-with-graph-memory-for-long-term-medical-dialogue.html) |
+| [2026-11-07](2026-11-07.html) | [FedReason: Large Language Models as Weight-Space Meta-Aggregators for Heterogeneous Federated Learning](../papers/fedreason-large-language-models-as-weight-space-meta-aggregators-for-heterogeneous-federated-learning.html) |
 | [2026-11-06](2026-11-06.html) | [AttnSR: Attention Step Reward for Long-Horizon Agentic RL](../papers/attnsr-attention-step-reward-for-long-horizon-agentic-rl.html) |
 | [2026-11-06](2026-11-06.html) | [ChemE-as-Code: An Open-Source Platform for Agentic AI in Chemical Engineering](../papers/cheme-as-code-an-open-source-platform-for-agentic-ai-in-chemical-engineering.html) |
 | [2026-11-06](2026-11-06.html) | [Same Answer, Different Future: Matched Predictions Do Not Imply Matched Belief Updating in Language Models](../papers/same-answer-different-future-matched-predictions-do-not-imply-matched-belief-updating-in-language-models.html) |
