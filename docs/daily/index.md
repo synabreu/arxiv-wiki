@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-08](2026-11-08.html) | [ReproBridge: Building Reproducibility into ML Research Artifacts](../papers/reprobridge-building-reproducibility-into-ml-research-artifacts.html) |
+| [2026-11-08](2026-11-08.html) | [T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models](../papers/t3r-training-free-two-stage-token-refinement-towards-efficient-and-robust-vla-models.html) |
+| [2026-11-08](2026-11-08.html) | [The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI](../papers/the-power-of-meta-access-in-the-software-of-the-future-demonstrated-on-llm-chat-uis-and-chat-ai.html) |
+| [2026-11-08](2026-11-08.html) | [SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization](../papers/swarmevolve-latent-agent-swarms-for-evolutionary-discovery-and-optimization.html) |
+| [2026-11-08](2026-11-08.html) | [Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing](../papers/failure-prediction-and-classification-in-vision-language-action-models-via-calibrated-latent-probing.html) |
 | [2026-11-07](2026-11-07.html) | [XStack: A Benchmark for ML Repo Migration](../papers/xstack-a-benchmark-for-ml-repo-migration.html) |
 | [2026-11-07](2026-11-07.html) | [StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference](../papers/strataflux-memory-hierarchy-native-low-bit-llm-inference.html) |
 | [2026-11-07](2026-11-07.html) | [Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO](../papers/unpacking-the-compute-efficiency-of-strong-to-weak-opd-against-grpo.html) |

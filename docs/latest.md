@@ -1,4 +1,4 @@
-# 2026-11-07 arXiv AI 논문
+# 2026-11-08 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [XStack: A Benchmark for ML Repo Migration](papers/xstack-a-benchmark-for-ml-repo-migration.html)
-- [StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference](papers/strataflux-memory-hierarchy-native-low-bit-llm-inference.html)
-- [Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO](papers/unpacking-the-compute-efficiency-of-strong-to-weak-opd-against-grpo.html)
-- [MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue](papers/medgraph-maintaining-patient-state-with-graph-memory-for-long-term-medical-dialogue.html)
-- [FedReason: Large Language Models as Weight-Space Meta-Aggregators for Heterogeneous Federated Learning](papers/fedreason-large-language-models-as-weight-space-meta-aggregators-for-heterogeneous-federated-learning.html)
+- [ReproBridge: Building Reproducibility into ML Research Artifacts](papers/reprobridge-building-reproducibility-into-ml-research-artifacts.html)
+- [T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models](papers/t3r-training-free-two-stage-token-refinement-towards-efficient-and-robust-vla-models.html)
+- [The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI](papers/the-power-of-meta-access-in-the-software-of-the-future-demonstrated-on-llm-chat-uis-and-chat-ai.html)
+- [SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization](papers/swarmevolve-latent-agent-swarms-for-evolutionary-discovery-and-optimization.html)
+- [Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing](papers/failure-prediction-and-classification-in-vision-language-action-models-via-calibrated-latent-probing.html)
