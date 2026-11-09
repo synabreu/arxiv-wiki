@@ -1,4 +1,4 @@
-# 2026-11-08 arXiv AI 논문
+# 2026-11-09 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [ReproBridge: Building Reproducibility into ML Research Artifacts](papers/reprobridge-building-reproducibility-into-ml-research-artifacts.html)
-- [T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models](papers/t3r-training-free-two-stage-token-refinement-towards-efficient-and-robust-vla-models.html)
-- [The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI](papers/the-power-of-meta-access-in-the-software-of-the-future-demonstrated-on-llm-chat-uis-and-chat-ai.html)
-- [SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization](papers/swarmevolve-latent-agent-swarms-for-evolutionary-discovery-and-optimization.html)
-- [Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing](papers/failure-prediction-and-classification-in-vision-language-action-models-via-calibrated-latent-probing.html)
+- [Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making](papers/phantom-consensus-measuring-social-reasoning-in-multi-agent-llm-decision-making.html)
+- [Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents](papers/flex-rsi-benchmarking-recursive-self-improvement-of-frontier-agents.html)
+- [HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety](papers/homeloop-a-simulation-framework-and-benchmark-for-robot-iot-coordination-in-everyday-domestic-assistance-and-safety.html)
+- [More with Less: Efficient Parallel Scientific Code Translation via an Agent-Skill Workflow](papers/more-with-less-efficient-parallel-scientific-code-translation-via-an-agent-skill-workflow.html)
+- [UAV-Based Computer Vision for Cattle Detection and Feed Bunk Spatial Analysis](papers/uav-based-computer-vision-for-cattle-detection-and-feed-bunk-spatial-analysis.html)

@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-09](2026-11-09.html) | [Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making](../papers/phantom-consensus-measuring-social-reasoning-in-multi-agent-llm-decision-making.html) |
+| [2026-11-09](2026-11-09.html) | [Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents](../papers/flex-rsi-benchmarking-recursive-self-improvement-of-frontier-agents.html) |
+| [2026-11-09](2026-11-09.html) | [HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety](../papers/homeloop-a-simulation-framework-and-benchmark-for-robot-iot-coordination-in-everyday-domestic-assistance-and-safety.html) |
+| [2026-11-09](2026-11-09.html) | [More with Less: Efficient Parallel Scientific Code Translation via an Agent-Skill Workflow](../papers/more-with-less-efficient-parallel-scientific-code-translation-via-an-agent-skill-workflow.html) |
+| [2026-11-09](2026-11-09.html) | [UAV-Based Computer Vision for Cattle Detection and Feed Bunk Spatial Analysis](../papers/uav-based-computer-vision-for-cattle-detection-and-feed-bunk-spatial-analysis.html) |
 | [2026-11-08](2026-11-08.html) | [ReproBridge: Building Reproducibility into ML Research Artifacts](../papers/reprobridge-building-reproducibility-into-ml-research-artifacts.html) |
 | [2026-11-08](2026-11-08.html) | [T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models](../papers/t3r-training-free-two-stage-token-refinement-towards-efficient-and-robust-vla-models.html) |
 | [2026-11-08](2026-11-08.html) | [The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI](../papers/the-power-of-meta-access-in-the-software-of-the-future-demonstrated-on-llm-chat-uis-and-chat-ai.html) |
