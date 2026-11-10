@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-10](2026-11-10.html) | [GOPR-CAD: Graph-of-Operations Progressive Reasoning for CAD Generation](../papers/gopr-cad-graph-of-operations-progressive-reasoning-for-cad-generation.html) |
+| [2026-11-10](2026-11-10.html) | [BiVerify: Closing the Loop Between Backward and Forward Verification for Mathematical Self-Correction](../papers/biverify-closing-the-loop-between-backward-and-forward-verification-for-mathematical-self-correction.html) |
+| [2026-11-10](2026-11-10.html) | [How to "train" a surgeon? Benchmarking generalist agents in surgical scene understanding](../papers/how-to-train-a-surgeon-benchmarking-generalist-agents-in-surgical-scene-understanding.html) |
+| [2026-11-10](2026-11-10.html) | [Decomposing Earth Embeddings with Sparse Autoencoders](../papers/decomposing-earth-embeddings-with-sparse-autoencoders.html) |
+| [2026-11-10](2026-11-10.html) | [Vietnamese Legal Ontology: Every legal answer, traced to the article that grounds it](../papers/vietnamese-legal-ontology-every-legal-answer-traced-to-the-article-that-grounds-it.html) |
 | [2026-11-09](2026-11-09.html) | [Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making](../papers/phantom-consensus-measuring-social-reasoning-in-multi-agent-llm-decision-making.html) |
 | [2026-11-09](2026-11-09.html) | [Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents](../papers/flex-rsi-benchmarking-recursive-self-improvement-of-frontier-agents.html) |
 | [2026-11-09](2026-11-09.html) | [HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety](../papers/homeloop-a-simulation-framework-and-benchmark-for-robot-iot-coordination-in-everyday-domestic-assistance-and-safety.html) |

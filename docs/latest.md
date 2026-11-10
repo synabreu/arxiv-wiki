@@ -1,4 +1,4 @@
-# 2026-11-09 arXiv AI 논문
+# 2026-11-10 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making](papers/phantom-consensus-measuring-social-reasoning-in-multi-agent-llm-decision-making.html)
-- [Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents](papers/flex-rsi-benchmarking-recursive-self-improvement-of-frontier-agents.html)
-- [HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety](papers/homeloop-a-simulation-framework-and-benchmark-for-robot-iot-coordination-in-everyday-domestic-assistance-and-safety.html)
-- [More with Less: Efficient Parallel Scientific Code Translation via an Agent-Skill Workflow](papers/more-with-less-efficient-parallel-scientific-code-translation-via-an-agent-skill-workflow.html)
-- [UAV-Based Computer Vision for Cattle Detection and Feed Bunk Spatial Analysis](papers/uav-based-computer-vision-for-cattle-detection-and-feed-bunk-spatial-analysis.html)
+- [GOPR-CAD: Graph-of-Operations Progressive Reasoning for CAD Generation](papers/gopr-cad-graph-of-operations-progressive-reasoning-for-cad-generation.html)
+- [BiVerify: Closing the Loop Between Backward and Forward Verification for Mathematical Self-Correction](papers/biverify-closing-the-loop-between-backward-and-forward-verification-for-mathematical-self-correction.html)
+- [How to "train" a surgeon? Benchmarking generalist agents in surgical scene understanding](papers/how-to-train-a-surgeon-benchmarking-generalist-agents-in-surgical-scene-understanding.html)
+- [Decomposing Earth Embeddings with Sparse Autoencoders](papers/decomposing-earth-embeddings-with-sparse-autoencoders.html)
+- [Vietnamese Legal Ontology: Every legal answer, traced to the article that grounds it](papers/vietnamese-legal-ontology-every-legal-answer-traced-to-the-article-that-grounds-it.html)
