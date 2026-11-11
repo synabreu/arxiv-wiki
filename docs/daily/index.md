@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-11](2026-11-11.html) | [SLIC: Reinforcement Fine-Tuning Small LMs for Multi-Turn Analog Circuit Optimization](../papers/slic-reinforcement-fine-tuning-small-lms-for-multi-turn-analog-circuit-optimization.html) |
+| [2026-11-11](2026-11-11.html) | [Placing LLM Lookup Tables by Per-Layer Prefetch Deadlines](../papers/placing-llm-lookup-tables-by-per-layer-prefetch-deadlines.html) |
+| [2026-11-11](2026-11-11.html) | [SafeRoute-MAS: Coverage-Aware and Risk-Calibrated Message Routing for Multi-Agent Scientific Reasoning](../papers/saferoute-mas-coverage-aware-and-risk-calibrated-message-routing-for-multi-agent-scientific-reasoning.html) |
+| [2026-11-11](2026-11-11.html) | [SPARK: Semantic-preserving Prompt Mutation for Code Generation using Consensus-based Verification Framework](../papers/spark-semantic-preserving-prompt-mutation-for-code-generation-using-consensus-based-verification-framework.html) |
+| [2026-11-11](2026-11-11.html) | [Stinging the Swarm: Extracting Attacker Intelligence from a Twin-Controller OT Honeypot](../papers/stinging-the-swarm-extracting-attacker-intelligence-from-a-twin-controller-ot-honeypot.html) |
 | [2026-11-10](2026-11-10.html) | [GOPR-CAD: Graph-of-Operations Progressive Reasoning for CAD Generation](../papers/gopr-cad-graph-of-operations-progressive-reasoning-for-cad-generation.html) |
 | [2026-11-10](2026-11-10.html) | [BiVerify: Closing the Loop Between Backward and Forward Verification for Mathematical Self-Correction](../papers/biverify-closing-the-loop-between-backward-and-forward-verification-for-mathematical-self-correction.html) |
 | [2026-11-10](2026-11-10.html) | [How to "train" a surgeon? Benchmarking generalist agents in surgical scene understanding](../papers/how-to-train-a-surgeon-benchmarking-generalist-agents-in-surgical-scene-understanding.html) |

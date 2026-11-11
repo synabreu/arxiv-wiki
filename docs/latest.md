@@ -1,4 +1,4 @@
-# 2026-11-10 arXiv AI 논문
+# 2026-11-11 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [GOPR-CAD: Graph-of-Operations Progressive Reasoning for CAD Generation](papers/gopr-cad-graph-of-operations-progressive-reasoning-for-cad-generation.html)
-- [BiVerify: Closing the Loop Between Backward and Forward Verification for Mathematical Self-Correction](papers/biverify-closing-the-loop-between-backward-and-forward-verification-for-mathematical-self-correction.html)
-- [How to "train" a surgeon? Benchmarking generalist agents in surgical scene understanding](papers/how-to-train-a-surgeon-benchmarking-generalist-agents-in-surgical-scene-understanding.html)
-- [Decomposing Earth Embeddings with Sparse Autoencoders](papers/decomposing-earth-embeddings-with-sparse-autoencoders.html)
-- [Vietnamese Legal Ontology: Every legal answer, traced to the article that grounds it](papers/vietnamese-legal-ontology-every-legal-answer-traced-to-the-article-that-grounds-it.html)
+- [SLIC: Reinforcement Fine-Tuning Small LMs for Multi-Turn Analog Circuit Optimization](papers/slic-reinforcement-fine-tuning-small-lms-for-multi-turn-analog-circuit-optimization.html)
+- [Placing LLM Lookup Tables by Per-Layer Prefetch Deadlines](papers/placing-llm-lookup-tables-by-per-layer-prefetch-deadlines.html)
+- [SafeRoute-MAS: Coverage-Aware and Risk-Calibrated Message Routing for Multi-Agent Scientific Reasoning](papers/saferoute-mas-coverage-aware-and-risk-calibrated-message-routing-for-multi-agent-scientific-reasoning.html)
+- [SPARK: Semantic-preserving Prompt Mutation for Code Generation using Consensus-based Verification Framework](papers/spark-semantic-preserving-prompt-mutation-for-code-generation-using-consensus-based-verification-framework.html)
+- [Stinging the Swarm: Extracting Attacker Intelligence from a Twin-Controller OT Honeypot](papers/stinging-the-swarm-extracting-attacker-intelligence-from-a-twin-controller-ot-honeypot.html)
