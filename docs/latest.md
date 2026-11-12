@@ -1,4 +1,4 @@
-# 2026-11-11 arXiv AI 논문
+# 2026-11-12 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [SLIC: Reinforcement Fine-Tuning Small LMs for Multi-Turn Analog Circuit Optimization](papers/slic-reinforcement-fine-tuning-small-lms-for-multi-turn-analog-circuit-optimization.html)
-- [Placing LLM Lookup Tables by Per-Layer Prefetch Deadlines](papers/placing-llm-lookup-tables-by-per-layer-prefetch-deadlines.html)
-- [SafeRoute-MAS: Coverage-Aware and Risk-Calibrated Message Routing for Multi-Agent Scientific Reasoning](papers/saferoute-mas-coverage-aware-and-risk-calibrated-message-routing-for-multi-agent-scientific-reasoning.html)
-- [SPARK: Semantic-preserving Prompt Mutation for Code Generation using Consensus-based Verification Framework](papers/spark-semantic-preserving-prompt-mutation-for-code-generation-using-consensus-based-verification-framework.html)
-- [Stinging the Swarm: Extracting Attacker Intelligence from a Twin-Controller OT Honeypot](papers/stinging-the-swarm-extracting-attacker-intelligence-from-a-twin-controller-ot-honeypot.html)
+- [Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents](papers/pyrite-building-and-benchmarking-protein-ligand-pose-ranking-agents.html)
+- [ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows](papers/retrace-distilling-tool-using-agents-into-planner-free-workflows.html)
+- [A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets](papers/a-theory-of-policy-optimization-in-post-training-coverage-collapse-and-reference-resets.html)
+- [Continual-ARC: Measuring Skill Acquisition over a Working Lifetime](papers/continual-arc-measuring-skill-acquisition-over-a-working-lifetime.html)
+- [Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning](papers/evaluating-llm-generated-world-models-for-neuro-symbolic-reasoning.html)

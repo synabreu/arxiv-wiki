@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-12](2026-11-12.html) | [Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents](../papers/pyrite-building-and-benchmarking-protein-ligand-pose-ranking-agents.html) |
+| [2026-11-12](2026-11-12.html) | [ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows](../papers/retrace-distilling-tool-using-agents-into-planner-free-workflows.html) |
+| [2026-11-12](2026-11-12.html) | [A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets](../papers/a-theory-of-policy-optimization-in-post-training-coverage-collapse-and-reference-resets.html) |
+| [2026-11-12](2026-11-12.html) | [Continual-ARC: Measuring Skill Acquisition over a Working Lifetime](../papers/continual-arc-measuring-skill-acquisition-over-a-working-lifetime.html) |
+| [2026-11-12](2026-11-12.html) | [Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning](../papers/evaluating-llm-generated-world-models-for-neuro-symbolic-reasoning.html) |
 | [2026-11-11](2026-11-11.html) | [SLIC: Reinforcement Fine-Tuning Small LMs for Multi-Turn Analog Circuit Optimization](../papers/slic-reinforcement-fine-tuning-small-lms-for-multi-turn-analog-circuit-optimization.html) |
 | [2026-11-11](2026-11-11.html) | [Placing LLM Lookup Tables by Per-Layer Prefetch Deadlines](../papers/placing-llm-lookup-tables-by-per-layer-prefetch-deadlines.html) |
 | [2026-11-11](2026-11-11.html) | [SafeRoute-MAS: Coverage-Aware and Risk-Calibrated Message Routing for Multi-Agent Scientific Reasoning](../papers/saferoute-mas-coverage-aware-and-risk-calibrated-message-routing-for-multi-agent-scientific-reasoning.html) |
