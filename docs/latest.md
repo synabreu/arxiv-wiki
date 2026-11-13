@@ -1,4 +1,4 @@
-# 2026-11-12 arXiv AI 논문
+# 2026-11-13 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents](papers/pyrite-building-and-benchmarking-protein-ligand-pose-ranking-agents.html)
-- [ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows](papers/retrace-distilling-tool-using-agents-into-planner-free-workflows.html)
-- [A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets](papers/a-theory-of-policy-optimization-in-post-training-coverage-collapse-and-reference-resets.html)
-- [Continual-ARC: Measuring Skill Acquisition over a Working Lifetime](papers/continual-arc-measuring-skill-acquisition-over-a-working-lifetime.html)
-- [Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning](papers/evaluating-llm-generated-world-models-for-neuro-symbolic-reasoning.html)
+- [Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling](papers/can-we-make-an-llm-dumber-or-is-it-just-playing-dumb-an-empirical-study-of-believable-performance-throttling.html)
+- [The Illusion of Diversity: Aligning LLM Exploration via Effective Entropy](papers/the-illusion-of-diversity-aligning-llm-exploration-via-effective-entropy.html)
+- [Incentive-Responsive Agents: A Principal-Agent Framework, Metric Suite, and Runtime Architecture for Long-Lived Personal AI Agents](papers/incentive-responsive-agents-a-principal-agent-framework-metric-suite-and-runtime-architecture-for-long-lived-personal-ai-agents.html)
+- [Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss](papers/testing-conversation-preservation-across-llm-apis-a-rule-based-oracle-for-detecting-silent-information-loss.html)
+- [DETER: Suppression During Pretraining for Tamper Resistance](papers/deter-suppression-during-pretraining-for-tamper-resistance.html)

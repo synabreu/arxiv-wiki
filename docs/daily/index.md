@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-13](2026-11-13.html) | [Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling](../papers/can-we-make-an-llm-dumber-or-is-it-just-playing-dumb-an-empirical-study-of-believable-performance-throttling.html) |
+| [2026-11-13](2026-11-13.html) | [The Illusion of Diversity: Aligning LLM Exploration via Effective Entropy](../papers/the-illusion-of-diversity-aligning-llm-exploration-via-effective-entropy.html) |
+| [2026-11-13](2026-11-13.html) | [Incentive-Responsive Agents: A Principal-Agent Framework, Metric Suite, and Runtime Architecture for Long-Lived Personal AI Agents](../papers/incentive-responsive-agents-a-principal-agent-framework-metric-suite-and-runtime-architecture-for-long-lived-personal-ai-agents.html) |
+| [2026-11-13](2026-11-13.html) | [Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss](../papers/testing-conversation-preservation-across-llm-apis-a-rule-based-oracle-for-detecting-silent-information-loss.html) |
+| [2026-11-13](2026-11-13.html) | [DETER: Suppression During Pretraining for Tamper Resistance](../papers/deter-suppression-during-pretraining-for-tamper-resistance.html) |
 | [2026-11-12](2026-11-12.html) | [Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents](../papers/pyrite-building-and-benchmarking-protein-ligand-pose-ranking-agents.html) |
 | [2026-11-12](2026-11-12.html) | [ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows](../papers/retrace-distilling-tool-using-agents-into-planner-free-workflows.html) |
 | [2026-11-12](2026-11-12.html) | [A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets](../papers/a-theory-of-policy-optimization-in-post-training-coverage-collapse-and-reference-resets.html) |
