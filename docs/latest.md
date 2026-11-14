@@ -1,4 +1,4 @@
-# 2026-11-13 arXiv AI 논문
+# 2026-11-14 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling](papers/can-we-make-an-llm-dumber-or-is-it-just-playing-dumb-an-empirical-study-of-believable-performance-throttling.html)
-- [The Illusion of Diversity: Aligning LLM Exploration via Effective Entropy](papers/the-illusion-of-diversity-aligning-llm-exploration-via-effective-entropy.html)
-- [Incentive-Responsive Agents: A Principal-Agent Framework, Metric Suite, and Runtime Architecture for Long-Lived Personal AI Agents](papers/incentive-responsive-agents-a-principal-agent-framework-metric-suite-and-runtime-architecture-for-long-lived-personal-ai-agents.html)
-- [Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss](papers/testing-conversation-preservation-across-llm-apis-a-rule-based-oracle-for-detecting-silent-information-loss.html)
-- [DETER: Suppression During Pretraining for Tamper Resistance](papers/deter-suppression-during-pretraining-for-tamper-resistance.html)
+- [ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research](papers/archspace-recording-reviewing-and-referencing-llm-architecture-research.html)
+- [Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon](papers/metal-sandbox-isolated-execution-and-command-scheduling-for-gpu-coding-agents-on-apple-silicon.html)
+- [Theoretical and Empirical Analysis of Sparse Convolution](papers/theoretical-and-empirical-analysis-of-sparse-convolution.html)
+- [Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs](papers/synthesis-smuggling-maliciously-hiding-inferred-personal-attributes-in-llm-outputs.html)
+- [Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery](papers/ballad-bandit-based-llm-routing-for-automated-heuristic-discovery.html)

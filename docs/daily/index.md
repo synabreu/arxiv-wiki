@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-14](2026-11-14.html) | [ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research](../papers/archspace-recording-reviewing-and-referencing-llm-architecture-research.html) |
+| [2026-11-14](2026-11-14.html) | [Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon](../papers/metal-sandbox-isolated-execution-and-command-scheduling-for-gpu-coding-agents-on-apple-silicon.html) |
+| [2026-11-14](2026-11-14.html) | [Theoretical and Empirical Analysis of Sparse Convolution](../papers/theoretical-and-empirical-analysis-of-sparse-convolution.html) |
+| [2026-11-14](2026-11-14.html) | [Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs](../papers/synthesis-smuggling-maliciously-hiding-inferred-personal-attributes-in-llm-outputs.html) |
+| [2026-11-14](2026-11-14.html) | [Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery](../papers/ballad-bandit-based-llm-routing-for-automated-heuristic-discovery.html) |
 | [2026-11-13](2026-11-13.html) | [Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling](../papers/can-we-make-an-llm-dumber-or-is-it-just-playing-dumb-an-empirical-study-of-believable-performance-throttling.html) |
 | [2026-11-13](2026-11-13.html) | [The Illusion of Diversity: Aligning LLM Exploration via Effective Entropy](../papers/the-illusion-of-diversity-aligning-llm-exploration-via-effective-entropy.html) |
 | [2026-11-13](2026-11-13.html) | [Incentive-Responsive Agents: A Principal-Agent Framework, Metric Suite, and Runtime Architecture for Long-Lived Personal AI Agents](../papers/incentive-responsive-agents-a-principal-agent-framework-metric-suite-and-runtime-architecture-for-long-lived-personal-ai-agents.html) |
