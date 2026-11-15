@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-15](2026-11-15.html) | [Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation](../papers/internalizing-investment-mandates-a-neurosymbolic-rl-approach-to-portfolio-allocation.html) |
+| [2026-11-15](2026-11-15.html) | [Negative-Only Policy Optimization for One-Sided Verifiable Rewards](../papers/negative-only-policy-optimization-for-one-sided-verifiable-rewards.html) |
+| [2026-11-15](2026-11-15.html) | [Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline](../papers/scalable-conversational-assessment-chat-based-exams-with-a-two-agent-llm-pipeline.html) |
+| [2026-11-15](2026-11-15.html) | [AgentSSL: Can MLE Agents Leverage Unlabeled Data?](../papers/agentssl-can-mle-agents-leverage-unlabeled-data.html) |
+| [2026-11-15](2026-11-15.html) | [When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems](../papers/when-both-sides-adapt-the-challenges-of-evaluating-interactive-llm-systems.html) |
 | [2026-11-14](2026-11-14.html) | [ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research](../papers/archspace-recording-reviewing-and-referencing-llm-architecture-research.html) |
 | [2026-11-14](2026-11-14.html) | [Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon](../papers/metal-sandbox-isolated-execution-and-command-scheduling-for-gpu-coding-agents-on-apple-silicon.html) |
 | [2026-11-14](2026-11-14.html) | [Theoretical and Empirical Analysis of Sparse Convolution](../papers/theoretical-and-empirical-analysis-of-sparse-convolution.html) |

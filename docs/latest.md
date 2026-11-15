@@ -1,4 +1,4 @@
-# 2026-11-14 arXiv AI 논문
+# 2026-11-15 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research](papers/archspace-recording-reviewing-and-referencing-llm-architecture-research.html)
-- [Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon](papers/metal-sandbox-isolated-execution-and-command-scheduling-for-gpu-coding-agents-on-apple-silicon.html)
-- [Theoretical and Empirical Analysis of Sparse Convolution](papers/theoretical-and-empirical-analysis-of-sparse-convolution.html)
-- [Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs](papers/synthesis-smuggling-maliciously-hiding-inferred-personal-attributes-in-llm-outputs.html)
-- [Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery](papers/ballad-bandit-based-llm-routing-for-automated-heuristic-discovery.html)
+- [Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation](papers/internalizing-investment-mandates-a-neurosymbolic-rl-approach-to-portfolio-allocation.html)
+- [Negative-Only Policy Optimization for One-Sided Verifiable Rewards](papers/negative-only-policy-optimization-for-one-sided-verifiable-rewards.html)
+- [Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline](papers/scalable-conversational-assessment-chat-based-exams-with-a-two-agent-llm-pipeline.html)
+- [AgentSSL: Can MLE Agents Leverage Unlabeled Data?](papers/agentssl-can-mle-agents-leverage-unlabeled-data.html)
+- [When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems](papers/when-both-sides-adapt-the-challenges-of-evaluating-interactive-llm-systems.html)
