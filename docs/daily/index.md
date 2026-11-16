@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-16](2026-11-16.html) | [Is Abliteration Getting Harder? Not Uniformly: Refusal Removal by Direction-Based Ablation and ARA in Heretic on the Qwen3.8, Gemma 4, Olmo 3.1 and Mistral Small 3.2 LLMs Versus Their Predecessors](../papers/is-abliteration-getting-harder-not-uniformly-refusal-removal-by-direction-based-ablation-and-ara-in-heretic-on-the-qwen38-gemma-4-olmo-31-and-mistral-small-32-llms-versus-their-predecessors.html) |
+| [2026-11-16](2026-11-16.html) | [G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands](../papers/g-cast-governed-continual-self-training-for-e-commerce-agents-under-evolving-demands.html) |
+| [2026-11-16](2026-11-16.html) | [UltraBERT-JEV: Encoder models for System One Applications](../papers/ultrabert-jev-encoder-models-for-system-one-applications.html) |
+| [2026-11-16](2026-11-16.html) | [SceneAgent: A Multi-Agent Framework for Portable Game Scene Generation](../papers/sceneagent-a-multi-agent-framework-for-portable-game-scene-generation.html) |
+| [2026-11-16](2026-11-16.html) | [Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents](../papers/soteria-formally-verified-planning-with-runtime-enforcement-for-safe-llm-agents.html) |
 | [2026-11-15](2026-11-15.html) | [Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation](../papers/internalizing-investment-mandates-a-neurosymbolic-rl-approach-to-portfolio-allocation.html) |
 | [2026-11-15](2026-11-15.html) | [Negative-Only Policy Optimization for One-Sided Verifiable Rewards](../papers/negative-only-policy-optimization-for-one-sided-verifiable-rewards.html) |
 | [2026-11-15](2026-11-15.html) | [Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline](../papers/scalable-conversational-assessment-chat-based-exams-with-a-two-agent-llm-pipeline.html) |
