@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-17](2026-11-17.html) | [ANCHOR: Cluster-Grounded 5W1H Extraction via Large-Small Model Collaboration](../papers/anchor-cluster-grounded-5w1h-extraction-via-large-small-model-collaboration.html) |
+| [2026-11-17](2026-11-17.html) | [MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis](../papers/masta-a-feedback-scheduled-multi-agent-system-for-end-to-end-tamarin-modeling-and-analysis.html) |
+| [2026-11-17](2026-11-17.html) | [Safety-Preserving Medical LLM Fine-Tuning via Bilevel Data Selection](../papers/safety-preserving-medical-llm-fine-tuning-via-bilevel-data-selection.html) |
+| [2026-11-17](2026-11-17.html) | [GainCtrl: Predicting Remaining Gains for Efficient LLM Agent Execution](../papers/gainctrl-predicting-remaining-gains-for-efficient-llm-agent-execution.html) |
+| [2026-11-17](2026-11-17.html) | [GPRM: Global Perspective Process Reward Model](../papers/gprm-global-perspective-process-reward-model.html) |
 | [2026-11-16](2026-11-16.html) | [Is Abliteration Getting Harder? Not Uniformly: Refusal Removal by Direction-Based Ablation and ARA in Heretic on the Qwen3.8, Gemma 4, Olmo 3.1 and Mistral Small 3.2 LLMs Versus Their Predecessors](../papers/is-abliteration-getting-harder-not-uniformly-refusal-removal-by-direction-based-ablation-and-ara-in-heretic-on-the-qwen38-gemma-4-olmo-31-and-mistral-small-32-llms-versus-their-predecessors.html) |
 | [2026-11-16](2026-11-16.html) | [G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands](../papers/g-cast-governed-continual-self-training-for-e-commerce-agents-under-evolving-demands.html) |
 | [2026-11-16](2026-11-16.html) | [UltraBERT-JEV: Encoder models for System One Applications](../papers/ultrabert-jev-encoder-models-for-system-one-applications.html) |
