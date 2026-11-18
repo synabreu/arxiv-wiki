@@ -1,4 +1,4 @@
-# 2026-11-17 arXiv AI 논문
+# 2026-11-18 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [ANCHOR: Cluster-Grounded 5W1H Extraction via Large-Small Model Collaboration](papers/anchor-cluster-grounded-5w1h-extraction-via-large-small-model-collaboration.html)
-- [MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis](papers/masta-a-feedback-scheduled-multi-agent-system-for-end-to-end-tamarin-modeling-and-analysis.html)
-- [Safety-Preserving Medical LLM Fine-Tuning via Bilevel Data Selection](papers/safety-preserving-medical-llm-fine-tuning-via-bilevel-data-selection.html)
-- [GainCtrl: Predicting Remaining Gains for Efficient LLM Agent Execution](papers/gainctrl-predicting-remaining-gains-for-efficient-llm-agent-execution.html)
-- [GPRM: Global Perspective Process Reward Model](papers/gprm-global-perspective-process-reward-model.html)
+- [What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution](papers/what-does-a-bias-head-measure-non-identifiability-in-head-level-bias-attribution.html)
+- [Reading Scene States: Uncovering Safety Failures in Vision-Language Models](papers/reading-scene-states-uncovering-safety-failures-in-vision-language-models.html)
+- [Get Hint-Augmented GRPO Done Right Through Activation Steering](papers/get-hint-augmented-grpo-done-right-through-activation-steering.html)
+- [Identifying and Repairing Energy Smells with Agent Skills](papers/identifying-and-repairing-energy-smells-with-agent-skills.html)
+- [Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models](papers/spool-low-latency-streaming-inference-for-hybrid-vision-language-models.html)

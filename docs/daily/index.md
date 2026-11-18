@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-18](2026-11-18.html) | [What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution](../papers/what-does-a-bias-head-measure-non-identifiability-in-head-level-bias-attribution.html) |
+| [2026-11-18](2026-11-18.html) | [Reading Scene States: Uncovering Safety Failures in Vision-Language Models](../papers/reading-scene-states-uncovering-safety-failures-in-vision-language-models.html) |
+| [2026-11-18](2026-11-18.html) | [Get Hint-Augmented GRPO Done Right Through Activation Steering](../papers/get-hint-augmented-grpo-done-right-through-activation-steering.html) |
+| [2026-11-18](2026-11-18.html) | [Identifying and Repairing Energy Smells with Agent Skills](../papers/identifying-and-repairing-energy-smells-with-agent-skills.html) |
+| [2026-11-18](2026-11-18.html) | [Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models](../papers/spool-low-latency-streaming-inference-for-hybrid-vision-language-models.html) |
 | [2026-11-17](2026-11-17.html) | [ANCHOR: Cluster-Grounded 5W1H Extraction via Large-Small Model Collaboration](../papers/anchor-cluster-grounded-5w1h-extraction-via-large-small-model-collaboration.html) |
 | [2026-11-17](2026-11-17.html) | [MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis](../papers/masta-a-feedback-scheduled-multi-agent-system-for-end-to-end-tamarin-modeling-and-analysis.html) |
 | [2026-11-17](2026-11-17.html) | [Safety-Preserving Medical LLM Fine-Tuning via Bilevel Data Selection](../papers/safety-preserving-medical-llm-fine-tuning-via-bilevel-data-selection.html) |
