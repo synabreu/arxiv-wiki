@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-19](2026-11-19.html) | [Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses](../papers/agentic-harness-engineering-beta-requirement-centered-evolution-of-agent-harnesses.html) |
+| [2026-11-19](2026-11-19.html) | [Jailbreak Detection on Large Language Models via Contrastive Prototype Structures](../papers/jailbreak-detection-on-large-language-models-via-contrastive-prototype-structures.html) |
+| [2026-11-19](2026-11-19.html) | [Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents](../papers/choosing-what-to-observe-budget-paired-counterfactual-audits-for-credible-evaluation-of-visual-agents.html) |
+| [2026-11-19](2026-11-19.html) | [Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity](../papers/cap-and-track-optimizing-llm-inference-request-dispatch-across-shifting-capacity.html) |
+| [2026-11-19](2026-11-19.html) | [Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs](../papers/local-ai-agents-in-power-electronics-simulation-deployment-measurements-and-costs.html) |
 | [2026-11-18](2026-11-18.html) | [What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution](../papers/what-does-a-bias-head-measure-non-identifiability-in-head-level-bias-attribution.html) |
 | [2026-11-18](2026-11-18.html) | [Reading Scene States: Uncovering Safety Failures in Vision-Language Models](../papers/reading-scene-states-uncovering-safety-failures-in-vision-language-models.html) |
 | [2026-11-18](2026-11-18.html) | [Get Hint-Augmented GRPO Done Right Through Activation Steering](../papers/get-hint-augmented-grpo-done-right-through-activation-steering.html) |
