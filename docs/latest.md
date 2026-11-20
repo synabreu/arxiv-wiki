@@ -1,4 +1,4 @@
-# 2026-11-19 arXiv AI 논문
+# 2026-11-20 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses](papers/agentic-harness-engineering-beta-requirement-centered-evolution-of-agent-harnesses.html)
-- [Jailbreak Detection on Large Language Models via Contrastive Prototype Structures](papers/jailbreak-detection-on-large-language-models-via-contrastive-prototype-structures.html)
-- [Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents](papers/choosing-what-to-observe-budget-paired-counterfactual-audits-for-credible-evaluation-of-visual-agents.html)
-- [Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity](papers/cap-and-track-optimizing-llm-inference-request-dispatch-across-shifting-capacity.html)
-- [Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs](papers/local-ai-agents-in-power-electronics-simulation-deployment-measurements-and-costs.html)
+- [DTS: Delta-Based Tile Scoring for Efficient Long-Context Sparse Attention](papers/dts-delta-based-tile-scoring-for-efficient-long-context-sparse-attention.html)
+- [Streaming-AAA: Streaming AAA Game Video Generation at High Resolution, High Frame Rate, and Low Latency](papers/streaming-aaa-streaming-aaa-game-video-generation-at-high-resolution-high-frame-rate-and-low-latency.html)
+- [Evaluating safeguarding in multi-turn conversations with AI assistants](papers/evaluating-safeguarding-in-multi-turn-conversations-with-ai-assistants.html)
+- [Xing-Audio-NVVASR: Scaling and Refining Supervision for Joint Recognition of Speech and Non-Verbal Vocalizations](papers/xing-audio-nvvasr-scaling-and-refining-supervision-for-joint-recognition-of-speech-and-non-verbal-vocalizations.html)
+- [ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding](papers/foreseek-foresight-driven-reasoning-for-long-form-video-understanding.html)

@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-20](2026-11-20.html) | [DTS: Delta-Based Tile Scoring for Efficient Long-Context Sparse Attention](../papers/dts-delta-based-tile-scoring-for-efficient-long-context-sparse-attention.html) |
+| [2026-11-20](2026-11-20.html) | [Streaming-AAA: Streaming AAA Game Video Generation at High Resolution, High Frame Rate, and Low Latency](../papers/streaming-aaa-streaming-aaa-game-video-generation-at-high-resolution-high-frame-rate-and-low-latency.html) |
+| [2026-11-20](2026-11-20.html) | [Evaluating safeguarding in multi-turn conversations with AI assistants](../papers/evaluating-safeguarding-in-multi-turn-conversations-with-ai-assistants.html) |
+| [2026-11-20](2026-11-20.html) | [Xing-Audio-NVVASR: Scaling and Refining Supervision for Joint Recognition of Speech and Non-Verbal Vocalizations](../papers/xing-audio-nvvasr-scaling-and-refining-supervision-for-joint-recognition-of-speech-and-non-verbal-vocalizations.html) |
+| [2026-11-20](2026-11-20.html) | [ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding](../papers/foreseek-foresight-driven-reasoning-for-long-form-video-understanding.html) |
 | [2026-11-19](2026-11-19.html) | [Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses](../papers/agentic-harness-engineering-beta-requirement-centered-evolution-of-agent-harnesses.html) |
 | [2026-11-19](2026-11-19.html) | [Jailbreak Detection on Large Language Models via Contrastive Prototype Structures](../papers/jailbreak-detection-on-large-language-models-via-contrastive-prototype-structures.html) |
 | [2026-11-19](2026-11-19.html) | [Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents](../papers/choosing-what-to-observe-budget-paired-counterfactual-audits-for-credible-evaluation-of-visual-agents.html) |
