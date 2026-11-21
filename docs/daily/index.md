@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-21](2026-11-21.html) | [GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers](../papers/glide-a-fast-calibrated-decision-model-distilled-from-reasoning-teachers.html) |
+| [2026-11-21](2026-11-21.html) | [TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming](../papers/tidecache-efficient-hybrid-llm-serving-with-transparent-cache-management-and-layer-wise-streaming.html) |
+| [2026-11-21](2026-11-21.html) | [The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models](../papers/the-geometry-of-lies-knowledge-and-persona-directions-for-detecting-deception-in-large-language-models.html) |
+| [2026-11-21](2026-11-21.html) | [SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research](../papers/sok-assessing-the-evolution-of-llm-capability-in-software-vulnerability-research.html) |
+| [2026-11-21](2026-11-21.html) | [Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs](../papers/text-aware-vision-blind-how-multimodal-image-editing-systems-handle-unsafe-inputs.html) |
 | [2026-11-20](2026-11-20.html) | [DTS: Delta-Based Tile Scoring for Efficient Long-Context Sparse Attention](../papers/dts-delta-based-tile-scoring-for-efficient-long-context-sparse-attention.html) |
 | [2026-11-20](2026-11-20.html) | [Streaming-AAA: Streaming AAA Game Video Generation at High Resolution, High Frame Rate, and Low Latency](../papers/streaming-aaa-streaming-aaa-game-video-generation-at-high-resolution-high-frame-rate-and-low-latency.html) |
 | [2026-11-20](2026-11-20.html) | [Evaluating safeguarding in multi-turn conversations with AI assistants](../papers/evaluating-safeguarding-in-multi-turn-conversations-with-ai-assistants.html) |

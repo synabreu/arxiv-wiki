@@ -1,4 +1,4 @@
-# 2026-11-20 arXiv AI 논문
+# 2026-11-21 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [DTS: Delta-Based Tile Scoring for Efficient Long-Context Sparse Attention](papers/dts-delta-based-tile-scoring-for-efficient-long-context-sparse-attention.html)
-- [Streaming-AAA: Streaming AAA Game Video Generation at High Resolution, High Frame Rate, and Low Latency](papers/streaming-aaa-streaming-aaa-game-video-generation-at-high-resolution-high-frame-rate-and-low-latency.html)
-- [Evaluating safeguarding in multi-turn conversations with AI assistants](papers/evaluating-safeguarding-in-multi-turn-conversations-with-ai-assistants.html)
-- [Xing-Audio-NVVASR: Scaling and Refining Supervision for Joint Recognition of Speech and Non-Verbal Vocalizations](papers/xing-audio-nvvasr-scaling-and-refining-supervision-for-joint-recognition-of-speech-and-non-verbal-vocalizations.html)
-- [ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding](papers/foreseek-foresight-driven-reasoning-for-long-form-video-understanding.html)
+- [GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers](papers/glide-a-fast-calibrated-decision-model-distilled-from-reasoning-teachers.html)
+- [TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming](papers/tidecache-efficient-hybrid-llm-serving-with-transparent-cache-management-and-layer-wise-streaming.html)
+- [The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models](papers/the-geometry-of-lies-knowledge-and-persona-directions-for-detecting-deception-in-large-language-models.html)
+- [SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research](papers/sok-assessing-the-evolution-of-llm-capability-in-software-vulnerability-research.html)
+- [Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs](papers/text-aware-vision-blind-how-multimodal-image-editing-systems-handle-unsafe-inputs.html)
