@@ -1,4 +1,4 @@
-# 2026-11-21 arXiv AI 논문
+# 2026-11-22 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers](papers/glide-a-fast-calibrated-decision-model-distilled-from-reasoning-teachers.html)
-- [TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming](papers/tidecache-efficient-hybrid-llm-serving-with-transparent-cache-management-and-layer-wise-streaming.html)
-- [The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models](papers/the-geometry-of-lies-knowledge-and-persona-directions-for-detecting-deception-in-large-language-models.html)
-- [SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research](papers/sok-assessing-the-evolution-of-llm-capability-in-software-vulnerability-research.html)
-- [Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs](papers/text-aware-vision-blind-how-multimodal-image-editing-systems-handle-unsafe-inputs.html)
+- [AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control](papers/agentrobocritic-understanding-the-capability-of-frontier-agents-on-direct-robot-control.html)
+- [Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)](papers/replication-of-agentic-security-events-audit-and-investigation-rogue-ai.html)
+- [Represented but misread: Post-training changes how language models read out what they represent](papers/represented-but-misread-post-training-changes-how-language-models-read-out-what-they-represent.html)
+- [Backtracking Agent Applications Security Incidents](papers/backtracking-agent-applications-security-incidents.html)
+- [AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher](papers/automaster-autonomous-post-training-by-making-the-same-model-a-better-teacher.html)
