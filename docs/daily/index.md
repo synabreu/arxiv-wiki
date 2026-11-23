@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-23](2026-11-23.html) | [Hy-MT3: More Accurate, Robust and Practical Multilingual Translation Models in the Wild](../papers/hy-mt3-more-accurate-robust-and-practical-multilingual-translation-models-in-the-wild.html) |
+| [2026-11-23](2026-11-23.html) | [Average-Depth Variable Execution via Request-Local Token Routing](../papers/average-depth-variable-execution-via-request-local-token-routing.html) |
+| [2026-11-23](2026-11-23.html) | [Decision Models for Multilingual Emotion Classification: A Comparative Study Against LLMs and Encoders](../papers/decision-models-for-multilingual-emotion-classification-a-comparative-study-against-llms-and-encoders.html) |
+| [2026-11-23](2026-11-23.html) | [Can Vision-Language Models Synthesize Executable Game-Playing Programs?](../papers/can-vision-language-models-synthesize-executable-game-playing-programs.html) |
+| [2026-11-23](2026-11-23.html) | [MetaRigor: From Agentic Automation to Verifiable End-to-End Meta-Analysis Through Scientific Decision Boundaries](../papers/metarigor-from-agentic-automation-to-verifiable-end-to-end-meta-analysis-through-scientific-decision-boundaries.html) |
 | [2026-11-22](2026-11-22.html) | [AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control](../papers/agentrobocritic-understanding-the-capability-of-frontier-agents-on-direct-robot-control.html) |
 | [2026-11-22](2026-11-22.html) | [Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)](../papers/replication-of-agentic-security-events-audit-and-investigation-rogue-ai.html) |
 | [2026-11-22](2026-11-22.html) | [Represented but misread: Post-training changes how language models read out what they represent](../papers/represented-but-misread-post-training-changes-how-language-models-read-out-what-they-represent.html) |

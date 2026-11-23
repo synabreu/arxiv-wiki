@@ -1,4 +1,4 @@
-# 2026-11-22 arXiv AI 논문
+# 2026-11-23 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control](papers/agentrobocritic-understanding-the-capability-of-frontier-agents-on-direct-robot-control.html)
-- [Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)](papers/replication-of-agentic-security-events-audit-and-investigation-rogue-ai.html)
-- [Represented but misread: Post-training changes how language models read out what they represent](papers/represented-but-misread-post-training-changes-how-language-models-read-out-what-they-represent.html)
-- [Backtracking Agent Applications Security Incidents](papers/backtracking-agent-applications-security-incidents.html)
-- [AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher](papers/automaster-autonomous-post-training-by-making-the-same-model-a-better-teacher.html)
+- [Hy-MT3: More Accurate, Robust and Practical Multilingual Translation Models in the Wild](papers/hy-mt3-more-accurate-robust-and-practical-multilingual-translation-models-in-the-wild.html)
+- [Average-Depth Variable Execution via Request-Local Token Routing](papers/average-depth-variable-execution-via-request-local-token-routing.html)
+- [Decision Models for Multilingual Emotion Classification: A Comparative Study Against LLMs and Encoders](papers/decision-models-for-multilingual-emotion-classification-a-comparative-study-against-llms-and-encoders.html)
+- [Can Vision-Language Models Synthesize Executable Game-Playing Programs?](papers/can-vision-language-models-synthesize-executable-game-playing-programs.html)
+- [MetaRigor: From Agentic Automation to Verifiable End-to-End Meta-Analysis Through Scientific Decision Boundaries](papers/metarigor-from-agentic-automation-to-verifiable-end-to-end-meta-analysis-through-scientific-decision-boundaries.html)
