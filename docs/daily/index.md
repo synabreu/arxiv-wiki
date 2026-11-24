@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-24](2026-11-24.html) | [TrialAgentBench: Evaluating AI Agents for Clinical-Trial Analysis and Long-Horizon Drug-Development Decisions](../papers/trialagentbench-evaluating-ai-agents-for-clinical-trial-analysis-and-long-horizon-drug-development-decisions.html) |
+| [2026-11-24](2026-11-24.html) | [Bridging Continuous-Time MAPF and Industrial AGV Fleet Coordination with Lazy Priority-Based Search](../papers/bridging-continuous-time-mapf-and-industrial-agv-fleet-coordination-with-lazy-priority-based-search.html) |
+| [2026-11-24](2026-11-24.html) | [Replay Before You Reply: Second-Look Prompting for Unified Multimodal Encoding](../papers/replay-before-you-reply-second-look-prompting-for-unified-multimodal-encoding.html) |
+| [2026-11-24](2026-11-24.html) | [Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock](../papers/speak-when-you-see-it-proactive-task-assistants-should-wait-for-evidence-not-the-clock.html) |
+| [2026-11-24](2026-11-24.html) | [Semantic-aware Decoding for Diverse Text-to-SQL under Schema Ambiguity](../papers/semantic-aware-decoding-for-diverse-text-to-sql-under-schema-ambiguity.html) |
 | [2026-11-23](2026-11-23.html) | [Hy-MT3: More Accurate, Robust and Practical Multilingual Translation Models in the Wild](../papers/hy-mt3-more-accurate-robust-and-practical-multilingual-translation-models-in-the-wild.html) |
 | [2026-11-23](2026-11-23.html) | [Average-Depth Variable Execution via Request-Local Token Routing](../papers/average-depth-variable-execution-via-request-local-token-routing.html) |
 | [2026-11-23](2026-11-23.html) | [Decision Models for Multilingual Emotion Classification: A Comparative Study Against LLMs and Encoders](../papers/decision-models-for-multilingual-emotion-classification-a-comparative-study-against-llms-and-encoders.html) |

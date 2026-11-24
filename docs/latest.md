@@ -1,4 +1,4 @@
-# 2026-11-23 arXiv AI 논문
+# 2026-11-24 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [Hy-MT3: More Accurate, Robust and Practical Multilingual Translation Models in the Wild](papers/hy-mt3-more-accurate-robust-and-practical-multilingual-translation-models-in-the-wild.html)
-- [Average-Depth Variable Execution via Request-Local Token Routing](papers/average-depth-variable-execution-via-request-local-token-routing.html)
-- [Decision Models for Multilingual Emotion Classification: A Comparative Study Against LLMs and Encoders](papers/decision-models-for-multilingual-emotion-classification-a-comparative-study-against-llms-and-encoders.html)
-- [Can Vision-Language Models Synthesize Executable Game-Playing Programs?](papers/can-vision-language-models-synthesize-executable-game-playing-programs.html)
-- [MetaRigor: From Agentic Automation to Verifiable End-to-End Meta-Analysis Through Scientific Decision Boundaries](papers/metarigor-from-agentic-automation-to-verifiable-end-to-end-meta-analysis-through-scientific-decision-boundaries.html)
+- [TrialAgentBench: Evaluating AI Agents for Clinical-Trial Analysis and Long-Horizon Drug-Development Decisions](papers/trialagentbench-evaluating-ai-agents-for-clinical-trial-analysis-and-long-horizon-drug-development-decisions.html)
+- [Bridging Continuous-Time MAPF and Industrial AGV Fleet Coordination with Lazy Priority-Based Search](papers/bridging-continuous-time-mapf-and-industrial-agv-fleet-coordination-with-lazy-priority-based-search.html)
+- [Replay Before You Reply: Second-Look Prompting for Unified Multimodal Encoding](papers/replay-before-you-reply-second-look-prompting-for-unified-multimodal-encoding.html)
+- [Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock](papers/speak-when-you-see-it-proactive-task-assistants-should-wait-for-evidence-not-the-clock.html)
+- [Semantic-aware Decoding for Diverse Text-to-SQL under Schema Ambiguity](papers/semantic-aware-decoding-for-diverse-text-to-sql-under-schema-ambiguity.html)
