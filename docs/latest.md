@@ -1,4 +1,4 @@
-# 2026-11-24 arXiv AI 논문
+# 2026-11-25 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [TrialAgentBench: Evaluating AI Agents for Clinical-Trial Analysis and Long-Horizon Drug-Development Decisions](papers/trialagentbench-evaluating-ai-agents-for-clinical-trial-analysis-and-long-horizon-drug-development-decisions.html)
-- [Bridging Continuous-Time MAPF and Industrial AGV Fleet Coordination with Lazy Priority-Based Search](papers/bridging-continuous-time-mapf-and-industrial-agv-fleet-coordination-with-lazy-priority-based-search.html)
-- [Replay Before You Reply: Second-Look Prompting for Unified Multimodal Encoding](papers/replay-before-you-reply-second-look-prompting-for-unified-multimodal-encoding.html)
-- [Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock](papers/speak-when-you-see-it-proactive-task-assistants-should-wait-for-evidence-not-the-clock.html)
-- [Semantic-aware Decoding for Diverse Text-to-SQL under Schema Ambiguity](papers/semantic-aware-decoding-for-diverse-text-to-sql-under-schema-ambiguity.html)
+- [Shifter Quantization: Compact Representations for Native Integer Computation](papers/shifter-quantization-compact-representations-for-native-integer-computation.html)
+- [AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design](papers/aichipbench-benchmarking-llm-agents-for-automated-ai-accelerator-design.html)
+- [U-Statistics-Powered LLM Reasoning](papers/u-statistics-powered-llm-reasoning.html)
+- [SALSA: Sampling Adversarial Suffixes from Learned Distributions for LLM Safety Assessment](papers/salsa-sampling-adversarial-suffixes-from-learned-distributions-for-llm-safety-assessment.html)
+- [SAG-Mem-1.0 Technical Report](papers/sag-mem-10-technical-report.html)
