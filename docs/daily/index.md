@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-26](2026-11-26.html) | [BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding](../papers/bop-refer-benchmark-for-monocular-3d-and-2d-object-grounding.html) |
+| [2026-11-26](2026-11-26.html) | [$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents](../papers/μ-bench-benchmarking-multi-user-task-completion-in-shared-interaction-voice-agents.html) |
+| [2026-11-26](2026-11-26.html) | [Diverse Alternative Reasoning Traces for Hard Math Problems](../papers/diverse-alternative-reasoning-traces-for-hard-math-problems.html) |
+| [2026-11-26](2026-11-26.html) | [Attack Policy Selection can Mislead Monitor Evaluators](../papers/attack-policy-selection-can-mislead-monitor-evaluators.html) |
+| [2026-11-26](2026-11-26.html) | [Probing Visual Idiosyncrasies in Text-to-Image Models](../papers/probing-visual-idiosyncrasies-in-text-to-image-models.html) |
 | [2026-11-25](2026-11-25.html) | [Shifter Quantization: Compact Representations for Native Integer Computation](../papers/shifter-quantization-compact-representations-for-native-integer-computation.html) |
 | [2026-11-25](2026-11-25.html) | [AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design](../papers/aichipbench-benchmarking-llm-agents-for-automated-ai-accelerator-design.html) |
 | [2026-11-25](2026-11-25.html) | [U-Statistics-Powered LLM Reasoning](../papers/u-statistics-powered-llm-reasoning.html) |
