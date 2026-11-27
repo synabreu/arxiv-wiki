@@ -1,4 +1,4 @@
-# 2026-11-26 arXiv AI 논문
+# 2026-11-27 arXiv AI 논문
 
 > 오늘 새로 선별된 논문 목록이다. 제목을 누르면 상세 요약 페이지로 이동한다.
 
@@ -6,8 +6,8 @@
 
 ## 오늘의 목록
 
-- [BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding](papers/bop-refer-benchmark-for-monocular-3d-and-2d-object-grounding.html)
-- [$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents](papers/μ-bench-benchmarking-multi-user-task-completion-in-shared-interaction-voice-agents.html)
-- [Diverse Alternative Reasoning Traces for Hard Math Problems](papers/diverse-alternative-reasoning-traces-for-hard-math-problems.html)
-- [Attack Policy Selection can Mislead Monitor Evaluators](papers/attack-policy-selection-can-mislead-monitor-evaluators.html)
-- [Probing Visual Idiosyncrasies in Text-to-Image Models](papers/probing-visual-idiosyncrasies-in-text-to-image-models.html)
+- [The Linguistic Knowledge Benchmark: Do Language Models Know the Foundations of Early-Grade Literacy?](papers/the-linguistic-knowledge-benchmark-do-language-models-know-the-foundations-of-early-grade-literacy.html)
+- [Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation](papers/agentic-longlive-asynchronous-agentic-memory-for-long-video-generation.html)
+- [Mixture-of-Loops Transformer](papers/mixture-of-loops-transformer.html)
+- [Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation](papers/shape-aware-three-way-merge-for-rdf-knowledge-graphs-the-schema-defines-the-conflict-an-implementation-and-evaluation.html)
+- [Real2SimLab: A Unified Platform for Real-to-Simulation Transfer](papers/real2simlab-a-unified-platform-for-real-to-simulation-transfer.html)

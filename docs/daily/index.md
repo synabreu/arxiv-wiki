@@ -18,6 +18,11 @@
 
 | 날짜 | 논문 제목 |
 |---|---|
+| [2026-11-27](2026-11-27.html) | [The Linguistic Knowledge Benchmark: Do Language Models Know the Foundations of Early-Grade Literacy?](../papers/the-linguistic-knowledge-benchmark-do-language-models-know-the-foundations-of-early-grade-literacy.html) |
+| [2026-11-27](2026-11-27.html) | [Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation](../papers/agentic-longlive-asynchronous-agentic-memory-for-long-video-generation.html) |
+| [2026-11-27](2026-11-27.html) | [Mixture-of-Loops Transformer](../papers/mixture-of-loops-transformer.html) |
+| [2026-11-27](2026-11-27.html) | [Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation](../papers/shape-aware-three-way-merge-for-rdf-knowledge-graphs-the-schema-defines-the-conflict-an-implementation-and-evaluation.html) |
+| [2026-11-27](2026-11-27.html) | [Real2SimLab: A Unified Platform for Real-to-Simulation Transfer](../papers/real2simlab-a-unified-platform-for-real-to-simulation-transfer.html) |
 | [2026-11-26](2026-11-26.html) | [BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding](../papers/bop-refer-benchmark-for-monocular-3d-and-2d-object-grounding.html) |
 | [2026-11-26](2026-11-26.html) | [$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents](../papers/μ-bench-benchmarking-multi-user-task-completion-in-shared-interaction-voice-agents.html) |
 | [2026-11-26](2026-11-26.html) | [Diverse Alternative Reasoning Traces for Hard Math Problems](../papers/diverse-alternative-reasoning-traces-for-hard-math-problems.html) |
